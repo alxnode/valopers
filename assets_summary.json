@@ -35351,6 +35351,23 @@
         ]
     },
     {
+        "chain_name": "neutron",
+        "base": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom",
+        "name": "amATOM",
+        "display": "amATOM",
+        "symbol": "amATOM",
+        "denoms": [
+            {
+                "denom": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom",
+                "exponent": 0
+            },
+            {
+                "denom": "amATOM",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "mantrachain",
         "base": "uom",
         "name": "MANTRA Chain",
