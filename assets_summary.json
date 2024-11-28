@@ -5189,6 +5189,23 @@
         ]
     },
     {
+        "chain_name": "cosmoshub",
+        "base": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
+            }
+        ]
+    },
+    {
         "chain_name": "imversed",
         "base": "aimv",
         "name": "IMV",
@@ -15266,6 +15283,23 @@
         ]
     },
     {
+        "chain_name": "axelar",
+        "base": "ibc/53046FFF6CAD109D8F9B2C7C9913853AD241928CD05CDDE419343D176025DA74",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/53046FFF6CAD109D8F9B2C7C9913853AD241928CD05CDDE419343D176025DA74",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
+            }
+        ]
+    },
+    {
         "chain_name": "genesisl1",
         "base": "el1",
         "name": "GenesisL1",
@@ -19886,6 +19920,23 @@
             {
                 "denom": "ashWIND",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "juno",
+        "base": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
             }
         ]
     },
@@ -32604,6 +32655,23 @@
         ]
     },
     {
+        "chain_name": "stargaze",
+        "base": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
+            }
+        ]
+    },
+    {
         "chain_name": "nolus",
         "base": "unls",
         "name": "Nolus",
@@ -33093,6 +33161,23 @@
             {
                 "denom": "usdt",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kava",
+        "base": "ibc/D4F1F74C6B90168E05B974F2EBB5938D18704B73DE273CAACF7E96F7821B2C3D",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/D4F1F74C6B90168E05B974F2EBB5938D18704B73DE273CAACF7E96F7821B2C3D",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
             }
         ]
     },
@@ -34089,6 +34174,23 @@
             {
                 "denom": "eure",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "noble",
+        "base": "ibc/9BE17980291443F276406CFE7368A720676FC06D5805C1A23AE52C2534E705F1",
+        "name": "Crowdpunk DAO",
+        "display": "crowdp",
+        "symbol": "CROWDP",
+        "denoms": [
+            {
+                "denom": "ibc/9BE17980291443F276406CFE7368A720676FC06D5805C1A23AE52C2534E705F1",
+                "exponent": 0
+            },
+            {
+                "denom": "crowdp",
+                "exponent": 18
             }
         ]
     },
@@ -35363,6 +35465,23 @@
             },
             {
                 "denom": "amATOM",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "neutron",
+        "base": "factory/neutron1mdy5fhtwdjagp5eallsdhlx6gxylm8rxqk72wjzg6y5d5kt44ysqprkduw/JSD",
+        "name": "Jade",
+        "display": "JSD",
+        "symbol": "JSD",
+        "denoms": [
+            {
+                "denom": "factory/neutron1mdy5fhtwdjagp5eallsdhlx6gxylm8rxqk72wjzg6y5d5kt44ysqprkduw/JSD",
+                "exponent": 0
+            },
+            {
+                "denom": "JSD",
                 "exponent": 6
             }
         ]
