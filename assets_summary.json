@@ -13842,6 +13842,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+        "name": "Sherpa",
+        "display": "Sherpa",
+        "symbol": "SHERPA",
+        "denoms": [
+            {
+                "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+                "exponent": 0
+            },
+            {
+                "denom": "Sherpa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "quicksilver",
         "base": "uqck",
         "name": "Quicksilver",
