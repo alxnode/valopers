@@ -29257,6 +29257,23 @@
         ]
     },
     {
+        "chain_name": "pockettestnet",
+        "base": "upokt",
+        "name": "POKT",
+        "display": "pokt",
+        "symbol": "POKT",
+        "denoms": [
+            {
+                "denom": "upokt",
+                "exponent": 0
+            },
+            {
+                "denom": "pokt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "nyxtestnet",
         "base": "unyx",
         "name": "NYX",
