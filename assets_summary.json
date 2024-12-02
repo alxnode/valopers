@@ -14450,6 +14450,23 @@
         ]
     },
     {
+        "chain_name": "migaloo",
+        "base": "ibc/D8C6D71032EC7CC4C9CCD0FF709CF87D34A7311FE5491E70F7EDE2351D189C10",
+        "name": "Dragon",
+        "display": "DGN",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/D8C6D71032EC7CC4C9CCD0FF709CF87D34A7311FE5491E70F7EDE2351D189C10",
+                "exponent": 0
+            },
+            {
+                "denom": "DGN",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "quasar",
         "base": "uqsr",
         "name": "Quasar (legacy)",
@@ -32310,6 +32327,23 @@
             },
             {
                 "denom": "COSMO",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "terra2",
+        "base": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
+        "name": "Dragon",
+        "display": "DGN",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
+                "exponent": 0
+            },
+            {
+                "denom": "DGN",
                 "exponent": 6
             }
         ]
