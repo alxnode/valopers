@@ -11042,6 +11042,23 @@
     },
     {
         "chain_name": "osmosis",
+        "base": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+        "name": "Ripple",
+        "display": "allXRP",
+        "symbol": "XRP",
+        "denoms": [
+            {
+                "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+                "exponent": 0
+            },
+            {
+                "denom": "allXRP",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
         "base": "ibc/86074B8DF625A75C25D52FA6112E3FD5446BA41FE418880C168CA99D10E22F05",
         "name": "SEIYAN",
         "display": "SEIYAN",
