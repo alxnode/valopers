@@ -23541,6 +23541,91 @@
         ]
     },
     {
+        "chain_name": "milkyway",
+        "base": "umilk",
+        "name": "Milk",
+        "display": "milk",
+        "symbol": "MILK",
+        "denoms": [
+            {
+                "denom": "umilk",
+                "exponent": 0
+            },
+            {
+                "denom": "milk",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "milkyway",
+        "base": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+        "name": "Celestia",
+        "display": "tia",
+        "symbol": "TIA",
+        "denoms": [
+            {
+                "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+                "exponent": 0
+            },
+            {
+                "denom": "tia",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "milkyway",
+        "base": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+        "name": "milkTIA",
+        "display": "milkTIA",
+        "symbol": "milkTIA",
+        "denoms": [
+            {
+                "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+                "exponent": 0
+            },
+            {
+                "denom": "milkTIA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "milkyway",
+        "base": "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157",
+        "name": "Stride Staked TIA",
+        "display": "stTIA",
+        "symbol": "stTIA",
+        "denoms": [
+            {
+                "denom": "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157",
+                "exponent": 0
+            },
+            {
+                "denom": "stTIA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "milkyway",
+        "base": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
+        "name": "Celestia",
+        "display": "tia",
+        "symbol": "TIA",
+        "denoms": [
+            {
+                "denom": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
+                "exponent": 0
+            },
+            {
+                "denom": "tia",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "onex",
         "base": "aonex",
         "name": "ONEX",
