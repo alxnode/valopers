@@ -21540,6 +21540,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:uatom:31Dec2026",
+        "name": "pAtom (31Dec2026)",
+        "display": "pATOM31Dec2026",
+        "symbol": "pATOM-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:uatom:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pATOM31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:uosmo:30Sep2024",
         "name": "pOsmo (30Sep2024)",
         "display": "pOSMO30Sep2024",
@@ -21585,6 +21602,23 @@
             },
             {
                 "denom": "pOSMO31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:uosmo:31Dec2026",
+        "name": "pOsmo (31Dec2026)",
+        "display": "pOSMO31Dec2026",
+        "symbol": "pOSMO-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:uosmo:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pOSMO31Dec2026",
                 "exponent": 6
             }
         ]
@@ -21642,6 +21676,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:inj:31Dec2026",
+        "name": "pInj (31Dec2026)",
+        "display": "pINJ31Dec2026",
+        "symbol": "pINJ-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:inj:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pINJ31Dec2026",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:uluna:30Sep2024",
         "name": "pLuna (30Sep2024)",
         "display": "pLUNA30Sep2024",
@@ -21670,6 +21721,23 @@
             },
             {
                 "denom": "pLUNA31Dec2024",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:uluna:31Dec2026",
+        "name": "pLuna (31Dec2026)",
+        "display": "pLUNA31Dec2026",
+        "symbol": "pLUNA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:uluna:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pLUNA31Dec2026",
                 "exponent": 6
             }
         ]
@@ -21744,6 +21812,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:uauuu:31Dec2026",
+        "name": "pAuuu (31Dec2026)",
+        "display": "pAUUU31Dec2026",
+        "symbol": "pAUUU-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:uauuu:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pAUUU31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:stutia:30Sep2024",
         "name": "pstTia (30Sep2024)",
         "display": "pstTIA30Sep2024",
@@ -21789,6 +21874,23 @@
             },
             {
                 "denom": "pstTIA31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:stutia:31Dec2026",
+        "name": "pstTia (31Dec2026)",
+        "display": "pstTIA31Dec2026",
+        "symbol": "pstTIA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:stutia:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pstTIA31Dec2026",
                 "exponent": 6
             }
         ]
@@ -21846,6 +21948,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:stadydx:31Dec2026",
+        "name": "pstDydx (31Dec2026)",
+        "display": "pstDYDX31Dec2026",
+        "symbol": "pstDYDX-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:stadydx:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pstDYDX31Dec2026",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:udatom:31Dec2024",
         "name": "pdAtom (31Dec2024)",
         "display": "pdATOM31Dec2024",
@@ -21897,6 +22016,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:udatom:31Dec2026",
+        "name": "pdAtom (31Dec2026)",
+        "display": "pdATOM31Dec2026",
+        "symbol": "pdATOM-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:udatom:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pdATOM31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:utia:31Dec2024",
         "name": "pTia (31Dec2024)",
         "display": "pTIA31Dec2024",
@@ -21925,6 +22061,23 @@
             },
             {
                 "denom": "pTIA31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:utia:31Dec2026",
+        "name": "pTia (31Dec2026)",
+        "display": "pTIA31Dec2026",
+        "symbol": "pTIA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "p:utia:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "pTIA31Dec2026",
                 "exponent": 6
             }
         ]
@@ -21982,6 +22135,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:uatom:31Dec2026",
+        "name": "yAtom (31Dec2026)",
+        "display": "yATOM31Dec2026",
+        "symbol": "yATOM-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:uatom:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yATOM31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:uosmo:30Sep2024",
         "name": "yOsmo (30Sep2024)",
         "display": "yOSMO30Sep2024",
@@ -22027,6 +22197,23 @@
             },
             {
                 "denom": "yOSMO31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:uosmo:31Dec2026",
+        "name": "yOsmo (31Dec2026)",
+        "display": "yOSMO31Dec2026",
+        "symbol": "yOSMO-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:uosmo:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yOSMO31Dec2026",
                 "exponent": 6
             }
         ]
@@ -22084,6 +22271,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:inj:31Dec2026",
+        "name": "yInj (31Dec2026)",
+        "display": "yINJ31Dec2026",
+        "symbol": "yINJ-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:inj:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yINJ31Dec2026",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:uluna:30Sep2024",
         "name": "yLuna (30Sep2024)",
         "display": "yLUNA30Sep2024",
@@ -22129,6 +22333,23 @@
             },
             {
                 "denom": "yLUNA31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:uluna:31Dec2026",
+        "name": "yLuna (31Dec2026)",
+        "display": "yLUNA31Dec2026",
+        "symbol": "yLUNA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:uluna:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yLUNA31Dec2026",
                 "exponent": 6
             }
         ]
@@ -22186,6 +22407,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:uauuu:31Dec2026",
+        "name": "yAuuu (31Dec2026)",
+        "display": "yAUUU31Dec2026",
+        "symbol": "yAUUU-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:uauuu:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yAUUU31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:stutia:30Sep2024",
         "name": "ystTia (30Sep2024)",
         "display": "ystTIA30Sep2024",
@@ -22237,6 +22475,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:stutia:31Dec2026",
+        "name": "ystTia (31Dec2026)",
+        "display": "ystTIA31Dec2026",
+        "symbol": "ystTIA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:stutia:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "ystTIA31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:stadydx:30Sep2024",
         "name": "ystDydx (30Sep2024)",
         "display": "ystDYDX30Sep2024",
@@ -22248,7 +22503,7 @@
             },
             {
                 "denom": "ystDYDX30Sep2024",
-                "exponent": 6
+                "exponent": 18
             }
         ]
     },
@@ -22265,7 +22520,7 @@
             },
             {
                 "denom": "ystDYDX31Dec2024",
-                "exponent": 6
+                "exponent": 18
             }
         ]
     },
@@ -22282,7 +22537,24 @@
             },
             {
                 "denom": "ystDYDX31Dec2025",
-                "exponent": 6
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:stadydx:31Dec2026",
+        "name": "ystDydx (31Dec2026)",
+        "display": "ystDYDX31Dec2026",
+        "symbol": "ystDYDX-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:stadydx:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "ystDYDX31Dec2026",
+                "exponent": 18
             }
         ]
     },
@@ -22339,6 +22611,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:udatom:31Dec2026",
+        "name": "ydAtom (31Dec2026)",
+        "display": "ydATOM31Dec2026",
+        "symbol": "ydATOM-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:udatom:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "ydATOM31Dec2026",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:utia:31Dec2024",
         "name": "yTia (31Dec2024)",
         "display": "yTIA31Dec2024",
@@ -22367,6 +22656,23 @@
             },
             {
                 "denom": "yTIA31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:utia:31Dec2026",
+        "name": "yTia (31Dec2026)",
+        "display": "yTIA31Dec2026",
+        "symbol": "yTIA-31Dec2026",
+        "denoms": [
+            {
+                "denom": "y:utia:31Dec2026",
+                "exponent": 0
+            },
+            {
+                "denom": "yTIA31Dec2026",
                 "exponent": 6
             }
         ]
