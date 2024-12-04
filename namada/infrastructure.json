@@ -1,0 +1,153 @@
+{
+    "rpc": [
+        {
+            "url": "https://namada-mainnet-rpc.itrocket.net:443",
+            "provider": "itrocket",
+            "last_check": 1733318873,
+            "earliest_block_height": "1",
+            "latest_block_height": "204619",
+            "indexer": "on",
+            "network": "namada-dryrun.abaaeaf7b78cb3ac",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://namada-rpc.mandragora.io",
+            "provider": "Mandragora",
+            "last_check": 1733318873,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.namada.stakepool.dev.br/",
+            "provider": "StakePool",
+            "last_check": 1733318873,
+            "earliest_block_height": "1",
+            "latest_block_height": "11031",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://rpc.namada.validatus.com",
+            "provider": "Validatus",
+            "last_check": 1733318873,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.sproutstake.space",
+            "provider": "Sproutstake",
+            "last_check": 1733318873,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        }
+    ],
+    "indexers": [
+        {
+            "url": "https://indexer.knowable.run",
+            "provider": "Knowable",
+            "last_check": 1733318873,
+            "latest_block_height": "122491",
+            "network": "housefire-creek.76ed2d08793c14",
+            "active": true
+        },
+        {
+            "url": "https://indexer.namada.stakepool.dev.br",
+            "provider": "StakePool",
+            "last_check": 1733318873,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://indexer.namada.validatus.com",
+            "provider": "Validatus",
+            "last_check": 1733318873,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-api.sproutstake.space",
+            "provider": "Sproutstake",
+            "last_check": 1733318873,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        }
+    ],
+    "masp_indexers": [
+        {
+            "url": "https://masp.knowable.run",
+            "provider": "knowable",
+            "last_check": 1733318873,
+            "latest_block_height": 122491,
+            "active": true
+        },
+        {
+            "url": "https://masp.namada.validatus.com",
+            "provider": "Validatus",
+            "last_check": 1733318873,
+            "latest_block_height": 122491,
+            "active": true
+        },
+        {
+            "url": "https://masp.namada.validatus.com",
+            "provider": "Sproutstake.",
+            "last_check": 1733318873,
+            "latest_block_height": 122491,
+            "active": true
+        }
+    ],
+    "undexers": [
+        {
+            "url": "https://undexer.hack.bg",
+            "provider": "Mandragora",
+            "last_check": 1733318873,
+            "earliest_block_height": 1,
+            "latest_block_height": 11033,
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
+        }       
+    ],
+    "snapshots": [
+        {
+            "url": "https://server-5.itrocket.net/mainnet/namada/namada_2024-12-04_10193_snap.tar.lz4",
+            "provider": "itrocket",
+            "height": "10193",
+            "original_page": "https://itrocket.net/services/mainnet/namada/",
+            "timestamp": 1733327315,
+            "snapshot_size": "803M"
+        },
+        {
+            "url": "https://snapshots.stakepool.dev.br/namada.tar.lz4",
+            "provider": "StakePool",
+            "height": null,
+            "original_page": null,
+            "timestamp": null,
+            "snapshot_size": null
+        },
+        {
+            "url": "https://snapshots.stakepool.dev.br/namada.tar.lz4",
+            "provider": "Mandragora",
+            "height": null,
+            "original_page": "https://hackmd.io/@mandragora/namada-mainnet",
+            "timestamp": null,
+            "snapshot_size": null
+        }
+    ]
+}
