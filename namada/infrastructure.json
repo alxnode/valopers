@@ -3,32 +3,32 @@
         {
             "url": "https://namada-mainnet-rpc.itrocket.net:443",
             "provider": "itrocket",
-            "last_check": 1733318873,
+            "last_check": 1733321046,
             "earliest_block_height": "1",
-            "latest_block_height": "204619",
-            "indexer": "on",
-            "network": "namada-dryrun.abaaeaf7b78cb3ac",
+            "latest_block_height": "11334",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
             "active": true
         },
         {
             "url": "https://namada-rpc.mandragora.io",
             "provider": "Mandragora",
-            "last_check": 1733318873,
-            "earliest_block_height": null,
-            "latest_block_height": null,
-            "indexer": null,
-            "network": null,
-            "catchup": null,
-            "active": false
+            "last_check": 1733321046,
+            "earliest_block_height": "1",
+            "latest_block_height": "11334",
+            "indexer": "on",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
         },
         {
             "url": "https://rpc.namada.stakepool.dev.br/",
             "provider": "StakePool",
-            "last_check": 1733318873,
+            "last_check": 1733321046,
             "earliest_block_height": "1",
-            "latest_block_height": "11031",
-            "indexer": "off",
+            "latest_block_height": "11334",
+            "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
             "active": true
@@ -36,80 +36,80 @@
         {
             "url": "https://rpc.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733318873,
-            "earliest_block_height": null,
-            "latest_block_height": null,
-            "indexer": null,
-            "network": null,
-            "catchup": null,
-            "active": false
+            "last_check": 1733321046,
+            "earliest_block_height": "1",
+            "latest_block_height": "11335",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
         },
         {
             "url": "https://namada-rpc.sproutstake.space",
             "provider": "Sproutstake",
-            "last_check": 1733318873,
-            "earliest_block_height": null,
-            "latest_block_height": null,
-            "indexer": null,
-            "network": null,
-            "catchup": null,
-            "active": false
+            "last_check": 1733321046,
+            "earliest_block_height": "1",
+            "latest_block_height": "11335",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
         }
     ],
     "indexers": [
         {
             "url": "https://indexer.knowable.run",
             "provider": "Knowable",
-            "last_check": 1733318873,
-            "latest_block_height": "122491",
+            "last_check": 1733321046,
+            "latest_block_height": "122750",
             "network": "housefire-creek.76ed2d08793c14",
             "active": true
         },
         {
             "url": "https://indexer.namada.stakepool.dev.br",
             "provider": "StakePool",
-            "last_check": 1733318873,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733321046,
+            "latest_block_height": "11335",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://indexer.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733318873,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733321046,
+            "latest_block_height": "11335",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-api.sproutstake.space",
             "provider": "Sproutstake",
-            "last_check": 1733318873,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733321046,
+            "latest_block_height": "11335",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         }
     ],
     "masp_indexers": [
         {
             "url": "https://masp.knowable.run",
             "provider": "knowable",
-            "last_check": 1733318873,
-            "latest_block_height": 122491,
+            "last_check": 1733321046,
+            "latest_block_height": 122750,
             "active": true
         },
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733318873,
-            "latest_block_height": 122491,
+            "last_check": 1733321046,
+            "latest_block_height": 11335,
             "active": true
         },
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Sproutstake.",
-            "last_check": 1733318873,
-            "latest_block_height": 122491,
+            "last_check": 1733321046,
+            "latest_block_height": 11335,
             "active": true
         }
     ],
@@ -117,12 +117,12 @@
         {
             "url": "https://undexer.hack.bg",
             "provider": "Mandragora",
-            "last_check": 1733318873,
+            "last_check": 1733321046,
             "earliest_block_height": 1,
-            "latest_block_height": 11033,
+            "latest_block_height": 11335,
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
-        }       
+        }
     ],
     "snapshots": [
         {
