@@ -44,7 +44,7 @@ def update_data():
     """
     Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data.
     """
-    with open("infrastructure.json", "r") as f:
+    with open("namada/infrastructure.json", "r") as f:
         json_structure = json.load(f)
 
     current_time = int(time.time())
@@ -135,7 +135,7 @@ def update_data():
         snapshot = fetch_snapshot_data(snapshot)
 
 
-    with open("infrastructure.json", "w") as f:
+    with open("namada/infrastructure.json", "w") as f:
         json.dump(json_structure, f, indent=4)
 
 
