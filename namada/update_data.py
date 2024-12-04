@@ -4,9 +4,7 @@ import requests
 from datetime import datetime
 
 def fetch_snapshot_data(snapshot):
-    """
-    Update snapshot data based on the provider.
-    """
+
     provider = snapshot.get("provider")
     if provider == "itrocket":
         try:          
@@ -46,7 +44,7 @@ def update_data():
     """
     Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data.
     """
-    with open("providers.json", "r") as f:
+    with open("infrastructure.json", "r") as f:
         json_structure = json.load(f)
 
     current_time = int(time.time())
@@ -137,7 +135,7 @@ def update_data():
         snapshot = fetch_snapshot_data(snapshot)
 
 
-    with open("providers.json", "w") as f:
+    with open("infrastructure.json", "w") as f:
         json.dump(json_structure, f, indent=4)
 
 
