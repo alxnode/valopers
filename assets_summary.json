@@ -34909,6 +34909,23 @@
         ]
     },
     {
+        "chain_name": "xion",
+        "base": "uxion",
+        "name": "xion",
+        "display": "XION",
+        "symbol": "XION",
+        "denoms": [
+            {
+                "denom": "uxion",
+                "exponent": 0
+            },
+            {
+                "denom": "XION",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "chimba",
         "base": "ucmba",
         "name": "Chimba",
