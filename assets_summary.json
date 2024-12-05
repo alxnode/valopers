@@ -21114,6 +21114,227 @@
         ]
     },
     {
+        "chain_name": "kopi",
+        "base": "ukopi",
+        "name": "XKP",
+        "display": "XKP",
+        "symbol": "XKP",
+        "denoms": [
+            {
+                "denom": "ukopi",
+                "exponent": 0
+            },
+            {
+                "denom": "XKP",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ukusd",
+        "name": "kUSD",
+        "display": "kUSD",
+        "symbol": "kUSD",
+        "denoms": [
+            {
+                "denom": "ukusd",
+                "exponent": 0
+            },
+            {
+                "denom": "kUSD",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "uckusd",
+        "name": "ckUSD",
+        "display": "ckUSD",
+        "symbol": "CKUSD",
+        "denoms": [
+            {
+                "denom": "uckusd",
+                "exponent": 0
+            },
+            {
+                "denom": "ckUSD",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ucusdc",
+        "name": "cUSDC",
+        "display": "cUSDC",
+        "symbol": "CUSDC",
+        "denoms": [
+            {
+                "denom": "ucusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "cUSDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ucusdtinj",
+        "name": "cUSDT.inj",
+        "display": "cUSDT.inj",
+        "symbol": "CUSDT.inj",
+        "denoms": [
+            {
+                "denom": "ucusdtinj",
+                "exponent": 0
+            },
+            {
+                "denom": "cUSDT.inj",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+        "name": "USDC",
+        "display": "USDC",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+                "exponent": 0
+            },
+            {
+                "denom": "USDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0",
+        "name": "USDT.inj",
+        "display": "USDT.inj",
+        "symbol": "USDT.inj",
+        "denoms": [
+            {
+                "denom": "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0",
+                "exponent": 0
+            },
+            {
+                "denom": "USDT.inj",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+        "name": "Injective",
+        "display": "INJ",
+        "symbol": "INJ",
+        "denoms": [
+            {
+                "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+                "exponent": 0
+            },
+            {
+                "denom": "INJ",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+        "name": "Luna",
+        "display": "Luna",
+        "symbol": "LUNA",
+        "denoms": [
+            {
+                "denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+                "exponent": 0
+            },
+            {
+                "denom": "Luna",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+        "name": "OSMO",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88",
+        "name": "ATOM",
+        "display": "Atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88",
+                "exponent": 0
+            },
+            {
+                "denom": "Atom",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "uasusdtinj",
+        "name": "asUSDT.inj",
+        "display": "asusdtinj",
+        "symbol": "ASUSDT.inj",
+        "denoms": [
+            {
+                "denom": "uasusdtinj",
+                "exponent": 0
+            },
+            {
+                "denom": "asusdtinj",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "kopi",
+        "base": "uasusdc",
+        "name": "asUSDC",
+        "display": "asUSDC",
+        "symbol": "ASUSDC",
+        "denoms": [
+            {
+                "denom": "uasusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "asUSDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "akiro",
         "base": "uakiro",
         "name": "AKIRO",
