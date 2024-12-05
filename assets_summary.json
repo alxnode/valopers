@@ -16906,6 +16906,23 @@
         ]
     },
     {
+        "chain_name": "chihuahua",
+        "base": "ibc/FA7112322CE7656DC84D441E49BAEAB9DC0AB3C7618A178A212CDE8B3F17C70B",
+        "name": "Migaloo",
+        "display": "whale",
+        "symbol": "WHALE",
+        "denoms": [
+            {
+                "denom": "ibc/FA7112322CE7656DC84D441E49BAEAB9DC0AB3C7618A178A212CDE8B3F17C70B",
+                "exponent": 0
+            },
+            {
+                "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "acrechain",
         "base": "aacre",
         "name": "Acre",
@@ -17581,6 +17598,23 @@
             },
             {
                 "denom": "DRUGS",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+        "name": "Migaloo",
+        "display": "whale",
+        "symbol": "WHALE",
+        "denoms": [
+            {
+                "denom": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+                "exponent": 0
+            },
+            {
+                "denom": "whale",
                 "exponent": 6
             }
         ]
@@ -19988,6 +20022,23 @@
             {
                 "denom": "crowdp",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "juno",
+        "base": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+        "name": "Migaloo",
+        "display": "whale",
+        "symbol": "WHALE",
+        "denoms": [
+            {
+                "denom": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+                "exponent": 0
+            },
+            {
+                "denom": "whale",
+                "exponent": 6
             }
         ]
     },
@@ -31805,6 +31856,23 @@
         ]
     },
     {
+        "chain_name": "archway",
+        "base": "ibc/3F882513A0CCD1C4110ACB7C6C761AC7B48974C9D2D439CD6F652F9B44362518",
+        "name": "Migaloo",
+        "display": "whale",
+        "symbol": "WHALE",
+        "denoms": [
+            {
+                "denom": "ibc/3F882513A0CCD1C4110ACB7C6C761AC7B48974C9D2D439CD6F652F9B44362518",
+                "exponent": 0
+            },
+            {
+                "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "seda",
         "base": "aseda",
         "name": "Seda",
@@ -32990,6 +33058,23 @@
             },
             {
                 "denom": "DGN",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "terra2",
+        "base": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+        "name": "Migaloo",
+        "display": "whale",
+        "symbol": "WHALE",
+        "denoms": [
+            {
+                "denom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+                "exponent": 0
+            },
+            {
+                "denom": "whale",
                 "exponent": 6
             }
         ]
