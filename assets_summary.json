@@ -23511,6 +23511,23 @@
         ]
     },
     {
+        "chain_name": "aaronetwork",
+        "base": "uaaron",
+        "name": "Aaron Network",
+        "display": "AARON",
+        "symbol": "AARON",
+        "denoms": [
+            {
+                "denom": "uaaron",
+                "exponent": 0
+            },
+            {
+                "denom": "AARON",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "scorum",
         "base": "nscr",
         "name": "Scorum",
