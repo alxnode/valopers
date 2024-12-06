@@ -54,6 +54,83 @@
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
             "active": true
+        },
+        {
+            "url": "https://rpc.namada.tududes.com",
+            "provider": "TuDudes",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://namadam.powerstaking.tech",
+            "provider": "PowerStaking",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://namada-main.stakesystems.io",
+            "provider": "StakeSystems",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://rpc-namada.5elementsnodes.com",
+            "provider": "5ElementsNodes",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://namada-rpc.hadesguard.tech",
+            "provider": "Hadesguard",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://rpc.papadritta.com",
+            "provider": "Papadritta",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
+        },
+        {
+            "url": "https://namada.rpc.decentrio.ventures",
+            "provider": "Decentrio",
+            "last_check": 1733472956,
+            "earliest_block_height": "1",
+            "latest_block_height": "32733",
+            "indexer": "off",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "catchup": false,
+            "active": true
         }
     ],
     "indexers": [
