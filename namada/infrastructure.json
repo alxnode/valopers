@@ -3,9 +3,9 @@
         {
             "url": "https://namada-mainnet-rpc.itrocket.net:443",
             "provider": "itrocket",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -14,9 +14,9 @@
         {
             "url": "https://namada-rpc.mandragora.io",
             "provider": "Mandragora",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -25,9 +25,9 @@
         {
             "url": "https://rpc.namada.stakepool.dev.br/",
             "provider": "StakePool",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -36,9 +36,9 @@
         {
             "url": "https://rpc.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -47,9 +47,9 @@
         {
             "url": "https://namada-rpc.sproutstake.space",
             "provider": "Sproutstake",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -58,9 +58,9 @@
         {
             "url": "https://rpc.namada.tududes.com",
             "provider": "TuDudes",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -69,9 +69,9 @@
         {
             "url": "https://namadam.powerstaking.tech",
             "provider": "PowerStaking",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46117",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -80,9 +80,9 @@
         {
             "url": "https://namada-main.stakesystems.io",
             "provider": "StakeSystems",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46118",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -91,9 +91,9 @@
         {
             "url": "https://rpc-namada.5elementsnodes.com",
             "provider": "5ElementsNodes",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46118",
             "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -102,9 +102,9 @@
         {
             "url": "https://namada-rpc.hadesguard.tech",
             "provider": "Hadesguard",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46118",
             "indexer": "on",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -113,9 +113,9 @@
         {
             "url": "https://rpc.papadritta.com",
             "provider": "Papadritta",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": "1",
-            "latest_block_height": "45593",
+            "latest_block_height": "46118",
             "indexer": "off",
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
@@ -124,7 +124,7 @@
         {
             "url": "https://namada.rpc.decentrio.ventures",
             "provider": "Decentrio",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": null,
             "latest_block_height": null,
             "indexer": null,
@@ -137,32 +137,32 @@
         {
             "url": "https://indexer.knowable.run",
             "provider": "Knowable",
-            "last_check": 1733562677,
-            "latest_block_height": "27058",
+            "last_check": 1733566327,
+            "latest_block_height": "27496",
             "network": "housefire-below.0b9e6c455af037",
             "active": true
         },
         {
             "url": "https://indexer.namada.stakepool.dev.br",
             "provider": "StakePool",
-            "last_check": 1733562677,
-            "latest_block_height": "45593",
+            "last_check": 1733566327,
+            "latest_block_height": "46117",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://indexer.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733562677,
-            "latest_block_height": "45594",
+            "last_check": 1733566327,
+            "latest_block_height": "46118",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://namada-api.sproutstake.space",
             "provider": "Sproutstake",
-            "last_check": 1733562677,
-            "latest_block_height": "45594",
+            "last_check": 1733566327,
+            "latest_block_height": "46118",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         }
@@ -171,22 +171,22 @@
         {
             "url": "https://masp.knowable.run",
             "provider": "knowable",
-            "last_check": 1733562677,
-            "latest_block_height": 27058,
+            "last_check": 1733566327,
+            "latest_block_height": 27497,
             "active": true
         },
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733562677,
-            "latest_block_height": 45594,
+            "last_check": 1733566327,
+            "latest_block_height": 46119,
             "active": true
         },
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Sproutstake.",
-            "last_check": 1733562677,
-            "latest_block_height": 45594,
+            "last_check": 1733566327,
+            "latest_block_height": 46119,
             "active": true
         }
     ],
@@ -194,9 +194,9 @@
         {
             "url": "https://undexer.hack.bg",
             "provider": "Mandragora",
-            "last_check": 1733562677,
+            "last_check": 1733566327,
             "earliest_block_height": 1,
-            "latest_block_height": 45594,
+            "latest_block_height": 46119,
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         }
