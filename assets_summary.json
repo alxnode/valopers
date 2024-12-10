@@ -5125,6 +5125,23 @@
         ]
     },
     {
+        "chain_name": "int3face",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+        "name": "TON",
+        "display": "ton",
+        "symbol": "TON",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+                "exponent": 0
+            },
+            {
+                "denom": "ton",
+                "exponent": 9
+            }
+        ]
+    },
+    {
         "chain_name": "berachain",
         "base": "wei",
         "name": "Berachain",
@@ -13332,6 +13349,23 @@
             {
                 "denom": "ltc",
                 "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
+        "name": "TON (Int3)",
+        "display": "ton",
+        "symbol": "TON.int3",
+        "denoms": [
+            {
+                "denom": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
+                "exponent": 0
+            },
+            {
+                "denom": "ton",
+                "exponent": 9
             }
         ]
     },
