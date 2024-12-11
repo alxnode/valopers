@@ -106,7 +106,11 @@ def update_data():
 
     # Merge MASP Indexers
     for masp_indexer in masp_indexers_data:
-        url = normalize_url(masp_indexer["url"])
+        try:
+            url = normalize_url(masp_indexer["url"])
+        except KeyError:
+            logger.warning(f"Missing 'url' key in MASP indexer data: {masp_indexer}")
+            continue  # Skip this entry if the 'url' key is missing
         existing = next((item for item in infrastructure_data.get("masp_indexers", []) if normalize_url(item["url"]) == url), None)
         if existing:
             existing["provider"] = masp_indexer["provider"]  # Update provider if URL matches
@@ -124,7 +128,11 @@ def update_data():
 
     # Merge RPCs
     for rpc in rpc_data:
-        url = normalize_url(rpc["url"])
+        try:
+            url = normalize_url(rpc["url"])
+        except KeyError:
+            logger.warning(f"Missing 'url' key in RPC data: {rpc}")
+            continue  # Skip this entry if the 'url' key is missing
         existing = next((item for item in infrastructure_data.get("rpc", []) if normalize_url(item["url"]) == url), None)
         if existing:
             existing["provider"] = rpc["provider"]  # Update provider if URL matches
@@ -143,7 +151,11 @@ def update_data():
     # Merge Namada Indexers
     for namada_indexer in namada_indexers_data:
         if namada_indexer.get("Which Indexer") == "namada-indexer":
-            url = normalize_url(namada_indexer["url"])
+            try:
+                url = normalize_url(namada_indexer["url"])
+            except KeyError:
+                logger.warning(f"Missing 'url' key in Namada indexer data: {namada_indexer}")
+                continue  # Skip this entry if the 'url' key is missing
             existing = next((item for item in infrastructure_data.get("indexers", []) if normalize_url(item["url"]) == url), None)
             if existing:
                 existing["provider"] = namada_indexer["provider"]  # Update provider if URL matches
