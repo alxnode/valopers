@@ -100,17 +100,6 @@
             "active": true
         },
         {
-            "url": "https://namada-rpc.hadesguard.tech",
-            "provider": "Hadesguard",
-            "last_check": 1733912015,
-            "earliest_block_height": "1",
-            "latest_block_height": "95611",
-            "indexer": "on",
-            "network": "namada.5f5de2dd1b88cba30586420",
-            "catchup": false,
-            "active": true
-        },
-        {
             "url": "https://rpc.papadritta.com",
             "provider": "Papadritta",
             "last_check": 1733912015,
@@ -146,17 +135,6 @@
         {
             "url": "https://namadam.powerstaking.tech/",
             "provider": "PowerStaking",
-            "last_check": null,
-            "earliest_block_height": null,
-            "latest_block_height": null,
-            "indexer": null,
-            "network": null,
-            "catchup": null,
-            "active": false
-        },
-        {
-            "url": "https://rpc-namada.5elementsnodes.com/",
-            "provider": "5ElementsNodes",
             "last_check": null,
             "earliest_block_height": null,
             "latest_block_height": null,
