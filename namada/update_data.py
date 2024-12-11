@@ -69,40 +69,6 @@ def fetch_snapshot_data(snapshot):
         snapshot["snapshot_size"] = None  
     return snapshot
 
-def merge_data(infrastructure_data, masp_indexers, rpc, namada_indexers):
-    # Merging masp-indexers
-    for masp_indexer in masp_indexers:
-        masp_url = masp_indexer.get("Indexer API URL")
-        provider = masp_indexer.get("Team or Contributor Name")
-        if masp_url and not any(indexer['url'] == masp_url for indexer in infrastructure_data.get("masp_indexers", [])):
-            infrastructure_data.setdefault("masp_indexers", []).append({
-                "url": masp_url,
-                "provider": provider
-            })
-
-    # Merging rpc
-    for rpc_entry in rpc:
-        rpc_url = rpc_entry.get("RPC Address")
-        provider = rpc_entry.get("Team or Contributor Name")
-        if rpc_url and not any(rpc_item['url'] == rpc_url for rpc_item in infrastructure_data.get("rpc", [])):
-            infrastructure_data.setdefault("rpc", []).append({
-                "url": rpc_url,
-                "provider": provider
-            })
-
-    # Merging namada-indexers
-    for namada_indexer in namada_indexers:
-        if namada_indexer.get("Which Indexer") == "namada-indexer":
-            indexer_url = namada_indexer.get("Indexer API URL")
-            provider = namada_indexer.get("Team or Contributor Name")
-            if indexer_url and not any(indexer['url'] == indexer_url for indexer in infrastructure_data.get("indexers", [])):
-                infrastructure_data.setdefault("indexers", []).append({
-                    "url": indexer_url,
-                    "provider": provider
-                })
-
-    return infrastructure_data
-
 def update_data():
     """
     Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data, and merge it with external repository data.
@@ -116,51 +82,49 @@ def update_data():
     external_repo_path = "external-repo/user-and-dev-tools/mainnet"
 
     # Merge RPCs
-    # Merge RPCs
-rpc_data = []
-for filename in os.listdir(external_repo_path):
-    if filename == "rpc.json":
-        external_file_path = os.path.join(external_repo_path, filename)
-        with open(external_file_path, "r") as f:
-            rpc_data = json.load(f)
-        break  # Only fetch this file once
+    rpc_data = []
+    for filename in os.listdir(external_repo_path):
+        if filename == "rpc.json":
+            external_file_path = os.path.join(external_repo_path, filename)
+            with open(external_file_path, "r") as f:
+                rpc_data = json.load(f)
+            break  # Only fetch this file once
 
-# Update RPC data
-for rpc in rpc_data:
-    try:
-        # Map the fields properly
-        url = normalize_url(rpc.get("RPC Address", ""))  # Use 'RPC Address' as URL
-        provider = rpc.get("Team or Contributor Name", "")  # Use 'Team or Contributor Name' as provider
-        
-        # Check if the URL is valid
-        if url:
-            print(f"Updating RPC: {url}")
-            response = requests.get(f"{url}/status", timeout=10)
-            if response.status_code == 200:
-                data = response.json().get("result", {})
-                node_info = data.get("node_info", {})
-                sync_info = data.get("sync_info", {})
+    # Update RPC data
+    for rpc in rpc_data:
+        try:
+            # Map the fields properly
+            url = normalize_url(rpc.get("RPC Address", ""))  # Use 'RPC Address' as URL
+            provider = rpc.get("Team or Contributor Name", "")  # Use 'Team or Contributor Name' as provider
+            
+            # Check if the URL is valid
+            if url:
+                print(f"Updating RPC: {url}")
+                response = requests.get(f"{url}/status", timeout=10)
+                if response.status_code == 200:
+                    data = response.json().get("result", {})
+                    node_info = data.get("node_info", {})
+                    sync_info = data.get("sync_info", {})
 
-                rpc["earliest_block_height"] = sync_info.get("earliest_block_height")
-                rpc["latest_block_height"] = sync_info.get("latest_block_height")
-                rpc["indexer"] = node_info.get("other", {}).get("tx_index")
-                rpc["network"] = node_info.get("network")
-                rpc["catchup"] = sync_info.get("catching_up", False)
-                rpc["active"] = True
+                    rpc["earliest_block_height"] = sync_info.get("earliest_block_height")
+                    rpc["latest_block_height"] = sync_info.get("latest_block_height")
+                    rpc["indexer"] = node_info.get("other", {}).get("tx_index")
+                    rpc["network"] = node_info.get("network")
+                    rpc["catchup"] = sync_info.get("catching_up", False)
+                    rpc["active"] = True
+                else:
+                    raise Exception("Invalid response code")
             else:
-                raise Exception("Invalid response code")
-        else:
-            print(f"Missing 'RPC Address' in RPC data: {rpc}")
-    except Exception as e:
-        print(f"Error updating RPC {rpc}: {e}")
-        rpc["earliest_block_height"] = None
-        rpc["latest_block_height"] = None
-        rpc["indexer"] = None
-        rpc["network"] = None
-        rpc["catchup"] = None
-        rpc["active"] = False
-    rpc["last_check"] = current_time
-
+                print(f"Missing 'RPC Address' in RPC data: {rpc}")
+        except Exception as e:
+            print(f"Error updating RPC {rpc}: {e}")
+            rpc["earliest_block_height"] = None
+            rpc["latest_block_height"] = None
+            rpc["indexer"] = None
+            rpc["network"] = None
+            rpc["catchup"] = None
+            rpc["active"] = False
+        rpc["last_check"] = current_time
 
     # Update Indexers
     for indexer in json_structure.get("indexers", []):
@@ -235,13 +199,6 @@ for rpc in rpc_data:
     # Update Snapshots
     for snapshot in json_structure.get("snapshots", []):
         snapshot = fetch_snapshot_data(snapshot)
-
-    # Merge external data (rpc, masp_indexers, namada_indexers)
-    external_masp_indexers = []  # Add your external masp_indexers data here
-    external_rpc = rpc_data  # Use the fetched rpc data
-    external_namada_indexers = []  # Add your external namada_indexers data here
-
-    json_structure = merge_data(json_structure, external_masp_indexers, external_rpc, external_namada_indexers)
 
     # Save the updated infrastructure.json
     with open("namada/infrastructure.json", "w") as f:
