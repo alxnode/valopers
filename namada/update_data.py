@@ -3,6 +3,11 @@ import os
 import time
 import requests
 from datetime import datetime
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger()
 
 # Paths
 INFRASTRUCTURE_PATH = "namada/infrastructure.json"
@@ -24,7 +29,7 @@ def fetch_snapshot_data(snapshot):
                         snapshot["timestamp"] = int(dt.timestamp())
                     snapshot["snapshot_size"] = data.get("snapshot_size")
                 except json.JSONDecodeError:
-                    print("Invalid JSON response from itrocket, skipping snapshot update.")
+                    logger.error("Invalid JSON response from itrocket, skipping snapshot update.")
                     raise
             else:
                 raise ValueError("Invalid response status")
@@ -40,14 +45,14 @@ def fetch_snapshot_data(snapshot):
                         dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
                         snapshot["timestamp"] = int(dt.timestamp())
                 except json.JSONDecodeError:
-                    print("Invalid JSON response from Mandragora, skipping snapshot update.")
+                    logger.error("Invalid JSON response from Mandragora, skipping snapshot update.")
                     raise
             else:
                 raise ValueError("Invalid response status")
         else:
             raise NotImplementedError(f"Provider {provider} not supported")
     except Exception as e:
-        print(f"Error fetching snapshot data for provider {provider}: {e}")
+        logger.error(f"Error fetching snapshot data for provider {provider}: {e}")
         snapshot["height"] = None
         snapshot["timestamp"] = None
         snapshot["snapshot_size"] = None
@@ -168,13 +173,23 @@ def update_data():
             external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
             with open(external_file_path, "r") as f:
                 external_data = json.load(f)
-            # Customize merging logic as needed
-            infrastructure_data.update(external_data)
+
+            # Log the external data before attempting to merge
+            logger.info(f"Attempting to merge data from {filename}: {external_data}")
+
+            # Check if external_data is a dictionary
+            if isinstance(external_data, dict):
+                try:
+                    infrastructure_data.update(external_data)
+                    logger.info(f"Successfully merged data from {filename}")
+                except Exception as e:
+                    logger.error(f"Error merging data from {filename}: {e}")
+            else:
+                logger.warning(f"Skipping invalid external data in {filename}: {external_data}")
 
     # Save updated infrastructure.json
     with open(INFRASTRUCTURE_PATH, "w") as f:
         json.dump(infrastructure_data, f, indent=4)
-
 
 if __name__ == "__main__":
     update_data()
