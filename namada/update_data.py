@@ -1,170 +1,167 @@
 import json
-import os
 import time
 import requests
 from datetime import datetime
-import logging
-
-# Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger()
-
-# Paths
-INFRASTRUCTURE_PATH = "namada/infrastructure.json"
-EXTERNAL_REPO_PATH = "external-repo/user-and-dev-tools/mainnet"
 
 def normalize_url(url):
     """Normalize the URL by stripping trailing slashes."""
     return url.rstrip('/')
 
-def fetch_masp_indexer_data(masp_indexer):
-    """Fetch and update data for MASP indexers."""
-    try:
-        response = requests.get(f"{masp_indexer['url']}/api/v1/height", timeout=10)
-        if response.status_code == 200:
-            masp_indexer.update({
-                "latest_block_height": response.json().get("block_height"),
-                "active": True
-            })
-        else:
-            raise Exception("Invalid response code")
-    except Exception:
-        masp_indexer.update({
-            "latest_block_height": None,
-            "active": False
-        })
-    masp_indexer["last_check"] = int(time.time())
+def fetch_snapshot_data(snapshot):
+    provider = snapshot.get("provider")
+    if provider == "itrocket":
+        try:
+            response = requests.get("https://server-5.itrocket.net/mainnet/namada/.current_state.json", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                snap_name = data.get("snapshot_name", None)
+                height = data.get("snapshot_height", None)
+                timestamp_str = data.get("snapshot_block_time", None)
+                snapshot_size = data.get("snapshot_size", None)
 
-def fetch_rpc_data(rpc):
-    """Fetch and update data for RPCs."""
-    try:
-        response = requests.get(f"{rpc['url']}/status", timeout=10)
-        if response.status_code == 200:
-            data = response.json().get("result", {})
-            node_info = data.get("node_info", {})
-            sync_info = data.get("sync_info", {})
+                if timestamp_str:
+                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
+                    timestamp = int(dt.timestamp())
 
-            rpc.update({
-                "earliest_block_height": sync_info.get("earliest_block_height"),
-                "latest_block_height": sync_info.get("latest_block_height"),
-                "indexer": node_info.get("other", {}).get("tx_index"),
-                "network": node_info.get("network"),
-                "catchup": sync_info.get("catching_up", False),
-                "active": True
-            })
-        else:
-            raise Exception("Invalid response code")
-    except Exception:
-        rpc.update({
-            "earliest_block_height": None,
-            "latest_block_height": None,
-            "indexer": None,
-            "network": None,
-            "catchup": None,
-            "active": False
-        })
-    rpc["last_check"] = int(time.time())
+                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot["url"]
+                snapshot["height"] = height
+                snapshot["timestamp"] = timestamp
+                snapshot["snapshot_size"] = snapshot_size  
+            else:
+                snapshot["height"] = None
+                snapshot["timestamp"] = None
+                snapshot["snapshot_size"] = None 
+        except Exception as e:
+            print(f"Error fetching snapshot data for provider {provider}: {e}")
+            snapshot["height"] = None
+            snapshot["timestamp"] = None
+            snapshot["snapshot_size"] = None  
+    
+    elif provider == "Mandragora":
+        try:
+            response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                snapshot["height"] = data.get("snapshot_height")
+                snapshot["snapshot_size"] = data.get("data_size")               
 
-def fetch_namada_indexer_data(namada_indexer):
-    """Fetch and update data for Namada indexers."""
-    try:
-        response = requests.get(f"{namada_indexer['url']}/api/v1/chain/block/latest", timeout=10)
-        if response.status_code == 200:
-            latest_block_height = response.json().get("block")
-            params_response = requests.get(f"{namada_indexer['url']}/api/v1/chain/parameters", timeout=10)
-            network = params_response.json().get("chainId") if params_response.status_code == 200 else None
-
-            namada_indexer.update({
-                "latest_block_height": latest_block_height,
-                "network": network,
-                "active": True
-            })
-        else:
-            raise Exception("Invalid response code")
-    except Exception:
-        namada_indexer.update({
-            "latest_block_height": None,
-            "network": None,
-            "active": False
-        })
-    namada_indexer["last_check"] = int(time.time())
+                snapshot_taken_at = data.get("snapshot_taken_at")
+                if snapshot_taken_at:
+                    dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
+                    snapshot["timestamp"] = int(dt.timestamp())
+                else:
+                    snapshot["timestamp"] = None
+            else:
+                snapshot["height"] = None
+                snapshot["timestamp"] = None
+                snapshot["snapshot_size"] = None 
+        except Exception as e:
+            print(f"Error fetching snapshot data for provider {provider}: {e}")
+            snapshot["height"] = None
+            snapshot["timestamp"] = None
+            snapshot["snapshot_size"] = None  
+    else:
+        snapshot["height"] = None
+        snapshot["timestamp"] = None
+        snapshot["snapshot_size"] = None  
+    return snapshot
 
 def update_data():
-    """Update infrastructure.json with local and external repository data."""
-    # Load local infrastructure.json
-    with open(INFRASTRUCTURE_PATH, "r") as f:
-        infrastructure_data = json.load(f)
+    """
+    Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data, and merge it with external repository data.
+    """
+    with open("namada/infrastructure.json", "r") as f:
+        json_structure = json.load(f)
 
-    # Update MASP Indexers
-    masp_indexers_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
-        if filename == "masp-indexers.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
-            with open(external_file_path, "r") as f:
-                masp_indexers_data = json.load(f)
-            break  # Only fetch this file once
+    current_time = int(time.time())
 
-    # Merge MASP Indexers
-    for masp_indexer in masp_indexers_data:
-        try:
-            url = normalize_url(masp_indexer["url"])
-        except KeyError:
-            logger.warning(f"Missing 'url' key in MASP indexer data: {masp_indexer}")
-            continue  # Skip this entry if the 'url' key is missing
-        existing = next((item for item in infrastructure_data.get("masp_indexers", []) if normalize_url(item["url"]) == url), None)
-        if existing:
-            existing["provider"] = masp_indexer["provider"]  # Update provider if URL matches
-        else:
-            infrastructure_data["masp_indexers"].append(masp_indexer)  # Add new entry
+    # Merge external repository data into infrastructure
+    external_repo_path = "external-repo/user-and-dev-tools/mainnet"
 
-    # Update RPCs
+    # Merge RPCs
     rpc_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
+    for filename in os.listdir(external_repo_path):
         if filename == "rpc.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
+            external_file_path = os.path.join(external_repo_path, filename)
             with open(external_file_path, "r") as f:
                 rpc_data = json.load(f)
             break  # Only fetch this file once
 
-    # Merge RPCs
+    # Update RPC data
     for rpc in rpc_data:
         try:
             url = normalize_url(rpc["url"])
         except KeyError:
-            logger.warning(f"Missing 'url' key in RPC data: {rpc}")
-            continue  # Skip this entry if the 'url' key is missing
-        existing = next((item for item in infrastructure_data.get("rpc", []) if normalize_url(item["url"]) == url), None)
+            print(f"Missing 'url' key in RPC data: {rpc}")
+            continue  # Skip if 'url' is missing
+        existing = next((item for item in json_structure.get("rpc", []) if normalize_url(item["url"]) == url), None)
         if existing:
             existing["provider"] = rpc["provider"]  # Update provider if URL matches
         else:
-            infrastructure_data["rpc"].append(rpc)  # Add new entry
+            json_structure["rpc"].append(rpc)  # Add new entry
 
-    # Update Namada Indexers (only those with "Which Indexer": "namada-indexer")
-    namada_indexers_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
-        if filename == "namada-indexers.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
-            with open(external_file_path, "r") as f:
-                namada_indexers_data = json.load(f)
-            break  # Only fetch this file once
+    # Update Indexers
+    for indexer in json_structure.get("indexers", []):
+        try:
+            response = requests.get(f"{indexer['url']}/api/v1/chain/block/latest", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                latest_block_height = data.get("block")
+                params_response = requests.get(f"{indexer['url']}/api/v1/chain/parameters", timeout=10)
+                network = params_response.json().get("chainId") if params_response.status_code == 200 else None
 
-    # Merge Namada Indexers
-    for namada_indexer in namada_indexers_data:
-        if namada_indexer.get("Which Indexer") == "namada-indexer":
-            try:
-                url = normalize_url(namada_indexer["url"])
-            except KeyError:
-                logger.warning(f"Missing 'url' key in Namada indexer data: {namada_indexer}")
-                continue  # Skip this entry if the 'url' key is missing
-            existing = next((item for item in infrastructure_data.get("indexers", []) if normalize_url(item["url"]) == url), None)
-            if existing:
-                existing["provider"] = namada_indexer["provider"]  # Update provider if URL matches
+                indexer["latest_block_height"] = latest_block_height
+                indexer["network"] = network
+                indexer["active"] = True
             else:
-                infrastructure_data["indexers"].append(namada_indexer)  # Add new entry
+                raise Exception("Invalid response code")
+        except Exception:
+            indexer["latest_block_height"] = None
+            indexer["network"] = None
+            indexer["active"] = False
+        indexer["last_check"] = current_time
 
-    # Save updated infrastructure.json
-    with open(INFRASTRUCTURE_PATH, "w") as f:
-        json.dump(infrastructure_data, f, indent=4)
+    # Update MASP Indexers
+    for masp_indexer in json_structure.get("masp_indexers", []):
+        try:
+            response = requests.get(f"{masp_indexer['url']}/api/v1/height", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                masp_indexer["latest_block_height"] = data.get("block_height")
+                masp_indexer["active"] = True
+            else:
+                raise Exception("Invalid response code")
+        except Exception:
+            masp_indexer["latest_block_height"] = None
+            masp_indexer["active"] = False
+        masp_indexer["last_check"] = current_time
+
+    # Update Undexers
+    for undexer in json_structure.get("undexers", []):
+        try:
+            response = requests.get(f"{undexer['url']}/v4/status", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                undexer["earliest_block_height"] = data.get("oldestBlock")
+                undexer["latest_block_height"] = data.get("latestBlock")
+                undexer["network"] = data.get("chainId")
+                undexer["active"] = True
+            else:
+                raise Exception("Invalid response code")
+        except Exception:
+            undexer["earliest_block_height"] = None
+            undexer["latest_block_height"] = None
+            undexer["network"] = None
+            undexer["active"] = False
+        undexer["last_check"] = current_time
+
+    # Update Snapshots
+    for snapshot in json_structure.get("snapshots", []):
+        snapshot = fetch_snapshot_data(snapshot)
+
+    # Save the updated infrastructure.json
+    with open("namada/infrastructure.json", "w") as f:
+        json.dump(json_structure, f, indent=4)
 
 if __name__ == "__main__":
     update_data()
