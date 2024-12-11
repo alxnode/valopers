@@ -9,53 +9,44 @@ INFRASTRUCTURE_PATH = "namada/infrastructure.json"
 EXTERNAL_REPO_PATH = "external-repo/user-and-dev-tools/mainnet"
 
 def fetch_snapshot_data(snapshot):
+    """
+    Fetch and update snapshot data based on the provider.
+    If an error occurs, set relevant fields to null.
+    """
     provider = snapshot.get("provider")
-    if provider == "itrocket":
-        try:
+    try:
+        if provider == "itrocket":
             response = requests.get("https://server-5.itrocket.net/mainnet/namada/.current_state.json", timeout=10)
             if response.status_code == 200:
                 data = response.json()
-                snap_name = data.get("snapshot_name", None)
-                height = data.get("snapshot_height", None)
+                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{data.get('snapshot_name', '')}"
+                snapshot["height"] = data.get("snapshot_height")
                 timestamp_str = data.get("snapshot_block_time", None)
-                snapshot_size = data.get("snapshot_size", None)
-
                 if timestamp_str:
-                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
-                    timestamp = int(dt.timestamp())
-
-                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot["url"]
-                snapshot["height"] = height
-                snapshot["timestamp"] = timestamp
-                snapshot["snapshot_size"] = snapshot_size  
+                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                    snapshot["timestamp"] = int(dt.timestamp())
+                snapshot["snapshot_size"] = data.get("snapshot_size")
             else:
-                snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
-        except Exception as e:
-            print(f"Error fetching snapshot data for provider {provider}: {e}")
-            snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
-    
-    elif provider == "Mandragora":
-        try:
+                raise ValueError("Invalid response status")
+        elif provider == "Mandragora":
             response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
             if response.status_code == 200:
                 data = response.json()
                 snapshot["height"] = data.get("snapshot_height")
                 snapshot["snapshot_size"] = data.get("data_size")
-
                 snapshot_taken_at = data.get("snapshot_taken_at")
                 if snapshot_taken_at:
                     dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
                     snapshot["timestamp"] = int(dt.timestamp())
-                else:
-                    snapshot["timestamp"] = None
             else:
-                snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
-        except Exception as e:
-            print(f"Error fetching snapshot data for provider {provider}: {e}")
-            snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
-    
-    else:
-        snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
+                raise ValueError("Invalid response status")
+        else:
+            raise NotImplementedError(f"Provider {provider} not supported")
+    except Exception as e:
+        print(f"Error fetching snapshot data for provider {provider}: {e}")
+        snapshot["height"] = None
+        snapshot["timestamp"] = None
+        snapshot["snapshot_size"] = None
     return snapshot
 
 def update_data():
