@@ -116,45 +116,51 @@ def update_data():
     external_repo_path = "external-repo/user-and-dev-tools/mainnet"
 
     # Merge RPCs
-    rpc_data = []
-    for filename in os.listdir(external_repo_path):
-        if filename == "rpc.json":
-            external_file_path = os.path.join(external_repo_path, filename)
-            with open(external_file_path, "r") as f:
-                rpc_data = json.load(f)
-            break  # Only fetch this file once
+    # Merge RPCs
+rpc_data = []
+for filename in os.listdir(external_repo_path):
+    if filename == "rpc.json":
+        external_file_path = os.path.join(external_repo_path, filename)
+        with open(external_file_path, "r") as f:
+            rpc_data = json.load(f)
+        break  # Only fetch this file once
 
-    # Update RPC data
-    for rpc in rpc_data:
-        try:
-            url = normalize_url(rpc.get("url", ""))
-            if url:
-                print(f"Updating RPC: {url}")
-                response = requests.get(f"{url}/status", timeout=10)
-                if response.status_code == 200:
-                    data = response.json().get("result", {})
-                    node_info = data.get("node_info", {})
-                    sync_info = data.get("sync_info", {})
+# Update RPC data
+for rpc in rpc_data:
+    try:
+        # Map the fields properly
+        url = normalize_url(rpc.get("RPC Address", ""))  # Use 'RPC Address' as URL
+        provider = rpc.get("Team or Contributor Name", "")  # Use 'Team or Contributor Name' as provider
+        
+        # Check if the URL is valid
+        if url:
+            print(f"Updating RPC: {url}")
+            response = requests.get(f"{url}/status", timeout=10)
+            if response.status_code == 200:
+                data = response.json().get("result", {})
+                node_info = data.get("node_info", {})
+                sync_info = data.get("sync_info", {})
 
-                    rpc["earliest_block_height"] = sync_info.get("earliest_block_height")
-                    rpc["latest_block_height"] = sync_info.get("latest_block_height")
-                    rpc["indexer"] = node_info.get("other", {}).get("tx_index")
-                    rpc["network"] = node_info.get("network")
-                    rpc["catchup"] = sync_info.get("catching_up", False)
-                    rpc["active"] = True
-                else:
-                    raise Exception("Invalid response code")
+                rpc["earliest_block_height"] = sync_info.get("earliest_block_height")
+                rpc["latest_block_height"] = sync_info.get("latest_block_height")
+                rpc["indexer"] = node_info.get("other", {}).get("tx_index")
+                rpc["network"] = node_info.get("network")
+                rpc["catchup"] = sync_info.get("catching_up", False)
+                rpc["active"] = True
             else:
-                print(f"Missing 'url' in RPC data: {rpc}")
-        except Exception as e:
-            print(f"Error updating RPC {rpc}: {e}")
-            rpc["earliest_block_height"] = None
-            rpc["latest_block_height"] = None
-            rpc["indexer"] = None
-            rpc["network"] = None
-            rpc["catchup"] = None
-            rpc["active"] = False
-        rpc["last_check"] = current_time
+                raise Exception("Invalid response code")
+        else:
+            print(f"Missing 'RPC Address' in RPC data: {rpc}")
+    except Exception as e:
+        print(f"Error updating RPC {rpc}: {e}")
+        rpc["earliest_block_height"] = None
+        rpc["latest_block_height"] = None
+        rpc["indexer"] = None
+        rpc["network"] = None
+        rpc["catchup"] = None
+        rpc["active"] = False
+    rpc["last_check"] = current_time
+
 
     # Update Indexers
     for indexer in json_structure.get("indexers", []):
