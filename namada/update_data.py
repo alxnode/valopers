@@ -2,7 +2,6 @@ import json
 import os
 import time
 import requests
-from datetime import datetime
 import logging
 
 # Set up logging
@@ -26,7 +25,8 @@ def fetch_masp_indexer_data(masp_indexer):
             })
         else:
             raise Exception("Invalid response code")
-    except Exception:
+    except Exception as e:
+        logger.error(f"Error fetching MASP indexer data: {e}")
         masp_indexer.update({
             "latest_block_height": None,
             "active": False
@@ -54,7 +54,8 @@ def fetch_rpc_data(rpc):
             })
         else:
             raise Exception("Invalid response code")
-    except Exception:
+    except Exception as e:
+        logger.error(f"Error fetching RPC data: {e}")
         rpc.update({
             "earliest_block_height": None,
             "latest_block_height": None,
@@ -83,7 +84,8 @@ def fetch_namada_indexer_data(namada_indexer):
             })
         else:
             raise Exception("Invalid response code")
-    except Exception:
+    except Exception as e:
+        logger.error(f"Error fetching Namada indexer data: {e}")
         namada_indexer.update({
             "latest_block_height": None,
             "network": None,
@@ -91,53 +93,84 @@ def fetch_namada_indexer_data(namada_indexer):
         })
     namada_indexer["last_check"] = int(time.time())
 
+def merge_external_data(infrastructure_data, external_data, section):
+    """
+    Merge missing indexer/RPC data from external files into infrastructure data.
+    """
+    existing_urls = {item['url']: item for item in infrastructure_data.get(section, [])}
+
+    for external_item in external_data:
+        url = external_item.get("url")
+        if url in existing_urls:
+            # Update existing entry
+            logger.info(f"Updating {section} for {url}")
+            existing_urls[url].update(external_item)
+        else:
+            # Add new entry if not present
+            logger.info(f"Adding new {section} for {url}")
+            infrastructure_data[section].append(external_item)
+
 def update_data():
     """
     Update infrastructure.json with local and external repository data.
     """
     # Load local infrastructure.json
-    with open(INFRASTRUCTURE_PATH, "r") as f:
-        infrastructure_data = json.load(f)
+    try:
+        with open(INFRASTRUCTURE_PATH, "r") as f:
+            infrastructure_data = json.load(f)
+    except FileNotFoundError:
+        logger.error(f"{INFRASTRUCTURE_PATH} not found.")
+        return
+    except json.JSONDecodeError:
+        logger.error(f"Error decoding JSON from {INFRASTRUCTURE_PATH}.")
+        return
 
+    # Load external repo data for MASP Indexers
+    masp_indexers_data = load_external_json("masp-indexers.json")
+    merge_external_data(infrastructure_data, masp_indexers_data, "masp_indexers")
+    
     # Update MASP Indexers
-    masp_indexers_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
-        if filename == "masp-indexers.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
-            with open(external_file_path, "r") as f:
-                masp_indexers_data = json.load(f)
-            break  # Only fetch this file once
-
     for masp_indexer in infrastructure_data.get("masp_indexers", []):
         fetch_masp_indexer_data(masp_indexer)
 
+    # Load external repo data for RPCs
+    rpc_data = load_external_json("rpc.json")
+    merge_external_data(infrastructure_data, rpc_data, "rpc")
+    
     # Update RPCs
-    rpc_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
-        if filename == "rpc.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
-            with open(external_file_path, "r") as f:
-                rpc_data = json.load(f)
-            break  # Only fetch this file once
-
     for rpc in infrastructure_data.get("rpc", []):
         fetch_rpc_data(rpc)
 
+    # Load external repo data for Namada Indexers
+    namada_indexers_data = load_external_json("namada-indexers.json")
+    merge_external_data(infrastructure_data, namada_indexers_data, "namada_indexers")
+    
     # Update Namada Indexers
-    namada_indexers_data = []
-    for filename in os.listdir(EXTERNAL_REPO_PATH):
-        if filename == "namada-indexers.json":
-            external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
-            with open(external_file_path, "r") as f:
-                namada_indexers_data = json.load(f)
-            break  # Only fetch this file once
-
     for namada_indexer in infrastructure_data.get("namada_indexers", []):
         fetch_namada_indexer_data(namada_indexer)
 
     # Save updated infrastructure.json
-    with open(INFRASTRUCTURE_PATH, "w") as f:
-        json.dump(infrastructure_data, f, indent=4)
+    try:
+        with open(INFRASTRUCTURE_PATH, "w") as f:
+            json.dump(infrastructure_data, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving {INFRASTRUCTURE_PATH}: {e}")
+
+def load_external_json(filename):
+    """
+    Load JSON data from the external repository.
+    """
+    try:
+        external_file_path = os.path.join(EXTERNAL_REPO_PATH, filename)
+        if os.path.exists(external_file_path):
+            with open(external_file_path, "r") as f:
+                return json.load(f)
+        else:
+            logger.warning(f"{filename} not found in {EXTERNAL_REPO_PATH}.")
+            return []
+    except Exception as e:
+        logger.error(f"Error loading {filename}: {e}")
+        return []
 
 if __name__ == "__main__":
     update_data()
