@@ -23,6 +23,8 @@ def fetch_snapshot_data(snapshot):
                 if timestamp_str:
                     dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
                     timestamp = int(dt.timestamp())
+                else:
+                    timestamp = None
 
                 snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot.get("url")
                 snapshot["height"] = height
@@ -92,14 +94,34 @@ def update_data():
     for rpc in rpc_data:
         try:
             url = normalize_url(rpc.get("url", ""))
-        except KeyError:
-            print(f"Missing 'url' key in RPC data: {rpc}")
-            continue  # Skip if 'url' is missing
-        existing = next((item for item in json_structure.get("rpc", []) if normalize_url(item.get("url", "")) == url), None)
-        if existing:
-            existing["provider"] = rpc.get("provider", "")  # Update provider if URL matches
-        else:
-            json_structure["rpc"].append(rpc)  # Add new entry
+            # Check if the URL is valid
+            if url:
+                print(f"Updating RPC: {url}")
+                response = requests.get(f"{url}/status", timeout=10)
+                if response.status_code == 200:
+                    data = response.json().get("result", {})
+                    node_info = data.get("node_info", {})
+                    sync_info = data.get("sync_info", {})
+
+                    rpc["earliest_block_height"] = sync_info.get("earliest_block_height")
+                    rpc["latest_block_height"] = sync_info.get("latest_block_height")
+                    rpc["indexer"] = node_info.get("other", {}).get("tx_index")
+                    rpc["network"] = node_info.get("network")
+                    rpc["catchup"] = sync_info.get("catching_up", False)
+                    rpc["active"] = True
+                else:
+                    raise Exception("Invalid response code")
+            else:
+                print(f"Missing 'url' in RPC data: {rpc}")
+        except Exception as e:
+            print(f"Error updating RPC {rpc}: {e}")
+            rpc["earliest_block_height"] = None
+            rpc["latest_block_height"] = None
+            rpc["indexer"] = None
+            rpc["network"] = None
+            rpc["catchup"] = None
+            rpc["active"] = False
+        rpc["last_check"] = current_time
 
     # Update Indexers
     for indexer in json_structure.get("indexers", []):
@@ -121,6 +143,7 @@ def update_data():
             else:
                 print(f"Missing 'url' in indexer: {indexer}")
         except Exception:
+            print(f"Error updating indexer {indexer}")
             indexer["latest_block_height"] = None
             indexer["network"] = None
             indexer["active"] = False
@@ -141,6 +164,7 @@ def update_data():
             else:
                 print(f"Missing 'url' in masp_indexer: {masp_indexer}")
         except Exception:
+            print(f"Error updating MASP Indexer {masp_indexer}")
             masp_indexer["latest_block_height"] = None
             masp_indexer["active"] = False
         masp_indexer["last_check"] = current_time
@@ -162,6 +186,7 @@ def update_data():
             else:
                 print(f"Missing 'url' in undexer: {undexer}")
         except Exception:
+            print(f"Error updating Undexer {undexer}")
             undexer["earliest_block_height"] = None
             undexer["latest_block_height"] = None
             undexer["network"] = None
