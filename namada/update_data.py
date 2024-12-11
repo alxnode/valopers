@@ -4,22 +4,20 @@ import requests
 from datetime import datetime
 
 def fetch_snapshot_data(snapshot):
-
     provider = snapshot.get("provider")
     if provider == "itrocket":
-        try:          
+        try:
             response = requests.get("https://server-5.itrocket.net/mainnet/namada/.current_state.json", timeout=10)
             if response.status_code == 200:
                 data = response.json()
                 snap_name = data.get("snapshot_name", None)
                 height = data.get("snapshot_height", None)
-                timestamp = data.get("snapshot_block_time", None)
-                snapshot_size = data.get("snapshot_size", None) 
+                timestamp_str = data.get("snapshot_block_time", None)
+                snapshot_size = data.get("snapshot_size", None)
 
-            
-                if timestamp:                    
-                    timestamp = timestamp.split('.')[0]  
-                    timestamp = int(datetime.fromisoformat(timestamp).timestamp())
+                if timestamp_str:
+                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
+                    timestamp = int(dt.timestamp())
 
                 snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot["url"]
                 snapshot["height"] = height
