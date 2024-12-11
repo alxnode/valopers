@@ -13,6 +13,14 @@ logger = logging.getLogger()
 INFRASTRUCTURE_PATH = "namada/infrastructure.json"
 EXTERNAL_REPO_PATH = "external-repo/user-and-dev-tools/mainnet"
 
+def normalize_url(url):
+    """
+    Normalize the URL by stripping the trailing slash if it exists.
+    """
+    if url.endswith('/'):
+        return url.rstrip('/')
+    return url
+
 def fetch_external_data():
     """
     Fetch external data from files in the external repository directory.
@@ -20,7 +28,8 @@ def fetch_external_data():
     external_data = {
         "masp_indexers": [],
         "rpc": [],
-        "indexers": []
+        "indexers": [],
+        "namada_indexers": []
     }
     
     # Get external data from files in the external repository
@@ -33,7 +42,7 @@ def fetch_external_data():
                 external_data["rpc"] = json.load(f)
         elif filename == "namada-indexers.json":
             with open(os.path.join(EXTERNAL_REPO_PATH, filename), "r") as f:
-                external_data["indexers"] = json.load(f)
+                external_data["namada_indexers"] = json.load(f)
                 
     return external_data
 
@@ -50,13 +59,13 @@ def merge_data():
 
     # Merge masp_indexers
     for entry in external_data["masp_indexers"]:
-        url = entry.get("Indexer API URL")
+        url = normalize_url(entry.get("Indexer API URL"))
         provider = entry.get("Team or Contributor Name")
         if url and provider:
             # Check if the URL exists in the local masp_indexers, update or add it
             exists = False
             for masp_indexer in infrastructure_data['masp_indexers']:
-                if masp_indexer['url'] == url:
+                if normalize_url(masp_indexer['url']) == url:
                     masp_indexer['provider'] = provider
                     exists = True
                     break
@@ -72,13 +81,13 @@ def merge_data():
 
     # Merge rpc
     for entry in external_data["rpc"]:
-        url = entry.get("RPC Address")
+        url = normalize_url(entry.get("RPC Address"))
         provider = entry.get("Team or Contributor Name")
         if url and provider:
             # Check if the URL exists in the local rpc, update or add it
             exists = False
             for rpc in infrastructure_data['rpc']:
-                if rpc['url'] == url:
+                if normalize_url(rpc['url']) == url:
                     rpc['provider'] = provider
                     exists = True
                     break
@@ -96,28 +105,29 @@ def merge_data():
                 })
                 logger.info(f"Added new rpc with URL: {url} and provider: {provider}")
 
-    # Merge indexers
-    for entry in external_data["indexers"]:
-        url = entry.get("Indexer API URL")
-        provider = entry.get("Team or Contributor Name")
-        if url and provider:
-            # Check if the URL exists in the local indexers, update or add it
-            exists = False
-            for indexer in infrastructure_data['indexers']:
-                if indexer['url'] == url:
-                    indexer['provider'] = provider
-                    exists = True
-                    break
-            if not exists:
-                infrastructure_data['indexers'].append({
-                    'url': url,
-                    'provider': provider,
-                    'last_check': None,
-                    'latest_block_height': None,
-                    'network': None,
-                    'active': False
-                })
-                logger.info(f"Added new indexer with URL: {url} and provider: {provider}")
+    # Merge namada_indexers (only "Which Indexer": "namada-indexer")
+    for entry in external_data["namada_indexers"]:
+        if entry.get("Which Indexer") == "namada-indexer":
+            url = normalize_url(entry.get("Indexer API URL"))
+            provider = entry.get("Team or Contributor Name")
+            if url and provider:
+                # Check if the URL exists in the local indexers, update or add it
+                exists = False
+                for indexer in infrastructure_data['indexers']:
+                    if normalize_url(indexer['url']) == url:
+                        indexer['provider'] = provider
+                        exists = True
+                        break
+                if not exists:
+                    infrastructure_data['indexers'].append({
+                        'url': url,
+                        'provider': provider,
+                        'last_check': None,
+                        'latest_block_height': None,
+                        'network': None,
+                        'active': False
+                    })
+                    logger.info(f"Added new namada_indexer with URL: {url} and provider: {provider}")
 
     # Save the updated infrastructure.json
     with open(INFRASTRUCTURE_PATH, "w") as f:
