@@ -79,7 +79,7 @@
         },
         {
             "url": "https://namada-main.stakesystems.io",
-            "provider": "StakeSystems",
+            "provider": "stake.systems",
             "last_check": 1733912014,
             "earliest_block_height": "1",
             "latest_block_height": "95610",
@@ -131,6 +131,314 @@
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
             "active": true
+        },
+        {
+            "url": "https://rpc.namada.tududes.com/",
+            "provider": "TuDudes",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namadam.powerstaking.tech/",
+            "provider": "PowerStaking",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc-namada.5elementsnodes.com/",
+            "provider": "5ElementsNodes",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-rpc.itrocket.net/",
+            "provider": "itrocket-team",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.sproutstake.space/",
+            "provider": "Sproutstake",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.papadritta.com/",
+            "provider": "Papadritta",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.namadascan.io/",
+            "provider": "TNSO",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.synergynodes.com/",
+            "provider": "Synergy Nodes",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet.rpc.l0vd.com/",
+            "provider": "L0vd",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada.loserboy.xyz/",
+            "provider": "Loser Boy",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada.itudou.xyz/",
+            "provider": "jacky1988",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.namada.validatus.com/",
+            "provider": "Validatus",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.0xcryptovestor.com",
+            "provider": "Wavefive",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.0xwave.com",
+            "provider": "0xWave",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-rpc.mellifera.network",
+            "provider": "Mellifera",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.max-02.xyz",
+            "provider": "max-02",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-rpc.denodes.xyz",
+            "provider": "deNodes",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada.rpc.liveraven.net",
+            "provider": "LiveRaveN",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.palamar.io",
+            "provider": "Palamar",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.validatorvn.com",
+            "provider": "ValidatorVN",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.namada.stakeup.tech",
+            "provider": "StakeUp",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://rpc.namada.citizenweb3.com",
+            "provider": "Citizen Web3",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://lightnode-rpc-mainnet-namada.grandvalleys.com",
+            "provider": "Grand Valley",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://manada-rpc.stakeandrelax.net",
+            "provider": "Stake&Relax \ud83e\udda5",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://mainnet-namada-rpc.konsortech.xyz",
+            "provider": "KonsorTech",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.contributiondao.com",
+            "provider": "ContributionDAO",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-rpc.crouton.digital",
+            "provider": "CroutonDigital",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-rpc.emberstake.xyz",
+            "provider": "EmberStake",
+            "last_check": null,
+            "earliest_block_height": null,
+            "latest_block_height": null,
+            "indexer": null,
+            "network": null,
+            "catchup": null,
+            "active": false
         }
     ],
     "indexers": [
@@ -197,6 +505,94 @@
             "latest_block_height": "95548",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
+        },
+        {
+            "url": "https://index-namada.5elementsnodes.com/",
+            "provider": "5ElementsNodes",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-indexer.denodes.xyz",
+            "provider": "deNodes",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://undexer.hack.bg/v4",
+            "provider": "Mandragora",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-api.sproutstake.space/",
+            "provider": "sproutstake",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-indexer.validatorvn.com",
+            "provider": "VallidatorVN",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://indexer.namada.stakeup.tech",
+            "provider": "StakeUp",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://indexer.namada.citizenweb3.com/",
+            "provider": "Citizen Web3",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-indexer.stakeandrelax.net",
+            "provider": "Stake&Relax \ud83e\udda5",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-indexer.crouton.digital",
+            "provider": "CroutonDigital",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://indexer-mainnet-namada.grandvalleys.com",
+            "provider": "Grand Valley",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-idx.emberstake.xyz",
+            "provider": "EmberStake",
+            "last_check": null,
+            "latest_block_height": null,
+            "network": null,
+            "active": false
         }
     ],
     "masp_indexers": [
@@ -220,6 +616,97 @@
             "last_check": 1733912001,
             "latest_block_height": 95608,
             "active": true
+        },
+        {
+            "url": "https://namada-masp.max-02.xyz",
+            "provider": "max-02",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://masp-namada.5elementsnodes.com/",
+            "provider": "5ElementsNodes",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp-indexer.denodes.xyz",
+            "provider": "deNodes",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp-indexer.0xcryptovestor.com",
+            "provider": "Wavefive",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp.palamar.io",
+            "provider": "Palamar",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp-indexer.validatorvn.com",
+            "provider": "VallidatorVN",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://masp-indexer.namada.stakeup.tech",
+            "provider": "StakeUp",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://masp-indexer.namada.citizenweb3.com/",
+            "provider": "Citizen Web3",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp.stakeandrelax.net",
+            "provider": "Stake&Relax \ud83e\udda5",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp-api.sproutstake.space/",
+            "provider": "Sproutstake",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-mainnet-masp-indexer.crouton.digital",
+            "provider": "CroutonDigital",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://masp-indexer-mainnet-namada.grandvalleys.com",
+            "provider": "Grand Valley",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
+        },
+        {
+            "url": "https://namada-masp-idx.emberstake.xyz",
+            "provider": "EmberStake",
+            "last_check": null,
+            "latest_block_height": null,
+            "active": false
         }
     ],
     "undexers": [
