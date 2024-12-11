@@ -114,27 +114,6 @@ def update_data():
                     rpc["active"] = True
                 else:
                     raise Exception("Invalid response code")
-                
-                # Check if the RPC URL already exists in the infrastructure.json
-                rpc_exists = False
-                for existing_rpc in json_structure.get("rpclist", []):
-                    if existing_rpc.get("url") == url:
-                        rpc_exists = True
-                        break
-                
-                if not rpc_exists:
-                    # Insert new RPC into the list if it's missing
-                    json_structure["rpclist"].append({
-                        "url": url,
-                        "provider": provider,
-                        "earliest_block_height": rpc["earliest_block_height"],
-                        "latest_block_height": rpc["latest_block_height"],
-                        "indexer": rpc["indexer"],
-                        "network": rpc["network"],
-                        "catchup": rpc["catchup"],
-                        "active": rpc["active"],
-                        "last_check": current_time
-                    })
             else:
                 print(f"Missing 'RPC Address' in RPC data: {rpc}")
         except Exception as e:
@@ -164,23 +143,6 @@ def update_data():
                     indexer["active"] = True
                 else:
                     raise Exception("Invalid response code")
-                
-                # Check if the indexer URL already exists in the infrastructure.json
-                indexer_exists = False
-                for existing_indexer in json_structure.get("indexers", []):
-                    if existing_indexer.get("url") == url:
-                        indexer_exists = True
-                        break
-                
-                if not indexer_exists:
-                    # Insert new indexer into the list if it's missing
-                    json_structure["indexers"].append({
-                        "url": url,
-                        "latest_block_height": indexer["latest_block_height"],
-                        "network": indexer["network"],
-                        "active": indexer["active"],
-                        "last_check": current_time
-                    })
             else:
                 print(f"Missing 'url' in indexer: {indexer}")
         except Exception:
@@ -202,22 +164,6 @@ def update_data():
                     masp_indexer["active"] = True
                 else:
                     raise Exception("Invalid response code")
-                
-                # Check if the masp_indexer URL already exists in the infrastructure.json
-                masp_indexer_exists = False
-                for existing_masp_indexer in json_structure.get("masp_indexers", []):
-                    if existing_masp_indexer.get("url") == url:
-                        masp_indexer_exists = True
-                        break
-                
-                if not masp_indexer_exists:
-                    # Insert new masp_indexer into the list if it's missing
-                    json_structure["masp_indexers"].append({
-                        "url": url,
-                        "latest_block_height": masp_indexer["latest_block_height"],
-                        "active": masp_indexer["active"],
-                        "last_check": current_time
-                    })
             else:
                 print(f"Missing 'url' in masp_indexer: {masp_indexer}")
         except Exception:
@@ -225,6 +171,30 @@ def update_data():
             masp_indexer["latest_block_height"] = None
             masp_indexer["active"] = False
         masp_indexer["last_check"] = current_time
+
+    # Update Undexers
+    for undexer in json_structure.get("undexers", []):
+        try:
+            url = undexer.get("url", "")
+            if url:
+                response = requests.get(f"{url}/v4/status", timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    undexer["earliest_block_height"] = data.get("oldestBlock")
+                    undexer["latest_block_height"] = data.get("latestBlock")
+                    undexer["network"] = data.get("chainId")
+                    undexer["active"] = True
+                else:
+                    raise Exception("Invalid response code")
+            else:
+                print(f"Missing 'url' in undexer: {undexer}")
+        except Exception:
+            print(f"Error updating Undexer {undexer}")
+            undexer["earliest_block_height"] = None
+            undexer["latest_block_height"] = None
+            undexer["network"] = None
+            undexer["active"] = False
+        undexer["last_check"] = current_time
 
     # Update Snapshots
     for snapshot in json_structure.get("snapshots", []):
