@@ -165,7 +165,28 @@
             "latest_block_height": null,
             "network": null,
             "active": false
-        }
+        },
+        
+       {
+            "url": "https://index-namada.5elementsnodes.com",
+            "provider": "5ElementsNodes",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
+        },
+        {
+            "url": "https://namada-indexer.0xcryptovestor.com",
+            "provider": "Wavefive",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
+        },
+        {
+            "url": "https://namada-indexer.palamar.io",
+            "provider": "Palamar",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
     ],
     "masp_indexers": [
         {
@@ -193,27 +214,6 @@
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Sproutstake",
-            "last_check": 1733906220,
-            "latest_block_height": 94783,
-            "active": true
-        },
-       {
-            "url": "https://index-namada.5elementsnodes.com",
-            "provider": "5ElementsNodes",
-            "last_check": 1733906220,
-            "latest_block_height": 94783,
-            "active": true
-        },
-        {
-            "url": "https://namada-indexer.0xcryptovestor.com",
-            "provider": "Wavefive",
-            "last_check": 1733906220,
-            "latest_block_height": 94783,
-            "active": true
-        },
-        {
-            "url": "https://namada-indexer.palamar.io",
-            "provider": "Palamar",
             "last_check": 1733906220,
             "latest_block_height": 94783,
             "active": true
