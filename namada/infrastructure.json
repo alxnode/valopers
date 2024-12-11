@@ -434,31 +434,31 @@
         {
             "url": "https://indexer.knowable.run",
             "provider": "Knowable",
-            "last_check": 1733911543,
-            "latest_block_height": "68925",
+            "last_check": 1733913832,
+            "latest_block_height": "69198",
             "network": "housefire-below.0b9e6c455af037",
             "active": true
         },
         {
             "url": "https://indexer.namada.stakepool.dev.br",
             "provider": "StakePool",
-            "last_check": 1733911543,
-            "latest_block_height": "95545",
+            "last_check": 1733913832,
+            "latest_block_height": "95870",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://indexer.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733911543,
-            "latest_block_height": "95546",
+            "last_check": 1733913832,
+            "latest_block_height": "95871",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://namada-api.sproutstake.space",
             "provider": "sproutstake",
-            "last_check": 1733911543,
+            "last_check": 1733913832,
             "latest_block_height": null,
             "network": null,
             "active": false
@@ -466,55 +466,55 @@
         {
             "url": "https://index-namada.5elementsnodes.com",
             "provider": "5ElementsNodes",
-            "last_check": 1733911543,
-            "latest_block_height": "95548",
+            "last_check": 1733913832,
+            "latest_block_height": "95872",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://namada-indexer.0xcryptovestor.com",
             "provider": "Wavefive",
-            "last_check": 1733911543,
-            "latest_block_height": "95548",
+            "last_check": 1733913832,
+            "latest_block_height": "95872",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://namada-indexer.palamar.io",
             "provider": "Palamar",
-            "last_check": 1733911543,
-            "latest_block_height": "95548",
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://namada-indexer.max-02.xyz",
             "provider": "max-02",
-            "last_check": 1733911543,
-            "latest_block_height": "95548",
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         },
         {
             "url": "https://index-namada.5elementsnodes.com/",
             "provider": "5ElementsNodes",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-indexer.denodes.xyz",
             "provider": "deNodes",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "88416",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-indexer.validatorvn.com",
             "provider": "VallidatorVN",
-            "last_check": null,
+            "last_check": 1733913832,
             "latest_block_height": null,
             "network": null,
             "active": false
@@ -522,166 +522,166 @@
         {
             "url": "https://indexer.namada.stakeup.tech",
             "provider": "StakeUp",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://indexer.namada.citizenweb3.com/",
             "provider": "Citizen Web3",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-indexer.stakeandrelax.net",
             "provider": "Stake&Relax \ud83e\udda5",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-mainnet-indexer.crouton.digital",
             "provider": "CroutonDigital",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://indexer-mainnet-namada.grandvalleys.com",
             "provider": "Grand Valley",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95873",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         },
         {
             "url": "https://namada-idx.emberstake.xyz",
             "provider": "EmberStake",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": "95874",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
         }
     ],
     "masp_indexers": [
         {
             "url": "https://masp.knowable.run",
             "provider": "knowable",
-            "last_check": 1733912000,
-            "latest_block_height": 68978,
+            "last_check": 1733913832,
+            "latest_block_height": 69201,
             "active": true
         },
         {
             "url": "https://masp.namada.validatus.com",
             "provider": "Validatus",
-            "last_check": 1733912000,
-            "latest_block_height": 95608,
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
             "active": true
         },
         {
             "url": "https://namada-masp.max-02.xyz",
             "provider": "max-02",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://masp-namada.5elementsnodes.com/",
             "provider": "5ElementsNodes",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://namada-masp-indexer.denodes.xyz",
             "provider": "deNodes",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://namada-masp-indexer.0xcryptovestor.com",
             "provider": "Wavefive",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://namada-masp.palamar.io",
             "provider": "Palamar",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://namada-masp-indexer.validatorvn.com",
             "provider": "VallidatorVN",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 0,
+            "active": true
         },
         {
             "url": "https://masp-indexer.namada.stakeup.tech",
             "provider": "StakeUp",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://masp-indexer.namada.citizenweb3.com/",
             "provider": "Citizen Web3",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 0,
+            "active": true
         },
         {
             "url": "https://namada-masp.stakeandrelax.net",
             "provider": "Stake&Relax \ud83e\udda5",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95874,
+            "active": true
         },
         {
             "url": "https://namada-masp-api.sproutstake.space/",
             "provider": "Sproutstake",
-            "last_check": null,
+            "last_check": 1733913832,
             "latest_block_height": null,
             "active": false
         },
         {
             "url": "https://namada-mainnet-masp-indexer.crouton.digital",
             "provider": "CroutonDigital",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95876,
+            "active": true
         },
         {
             "url": "https://masp-indexer-mainnet-namada.grandvalleys.com",
             "provider": "Grand Valley",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95876,
+            "active": true
         },
         {
             "url": "https://namada-masp-idx.emberstake.xyz",
             "provider": "EmberStake",
-            "last_check": null,
-            "latest_block_height": null,
-            "active": false
+            "last_check": 1733913832,
+            "latest_block_height": 95876,
+            "active": true
         }
     ],
     "undexers": [
         {
             "url": "https://undexer.hack.bg",
             "provider": "Mandragora",
-            "last_check": 1733911543,
+            "last_check": 1733913832,
             "earliest_block_height": 1,
-            "latest_block_height": 95549,
+            "latest_block_height": 95876,
             "network": "namada.5f5de2dd1b88cba30586420",
             "active": true
         }
