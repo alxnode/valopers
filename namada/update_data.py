@@ -24,7 +24,7 @@ def fetch_snapshot_data(snapshot):
                     dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
                     timestamp = int(dt.timestamp())
 
-                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot["url"]
+                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot.get("url")
                 snapshot["height"] = height
                 snapshot["timestamp"] = timestamp
                 snapshot["snapshot_size"] = snapshot_size  
@@ -91,31 +91,35 @@ def update_data():
     # Update RPC data
     for rpc in rpc_data:
         try:
-            url = normalize_url(rpc["url"])
+            url = normalize_url(rpc.get("url", ""))
         except KeyError:
             print(f"Missing 'url' key in RPC data: {rpc}")
             continue  # Skip if 'url' is missing
-        existing = next((item for item in json_structure.get("rpc", []) if normalize_url(item["url"]) == url), None)
+        existing = next((item for item in json_structure.get("rpc", []) if normalize_url(item.get("url", "")) == url), None)
         if existing:
-            existing["provider"] = rpc["provider"]  # Update provider if URL matches
+            existing["provider"] = rpc.get("provider", "")  # Update provider if URL matches
         else:
             json_structure["rpc"].append(rpc)  # Add new entry
 
     # Update Indexers
     for indexer in json_structure.get("indexers", []):
         try:
-            response = requests.get(f"{indexer['url']}/api/v1/chain/block/latest", timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                latest_block_height = data.get("block")
-                params_response = requests.get(f"{indexer['url']}/api/v1/chain/parameters", timeout=10)
-                network = params_response.json().get("chainId") if params_response.status_code == 200 else None
+            url = indexer.get("url", "")
+            if url:
+                response = requests.get(f"{url}/api/v1/chain/block/latest", timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    latest_block_height = data.get("block")
+                    params_response = requests.get(f"{url}/api/v1/chain/parameters", timeout=10)
+                    network = params_response.json().get("chainId") if params_response.status_code == 200 else None
 
-                indexer["latest_block_height"] = latest_block_height
-                indexer["network"] = network
-                indexer["active"] = True
+                    indexer["latest_block_height"] = latest_block_height
+                    indexer["network"] = network
+                    indexer["active"] = True
+                else:
+                    raise Exception("Invalid response code")
             else:
-                raise Exception("Invalid response code")
+                print(f"Missing 'url' in indexer: {indexer}")
         except Exception:
             indexer["latest_block_height"] = None
             indexer["network"] = None
@@ -125,13 +129,17 @@ def update_data():
     # Update MASP Indexers
     for masp_indexer in json_structure.get("masp_indexers", []):
         try:
-            response = requests.get(f"{masp_indexer['url']}/api/v1/height", timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                masp_indexer["latest_block_height"] = data.get("block_height")
-                masp_indexer["active"] = True
+            url = masp_indexer.get("url", "")
+            if url:
+                response = requests.get(f"{url}/api/v1/height", timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    masp_indexer["latest_block_height"] = data.get("block_height")
+                    masp_indexer["active"] = True
+                else:
+                    raise Exception("Invalid response code")
             else:
-                raise Exception("Invalid response code")
+                print(f"Missing 'url' in masp_indexer: {masp_indexer}")
         except Exception:
             masp_indexer["latest_block_height"] = None
             masp_indexer["active"] = False
@@ -140,15 +148,19 @@ def update_data():
     # Update Undexers
     for undexer in json_structure.get("undexers", []):
         try:
-            response = requests.get(f"{undexer['url']}/v4/status", timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                undexer["earliest_block_height"] = data.get("oldestBlock")
-                undexer["latest_block_height"] = data.get("latestBlock")
-                undexer["network"] = data.get("chainId")
-                undexer["active"] = True
+            url = undexer.get("url", "")
+            if url:
+                response = requests.get(f"{url}/v4/status", timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    undexer["earliest_block_height"] = data.get("oldestBlock")
+                    undexer["latest_block_height"] = data.get("latestBlock")
+                    undexer["network"] = data.get("chainId")
+                    undexer["active"] = True
+                else:
+                    raise Exception("Invalid response code")
             else:
-                raise Exception("Invalid response code")
+                print(f"Missing 'url' in undexer: {undexer}")
         except Exception:
             undexer["earliest_block_height"] = None
             undexer["latest_block_height"] = None
