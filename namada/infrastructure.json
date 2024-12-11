@@ -457,7 +457,7 @@
         },
         {
             "url": "https://namada-api.sproutstake.space",
-            "provider": "Sproutstake",
+            "provider": "sproutstake",
             "last_check": 1733911543,
             "latest_block_height": null,
             "network": null,
