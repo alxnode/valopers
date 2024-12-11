@@ -2,6 +2,7 @@ import json
 import time
 import requests
 from datetime import datetime
+from pathlib import Path
 
 def fetch_snapshot_data(snapshot):
     provider = snapshot.get("provider")
@@ -62,11 +63,64 @@ def fetch_snapshot_data(snapshot):
         snapshot["snapshot_size"] = None  
     return snapshot
 
+def merge_additional_data(json_structure, masp_indexers_path, rpc_path, indexers_path):
+    def load_json(file_path):
+        with open(file_path, "r") as f:
+            return json.load(f)
+
+    masp_indexers = load_json(masp_indexers_path)
+    rpc = load_json(rpc_path)
+    indexers = load_json(indexers_path)
+
+    # Add missing masp indexers
+    existing_masp_urls = {item["url"] for item in json_structure.get("masp_indexers", [])}
+    for entry in masp_indexers:
+        if entry["Indexer API URL"] not in existing_masp_urls:
+            json_structure["masp_indexers"].append({
+                "url": entry["Indexer API URL"],
+                "provider": entry["Team or Contributor Name"],
+                "last_check": 0,
+                "latest_block_height": 0,
+                "active": True
+            })
+
+    # Add missing RPC entries
+    existing_rpc_urls = {item["url"] for item in json_structure.get("rpc", [])}
+    for entry in rpc:
+        if entry["RPC Address"] not in existing_rpc_urls:
+            json_structure["rpc"].append({
+                "url": entry["RPC Address"],
+                "provider": entry["Team or Contributor Name"],
+                "last_check": 0,
+                "earliest_block_height": "0",
+                "latest_block_height": "0",
+                "indexer": "off",
+                "network": "",
+                "catchup": False,
+                "active": True
+            })
+
+    # Add missing indexers
+    existing_indexer_urls = {item["url"] for item in json_structure.get("indexers", [])}
+    for entry in indexers:
+        if entry["Which Indexer"] == "namada-indexer" and entry["Indexer API URL"] not in existing_indexer_urls:
+            json_structure["indexers"].append({
+                "url": entry["Indexer API URL"],
+                "provider": entry["Team or Contributor Name"],
+                "last_check": 0,
+                "latest_block_height": "0",
+                "network": "",
+                "active": True
+            })
+
 def update_data():
-    """
-    Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data.
-    """
-    with open("namada/infrastructure.json", "r") as f:
+    base_path = Path("user-and-dev-tools/mainnet")
+    infrastructure_path = base_path / "infrastructure.json"
+    masp_indexers_path = base_path / "masp-indexers.json"
+    rpc_path = base_path / "rpc.json"
+    indexers_path = base_path / "namada-indexers.json"
+
+    with open(infrastructure_path, "r") as f:
         json_structure = json.load(f)
 
     current_time = int(time.time())
@@ -152,14 +206,16 @@ def update_data():
             undexer["active"] = False
         undexer["last_check"] = current_time
 
-
+    # Update Snapshots
     for snapshot in json_structure.get("snapshots", []):
         snapshot = fetch_snapshot_data(snapshot)
 
+    # Merge additional data
+    merge_additional_data(json_structure, masp_indexers_path, rpc_path, indexers_path)
 
-    with open("namada/infrastructure.json", "w") as f:
+    # Save updated infrastructure
+    with open(infrastructure_path, "w") as f:
         json.dump(json_structure, f, indent=4)
-
 
 if __name__ == "__main__":
     update_data()
