@@ -32,6 +32,30 @@ def fetch_snapshot_data(snapshot):
             snapshot["height"] = None
             snapshot["timestamp"] = None
             snapshot["snapshot_size"] = None  
+    
+    elif provider == "Mandragora":
+        try:
+            response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                snapshot["height"] = data.get("snapshot_height")
+                snapshot["snapshot_size"] = data.get("data_size")               
+
+                snapshot_taken_at = data.get("snapshot_taken_at")
+                if snapshot_taken_at:
+                    dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
+                    snapshot["timestamp"] = int(dt.timestamp())
+                else:
+                    snapshot["timestamp"] = None
+            else:
+                snapshot["height"] = None
+                snapshot["timestamp"] = None
+                snapshot["snapshot_size"] = None 
+        except Exception as e:
+            print(f"Error fetching snapshot data for provider {provider}: {e}")
+            snapshot["height"] = None
+            snapshot["timestamp"] = None
+            snapshot["snapshot_size"] = None  
     else:
         snapshot["height"] = None
         snapshot["timestamp"] = None
