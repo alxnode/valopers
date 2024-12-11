@@ -183,8 +183,37 @@
             "active": true
         },
         {
+            "url": "https://namada-indexer.max-02.xyz",
+            "provider": "max-02",
+            "last_check": 1733906220,
+            "latest_block_height": "94783",
+            "network": "namada.5f5de2dd1b88cba30586420",
+            "active": true
+        },
+        {
             "url": "https://masp.namada.validatus.com",
-            "provider": "Sproutstake.",
+            "provider": "Sproutstake",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
+        },
+       {
+            "url": "https://index-namada.5elementsnodes.com",
+            "provider": "5ElementsNodes",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
+        },
+        {
+            "url": "https://namada-indexer.0xcryptovestor.com",
+            "provider": "Wavefive",
+            "last_check": 1733906220,
+            "latest_block_height": 94783,
+            "active": true
+        },
+        {
+            "url": "https://namada-indexer.palamar.io",
+            "provider": "Palamar",
             "last_check": 1733906220,
             "latest_block_height": 94783,
             "active": true
