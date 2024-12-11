@@ -177,17 +177,6 @@
             "active": false
         },
         {
-            "url": "https://namada-rpc.sproutstake.space/",
-            "provider": "Sproutstake",
-            "last_check": null,
-            "earliest_block_height": null,
-            "latest_block_height": null,
-            "indexer": null,
-            "network": null,
-            "catchup": null,
-            "active": false
-        },
-        {
             "url": "https://rpc.papadritta.com/",
             "provider": "Papadritta",
             "last_check": null,
@@ -523,22 +512,6 @@
             "active": false
         },
         {
-            "url": "https://undexer.hack.bg/v4",
-            "provider": "Mandragora",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
-        },
-        {
-            "url": "https://namada-api.sproutstake.space/",
-            "provider": "sproutstake",
-            "last_check": null,
-            "latest_block_height": null,
-            "network": null,
-            "active": false
-        },
-        {
             "url": "https://namada-indexer.validatorvn.com",
             "provider": "VallidatorVN",
             "last_check": null,
@@ -607,13 +580,6 @@
             "url": "https://masp.namada.validatus.com",
             "provider": "Validatus",
             "last_check": 1733912000,
-            "latest_block_height": 95608,
-            "active": true
-        },
-        {
-            "url": "https://masp.namada.validatus.com",
-            "provider": "Sproutstake",
-            "last_check": 1733912001,
             "latest_block_height": 95608,
             "active": true
         },
