@@ -9,35 +9,39 @@ INFRASTRUCTURE_PATH = "namada/infrastructure.json"
 EXTERNAL_REPO_PATH = "external-repo/user-and-dev-tools/mainnet"
 
 def fetch_snapshot_data(snapshot):
-    """
-    Fetch and update snapshot data based on the provider.
-    If an error occurs, set relevant fields to null.
-    """
     provider = snapshot.get("provider")
     try:
         if provider == "itrocket":
             response = requests.get("https://server-5.itrocket.net/mainnet/namada/.current_state.json", timeout=10)
             if response.status_code == 200:
-                data = response.json()
-                snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{data.get('snapshot_name', '')}"
-                snapshot["height"] = data.get("snapshot_height")
-                timestamp_str = data.get("snapshot_block_time", None)
-                if timestamp_str:
-                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
-                    snapshot["timestamp"] = int(dt.timestamp())
-                snapshot["snapshot_size"] = data.get("snapshot_size")
+                try:
+                    data = response.json()
+                    snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{data.get('snapshot_name', '')}"
+                    snapshot["height"] = data.get("snapshot_height")
+                    timestamp_str = data.get("snapshot_block_time", None)
+                    if timestamp_str:
+                        dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                        snapshot["timestamp"] = int(dt.timestamp())
+                    snapshot["snapshot_size"] = data.get("snapshot_size")
+                except json.JSONDecodeError:
+                    print("Invalid JSON response from itrocket, skipping snapshot update.")
+                    raise
             else:
                 raise ValueError("Invalid response status")
         elif provider == "Mandragora":
             response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
             if response.status_code == 200:
-                data = response.json()
-                snapshot["height"] = data.get("snapshot_height")
-                snapshot["snapshot_size"] = data.get("data_size")
-                snapshot_taken_at = data.get("snapshot_taken_at")
-                if snapshot_taken_at:
-                    dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
-                    snapshot["timestamp"] = int(dt.timestamp())
+                try:
+                    data = response.json()
+                    snapshot["height"] = data.get("snapshot_height")
+                    snapshot["snapshot_size"] = data.get("data_size")
+                    snapshot_taken_at = data.get("snapshot_taken_at")
+                    if snapshot_taken_at:
+                        dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
+                        snapshot["timestamp"] = int(dt.timestamp())
+                except json.JSONDecodeError:
+                    print("Invalid JSON response from Mandragora, skipping snapshot update.")
+                    raise
             else:
                 raise ValueError("Invalid response status")
         else:
