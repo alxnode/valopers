@@ -69,6 +69,40 @@ def fetch_snapshot_data(snapshot):
         snapshot["snapshot_size"] = None  
     return snapshot
 
+def merge_data(infrastructure_data, masp_indexers, rpc, namada_indexers):
+    # Merging masp-indexers
+    for masp_indexer in masp_indexers:
+        masp_url = masp_indexer.get("Indexer API URL")
+        provider = masp_indexer.get("Team or Contributor Name")
+        if masp_url and not any(indexer['url'] == masp_url for indexer in infrastructure_data.get("masp_indexers", [])):
+            infrastructure_data.setdefault("masp_indexers", []).append({
+                "url": masp_url,
+                "provider": provider
+            })
+
+    # Merging rpc
+    for rpc_entry in rpc:
+        rpc_url = rpc_entry.get("RPC Address")
+        provider = rpc_entry.get("Team or Contributor Name")
+        if rpc_url and not any(rpc_item['url'] == rpc_url for rpc_item in infrastructure_data.get("rpc", [])):
+            infrastructure_data.setdefault("rpc", []).append({
+                "url": rpc_url,
+                "provider": provider
+            })
+
+    # Merging namada-indexers
+    for namada_indexer in namada_indexers:
+        if namada_indexer.get("Which Indexer") == "namada-indexer":
+            indexer_url = namada_indexer.get("Indexer API URL")
+            provider = namada_indexer.get("Team or Contributor Name")
+            if indexer_url and not any(indexer['url'] == indexer_url for indexer in infrastructure_data.get("indexers", [])):
+                infrastructure_data.setdefault("indexers", []).append({
+                    "url": indexer_url,
+                    "provider": provider
+                })
+
+    return infrastructure_data
+
 def update_data():
     """
     Update RPC, Indexer, MASP Indexer, Undexer, and Snapshot data, and merge it with external repository data.
@@ -94,7 +128,6 @@ def update_data():
     for rpc in rpc_data:
         try:
             url = normalize_url(rpc.get("url", ""))
-            # Check if the URL is valid
             if url:
                 print(f"Updating RPC: {url}")
                 response = requests.get(f"{url}/status", timeout=10)
@@ -196,6 +229,13 @@ def update_data():
     # Update Snapshots
     for snapshot in json_structure.get("snapshots", []):
         snapshot = fetch_snapshot_data(snapshot)
+
+    # Merge external data (rpc, masp_indexers, namada_indexers)
+    external_masp_indexers = []  # Add your external masp_indexers data here
+    external_rpc = rpc_data  # Use the fetched rpc data
+    external_namada_indexers = []  # Add your external namada_indexers data here
+
+    json_structure = merge_data(json_structure, external_masp_indexers, external_rpc, external_namada_indexers)
 
     # Save the updated infrastructure.json
     with open("namada/infrastructure.json", "w") as f:
