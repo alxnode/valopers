@@ -13927,6 +13927,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+        "name": "Internet Computer",
+        "display": "icp",
+        "symbol": "ICP",
+        "denoms": [
+            {
+                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+                "exponent": 0
+            },
+            {
+                "denom": "icp",
+                "exponent": 8
+            }
+        ]
+    },
+    {
         "chain_name": "quicksilver",
         "base": "uqck",
         "name": "Quicksilver",
