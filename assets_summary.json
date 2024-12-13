@@ -23613,6 +23613,99 @@
         ]
     },
     {
+        "chain_name": "elys",
+        "base": "uelys",
+        "name": "Elys Network",
+        "display": "elys",
+        "symbol": "ELYS",
+        "denoms": [
+            {
+                "denom": "uelys",
+                "exponent": 0
+            },
+            {
+                "denom": "melys",
+                "exponent": 3
+            },
+            {
+                "denom": "elys",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ueden",
+        "name": "Eden",
+        "display": "eden",
+        "symbol": "EDEN",
+        "denoms": [
+            {
+                "denom": "ueden",
+                "exponent": 0
+            },
+            {
+                "denom": "meden",
+                "exponent": 3
+            },
+            {
+                "denom": "eden",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name": "Noble USD Coin",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name": "ATOM on Elys",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3",
+        "name": "Axelar",
+        "display": "axl",
+        "symbol": "AXL",
+        "denoms": [
+            {
+                "denom": "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3",
+                "exponent": 0
+            },
+            {
+                "denom": "axl",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "qwoyn",
         "base": "uqwoyn",
         "name": "Qwoyn Network",
