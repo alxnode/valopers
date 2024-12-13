@@ -17761,6 +17761,23 @@
     },
     {
         "chain_name": "nibiru",
+        "base": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
+        "name": "AXV",
+        "display": "AXV",
+        "symbol": "AXV",
+        "denoms": [
+            {
+                "denom": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
+                "exponent": 0
+            },
+            {
+                "denom": "AXV",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "nibiru",
         "base": "tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek",
         "name": "uoprek",
         "display": "tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek",
