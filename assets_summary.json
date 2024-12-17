@@ -17880,6 +17880,23 @@
         ]
     },
     {
+        "chain_name": "zenrock",
+        "base": "urock",
+        "name": "Zenrock",
+        "display": "rock",
+        "symbol": "ROCK",
+        "denoms": [
+            {
+                "denom": "urock",
+                "exponent": 0
+            },
+            {
+                "denom": "rock",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "blockx",
         "base": "abcx",
         "name": "BCX",
@@ -33651,16 +33668,16 @@
     {
         "chain_name": "stargaze",
         "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
-        "name": "bglSTARS",
-        "display": "bglSTARS",
-        "symbol": "bglSTARS",
+        "name": "OLDbglSTARS",
+        "display": "OLDbglSTARS",
+        "symbol": "OLDbglSTARS",
         "denoms": [
             {
                 "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
                 "exponent": 0
             },
             {
-                "denom": "bglSTARS",
+                "denom": "OLDbglSTARS",
                 "exponent": 6
             }
         ]
@@ -33668,16 +33685,16 @@
     {
         "chain_name": "stargaze",
         "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
-        "name": "bglUSDC",
-        "display": "bglUSDC",
-        "symbol": "bglUSDC",
+        "name": "OLDbglUSDC",
+        "display": "OLDbglUSDC",
+        "symbol": "OLDbglUSDC",
         "denoms": [
             {
                 "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
                 "exponent": 0
             },
             {
-                "denom": "bglUSDC",
+                "denom": "OLDbglUSDC",
                 "exponent": 6
             }
         ]
@@ -36578,6 +36595,23 @@
             },
             {
                 "denom": "FUEL",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "neutron",
+        "base": "factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC",
+        "name": "bglUSDC",
+        "display": "bglUSDC",
+        "symbol": "bglUSDC",
+        "denoms": [
+            {
+                "denom": "factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC",
+                "exponent": 0
+            },
+            {
+                "denom": "bglUSDC",
                 "exponent": 6
             }
         ]
