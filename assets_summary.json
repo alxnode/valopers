@@ -36566,6 +36566,23 @@
         ]
     },
     {
+        "chain_name": "neutron",
+        "base": "factory/neutron1zl2htquajn50vxu5ltz0y5hf2qzvkgnjaaza2rssef268xplq6vsjuruxm/fuel",
+        "name": "FUEL",
+        "display": "FUEL",
+        "symbol": "FUEL",
+        "denoms": [
+            {
+                "denom": "factory/neutron1zl2htquajn50vxu5ltz0y5hf2qzvkgnjaaza2rssef268xplq6vsjuruxm/fuel",
+                "exponent": 0
+            },
+            {
+                "denom": "FUEL",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "mantrachain",
         "base": "uom",
         "name": "MANTRA Chain",
