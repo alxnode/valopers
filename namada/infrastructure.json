@@ -1,8 +1,8 @@
 {
     "rpc": [
         {
-            "url": "https://namada-mainnet-rpc.itrocket.net:443",
-            "provider": "itrocket",
+            "url": "I am not a thief",
+            "provider": "I am not a thief",
             "last_check": 1733912001,
             "earliest_block_height": "1",
             "latest_block_height": "95609",
@@ -12,8 +12,8 @@
             "active": true
         },
         {
-            "url": "https://namada-rpc.mandragora.io",
-            "provider": "Mandragora",
+            "url": "I am not a thief",
+            "provider": "I am not a thief",
             "last_check": 1733912001,
             "earliest_block_height": "1",
             "latest_block_height": "95609",
@@ -23,8 +23,8 @@
             "active": true
         },
         {
-            "url": "https://rpc.namada.stakepool.dev.br/",
-            "provider": "StakePool",
+            "url": "I am not a thief",
+            "provider": "I am not a thief",
             "last_check": 1733912002,
             "earliest_block_height": "1",
             "latest_block_height": "95609",
