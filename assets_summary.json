@@ -36923,6 +36923,23 @@
         ]
     },
     {
+        "chain_name": "neutron",
+        "base": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+        "name": "dTIA",
+        "display": "dTIA",
+        "symbol": "dTIA",
+        "denoms": [
+            {
+                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+                "exponent": 0
+            },
+            {
+                "denom": "dTIA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "mantrachain",
         "base": "uom",
         "name": "MANTRA Chain",
