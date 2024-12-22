@@ -13944,6 +13944,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "ibc/BE2B0A9FC3A122C92883D3258098D7C6BB02F8F887E8A0BDE58609E7CA2649B2",
+        "name": "Aaron Network",
+        "display": "AARON",
+        "symbol": "AARON",
+        "denoms": [
+            {
+                "denom": "ibc/BE2B0A9FC3A122C92883D3258098D7C6BB02F8F887E8A0BDE58609E7CA2649B2",
+                "exponent": 0
+            },
+            {
+                "denom": "AARON",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "quicksilver",
         "base": "uqck",
         "name": "Quicksilver",
