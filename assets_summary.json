@@ -31478,6 +31478,40 @@
         ]
     },
     {
+        "chain_name": "titannettestnet",
+        "base": "uttnt",
+        "name": "Titan Testnet TTNT",
+        "display": "ttnt",
+        "symbol": "TTNT",
+        "denoms": [
+            {
+                "denom": "uttnt",
+                "exponent": 0
+            },
+            {
+                "denom": "ttnt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "titannettestnet",
+        "base": "utnt4",
+        "name": "Titan Testnet TNT4",
+        "display": "tnt4",
+        "symbol": "TNT4",
+        "denoms": [
+            {
+                "denom": "utnt4",
+                "exponent": 0
+            },
+            {
+                "denom": "tnt4",
+                "exponent": 2
+            }
+        ]
+    },
+    {
         "chain_name": "nibirutestnet",
         "base": "unibi",
         "name": "Nibiru",
