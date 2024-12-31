@@ -13945,17 +13945,34 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "ibc/BE2B0A9FC3A122C92883D3258098D7C6BB02F8F887E8A0BDE58609E7CA2649B2",
+        "base": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
         "name": "Aaron Network",
         "display": "AARON",
         "symbol": "AARON",
         "denoms": [
             {
-                "denom": "ibc/BE2B0A9FC3A122C92883D3258098D7C6BB02F8F887E8A0BDE58609E7CA2649B2",
+                "denom": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
                 "exponent": 0
             },
             {
                 "denom": "AARON",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+        "name": "Chihuahua",
+        "display": "Chihuahua",
+        "symbol": "CHIHUAHUA",
+        "denoms": [
+            {
+                "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+                "exponent": 0
+            },
+            {
+                "denom": "Chihuahua",
                 "exponent": 6
             }
         ]
@@ -24110,6 +24127,23 @@
             {
                 "denom": "ROUTE",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "routerchain",
+        "base": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+        "name": "USDC",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
             }
         ]
     },
