@@ -13978,6 +13978,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash",
+        "name": "Burned ION",
+        "display": "ashION",
+        "symbol": "ashION",
+        "denoms": [
+            {
+                "denom": "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash",
+                "exponent": 0
+            },
+            {
+                "denom": "ashION",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "quicksilver",
         "base": "uqck",
         "name": "Quicksilver",
@@ -18614,6 +18631,23 @@
             },
             {
                 "denom": "Sherpa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "beezee",
+        "base": "ibc/B2219CA05421EA988F83E5E824BF69362E80A6A87503EFD18B92C91C9E03763D",
+        "name": "Atone",
+        "display": "atone",
+        "symbol": "ATONE",
+        "denoms": [
+            {
+                "denom": "ibc/B2219CA05421EA988F83E5E824BF69362E80A6A87503EFD18B92C91C9E03763D",
+                "exponent": 0
+            },
+            {
+                "denom": "atone",
                 "exponent": 6
             }
         ]
@@ -32539,6 +32573,23 @@
             },
             {
                 "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "opct",
+        "base": "opct",
+        "name": "OPCT",
+        "display": "OPCT",
+        "symbol": "OPCT",
+        "denoms": [
+            {
+                "denom": "opct",
+                "exponent": 0
+            },
+            {
+                "denom": "OPCT",
                 "exponent": 6
             }
         ]
