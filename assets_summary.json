@@ -2796,6 +2796,23 @@
         ]
     },
     {
+        "chain_name": "vector",
+        "base": "uvctr",
+        "name": "Vector Token",
+        "display": "vctr",
+        "symbol": "VCTR",
+        "denoms": [
+            {
+                "denom": "uvctr",
+                "exponent": 0
+            },
+            {
+                "denom": "vctr",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "unification",
         "base": "nund",
         "name": "Unification Network",
@@ -31164,6 +31181,23 @@
             {
                 "denom": "AMBER",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "alloratestnet",
+        "base": "uallo",
+        "name": "Allora Network",
+        "display": "allo",
+        "symbol": "ALLO",
+        "denoms": [
+            {
+                "denom": "uallo",
+                "exponent": 0
+            },
+            {
+                "denom": "allo",
+                "exponent": 18
             }
         ]
     },
