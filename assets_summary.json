@@ -21591,6 +21591,74 @@
         ]
     },
     {
+        "chain_name": "elys",
+        "base": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
+        "name": "Akash",
+        "display": "akt",
+        "symbol": "AKT",
+        "denoms": [
+            {
+                "denom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
+                "exponent": 0
+            },
+            {
+                "denom": "akt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
+        "name": "Celestia",
+        "display": "tia",
+        "symbol": "TIA",
+        "denoms": [
+            {
+                "denom": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
+                "exponent": 0
+            },
+            {
+                "denom": "tia",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
+        "name": "Xion",
+        "display": "xion",
+        "symbol": "XION",
+        "denoms": [
+            {
+                "denom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
+                "exponent": 0
+            },
+            {
+                "denom": "xion",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
+        "base": "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18",
+        "name": "Saga",
+        "display": "saga",
+        "symbol": "SAGA",
+        "denoms": [
+            {
+                "denom": "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18",
+                "exponent": 0
+            },
+            {
+                "denom": "saga",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "carbon",
         "base": "swth",
         "name": "Carbon",
