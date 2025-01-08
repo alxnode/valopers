@@ -3936,6 +3936,23 @@
         ]
     },
     {
+        "chain_name": "terra2",
+        "base": "cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+        "name": "ERIS Arb LUNA",
+        "display": "arbLUNA",
+        "symbol": "arbLUNA",
+        "denoms": [
+            {
+                "denom": "cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+                "exponent": 0
+            },
+            {
+                "denom": "arbLUNA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "opct",
         "base": "opct",
         "name": "OPCT",
