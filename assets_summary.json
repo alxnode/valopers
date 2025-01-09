@@ -336,6 +336,23 @@
         ]
     },
     {
+        "chain_name": "cosmoshub",
+        "base": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73",
+        "name": "Dungeon",
+        "display": "dgn",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73",
+                "exponent": 0
+            },
+            {
+                "denom": "dgn",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "terpnetwork",
         "base": "uterp",
         "name": "Terp Network Native Token",
@@ -15236,6 +15253,23 @@
             },
             {
                 "denom": "dTIA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "neutron",
+        "base": "ibc/C084B31AB4906CD6CC65CB779B1527A66B6C98629259E3548B2F20D2753D5837",
+        "name": "Neptune Finance",
+        "display": "NEPT",
+        "symbol": "NEPT",
+        "denoms": [
+            {
+                "denom": "ibc/C084B31AB4906CD6CC65CB779B1527A66B6C98629259E3548B2F20D2753D5837",
+                "exponent": 0
+            },
+            {
+                "denom": "NEPT",
                 "exponent": 6
             }
         ]
@@ -30906,6 +30940,23 @@
         ]
     },
     {
+        "chain_name": "beezee",
+        "base": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
+        "name": "POSTHUMAN",
+        "display": "phmn",
+        "symbol": "PHMN",
+        "denoms": [
+            {
+                "denom": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
+                "exponent": 0
+            },
+            {
+                "denom": "phmn",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "self",
         "base": "uslf",
         "name": "Self",
@@ -35192,6 +35243,74 @@
             },
             {
                 "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+        "name": "Neptune Receipt USDC",
+        "display": "nUSDC",
+        "symbol": "nUSDC",
+        "denoms": [
+            {
+                "denom": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+                "exponent": 0
+            },
+            {
+                "denom": "nUSDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
+        "name": "Solana",
+        "display": "sol",
+        "symbol": "SOL",
+        "denoms": [
+            {
+                "denom": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
+                "exponent": 0
+            },
+            {
+                "denom": "sol",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "inj1zcwr03uqw57g88nqvgpwfkazwutpqz9kplny4s",
+        "name": "Neptune Receipt SOL",
+        "display": "nSOL",
+        "symbol": "nSOL",
+        "denoms": [
+            {
+                "denom": "inj1zcwr03uqw57g88nqvgpwfkazwutpqz9kplny4s",
+                "exponent": 0
+            },
+            {
+                "denom": "nSOL",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
+        "name": "Neptune Finance",
+        "display": "NEPT",
+        "symbol": "NEPT",
+        "denoms": [
+            {
+                "denom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
+                "exponent": 0
+            },
+            {
+                "denom": "NEPT",
                 "exponent": 6
             }
         ]
