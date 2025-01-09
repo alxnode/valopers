@@ -13473,6 +13473,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+        "name": "wirelibertyfence",
+        "display": "wirelibertyfence",
+        "symbol": "WLF",
+        "denoms": [
+            {
+                "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+                "exponent": 0
+            },
+            {
+                "denom": "wirelibertyfence",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "bouachain",
         "base": "ubouacoin",
         "name": "BOUACOIN",
@@ -36807,6 +36824,23 @@
             },
             {
                 "denom": "Chihuahua",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "chihuahua",
+        "base": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence",
+        "name": "wirelibertyfence",
+        "display": "WLF",
+        "symbol": "WLF",
+        "denoms": [
+            {
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence",
+                "exponent": 0
+            },
+            {
+                "denom": "WLF",
                 "exponent": 6
             }
         ]
