@@ -13490,6 +13490,40 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+        "name": "Ninja Blaze Token",
+        "display": "NBZ",
+        "symbol": "NBZ",
+        "denoms": [
+            {
+                "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+                "exponent": 0
+            },
+            {
+                "denom": "NBZ",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+        "name": "CULT",
+        "display": "CULT",
+        "symbol": "CULT",
+        "denoms": [
+            {
+                "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+                "exponent": 0
+            },
+            {
+                "denom": "CULT",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "bouachain",
         "base": "ubouacoin",
         "name": "BOUACOIN",
@@ -15038,13 +15072,13 @@
     },
     {
         "chain_name": "neutron",
-        "base": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
-        "name": "Ninja Blaze Token",
+        "base": "ibc/A79E35F2418EB26FA8D72B9AA5EDF28C0C2CF475E8CF4CAEBB25FA5C858D4D22",
+        "name": "Ninja Blaze",
         "display": "NBZ",
         "symbol": "NBZ",
         "denoms": [
             {
-                "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+                "denom": "ibc/A79E35F2418EB26FA8D72B9AA5EDF28C0C2CF475E8CF4CAEBB25FA5C858D4D22",
                 "exponent": 0
             },
             {
@@ -20533,6 +20567,23 @@
         ]
     },
     {
+        "chain_name": "pelltestnet",
+        "base": "apell",
+        "name": "PELL",
+        "display": "pell",
+        "symbol": "PELL",
+        "denoms": [
+            {
+                "denom": "apell",
+                "exponent": 0
+            },
+            {
+                "denom": "pell",
+                "exponent": 18
+            }
+        ]
+    },
+    {
         "chain_name": "impacthubtestnet",
         "base": "uixo",
         "name": "IXO",
@@ -22820,6 +22871,23 @@
         ]
     },
     {
+        "chain_name": "stargaze",
+        "base": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+        "name": "CULT",
+        "display": "CULT",
+        "symbol": "CULT",
+        "denoms": [
+            {
+                "denom": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+                "exponent": 0
+            },
+            {
+                "denom": "CULT",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "commercionetwork",
         "base": "ucommercio",
         "name": "Commercio",
@@ -23235,6 +23303,23 @@
             },
             {
                 "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "archway",
+        "base": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+        "name": "CULT",
+        "display": "CULT",
+        "symbol": "CULT",
+        "denoms": [
+            {
+                "denom": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+                "exponent": 0
+            },
+            {
+                "denom": "CULT",
                 "exponent": 6
             }
         ]
@@ -35079,13 +35164,13 @@
     },
     {
         "chain_name": "injective",
-        "base": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
-        "name": "Ninja Blaze Token",
+        "base": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
+        "name": "Ninja Blaze",
         "display": "NBZ",
         "symbol": "NBZ",
         "denoms": [
             {
-                "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+                "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
                 "exponent": 0
             },
             {
