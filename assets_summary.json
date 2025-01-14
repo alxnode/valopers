@@ -19413,6 +19413,23 @@
         ]
     },
     {
+        "chain_name": "nibirutestnet",
+        "base": "tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT",
+        "name": "Liquid Staked Nibiru (Eris)",
+        "display": "stNIBI",
+        "symbol": "stNIBI",
+        "denoms": [
+            {
+                "denom": "tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT",
+                "exponent": 0
+            },
+            {
+                "denom": "stNIBI",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "selfchaindevnet",
         "base": "uself",
         "name": "self",
@@ -22925,6 +22942,23 @@
             },
             {
                 "denom": "CULT",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "stargaze",
+        "base": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+        "name": "MANTRA",
+        "display": "om",
+        "symbol": "OM",
+        "denoms": [
+            {
+                "denom": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+                "exponent": 0
+            },
+            {
+                "denom": "om",
                 "exponent": 6
             }
         ]
