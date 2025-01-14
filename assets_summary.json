@@ -18258,6 +18258,23 @@
         ]
     },
     {
+        "chain_name": "manifesttestnet",
+        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "airchainstestnet",
         "base": "amf",
         "name": "Airchains",
@@ -18963,6 +18980,23 @@
             {
                 "denom": "attonibi",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "nolustestnet1",
+        "base": "unls",
+        "name": "Nolus",
+        "display": "nls",
+        "symbol": "NLS",
+        "denoms": [
+            {
+                "denom": "unls",
+                "exponent": 0
+            },
+            {
+                "denom": "nls",
+                "exponent": 6
             }
         ]
     },
@@ -20376,6 +20410,23 @@
             {
                 "denom": "tkx",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/8402769A51AEE1CDF35223998D284E937EBF03F4A2CE43EC10BB028BB5AD29C8",
+        "name": "Manifest Testnet",
+        "display": "mfx",
+        "symbol": "MFX",
+        "denoms": [
+            {
+                "denom": "ibc/8402769A51AEE1CDF35223998D284E937EBF03F4A2CE43EC10BB028BB5AD29C8",
+                "exponent": 0
+            },
+            {
+                "denom": "mfx",
+                "exponent": 6
             }
         ]
     },
