@@ -13575,6 +13575,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
+        "name": "Chain-key Dogecoin",
+        "display": "ckDOGE",
+        "symbol": "ckDOGE",
+        "denoms": [
+            {
+                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
+                "exponent": 0
+            },
+            {
+                "denom": "ckDOGE",
+                "exponent": 8
+            }
+        ]
+    },
+    {
         "chain_name": "bouachain",
         "base": "ubouacoin",
         "name": "BOUACOIN",
@@ -29214,23 +29231,6 @@
             },
             {
                 "denom": "ckBTC",
-                "exponent": 8
-            }
-        ]
-    },
-    {
-        "chain_name": "internetcomputer",
-        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
-        "name": "Chain-key Dogecoin",
-        "display": "ckDOGE",
-        "symbol": "ckDOGE",
-        "denoms": [
-            {
-                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
-                "exponent": 0
-            },
-            {
-                "denom": "ckDOGE",
                 "exponent": 8
             }
         ]
