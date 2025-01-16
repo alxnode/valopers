@@ -13592,6 +13592,23 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "ibc/EA0C8F1121425943740B2D1B1DC5BDD717D49A9D5A639DC7074C10E9212CC794",
+        "name": "Pleb Coin",
+        "display": "PLEB",
+        "symbol": "PLEB",
+        "denoms": [
+            {
+                "denom": "ibc/EA0C8F1121425943740B2D1B1DC5BDD717D49A9D5A639DC7074C10E9212CC794",
+                "exponent": 0
+            },
+            {
+                "denom": "PLEB",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "bouachain",
         "base": "ubouacoin",
         "name": "BOUACOIN",
