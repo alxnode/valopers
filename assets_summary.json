@@ -4922,6 +4922,40 @@
         ]
     },
     {
+        "chain_name": "migaloo",
+        "base": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP",
+        "name": "WHALE-wBTC WW LP",
+        "display": "uLP",
+        "symbol": "WHALE-wBTC-WW-LP",
+        "denoms": [
+            {
+                "denom": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP",
+                "exponent": 0
+            },
+            {
+                "denom": "uLP",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "migaloo",
+        "base": "factory/migaloo1zsptvkg5aeg4tjksgv7vp4x5s9p5euqrh9jl3sfdv48wtnrhftlszsvmu5/uwhalex",
+        "name": "WHALEX",
+        "display": "uwhalex",
+        "symbol": "WHALEX",
+        "denoms": [
+            {
+                "denom": "factory/migaloo1zsptvkg5aeg4tjksgv7vp4x5s9p5euqrh9jl3sfdv48wtnrhftlszsvmu5/uwhalex",
+                "exponent": 0
+            },
+            {
+                "denom": "uwhalex",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "gateway",
         "base": "utest",
         "name": "Test",
