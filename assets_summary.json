@@ -10622,23 +10622,6 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
-        "name": "Ripple",
-        "display": "allXRP",
-        "symbol": "XRP",
-        "denoms": [
-            {
-                "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
-                "exponent": 0
-            },
-            {
-                "denom": "allXRP",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
         "base": "ibc/86074B8DF625A75C25D52FA6112E3FD5446BA41FE418880C168CA99D10E22F05",
         "name": "SEIYAN",
         "display": "SEIYAN",
@@ -12917,23 +12900,6 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
-        "name": "TON (Int3)",
-        "display": "ton",
-        "symbol": "TON.int3",
-        "denoms": [
-            {
-                "denom": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
-                "exponent": 0
-            },
-            {
-                "denom": "ton",
-                "exponent": 9
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
         "base": "ibc/57B63A0795B6BC0AC4EFD0D4DEE9FE71FCC1D0FFA87F6280C9CDEF4F6727A173",
         "name": "Tether USD (Ethereum) (Arbitrum via Axelar)",
         "display": "usdt",
@@ -13257,6 +13223,299 @@
     },
     {
         "chain_name": "osmosis",
+        "base": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+        "name": "Sherpa",
+        "display": "Sherpa",
+        "symbol": "SHERPA",
+        "denoms": [
+            {
+                "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+                "exponent": 0
+            },
+            {
+                "denom": "Sherpa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/35F2FB6D55E1F4249D81E0E2B4F9F7961BEBE402517609043FD94796412755F0",
+        "name": "amATOM",
+        "display": "amATOM",
+        "symbol": "amATOM",
+        "denoms": [
+            {
+                "denom": "ibc/35F2FB6D55E1F4249D81E0E2B4F9F7961BEBE402517609043FD94796412755F0",
+                "exponent": 0
+            },
+            {
+                "denom": "amATOM",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+        "name": "Ripple",
+        "display": "allXRP",
+        "symbol": "XRP",
+        "denoms": [
+            {
+                "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+                "exponent": 0
+            },
+            {
+                "denom": "allXRP",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
+        "name": "xion",
+        "display": "XION",
+        "symbol": "XION",
+        "denoms": [
+            {
+                "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
+                "exponent": 0
+            },
+            {
+                "denom": "XION",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+        "name": "Filecoin",
+        "display": "allFIL",
+        "symbol": "FIL",
+        "denoms": [
+            {
+                "denom": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+                "exponent": 0
+            },
+            {
+                "denom": "allFIL",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
+        "name": "Toncoin (Int3)",
+        "display": "ton",
+        "symbol": "TON.int3",
+        "denoms": [
+            {
+                "denom": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
+                "exponent": 0
+            },
+            {
+                "denom": "ton",
+                "exponent": 9
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/CD20AC50CE57F1CF2EA680D7D47733DA9213641D2D116C5806A880F508609A7A",
+        "name": "MOBIX",
+        "display": "mobx",
+        "symbol": "MOBX",
+        "denoms": [
+            {
+                "denom": "ibc/CD20AC50CE57F1CF2EA680D7D47733DA9213641D2D116C5806A880F508609A7A",
+                "exponent": 0
+            },
+            {
+                "denom": "mobx",
+                "exponent": 9
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+        "name": "Internet Computer",
+        "display": "icp",
+        "symbol": "ICP",
+        "denoms": [
+            {
+                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+                "exponent": 0
+            },
+            {
+                "denom": "icp",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/643EBFFC9D4533E93A5CF144FE786A6FB326F4C0C6224F7CB7563CC374EE56EE",
+        "name": "Elys Network",
+        "display": "elys",
+        "symbol": "ELYS",
+        "denoms": [
+            {
+                "denom": "ibc/643EBFFC9D4533E93A5CF144FE786A6FB326F4C0C6224F7CB7563CC374EE56EE",
+                "exponent": 0
+            },
+            {
+                "denom": "melys",
+                "exponent": 3
+            },
+            {
+                "denom": "elys",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
+        "name": "Aaron Network",
+        "display": "AARON",
+        "symbol": "AARON",
+        "denoms": [
+            {
+                "denom": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
+                "exponent": 0
+            },
+            {
+                "denom": "AARON",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+        "name": "Chihuahua",
+        "display": "Chihuahua",
+        "symbol": "CHIHUAHUA",
+        "denoms": [
+            {
+                "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+                "exponent": 0
+            },
+            {
+                "denom": "Chihuahua",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+        "name": "wirelibertyfence",
+        "display": "wirelibertyfence",
+        "symbol": "WLF",
+        "denoms": [
+            {
+                "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+                "exponent": 0
+            },
+            {
+                "denom": "wirelibertyfence",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+        "name": "Ninja Blaze",
+        "display": "NBZ",
+        "symbol": "NBZ",
+        "denoms": [
+            {
+                "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+                "exponent": 0
+            },
+            {
+                "denom": "NBZ",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
+        "name": "Chain-key Dogecoin",
+        "display": "ckDOGE",
+        "symbol": "ckDOGE",
+        "denoms": [
+            {
+                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
+                "exponent": 0
+            },
+            {
+                "denom": "ckDOGE",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
+        "name": "dTIA",
+        "display": "dTIA",
+        "symbol": "dTIA",
+        "denoms": [
+            {
+                "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
+                "exponent": 0
+            },
+            {
+                "denom": "dTIA",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/6569248F0ADF74C0751A48AE8D19F28B40565629265956DA4BEBFBFD73F72F0A",
+        "name": "Neptune Receipt USDT",
+        "display": "nUSDT",
+        "symbol": "nUSDT",
+        "denoms": [
+            {
+                "denom": "ibc/6569248F0ADF74C0751A48AE8D19F28B40565629265956DA4BEBFBFD73F72F0A",
+                "exponent": 0
+            },
+            {
+                "denom": "nUSDT",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/7D22B3B8C52261AB0A5F8360B5F472C9A14A05ADFEF858C3573D09AFF10CE1BE",
+        "name": "Neptune Receipt USDC",
+        "display": "nUSDC",
+        "symbol": "nUSDC",
+        "denoms": [
+            {
+                "denom": "ibc/7D22B3B8C52261AB0A5F8360B5F472C9A14A05ADFEF858C3573D09AFF10CE1BE",
+                "exponent": 0
+            },
+            {
+                "denom": "nUSDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
         "base": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
         "name": "Kima Network",
         "display": "KIMA",
@@ -13457,91 +13716,6 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
-        "name": "Sherpa",
-        "display": "Sherpa",
-        "symbol": "SHERPA",
-        "denoms": [
-            {
-                "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
-                "exponent": 0
-            },
-            {
-                "denom": "Sherpa",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
-        "name": "Filecoin",
-        "display": "allFIL",
-        "symbol": "FIL",
-        "denoms": [
-            {
-                "denom": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
-                "exponent": 0
-            },
-            {
-                "denom": "allFIL",
-                "exponent": 12
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
-        "name": "Internet Computer",
-        "display": "icp",
-        "symbol": "ICP",
-        "denoms": [
-            {
-                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
-                "exponent": 0
-            },
-            {
-                "denom": "icp",
-                "exponent": 8
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
-        "name": "Aaron Network",
-        "display": "AARON",
-        "symbol": "AARON",
-        "denoms": [
-            {
-                "denom": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
-                "exponent": 0
-            },
-            {
-                "denom": "AARON",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
-        "name": "Chihuahua",
-        "display": "Chihuahua",
-        "symbol": "CHIHUAHUA",
-        "denoms": [
-            {
-                "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
-                "exponent": 0
-            },
-            {
-                "denom": "Chihuahua",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
         "base": "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash",
         "name": "Burned ION",
         "display": "ashION",
@@ -13553,40 +13727,6 @@
             },
             {
                 "denom": "ashION",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
-        "name": "wirelibertyfence",
-        "display": "wirelibertyfence",
-        "symbol": "WLF",
-        "denoms": [
-            {
-                "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
-                "exponent": 0
-            },
-            {
-                "denom": "wirelibertyfence",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
-        "name": "Ninja Blaze Token",
-        "display": "NBZ",
-        "symbol": "NBZ",
-        "denoms": [
-            {
-                "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
-                "exponent": 0
-            },
-            {
-                "denom": "NBZ",
                 "exponent": 6
             }
         ]
@@ -13605,40 +13745,6 @@
             {
                 "denom": "CULT",
                 "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
-        "name": "dTIA",
-        "display": "dTIA",
-        "symbol": "dTIA",
-        "denoms": [
-            {
-                "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
-                "exponent": 0
-            },
-            {
-                "denom": "dTIA",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
-        "name": "Chain-key Dogecoin",
-        "display": "ckDOGE",
-        "symbol": "ckDOGE",
-        "denoms": [
-            {
-                "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
-                "exponent": 0
-            },
-            {
-                "denom": "ckDOGE",
-                "exponent": 8
             }
         ]
     },
@@ -21080,6 +21186,23 @@
             },
             {
                 "denom": "rock",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "xiontestnet2",
+        "base": "uxion",
+        "name": "xion",
+        "display": "XION",
+        "symbol": "XION",
+        "denoms": [
+            {
+                "denom": "uxion",
+                "exponent": 0
+            },
+            {
+                "denom": "XION",
                 "exponent": 6
             }
         ]
@@ -29397,6 +29520,40 @@
         ]
     },
     {
+        "chain_name": "xrpl",
+        "base": "xrpl11278ecf9e",
+        "name": "Solo",
+        "display": "solo",
+        "symbol": "SOLO",
+        "denoms": [
+            {
+                "denom": "xrpl11278ecf9e",
+                "exponent": 0
+            },
+            {
+                "denom": "solo",
+                "exponent": 15
+            }
+        ]
+    },
+    {
+        "chain_name": "xrpl",
+        "base": "xrpl570c00a604",
+        "name": "RLUSD",
+        "display": "rlusd",
+        "symbol": "RLUSD",
+        "denoms": [
+            {
+                "denom": "xrpl570c00a604",
+                "exponent": 0
+            },
+            {
+                "denom": "rlusd",
+                "exponent": 15
+            }
+        ]
+    },
+    {
         "chain_name": "polygon",
         "base": "wei",
         "name": "Polygon",
@@ -36951,6 +37108,74 @@
             },
             {
                 "denom": "xrp",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "coreum",
+        "base": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name": "Solo",
+        "display": "solo",
+        "symbol": "SOLO",
+        "denoms": [
+            {
+                "denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+                "exponent": 0
+            },
+            {
+                "denom": "solo",
+                "exponent": 15
+            }
+        ]
+    },
+    {
+        "chain_name": "coreum",
+        "base": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name": "RLUSD",
+        "display": "rlusd",
+        "symbol": "RLUSD",
+        "denoms": [
+            {
+                "denom": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+                "exponent": 0
+            },
+            {
+                "denom": "rlusd",
+                "exponent": 15
+            }
+        ]
+    },
+    {
+        "chain_name": "coreum",
+        "base": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+        "name": "Sara",
+        "display": "sara",
+        "symbol": "SARA",
+        "denoms": [
+            {
+                "denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+                "exponent": 0
+            },
+            {
+                "denom": "sara",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "coreum",
+        "base": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+        "name": "liCORE",
+        "display": "licore",
+        "symbol": "LICORE",
+        "denoms": [
+            {
+                "denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+                "exponent": 0
+            },
+            {
+                "denom": "licore",
                 "exponent": 6
             }
         ]
