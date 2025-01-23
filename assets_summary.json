@@ -8499,6 +8499,27 @@
         ]
     },
     {
+        "chain_name": "lefeef",
+        "base": "ulefeef",
+        "name": "LEFEEF",
+        "display": "lefeef",
+        "symbol": "LEFEEF",
+        "denoms": [
+            {
+                "denom": "ulefeef",
+                "exponent": 0
+            },
+            {
+                "denom": "mlefeef",
+                "exponent": 3
+            },
+            {
+                "denom": "lefeef",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "aura1",
         "base": "uaura",
         "name": "Aura",
@@ -36306,6 +36327,23 @@
             {
                 "denom": "hmstr",
                 "exponent": 9
+            }
+        ]
+    },
+    {
+        "chain_name": "oraichain",
+        "base": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+        "name": "SAM",
+        "display": "sam",
+        "symbol": "SAM",
+        "denoms": [
+            {
+                "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+                "exponent": 0
+            },
+            {
+                "denom": "sam",
+                "exponent": 6
             }
         ]
     },
