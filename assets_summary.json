@@ -1241,6 +1241,108 @@
         ]
     },
     {
+        "chain_name": "quicksilver",
+        "base": "aqarch",
+        "name": "Quicksilver Liquid Staked ARCH",
+        "display": "qarch",
+        "symbol": "qARCH",
+        "denoms": [
+            {
+                "denom": "aqarch",
+                "exponent": 0
+            },
+            {
+                "denom": "qarch",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "quicksilver",
+        "base": "uqtia",
+        "name": "Quicksilver Liquid Staked TIA",
+        "display": "qtia",
+        "symbol": "qTIA",
+        "denoms": [
+            {
+                "denom": "uqtia",
+                "exponent": 0
+            },
+            {
+                "denom": "qtia",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "quicksilver",
+        "base": "pqpica",
+        "name": "Quicksilver Liquid Staked PICA",
+        "display": "qpica",
+        "symbol": "qPICA",
+        "denoms": [
+            {
+                "denom": "pqpica",
+                "exponent": 0
+            },
+            {
+                "denom": "qpica",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "quicksilver",
+        "base": "qinj",
+        "name": "Quicksilver Liquid Staked INJ",
+        "display": "qINJ",
+        "symbol": "qINJ",
+        "denoms": [
+            {
+                "denom": "qinj",
+                "exponent": 0
+            },
+            {
+                "denom": "qINJ",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "quicksilver",
+        "base": "uqluna",
+        "name": "Quicksilver Liquid Staked LUNA",
+        "display": "qluna",
+        "symbol": "qLUNA",
+        "denoms": [
+            {
+                "denom": "uqluna",
+                "exponent": 0
+            },
+            {
+                "denom": "qluna",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "quicksilver",
+        "base": "uqflix",
+        "name": "Quicksilver Liquid Staked FLIX",
+        "display": "qflix",
+        "symbol": "qFLIX",
+        "denoms": [
+            {
+                "denom": "uqflix",
+                "exponent": 0
+            },
+            {
+                "denom": "qflix",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "dungeon",
         "base": "udgn",
         "name": "Dragon",
@@ -17266,6 +17368,227 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+        "name": "Sui",
+        "display": "sui",
+        "symbol": "SUI",
+        "denoms": [
+            {
+                "denom": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+                "exponent": 0
+            },
+            {
+                "denom": "sui",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+        "name": "Aptos Coin",
+        "display": "APT",
+        "symbol": "APT",
+        "denoms": [
+            {
+                "denom": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+                "exponent": 0
+            },
+            {
+                "denom": "APT",
+                "exponent": 8
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+        "name": "Binance Coin",
+        "display": "bnb",
+        "symbol": "BNB",
+        "denoms": [
+            {
+                "denom": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+                "exponent": 0
+            },
+            {
+                "denom": "bnb",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
+        "name": "Quicksilver Liquid Staked ARCH",
+        "display": "qarch",
+        "symbol": "qARCH",
+        "denoms": [
+            {
+                "denom": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
+                "exponent": 0
+            },
+            {
+                "denom": "qarch",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
+        "name": "Quicksilver Liquid Staked TIA",
+        "display": "qtia",
+        "symbol": "qTIA",
+        "denoms": [
+            {
+                "denom": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
+                "exponent": 0
+            },
+            {
+                "denom": "qtia",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
+        "name": "Quicksilver Liquid Staked PICA",
+        "display": "qpica",
+        "symbol": "qPICA",
+        "denoms": [
+            {
+                "denom": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
+                "exponent": 0
+            },
+            {
+                "denom": "qpica",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
+        "name": "Quicksilver Liquid Staked INJ",
+        "display": "qinj",
+        "symbol": "qINJ",
+        "denoms": [
+            {
+                "denom": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
+                "exponent": 0
+            },
+            {
+                "denom": "qINJ",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
+        "name": "Quicksilver Liquid Staked FLIX",
+        "display": "qflix",
+        "symbol": "qFLIX",
+        "denoms": [
+            {
+                "denom": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
+                "exponent": 0
+            },
+            {
+                "denom": "qflix",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
+        "name": "Quicksilver Liquid Staked LUNA",
+        "display": "qluna",
+        "symbol": "qLUNA",
+        "denoms": [
+            {
+                "denom": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
+                "exponent": 0
+            },
+            {
+                "denom": "qluna",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/648260E4FF8AEDD310F2A72930F25DD7F43DD82F45F66E53B4A70A0C216FA53B",
+        "name": "Cosmos Bitcoin",
+        "display": "BITCOIN",
+        "symbol": "BITCOIN",
+        "denoms": [
+            {
+                "denom": "ibc/648260E4FF8AEDD310F2A72930F25DD7F43DD82F45F66E53B4A70A0C216FA53B",
+                "exponent": 0
+            },
+            {
+                "denom": "BITCOIN",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/1B23B6F7DAC37267F04E82466AB798CC59F941BD4AE5653C497730F174F14849",
+        "name": "Crypto",
+        "display": "CRYPTO",
+        "symbol": "CRYPTO",
+        "denoms": [
+            {
+                "denom": "ibc/1B23B6F7DAC37267F04E82466AB798CC59F941BD4AE5653C497730F174F14849",
+                "exponent": 0
+            },
+            {
+                "denom": "CRYPTO",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/54C7B977B96DFC56D877A7F74D22BD26B5E42CA6171F120F5A36AC82BFD4711A",
+        "name": "Brics coin",
+        "display": "BRICS",
+        "symbol": "BRICS",
+        "denoms": [
+            {
+                "denom": "ibc/54C7B977B96DFC56D877A7F74D22BD26B5E42CA6171F120F5A36AC82BFD4711A",
+                "exponent": 0
+            },
+            {
+                "denom": "BRICS",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/A436BC9498153DC580B56BD27043BBFE08A1754696C05FFF00B2A41EC796D180",
+        "name": "Instant Noodles Coin",
+        "display": "INC",
+        "symbol": "INC",
+        "denoms": [
+            {
+                "denom": "ibc/A436BC9498153DC580B56BD27043BBFE08A1754696C05FFF00B2A41EC796D180",
+                "exponent": 0
+            },
+            {
+                "denom": "INC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "examplechain",
         "base": "uexample",
         "name": "Example",
@@ -24201,6 +24524,74 @@
             },
             {
                 "denom": "NEPT",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+        "name": "Cosmos Bitcoin",
+        "display": "BITCOIN",
+        "symbol": "BITCOIN",
+        "denoms": [
+            {
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+                "exponent": 0
+            },
+            {
+                "denom": "BITCOIN",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+        "name": "Crypto",
+        "display": "CRYPTO",
+        "symbol": "CRYPTO",
+        "denoms": [
+            {
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+                "exponent": 0
+            },
+            {
+                "denom": "CRYPTO",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+        "name": "Bricscoin",
+        "display": "BRICS",
+        "symbol": "BRICS",
+        "denoms": [
+            {
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+                "exponent": 0
+            },
+            {
+                "denom": "BRICS",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "injective",
+        "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+        "name": "Instant Noodles Coin",
+        "display": "INC",
+        "symbol": "INC",
+        "denoms": [
+            {
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+                "exponent": 0
+            },
+            {
+                "denom": "INC",
                 "exponent": 6
             }
         ]
