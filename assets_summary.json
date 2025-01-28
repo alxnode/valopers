@@ -33581,7 +33581,7 @@
         "base": "ucusdtinj",
         "name": "cUSDT.inj",
         "display": "cUSDT.inj",
-        "symbol": "CUSDT.inj",
+        "symbol": "cUSDT.inj",
         "denoms": [
             {
                 "denom": "ucusdtinj",
@@ -33700,7 +33700,7 @@
         "base": "uasusdtinj",
         "name": "asUSDT.inj",
         "display": "asusdtinj",
-        "symbol": "ASUSDT.inj",
+        "symbol": "asUSDT.inj",
         "denoms": [
             {
                 "denom": "uasusdtinj",
