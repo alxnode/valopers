@@ -18299,6 +18299,23 @@
         ]
     },
     {
+        "chain_name": "milkyway",
+        "base": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
+        "name": "USDC",
+        "display": "USDC",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
+                "exponent": 0
+            },
+            {
+                "denom": "USDC",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "namada",
         "base": "unam",
         "name": "Namada",
@@ -20541,6 +20558,23 @@
             {
                 "denom": "ftm",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
+        "name": "Manifest",
+        "display": "mfx",
+        "symbol": "MFX",
+        "denoms": [
+            {
+                "denom": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
+                "exponent": 0
+            },
+            {
+                "denom": "mfx",
+                "exponent": 6
             }
         ]
     },
