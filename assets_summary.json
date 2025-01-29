@@ -7011,6 +7011,57 @@
         ]
     },
     {
+        "chain_name": "terra",
+        "base": "cw20:terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+        "name": "WESO World",
+        "display": "weso",
+        "symbol": "WESO",
+        "denoms": [
+            {
+                "denom": "cw20:terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+                "exponent": 0
+            },
+            {
+                "denom": "weso",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "terra",
+        "base": "cw20:terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+        "name": "Burn and Stake Enterprise Token",
+        "display": "base",
+        "symbol": "BASE",
+        "denoms": [
+            {
+                "denom": "cw20:terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+                "exponent": 0
+            },
+            {
+                "denom": "base",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "terra",
+        "base": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+        "name": "cwLUNC Token",
+        "display": "cwlunc",
+        "symbol": "cwLUNC",
+        "denoms": [
+            {
+                "denom": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+                "exponent": 0
+            },
+            {
+                "denom": "cwlunc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "neura",
         "base": "atankr",
         "name": "Neura",
@@ -35952,6 +36003,57 @@
             },
             {
                 "denom": "lp:23:datomypt-atom",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/ustakedrop",
+        "name": "StakeDrop",
+        "display": "stakedrop",
+        "symbol": "STAKEDROP",
+        "denoms": [
+            {
+                "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/ustakedrop",
+                "exponent": 0
+            },
+            {
+                "denom": "stakedrop",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uopdrop",
+        "name": "OpDrop",
+        "display": "opdrop",
+        "symbol": "OPDROP",
+        "denoms": [
+            {
+                "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uopdrop",
+                "exponent": 0
+            },
+            {
+                "denom": "opdrop",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uphotondrop",
+        "name": "PhotonDrop",
+        "display": "photondrop",
+        "symbol": "PHOTONDROP",
+        "denoms": [
+            {
+                "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uphotondrop",
+                "exponent": 0
+            },
+            {
+                "denom": "photondrop",
                 "exponent": 6
             }
         ]
