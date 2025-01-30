@@ -30199,6 +30199,23 @@
         ]
     },
     {
+        "chain_name": "xion",
+        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name": "Noble USDC Token",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "genesisl1",
         "base": "el1",
         "name": "GenesisL1",
