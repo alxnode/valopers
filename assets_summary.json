@@ -20072,16 +20072,16 @@
     {
         "chain_name": "babylontestnet",
         "base": "ubbn",
-        "name": "Babylon BBN",
-        "display": "bbn",
-        "symbol": "BBN",
+        "name": "Babylon Testnet",
+        "display": "BABY",
+        "symbol": "BABY",
         "denoms": [
             {
                 "denom": "ubbn",
                 "exponent": 0
             },
             {
-                "denom": "bbn",
+                "denom": "BABY",
                 "exponent": 6
             }
         ]
@@ -20353,23 +20353,6 @@
             },
             {
                 "denom": "tprl",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "babylontestnet1",
-        "base": "ubbn",
-        "name": "Babylon BBN",
-        "display": "bbn",
-        "symbol": "BBN",
-        "denoms": [
-            {
-                "denom": "ubbn",
-                "exponent": 0
-            },
-            {
-                "denom": "bbn",
                 "exponent": 6
             }
         ]
