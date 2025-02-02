@@ -1379,7 +1379,7 @@
     {
         "chain_name": "dungeon",
         "base": "udgn",
-        "name": "Dragon",
+        "name": "Dragon Coin",
         "display": "DGN",
         "symbol": "DGN",
         "denoms": [
@@ -30388,7 +30388,7 @@
     {
         "chain_name": "sifchain",
         "base": "rowan",
-        "name": "Sifchain Rowan",
+        "name": "Sifchain",
         "display": "ROWAN",
         "symbol": "ROWAN",
         "denoms": [
