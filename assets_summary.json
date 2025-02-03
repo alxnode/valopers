@@ -20019,6 +20019,856 @@
         ]
     },
     {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/01E5DEA2A7FC03D3C8656AD9ADA344C97E7659D172659583834421CBD0AEBBA0",
+        "name": "WMVT",
+        "display": "wmvt",
+        "symbol": "WMVT",
+        "denoms": [
+            {
+                "denom": "ibc/01E5DEA2A7FC03D3C8656AD9ADA344C97E7659D172659583834421CBD0AEBBA0",
+                "exponent": 0
+            },
+            {
+                "denom": "wmvt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/079A3F9B846C96E6BA7E3105E29E3E30380581A2FBE778E05858751F98672006",
+        "name": "PGSQL",
+        "display": "pgsql",
+        "symbol": "PGSQL",
+        "denoms": [
+            {
+                "denom": "ibc/079A3F9B846C96E6BA7E3105E29E3E30380581A2FBE778E05858751F98672006",
+                "exponent": 0
+            },
+            {
+                "denom": "pgsql",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/07F2CA1E68827ABCC1B8C81B11DA204B9D20058A09A32A31A5830404B183F229",
+        "name": "UMEGA",
+        "display": "umega",
+        "symbol": "UMEGA",
+        "denoms": [
+            {
+                "denom": "ibc/07F2CA1E68827ABCC1B8C81B11DA204B9D20058A09A32A31A5830404B183F229",
+                "exponent": 0
+            },
+            {
+                "denom": "umega",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/0B7E2E4F4093CB3C514018EF29743F9A0EB29198524F1BB574D1AFA7B93B8B91",
+        "name": "PWRZF",
+        "display": "pwrzf",
+        "symbol": "PWRZF",
+        "denoms": [
+            {
+                "denom": "ibc/0B7E2E4F4093CB3C514018EF29743F9A0EB29198524F1BB574D1AFA7B93B8B91",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzf",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/0C482F788D15BABB3B3BC3BF571130E29A9AD68DC5EF6FD2C7D1A6B839B07C29",
+        "name": "FOCAL",
+        "display": "focal",
+        "symbol": "FOCAL",
+        "denoms": [
+            {
+                "denom": "ibc/0C482F788D15BABB3B3BC3BF571130E29A9AD68DC5EF6FD2C7D1A6B839B07C29",
+                "exponent": 0
+            },
+            {
+                "denom": "focal",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/191C596758FE8067952C7F5F0CCC28F068B77D08EDF6534861F09C5C076498BD",
+        "name": "AAA",
+        "display": "aaa",
+        "symbol": "AAA",
+        "denoms": [
+            {
+                "denom": "ibc/191C596758FE8067952C7F5F0CCC28F068B77D08EDF6534861F09C5C076498BD",
+                "exponent": 0
+            },
+            {
+                "denom": "aaa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/1B9AFCA57417621371DE4FB4FBE74A79DE35103B5A12B152B14F955ADA034AB7",
+        "name": "PWROZ",
+        "display": "pwroz",
+        "symbol": "PWROZ",
+        "denoms": [
+            {
+                "denom": "ibc/1B9AFCA57417621371DE4FB4FBE74A79DE35103B5A12B152B14F955ADA034AB7",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/2096FB4834F772F17953F5CEB6271BC4FE814E77F53B6518BC692B9EFC064ACB",
+        "name": "PWRZN",
+        "display": "pwrzn",
+        "symbol": "PWRZN",
+        "denoms": [
+            {
+                "denom": "ibc/2096FB4834F772F17953F5CEB6271BC4FE814E77F53B6518BC692B9EFC064ACB",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzn",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/218221543F65661330C3FE9C151487826ADCDE7995A900796DCB88FEBE47D218",
+        "name": "SOLE",
+        "display": "sole",
+        "symbol": "SOLE",
+        "denoms": [
+            {
+                "denom": "ibc/218221543F65661330C3FE9C151487826ADCDE7995A900796DCB88FEBE47D218",
+                "exponent": 0
+            },
+            {
+                "denom": "sole",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/26F060F3DF9234C7142383C11E1D098029CF2805E38E38EA856F46DA961F365D",
+        "name": "GWATT",
+        "display": "gwatt",
+        "symbol": "GWATT",
+        "denoms": [
+            {
+                "denom": "ibc/26F060F3DF9234C7142383C11E1D098029CF2805E38E38EA856F46DA961F365D",
+                "exponent": 0
+            },
+            {
+                "denom": "gwatt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/3228BE7857B93ABC5EEC48B073C9C99402FE175C85E7751C8D456C81AE778FDB",
+        "name": "GREY",
+        "display": "grey",
+        "symbol": "GREY",
+        "denoms": [
+            {
+                "denom": "ibc/3228BE7857B93ABC5EEC48B073C9C99402FE175C85E7751C8D456C81AE778FDB",
+                "exponent": 0
+            },
+            {
+                "denom": "grey",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/37AAE1955EC75077DB24120E15BF5144E8542B3AFE84B627924430BAAF19CB66",
+        "name": "SPOOF",
+        "display": "spoof",
+        "symbol": "SPOOF",
+        "denoms": [
+            {
+                "denom": "ibc/37AAE1955EC75077DB24120E15BF5144E8542B3AFE84B627924430BAAF19CB66",
+                "exponent": 0
+            },
+            {
+                "denom": "spoof",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/3D08FACEDE8EF2ABFA22D704613C217D0C338F290B3E26641FF7F1FB18851C47",
+        "name": "PWROO",
+        "display": "pwroo",
+        "symbol": "PWROO",
+        "denoms": [
+            {
+                "denom": "ibc/3D08FACEDE8EF2ABFA22D704613C217D0C338F290B3E26641FF7F1FB18851C47",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/3FD42AFAA9D273BB52D8BC2D4D8BF22BD6CF0E831E9CC2EC280F0DFFD841B5D7",
+        "name": "SPDT",
+        "display": "spdt",
+        "symbol": "SPDT",
+        "denoms": [
+            {
+                "denom": "ibc/3FD42AFAA9D273BB52D8BC2D4D8BF22BD6CF0E831E9CC2EC280F0DFFD841B5D7",
+                "exponent": 0
+            },
+            {
+                "denom": "spdt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/42C2F9CEB07BB2C765131395EFE4CDFB88C928C51D47DA96DE32D4E56D537F7D",
+        "name": "CURES",
+        "display": "cures",
+        "symbol": "CURES",
+        "denoms": [
+            {
+                "denom": "ibc/42C2F9CEB07BB2C765131395EFE4CDFB88C928C51D47DA96DE32D4E56D537F7D",
+                "exponent": 0
+            },
+            {
+                "denom": "cures",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/47972D4551284864029DBA43A64C731BF11D0C1EFDDB5D477B2239EC08A4A89A",
+        "name": "WIND",
+        "display": "wind",
+        "symbol": "WIND",
+        "denoms": [
+            {
+                "denom": "ibc/47972D4551284864029DBA43A64C731BF11D0C1EFDDB5D477B2239EC08A4A89A",
+                "exponent": 0
+            },
+            {
+                "denom": "wind",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/51C2E65B471D72E6471C5907CE592992E8CCB2A8C3E9BF18AABE74245B22EE90",
+        "name": "CATS",
+        "display": "cats",
+        "symbol": "CATS",
+        "denoms": [
+            {
+                "denom": "ibc/51C2E65B471D72E6471C5907CE592992E8CCB2A8C3E9BF18AABE74245B22EE90",
+                "exponent": 0
+            },
+            {
+                "denom": "cats",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/59A8FFDAFB04D42D38BB56C0AD287D93048B2F5285BF9C5FF75490623B629EA0",
+        "name": "PWRZS",
+        "display": "pwrzs",
+        "symbol": "PWRZS",
+        "denoms": [
+            {
+                "denom": "ibc/59A8FFDAFB04D42D38BB56C0AD287D93048B2F5285BF9C5FF75490623B629EA0",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzs",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/64A334851602A1F06AD05A6FB1C501F3145629A47D0C103990ECCA9649A55FB5",
+        "name": "INDIS",
+        "display": "indis",
+        "symbol": "INDIS",
+        "denoms": [
+            {
+                "denom": "ibc/64A334851602A1F06AD05A6FB1C501F3145629A47D0C103990ECCA9649A55FB5",
+                "exponent": 0
+            },
+            {
+                "denom": "indis",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/6725C46B41C06FF712991E65F1CA1B2DEDCCB3F62F5F3A5756CB9F6C10BBBD5A",
+        "name": "LENDX",
+        "display": "lendx",
+        "symbol": "LENDX",
+        "denoms": [
+            {
+                "denom": "ibc/6725C46B41C06FF712991E65F1CA1B2DEDCCB3F62F5F3A5756CB9F6C10BBBD5A",
+                "exponent": 0
+            },
+            {
+                "denom": "lendx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/690BAB0DFEB754ED3B8DDD3AAC79A3A6DDB26B2D15FACBF191050FBCB7909D0B",
+        "name": "HIVE",
+        "display": "hive",
+        "symbol": "HIVE",
+        "denoms": [
+            {
+                "denom": "ibc/690BAB0DFEB754ED3B8DDD3AAC79A3A6DDB26B2D15FACBF191050FBCB7909D0B",
+                "exponent": 0
+            },
+            {
+                "denom": "hive",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/6BDB8C4A4511BEC4675B7C1D7AA9366835B1849A7FE38C9A865837B20BF2B7E1",
+        "name": "SUNSW",
+        "display": "sunsw",
+        "symbol": "SUNSW",
+        "denoms": [
+            {
+                "denom": "ibc/6BDB8C4A4511BEC4675B7C1D7AA9366835B1849A7FE38C9A865837B20BF2B7E1",
+                "exponent": 0
+            },
+            {
+                "denom": "sunsw",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/6C35755BAA2EDA52987287E649EEDF6102EE0C896233DCDB9E1CB7026ABF0A29",
+        "name": "SOLB",
+        "display": "solb",
+        "symbol": "SOLB",
+        "denoms": [
+            {
+                "denom": "ibc/6C35755BAA2EDA52987287E649EEDF6102EE0C896233DCDB9E1CB7026ABF0A29",
+                "exponent": 0
+            },
+            {
+                "denom": "solb",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/6EBD69A041B2D67AD81A94D1B594ED7FF365F90C292F3F84AF5D8B59F0609C0E",
+        "name": "PWRZZ",
+        "display": "pwrzz",
+        "symbol": "PWRZZ",
+        "denoms": [
+            {
+                "denom": "ibc/6EBD69A041B2D67AD81A94D1B594ED7FF365F90C292F3F84AF5D8B59F0609C0E",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/75BED9BEA9963325CE54ECCFD6A26ADCE2BAA456797E698BC5CB2EDCD86CBA70",
+        "name": "BITCH",
+        "display": "bitch",
+        "symbol": "BITCH",
+        "denoms": [
+            {
+                "denom": "ibc/75BED9BEA9963325CE54ECCFD6A26ADCE2BAA456797E698BC5CB2EDCD86CBA70",
+                "exponent": 0
+            },
+            {
+                "denom": "bitch",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/78E3EEE3AE42097CF156B18F9692AF4A25EA9062959560E21C8641A85DF598BC",
+        "name": "PWRZE",
+        "display": "pwrze",
+        "symbol": "PWRZE",
+        "denoms": [
+            {
+                "denom": "ibc/78E3EEE3AE42097CF156B18F9692AF4A25EA9062959560E21C8641A85DF598BC",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrze",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/7E07C35823D352697DF13F9CE0E3E210448CBA16845534B3D4DAA143700D1B76",
+        "name": "CUTE",
+        "display": "cute",
+        "symbol": "CUTE",
+        "denoms": [
+            {
+                "denom": "ibc/7E07C35823D352697DF13F9CE0E3E210448CBA16845534B3D4DAA143700D1B76",
+                "exponent": 0
+            },
+            {
+                "denom": "cute",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/851078421E4BAD167A53E2CB9D9F30D85E7FF2BBB8DD67A7710251C7114A50D4",
+        "name": "TIMMY",
+        "display": "timmy",
+        "symbol": "TIMMY",
+        "denoms": [
+            {
+                "denom": "ibc/851078421E4BAD167A53E2CB9D9F30D85E7FF2BBB8DD67A7710251C7114A50D4",
+                "exponent": 0
+            },
+            {
+                "denom": "timmy",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/8701EB42672FD1773AE8563B2A5ABDDD55A554D2D06BCA4EEC0971D00E4FD2A1",
+        "name": "ABUS",
+        "display": "abus",
+        "symbol": "ABUS",
+        "denoms": [
+            {
+                "denom": "ibc/8701EB42672FD1773AE8563B2A5ABDDD55A554D2D06BCA4EEC0971D00E4FD2A1",
+                "exponent": 0
+            },
+            {
+                "denom": "abus",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/8FD1696E831414B21C91B89BB380597113B9E90FE85D9CA49C27376C3B57F96E",
+        "name": "SNOOP",
+        "display": "snoop",
+        "symbol": "SNOOP",
+        "denoms": [
+            {
+                "denom": "ibc/8FD1696E831414B21C91B89BB380597113B9E90FE85D9CA49C27376C3B57F96E",
+                "exponent": 0
+            },
+            {
+                "denom": "snoop",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/94FF077F34C3973483A168FE249785AA0895658B40A5BFCD3F08503DD18C05BB",
+        "name": "BLERG",
+        "display": "blerg",
+        "symbol": "BLERG",
+        "denoms": [
+            {
+                "denom": "ibc/94FF077F34C3973483A168FE249785AA0895658B40A5BFCD3F08503DD18C05BB",
+                "exponent": 0
+            },
+            {
+                "denom": "blerg",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/982291A0DA7E62CF0D3122BB9FAA9A7F9183E603DBF78F1F3B5B113FBA09CB9F",
+        "name": "ANSONATOR",
+        "display": "ansonator",
+        "symbol": "ANSONATOR",
+        "denoms": [
+            {
+                "denom": "ibc/982291A0DA7E62CF0D3122BB9FAA9A7F9183E603DBF78F1F3B5B113FBA09CB9F",
+                "exponent": 0
+            },
+            {
+                "denom": "ansonator",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/9DCE8277AFFE55EB13B04AC588ED5ABC59655DD7DEB276626B9A8E0DC17CE78D",
+        "name": "PWRZV",
+        "display": "pwrzv",
+        "symbol": "PWRZV",
+        "denoms": [
+            {
+                "denom": "ibc/9DCE8277AFFE55EB13B04AC588ED5ABC59655DD7DEB276626B9A8E0DC17CE78D",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzv",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/9E54008CAF579562B457EEB826311CEE325CBCF7FB7503160C58687A1966C7D6",
+        "name": "PWRZT",
+        "display": "pwrzt",
+        "symbol": "PWRZT",
+        "denoms": [
+            {
+                "denom": "ibc/9E54008CAF579562B457EEB826311CEE325CBCF7FB7503160C58687A1966C7D6",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/A53FDEA70B4995136D560F198C742359E8209BF88C6FB8B009C0F366174111E2",
+        "name": "CORAL",
+        "display": "coral",
+        "symbol": "CORAL",
+        "denoms": [
+            {
+                "denom": "ibc/A53FDEA70B4995136D560F198C742359E8209BF88C6FB8B009C0F366174111E2",
+                "exponent": 0
+            },
+            {
+                "denom": "coral",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/AD90DE5F1F95B33BF58A46975EB0588A50F8CC142FDEEA38FB3BBFF3F19B1279",
+        "name": "MEGA",
+        "display": "mega",
+        "symbol": "MEGA",
+        "denoms": [
+            {
+                "denom": "ibc/AD90DE5F1F95B33BF58A46975EB0588A50F8CC142FDEEA38FB3BBFF3F19B1279",
+                "exponent": 0
+            },
+            {
+                "denom": "mega",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/AEC5315C36693B6F8C1E06953B353353BC004007139FC0141CA136DE4DF63D28",
+        "name": "WMVT",
+        "display": "wmvt",
+        "symbol": "WMVT",
+        "denoms": [
+            {
+                "denom": "ibc/AEC5315C36693B6F8C1E06953B353353BC004007139FC0141CA136DE4DF63D28",
+                "exponent": 0
+            },
+            {
+                "denom": "wmvt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/B07B8843D853FF1E810E3D34AD4118F4175C18D954C17887279EC345B77EB585",
+        "name": "TST",
+        "display": "tst",
+        "symbol": "TST",
+        "denoms": [
+            {
+                "denom": "ibc/B07B8843D853FF1E810E3D34AD4118F4175C18D954C17887279EC345B77EB585",
+                "exponent": 0
+            },
+            {
+                "denom": "tst",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/B2F8C96EA82DC8166AC5AEBE62C280C0704FEAF1E0564B9F0A9A51BDC92DCF74",
+        "name": "DBLT",
+        "display": "dblt",
+        "symbol": "DBLT",
+        "denoms": [
+            {
+                "denom": "ibc/B2F8C96EA82DC8166AC5AEBE62C280C0704FEAF1E0564B9F0A9A51BDC92DCF74",
+                "exponent": 0
+            },
+            {
+                "denom": "dblt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/BA52432273454EA4F7736F2AA7DC8296F8F986C0944298C807A9FA161C4E73DE",
+        "name": "FRAME",
+        "display": "frame",
+        "symbol": "FRAME",
+        "denoms": [
+            {
+                "denom": "ibc/BA52432273454EA4F7736F2AA7DC8296F8F986C0944298C807A9FA161C4E73DE",
+                "exponent": 0
+            },
+            {
+                "denom": "frame",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/C2BB7B0E3B1D434E1593A82788E0F8189ABC8B0888D9767457D7EAF3BFF3BE32",
+        "name": "GOZER",
+        "display": "gozer",
+        "symbol": "GOZER",
+        "denoms": [
+            {
+                "denom": "ibc/C2BB7B0E3B1D434E1593A82788E0F8189ABC8B0888D9767457D7EAF3BFF3BE32",
+                "exponent": 0
+            },
+            {
+                "denom": "gozer",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/D1330E1E791A6D85DBD8F3674034C12CBBB5DC0A61036F8533C1B97A3D62E32B",
+        "name": "FUNZIE",
+        "display": "funzie",
+        "symbol": "FUNZIE",
+        "denoms": [
+            {
+                "denom": "ibc/D1330E1E791A6D85DBD8F3674034C12CBBB5DC0A61036F8533C1B97A3D62E32B",
+                "exponent": 0
+            },
+            {
+                "denom": "funzie",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/D844EB8D44A65435A37979E015D6DBB8C8F4680FB4FB7C9A8A8D996AF5BD1D68",
+        "name": "PWRZX",
+        "display": "pwrzx",
+        "symbol": "PWRZX",
+        "denoms": [
+            {
+                "denom": "ibc/D844EB8D44A65435A37979E015D6DBB8C8F4680FB4FB7C9A8A8D996AF5BD1D68",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/DD0C98D5C0D7DC8056589CB56571CCA26545B61FFB05EFB621CDBC30DE6E3602",
+        "name": "SOLA",
+        "display": "sola",
+        "symbol": "SOLA",
+        "denoms": [
+            {
+                "denom": "ibc/DD0C98D5C0D7DC8056589CB56571CCA26545B61FFB05EFB621CDBC30DE6E3602",
+                "exponent": 0
+            },
+            {
+                "denom": "sola",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/E06959602897E9E7953D00ABEF9657CBF9D1335AD3EA69E848CFA73B7C7BAF67",
+        "name": "DANCINGPENGUIN",
+        "display": "dancingpenguin",
+        "symbol": "DANCINGPENGUIN",
+        "denoms": [
+            {
+                "denom": "ibc/E06959602897E9E7953D00ABEF9657CBF9D1335AD3EA69E848CFA73B7C7BAF67",
+                "exponent": 0
+            },
+            {
+                "denom": "dancingpenguin",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/E9578B0047E2B53959100A5F523DBA9CB3E2804C8A9A7B87AB48C2201C990BD1",
+        "name": "TACO",
+        "display": "taco",
+        "symbol": "TACO",
+        "denoms": [
+            {
+                "denom": "ibc/E9578B0047E2B53959100A5F523DBA9CB3E2804C8A9A7B87AB48C2201C990BD1",
+                "exponent": 0
+            },
+            {
+                "denom": "taco",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/E9FF6FA2D92362EB9BE243C561DB8CEB4073946DC21949377FD4B642728BFD6C",
+        "name": "TFAAA",
+        "display": "tfaaa",
+        "symbol": "TFAAA",
+        "denoms": [
+            {
+                "denom": "ibc/E9FF6FA2D92362EB9BE243C561DB8CEB4073946DC21949377FD4B642728BFD6C",
+                "exponent": 0
+            },
+            {
+                "denom": "tfaaa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/F0D7AB66C6E218A60A2379DD872B72EDDF3E7476B27AB1DF76C620CAED73AB93",
+        "name": "TRACE",
+        "display": "trace",
+        "symbol": "TRACE",
+        "denoms": [
+            {
+                "denom": "ibc/F0D7AB66C6E218A60A2379DD872B72EDDF3E7476B27AB1DF76C620CAED73AB93",
+                "exponent": 0
+            },
+            {
+                "denom": "trace",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/F1AC4F2E814C6C88039780B62C6E92EE6F25B1522E1B0B5349C66965F2547426",
+        "name": "PWRZR",
+        "display": "pwrzr",
+        "symbol": "PWRZR",
+        "denoms": [
+            {
+                "denom": "ibc/F1AC4F2E814C6C88039780B62C6E92EE6F25B1522E1B0B5349C66965F2547426",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzr",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "base": "ibc/F4BA8538FCB083F8A9C32A9C88FF64F2CF5DDEA60CA05E1B671D851C2C479BD0",
+        "name": "SIMPLE",
+        "display": "simple",
+        "symbol": "SIMPLE",
+        "denoms": [
+            {
+                "denom": "ibc/F4BA8538FCB083F8A9C32A9C88FF64F2CF5DDEA60CA05E1B671D851C2C479BD0",
+                "exponent": 0
+            },
+            {
+                "denom": "simple",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "sixtestnet",
         "base": "usix",
         "name": "Six token",
@@ -20761,6 +21611,618 @@
             },
             {
                 "denom": "mfx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/08D22E7A5470B28E5AB7215267B0A4FA27CC7917D4694C6807E3C401F99DDB31",
+        "name": "BLERG",
+        "display": "blerg",
+        "symbol": "BLERG",
+        "denoms": [
+            {
+                "denom": "ibc/08D22E7A5470B28E5AB7215267B0A4FA27CC7917D4694C6807E3C401F99DDB31",
+                "exponent": 0
+            },
+            {
+                "denom": "blerg",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/092E2EF01F40CBAC11798FFD1EF9261C878E58098FF2476DD54711972B70D83F",
+        "name": "PWRZT",
+        "display": "pwrzt",
+        "symbol": "PWRZT",
+        "denoms": [
+            {
+                "denom": "ibc/092E2EF01F40CBAC11798FFD1EF9261C878E58098FF2476DD54711972B70D83F",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/0DCAB4EA43429494FE337A45660AF6CD02AEF27147BE374A02952E5AF0A2A6D4",
+        "name": "DBLT",
+        "display": "dblt",
+        "symbol": "DBLT",
+        "denoms": [
+            {
+                "denom": "ibc/0DCAB4EA43429494FE337A45660AF6CD02AEF27147BE374A02952E5AF0A2A6D4",
+                "exponent": 0
+            },
+            {
+                "denom": "dblt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/0E32CFB5D3BA17EA69EC9082ACC1FBBE4E5503988B98B82AB358B9D7CB070581",
+        "name": "MEGA",
+        "display": "mega",
+        "symbol": "MEGA",
+        "denoms": [
+            {
+                "denom": "ibc/0E32CFB5D3BA17EA69EC9082ACC1FBBE4E5503988B98B82AB358B9D7CB070581",
+                "exponent": 0
+            },
+            {
+                "denom": "mega",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/2522E7054B26702E4C0DB983A1696BC9C357A8274D529E2D07D09D34D860DB53",
+        "name": "GWATT",
+        "display": "gwatt",
+        "symbol": "GWATT",
+        "denoms": [
+            {
+                "denom": "ibc/2522E7054B26702E4C0DB983A1696BC9C357A8274D529E2D07D09D34D860DB53",
+                "exponent": 0
+            },
+            {
+                "denom": "gwatt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/2BEBBC54C36EDD3B6BA8D9B25C03C572FD6D996962A7081F8FA7BDE38DF1D5A3",
+        "name": "INDIS",
+        "display": "indis",
+        "symbol": "INDIS",
+        "denoms": [
+            {
+                "denom": "ibc/2BEBBC54C36EDD3B6BA8D9B25C03C572FD6D996962A7081F8FA7BDE38DF1D5A3",
+                "exponent": 0
+            },
+            {
+                "denom": "indis",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/3280BDE7F440D3EF0DE6AEA6632F84E07D54F1908ADBCCDF03F0EFD63831D901",
+        "name": "SOLD",
+        "display": "sold",
+        "symbol": "SOLD",
+        "denoms": [
+            {
+                "denom": "ibc/3280BDE7F440D3EF0DE6AEA6632F84E07D54F1908ADBCCDF03F0EFD63831D901",
+                "exponent": 0
+            },
+            {
+                "denom": "sold",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/3E0F68951BF66F229E01AD3E35EC9E82F37F2C0EAC3EB109F234AD08F85B7979",
+        "name": "SOLB",
+        "display": "solb",
+        "symbol": "SOLB",
+        "denoms": [
+            {
+                "denom": "ibc/3E0F68951BF66F229E01AD3E35EC9E82F37F2C0EAC3EB109F234AD08F85B7979",
+                "exponent": 0
+            },
+            {
+                "denom": "solb",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/3F08DE9963E4E5EB44570FA63049B820A239A4081EB1C7884309E039D01EEEAB",
+        "name": "GREY",
+        "display": "grey",
+        "symbol": "GREY",
+        "denoms": [
+            {
+                "denom": "ibc/3F08DE9963E4E5EB44570FA63049B820A239A4081EB1C7884309E039D01EEEAB",
+                "exponent": 0
+            },
+            {
+                "denom": "grey",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/470F9D29B01DA444830AE6C3392A9CA55F05C40F5B64C076F5FC0E4DBBE9A4C3",
+        "name": "ABUS",
+        "display": "abus",
+        "symbol": "ABUS",
+        "denoms": [
+            {
+                "denom": "ibc/470F9D29B01DA444830AE6C3392A9CA55F05C40F5B64C076F5FC0E4DBBE9A4C3",
+                "exponent": 0
+            },
+            {
+                "denom": "abus",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/4FB0428DD0B1C18995DB966671A3438FA6758C8BB71B4BBA1D76A2146C325662",
+        "name": "SNOOP",
+        "display": "snoop",
+        "symbol": "SNOOP",
+        "denoms": [
+            {
+                "denom": "ibc/4FB0428DD0B1C18995DB966671A3438FA6758C8BB71B4BBA1D76A2146C325662",
+                "exponent": 0
+            },
+            {
+                "denom": "snoop",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/54A09933C80A962FD4263DFD362F033D29D064B710F825CCA2577AFEF6F69413",
+        "name": "HIVE",
+        "display": "hive",
+        "symbol": "HIVE",
+        "denoms": [
+            {
+                "denom": "ibc/54A09933C80A962FD4263DFD362F033D29D064B710F825CCA2577AFEF6F69413",
+                "exponent": 0
+            },
+            {
+                "denom": "hive",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/5BFC58E86BBA9C769BC7A04D434F9B0EB47EC1163BB279F82984D350F18ECA76",
+        "name": "PWROZ",
+        "display": "pwroz",
+        "symbol": "PWROZ",
+        "denoms": [
+            {
+                "denom": "ibc/5BFC58E86BBA9C769BC7A04D434F9B0EB47EC1163BB279F82984D350F18ECA76",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/601F6AF6EA660D6CDFCAA206B2F8ABB0AE4C7436654F7BBFD82A50182F45CA2F",
+        "name": "BITCH",
+        "display": "bitch",
+        "symbol": "BITCH",
+        "denoms": [
+            {
+                "denom": "ibc/601F6AF6EA660D6CDFCAA206B2F8ABB0AE4C7436654F7BBFD82A50182F45CA2F",
+                "exponent": 0
+            },
+            {
+                "denom": "bitch",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/66A40F06F75985D01F989F88F433E085C8AD3A085CFBA661F86244D3DC8718F8",
+        "name": "PWRZF",
+        "display": "pwrzf",
+        "symbol": "PWRZF",
+        "denoms": [
+            {
+                "denom": "ibc/66A40F06F75985D01F989F88F433E085C8AD3A085CFBA661F86244D3DC8718F8",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzf",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/6774AA33A63A5A6C880282EB2A0F8AE279346FF394A7BAF1FD81D99F5B8C22A7",
+        "name": "GCATT",
+        "display": "gcatt",
+        "symbol": "GCATT",
+        "denoms": [
+            {
+                "denom": "ibc/6774AA33A63A5A6C880282EB2A0F8AE279346FF394A7BAF1FD81D99F5B8C22A7",
+                "exponent": 0
+            },
+            {
+                "denom": "gcatt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/68B9C8D0E1DDCB3EB6B33D66B19B3B4197025BE8CB3D953031EC6A1EE745328F",
+        "name": "FRAME",
+        "display": "frame",
+        "symbol": "FRAME",
+        "denoms": [
+            {
+                "denom": "ibc/68B9C8D0E1DDCB3EB6B33D66B19B3B4197025BE8CB3D953031EC6A1EE745328F",
+                "exponent": 0
+            },
+            {
+                "denom": "frame",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/73307294FA4018ED2A8ED954BE39561A4D545772371F1C433DBBB72294CA6538",
+        "name": "PWRZE",
+        "display": "pwrze",
+        "symbol": "PWRZE",
+        "denoms": [
+            {
+                "denom": "ibc/73307294FA4018ED2A8ED954BE39561A4D545772371F1C433DBBB72294CA6538",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrze",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/773C68967FD08D6FAF2F364A2C7DA52DA8FCD5C9E73437F35DF5AB69B32AB352",
+        "name": "SOLA",
+        "display": "sola",
+        "symbol": "SOLA",
+        "denoms": [
+            {
+                "denom": "ibc/773C68967FD08D6FAF2F364A2C7DA52DA8FCD5C9E73437F35DF5AB69B32AB352",
+                "exponent": 0
+            },
+            {
+                "denom": "sola",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/88B6ADC91FE64C67A610CC1AD0F4F9946CDDB057E73228461381C3A8FDE92493",
+        "name": "PWRZN",
+        "display": "pwrzn",
+        "symbol": "PWRZN",
+        "denoms": [
+            {
+                "denom": "ibc/88B6ADC91FE64C67A610CC1AD0F4F9946CDDB057E73228461381C3A8FDE92493",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzn",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/8AAC95A1AD0047A9CD7F6D13DDDADB93776E32544036227F9A66C27BF76D8C52",
+        "name": "SOLE",
+        "display": "sole",
+        "symbol": "SOLE",
+        "denoms": [
+            {
+                "denom": "ibc/8AAC95A1AD0047A9CD7F6D13DDDADB93776E32544036227F9A66C27BF76D8C52",
+                "exponent": 0
+            },
+            {
+                "denom": "sole",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/8B868E456E431A79F5681BA217B4BABA7A34CEE39389FE8D4DF5E3ACACDAE0B6",
+        "name": "PWRZO",
+        "display": "pwrzo",
+        "symbol": "PWRZO",
+        "denoms": [
+            {
+                "denom": "ibc/8B868E456E431A79F5681BA217B4BABA7A34CEE39389FE8D4DF5E3ACACDAE0B6",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/8BE93E121E24D268DC77E2A61AA0AF18BBA8F5E6AB105DB8B6AEA664CD6E8AAA",
+        "name": "PWROO",
+        "display": "pwroo",
+        "symbol": "PWROO",
+        "denoms": [
+            {
+                "denom": "ibc/8BE93E121E24D268DC77E2A61AA0AF18BBA8F5E6AB105DB8B6AEA664CD6E8AAA",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/8D2F83EEBEE8A34BA1403BDAA3C04457E08D9B8694AD2C232321E19F923B3172",
+        "name": "PWRZS",
+        "display": "pwrzs",
+        "symbol": "PWRZS",
+        "denoms": [
+            {
+                "denom": "ibc/8D2F83EEBEE8A34BA1403BDAA3C04457E08D9B8694AD2C232321E19F923B3172",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzs",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/919046A89B91F9995D086C3CFECBF12842831C99206DC2465C19C600BFB29C45",
+        "name": "PWRZR",
+        "display": "pwrzr",
+        "symbol": "PWRZR",
+        "denoms": [
+            {
+                "denom": "ibc/919046A89B91F9995D086C3CFECBF12842831C99206DC2465C19C600BFB29C45",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzr",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/95A248CB8B6BA779D278BD2A6C044C1E32B37BA67C735940F9CDDF991F1664AA",
+        "name": "CURES",
+        "display": "cures",
+        "symbol": "CURES",
+        "denoms": [
+            {
+                "denom": "ibc/95A248CB8B6BA779D278BD2A6C044C1E32B37BA67C735940F9CDDF991F1664AA",
+                "exponent": 0
+            },
+            {
+                "denom": "cures",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/99439DB1A5D64002F7202A6AE4F56CAF7CE42A22C5EB77B14780C583E6ACE141",
+        "name": "LENDX",
+        "display": "lendx",
+        "symbol": "LENDX",
+        "denoms": [
+            {
+                "denom": "ibc/99439DB1A5D64002F7202A6AE4F56CAF7CE42A22C5EB77B14780C583E6ACE141",
+                "exponent": 0
+            },
+            {
+                "denom": "lendx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/A98E89DCB8859D3D10FC624A03E25BD89905E810BA194C6430ACB6B1FA334F66",
+        "name": "SOLC",
+        "display": "solc",
+        "symbol": "SOLC",
+        "denoms": [
+            {
+                "denom": "ibc/A98E89DCB8859D3D10FC624A03E25BD89905E810BA194C6430ACB6B1FA334F66",
+                "exponent": 0
+            },
+            {
+                "denom": "solc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/AFAE8779ADBB6009B78C233C846FFE1BB67D96F19DCD54451DD36CDEC276F5D9",
+        "name": "CORAL",
+        "display": "coral",
+        "symbol": "CORAL",
+        "denoms": [
+            {
+                "denom": "ibc/AFAE8779ADBB6009B78C233C846FFE1BB67D96F19DCD54451DD36CDEC276F5D9",
+                "exponent": 0
+            },
+            {
+                "denom": "coral",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/B1EF6EE90168D486824E76700ED280B5B127B32F5194C8D063844D573A0A22EB",
+        "name": "PWRZX",
+        "display": "pwrzx",
+        "symbol": "PWRZX",
+        "denoms": [
+            {
+                "denom": "ibc/B1EF6EE90168D486824E76700ED280B5B127B32F5194C8D063844D573A0A22EB",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/C40D0997D88A8193E3AD627EF58A2998989F1187A5277B1BDE07FEF909533982",
+        "name": "FOCAL",
+        "display": "focal",
+        "symbol": "FOCAL",
+        "denoms": [
+            {
+                "denom": "ibc/C40D0997D88A8193E3AD627EF58A2998989F1187A5277B1BDE07FEF909533982",
+                "exponent": 0
+            },
+            {
+                "denom": "focal",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/D1495D28D71F69CE0DD7B1FD104A2088066C346DBD96F7F162CDF98EBD38D962",
+        "name": "CATS",
+        "display": "cats",
+        "symbol": "CATS",
+        "denoms": [
+            {
+                "denom": "ibc/D1495D28D71F69CE0DD7B1FD104A2088066C346DBD96F7F162CDF98EBD38D962",
+                "exponent": 0
+            },
+            {
+                "denom": "cats",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/E238A7B212BE6E11028E1D8F50A4DCB3F8E1BBEFA73CB5A79699F16ADF84E861",
+        "name": "PWRZZ",
+        "display": "pwrzz",
+        "symbol": "PWRZZ",
+        "denoms": [
+            {
+                "denom": "ibc/E238A7B212BE6E11028E1D8F50A4DCB3F8E1BBEFA73CB5A79699F16ADF84E861",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/E40FC73EDA77AE168D681405B975C48B5B515BFBBCD200E03738F48D5AFF722B",
+        "name": "AAA",
+        "display": "aaa",
+        "symbol": "AAA",
+        "denoms": [
+            {
+                "denom": "ibc/E40FC73EDA77AE168D681405B975C48B5B515BFBBCD200E03738F48D5AFF722B",
+                "exponent": 0
+            },
+            {
+                "denom": "aaa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/E6A50DB535B23AA672122EF5B321DD5B69A480A38F27707AE76AAB408C06A425",
+        "name": "PWRZV",
+        "display": "pwrzv",
+        "symbol": "PWRZV",
+        "denoms": [
+            {
+                "denom": "ibc/E6A50DB535B23AA672122EF5B321DD5B69A480A38F27707AE76AAB408C06A425",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzv",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "axelartestnet",
+        "base": "ibc/FBF7018905686DB873D482FF5ECF31A661F604EFBFEB0517F1FD1CBC1D301BF0",
+        "name": "PGSQL",
+        "display": "pgsql",
+        "symbol": "PGSQL",
+        "denoms": [
+            {
+                "denom": "ibc/FBF7018905686DB873D482FF5ECF31A661F604EFBFEB0517F1FD1CBC1D301BF0",
+                "exponent": 0
+            },
+            {
+                "denom": "pgsql",
                 "exponent": 6
             }
         ]
@@ -21713,6 +23175,958 @@
             },
             {
                 "denom": "osmo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+        "name": "AAA Token",
+        "display": "aaa",
+        "symbol": "AAA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+                "exponent": 0
+            },
+            {
+                "denom": "aaa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+        "name": "ABUS Token",
+        "display": "abus",
+        "symbol": "ABUS",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+                "exponent": 0
+            },
+            {
+                "denom": "abus",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+        "name": "BITCH Token",
+        "display": "bitch",
+        "symbol": "BITCH",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+                "exponent": 0
+            },
+            {
+                "denom": "bitch",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+        "name": "BLERG Token",
+        "display": "blerg",
+        "symbol": "BLERG",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+                "exponent": 0
+            },
+            {
+                "denom": "blerg",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+        "name": "CATS Token",
+        "display": "cats",
+        "symbol": "CATS",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+                "exponent": 0
+            },
+            {
+                "denom": "cats",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+        "name": "CORAL Token",
+        "display": "coral",
+        "symbol": "CORAL",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+                "exponent": 0
+            },
+            {
+                "denom": "coral",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+        "name": "CURES Token",
+        "display": "cures",
+        "symbol": "CURES",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+                "exponent": 0
+            },
+            {
+                "denom": "cures",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+        "name": "DBLT Token",
+        "display": "dblt",
+        "symbol": "DBLT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+                "exponent": 0
+            },
+            {
+                "denom": "dblt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+        "name": "FOCAL Token",
+        "display": "focal",
+        "symbol": "FOCAL",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+                "exponent": 0
+            },
+            {
+                "denom": "focal",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+        "name": "FRAME Token",
+        "display": "frame",
+        "symbol": "FRAME",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+                "exponent": 0
+            },
+            {
+                "denom": "frame",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+        "name": "GCATT Token",
+        "display": "gcatt",
+        "symbol": "GCATT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+                "exponent": 0
+            },
+            {
+                "denom": "gcatt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+        "name": "GREY Token",
+        "display": "grey",
+        "symbol": "GREY",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+                "exponent": 0
+            },
+            {
+                "denom": "grey",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+        "name": "GWATT Token",
+        "display": "gwatt",
+        "symbol": "GWATT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+                "exponent": 0
+            },
+            {
+                "denom": "gwatt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+        "name": "HIVE Token",
+        "display": "hive",
+        "symbol": "HIVE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+                "exponent": 0
+            },
+            {
+                "denom": "hive",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+        "name": "INDIS Token",
+        "display": "indis",
+        "symbol": "INDIS",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+                "exponent": 0
+            },
+            {
+                "denom": "indis",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+        "name": "LENDX Token",
+        "display": "lendx",
+        "symbol": "LENDX",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+                "exponent": 0
+            },
+            {
+                "denom": "lendx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+        "name": "MEGA Token",
+        "display": "mega",
+        "symbol": "MEGA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+                "exponent": 0
+            },
+            {
+                "denom": "mega",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+        "name": "PGSQL Token",
+        "display": "pgsql",
+        "symbol": "PGSQL",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+                "exponent": 0
+            },
+            {
+                "denom": "pgsql",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+        "name": "PWROO Token",
+        "display": "pwroo",
+        "symbol": "PWROO",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+        "name": "PWROZ Token",
+        "display": "pwroz",
+        "symbol": "PWROZ",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+                "exponent": 0
+            },
+            {
+                "denom": "pwroz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+        "name": "PWRZE Token",
+        "display": "pwrze",
+        "symbol": "PWRZE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrze",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+        "name": "PWRZF Token",
+        "display": "pwrzf",
+        "symbol": "PWRZF",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzf",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+        "name": "PWRZN Token",
+        "display": "pwrzn",
+        "symbol": "PWRZN",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzn",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+        "name": "PWRZO Token",
+        "display": "pwrzo",
+        "symbol": "PWRZO",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+        "name": "PWRZR Token",
+        "display": "pwrzr",
+        "symbol": "PWRZR",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzr",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+        "name": "PWRZS Token",
+        "display": "pwrzs",
+        "symbol": "PWRZS",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzs",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+        "name": "PWRZT Token",
+        "display": "pwrzt",
+        "symbol": "PWRZT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+        "name": "PWRZV Token",
+        "display": "pwrzv",
+        "symbol": "PWRZV",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzv",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+        "name": "PWRZX Token",
+        "display": "pwrzx",
+        "symbol": "PWRZX",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+        "name": "PWRZZ Token",
+        "display": "pwrzz",
+        "symbol": "PWRZZ",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+                "exponent": 0
+            },
+            {
+                "denom": "pwrzz",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+        "name": "SOLA Token",
+        "display": "sola",
+        "symbol": "SOLA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+                "exponent": 0
+            },
+            {
+                "denom": "sola",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+        "name": "SOLB Token",
+        "display": "solb",
+        "symbol": "SOLB",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+                "exponent": 0
+            },
+            {
+                "denom": "solb",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+        "name": "SOLC Token",
+        "display": "solc",
+        "symbol": "SOLC",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+                "exponent": 0
+            },
+            {
+                "denom": "solc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+        "name": "SOLD Token",
+        "display": "sold",
+        "symbol": "SOLD",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+                "exponent": 0
+            },
+            {
+                "denom": "sold",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+        "name": "SOLE Token",
+        "display": "sole",
+        "symbol": "SOLE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+                "exponent": 0
+            },
+            {
+                "denom": "sole",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+        "name": "SPDT Token",
+        "display": "spdt",
+        "symbol": "SPDT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+                "exponent": 0
+            },
+            {
+                "denom": "spdt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+        "name": "SUNSW Token",
+        "display": "sunsw",
+        "symbol": "SUNSW",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+                "exponent": 0
+            },
+            {
+                "denom": "sunsw",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+        "name": "TFAAA Token",
+        "display": "tfaaa",
+        "symbol": "TFAAA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+                "exponent": 0
+            },
+            {
+                "denom": "tfaaa",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+        "name": "TRACE Token",
+        "display": "trace",
+        "symbol": "TRACE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+                "exponent": 0
+            },
+            {
+                "denom": "trace",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+        "name": "TST Token",
+        "display": "tst",
+        "symbol": "TST",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+                "exponent": 0
+            },
+            {
+                "denom": "tst",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+        "name": "WIND Token",
+        "display": "wind",
+        "symbol": "WIND",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+                "exponent": 0
+            },
+            {
+                "denom": "wind",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+        "name": "WMVT Token",
+        "display": "wmvt",
+        "symbol": "WMVT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+                "exponent": 0
+            },
+            {
+                "denom": "wmvt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqdqe6ks/utimmy",
+        "name": "TIMMY Token",
+        "display": "timmy",
+        "symbol": "TIMMY",
+        "denoms": [
+            {
+                "denom": "factory/manifest1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqdqe6ks/utimmy",
+                "exponent": 0
+            },
+            {
+                "denom": "timmy",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1czvrq3ufn045q5k50tjl4qu8kcmagve9ghty3c/uumega",
+        "name": "UMEGA Token",
+        "display": "umega",
+        "symbol": "UMEGA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1czvrq3ufn045q5k50tjl4qu8kcmagve9ghty3c/uumega",
+                "exponent": 0
+            },
+            {
+                "denom": "umega",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uansonator",
+        "name": "ANSONATOR Token",
+        "display": "ansonator",
+        "symbol": "ANSONATOR",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uansonator",
+                "exponent": 0
+            },
+            {
+                "denom": "ansonator",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uasdasdasd",
+        "name": "ASDASDASD Token",
+        "display": "asdasdasd",
+        "symbol": "ASDASDASD",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uasdasdasd",
+                "exponent": 0
+            },
+            {
+                "denom": "asdasdasd",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ucute",
+        "name": "CUTE Token",
+        "display": "cute",
+        "symbol": "CUTE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ucute",
+                "exponent": 0
+            },
+            {
+                "denom": "cute",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udancingpenguin",
+        "name": "DANCINGPENGUIN Token",
+        "display": "dancingpenguin",
+        "symbol": "DANCINGPENGUIN",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udancingpenguin",
+                "exponent": 0
+            },
+            {
+                "denom": "dancingpenguin",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udrippy",
+        "name": "DRIPPY Token",
+        "display": "drippy",
+        "symbol": "DRIPPY",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udrippy",
+                "exponent": 0
+            },
+            {
+                "denom": "drippy",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugozer",
+        "name": "GOZER Token",
+        "display": "gozer",
+        "symbol": "GOZER",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugozer",
+                "exponent": 0
+            },
+            {
+                "denom": "gozer",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/usimple",
+        "name": "SIMPLE Token",
+        "display": "simple",
+        "symbol": "SIMPLE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/usimple",
+                "exponent": 0
+            },
+            {
+                "denom": "simple",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uspoof",
+        "name": "SPOOF Token",
+        "display": "spoof",
+        "symbol": "SPOOF",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uspoof",
+                "exponent": 0
+            },
+            {
+                "denom": "spoof",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/utaco",
+        "name": "TACO Token",
+        "display": "taco",
+        "symbol": "TACO",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/utaco",
+                "exponent": 0
+            },
+            {
+                "denom": "taco",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uwmvt",
+        "name": "WMVT Token",
+        "display": "wmvt",
+        "symbol": "WMVT",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uwmvt",
+                "exponent": 0
+            },
+            {
+                "denom": "wmvt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/ufunzie",
+        "name": "FUNZIE Token",
+        "display": "funzie",
+        "symbol": "FUNZIE",
+        "denoms": [
+            {
+                "denom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/ufunzie",
+                "exponent": 0
+            },
+            {
+                "denom": "funzie",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "base": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/usnoop",
+        "name": "SNOOP Token",
+        "display": "snoop",
+        "symbol": "SNOOP",
+        "denoms": [
+            {
+                "denom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/usnoop",
+                "exponent": 0
+            },
+            {
+                "denom": "snoop",
                 "exponent": 6
             }
         ]
@@ -26802,6 +29216,23 @@
             },
             {
                 "denom": "om",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "stargaze",
+        "base": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
+        "name": "HOOD",
+        "display": "HOOD",
+        "symbol": "HOOD",
+        "denoms": [
+            {
+                "denom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
+                "exponent": 0
+            },
+            {
+                "denom": "HOOD",
                 "exponent": 6
             }
         ]
