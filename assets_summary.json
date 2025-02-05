@@ -39102,6 +39102,23 @@
         ]
     },
     {
+        "chain_name": "mantrachain",
+        "base": "ibc/16E817E682AD1A73FD748BC989574B2702E109C4105550498086531FA3D6B050",
+        "name": "Stargaze",
+        "display": "stars",
+        "symbol": "STARS",
+        "denoms": [
+            {
+                "denom": "ibc/16E817E682AD1A73FD748BC989574B2702E109C4105550498086531FA3D6B050",
+                "exponent": 0
+            },
+            {
+                "denom": "stars",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "pundix",
         "base": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
         "name": "Pundi X Token",
