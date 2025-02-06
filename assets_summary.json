@@ -19251,6 +19251,23 @@
         ]
     },
     {
+        "chain_name": "autheotestnet",
+        "base": "aauth",
+        "name": "Autheo Chain",
+        "display": "auth",
+        "symbol": "THEO",
+        "denoms": [
+            {
+                "denom": "aauth",
+                "exponent": 0
+            },
+            {
+                "denom": "auth",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "hypersigntestnet",
         "base": "uhid",
         "name": "Hypersign",
@@ -24145,6 +24162,23 @@
             {
                 "denom": "arkeo",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "iopntestnet",
+        "base": "gwei",
+        "name": "Iopn Chain",
+        "display": "opn",
+        "symbol": "OPN",
+        "denoms": [
+            {
+                "denom": "gwei",
+                "exponent": 0
+            },
+            {
+                "denom": "opn",
+                "exponent": 9
             }
         ]
     },
@@ -36706,6 +36740,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "ibc/925137DE4F77A2F26A5FA5051200437F43AFBBC39A4F443968C8E93B756AFB3B",
+        "name": "USDY",
+        "display": "usdy",
+        "symbol": "USDY",
+        "denoms": [
+            {
+                "denom": "ibc/925137DE4F77A2F26A5FA5051200437F43AFBBC39A4F443968C8E93B756AFB3B",
+                "exponent": 0
+            },
+            {
+                "denom": "usdy",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "c:uatom",
         "name": "cAtom",
         "display": "catom",
@@ -37539,6 +37590,74 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "p:ausdy:31Mar2025",
+        "name": "pUsdy (31Mar2025)",
+        "display": "pUSDY31Mar2025",
+        "symbol": "pUSDY-31Mar2025",
+        "denoms": [
+            {
+                "denom": "p:ausdy:31Mar2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pUSDY31Mar2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:ausdy:30Jun2025",
+        "name": "pUsdy (30Jun2025)",
+        "display": "pUSDY30Jun2025",
+        "symbol": "pUSDY-30Jun2025",
+        "denoms": [
+            {
+                "denom": "p:ausdy:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pUSDY30Jun2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:ausdy:30Sep2025",
+        "name": "pUsdy (30Sep2025)",
+        "display": "pUSDY30Sep2025",
+        "symbol": "pUSDY-30Sep2025",
+        "denoms": [
+            {
+                "denom": "p:ausdy:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pUSDY30Sep2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:ausdy:31Dec2025",
+        "name": "pUsdy (31Dec2025)",
+        "display": "pUSDY31Dec2025",
+        "symbol": "pUSDY-31Dec2025",
+        "denoms": [
+            {
+                "denom": "p:ausdy:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pUSDY31Dec2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "y:uatom:30Sep2024",
         "name": "yAtom (30Sep2024)",
         "display": "yATOM30Sep2024",
@@ -38270,6 +38389,74 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:ausdy:31Mar2025",
+        "name": "yUsdy (31Mar2025)",
+        "display": "yUSDY31Mar2025",
+        "symbol": "yUSDY-31Mar2025",
+        "denoms": [
+            {
+                "denom": "y:ausdy:31Mar2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yUSDY31Mar2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:ausdy:30Jun2025",
+        "name": "yUsdy (30Jun2025)",
+        "display": "yUSDY30Jun2025",
+        "symbol": "yUSDY-30Jun2025",
+        "denoms": [
+            {
+                "denom": "y:ausdy:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yUSDY30Jun2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:ausdy:30Sep2025",
+        "name": "yUsdy (30Sep2025)",
+        "display": "yUSDY30Sep2025",
+        "symbol": "yUSDY-30Sep2025",
+        "denoms": [
+            {
+                "denom": "y:ausdy:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yUSDY30Sep2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:ausdy:31Dec2025",
+        "name": "yUsdy (31Dec2025)",
+        "display": "yUSDY31Dec2025",
+        "symbol": "yUSDY-31Dec2025",
+        "denoms": [
+            {
+                "denom": "y:ausdy:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yUSDY31Dec2025",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "lp:6:uusdc.axl-uusdc",
         "name": "USDC / USDC.axl LP",
         "display": "lp:6:usdc.axl-usdc",
@@ -38707,6 +38894,40 @@
             {
                 "denom": "lp:23:datomypt-atom",
                 "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "lp:31:ausdy",
+        "name": "USDY Yield LP",
+        "display": "lp:31:usdy",
+        "symbol": "USDY-YIELD-LP",
+        "denoms": [
+            {
+                "denom": "lp:31:ausdy",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:31:usdy",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "lp:32:ausdyypt-uusdc",
+        "name": "USDY Boost LP",
+        "display": "lp:32:usdyypt-usdc",
+        "symbol": "USDY-BOOST-LP",
+        "denoms": [
+            {
+                "denom": "lp:32:ausdyypt-uusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:32:usdyypt-usdc",
+                "exponent": 18
             }
         ]
     },
