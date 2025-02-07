@@ -732,23 +732,6 @@
     },
     {
         "chain_name": "terra2",
-        "base": "ibc/E18C0D303957867A164DE2863D1C3F83135936E6F17CADF4D241FBC12B0F23B2",
-        "name": "Wosmo",
-        "display": "WOSMO",
-        "symbol": "WOSMO",
-        "denoms": [
-            {
-                "denom": "ibc/E18C0D303957867A164DE2863D1C3F83135936E6F17CADF4D241FBC12B0F23B2",
-                "exponent": 0
-            },
-            {
-                "denom": "WOSMO",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "terra2",
         "base": "cw20:terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
         "name": "DNA",
         "display": "DNA",
@@ -947,23 +930,6 @@
             },
             {
                 "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "terra2",
-        "base": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
-        "name": "Cosmo",
-        "display": "COSMO",
-        "symbol": "COSMO",
-        "denoms": [
-            {
-                "denom": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
-                "exponent": 0
-            },
-            {
-                "denom": "COSMO",
                 "exponent": 6
             }
         ]
@@ -8949,125 +8915,6 @@
         ]
     },
     {
-        "chain_name": "elys",
-        "base": "ibc/7EE4FEE86299470E4E8712FB666FCCA75074DAAB749789E29C2360A4B7B7BE96",
-        "name": "Agoric",
-        "display": "bld",
-        "symbol": "BLD",
-        "denoms": [
-            {
-                "denom": "ibc/7EE4FEE86299470E4E8712FB666FCCA75074DAAB749789E29C2360A4B7B7BE96",
-                "exponent": 0
-            },
-            {
-                "denom": "bld",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
-        "name": "Stargaze",
-        "display": "stars",
-        "symbol": "STARS",
-        "denoms": [
-            {
-                "denom": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
-                "exponent": 0
-            },
-            {
-                "denom": "stars",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/50AFCA53FE2DCC6FC300F884524FA997E5A9D370EFEF9836F5C9461CB85AF8C1",
-        "name": "Stride",
-        "display": "strd",
-        "symbol": "STRD",
-        "denoms": [
-            {
-                "denom": "ibc/50AFCA53FE2DCC6FC300F884524FA997E5A9D370EFEF9836F5C9461CB85AF8C1",
-                "exponent": 0
-            },
-            {
-                "denom": "strd",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47",
-        "name": "Neutron",
-        "display": "ntrn",
-        "symbol": "NTRN",
-        "denoms": [
-            {
-                "denom": "ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47",
-                "exponent": 0
-            },
-            {
-                "denom": "ntrn",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/B870E6642B6491779D35F326A895780FC2F7409DFD7F639A98505555AEAF345F",
-        "name": "MANTRA",
-        "display": "om",
-        "symbol": "OM",
-        "denoms": [
-            {
-                "denom": "ibc/B870E6642B6491779D35F326A895780FC2F7409DFD7F639A98505555AEAF345F",
-                "exponent": 0
-            },
-            {
-                "denom": "om",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/E3459360643C2555C57C7DAB0567FA762B42D5D6D45A76615EA7D99D933AEC04",
-        "name": "Secret Network",
-        "display": "scrt",
-        "symbol": "SCRT",
-        "denoms": [
-            {
-                "denom": "ibc/E3459360643C2555C57C7DAB0567FA762B42D5D6D45A76615EA7D99D933AEC04",
-                "exponent": 0
-            },
-            {
-                "denom": "scrt",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elys",
-        "base": "ibc/147B3FF1D005512CCE4089559AF5D0C951F4211A031F15E782E505B85022DF89",
-        "name": "Kava",
-        "display": "kava",
-        "symbol": "KAVA",
-        "denoms": [
-            {
-                "denom": "ibc/147B3FF1D005512CCE4089559AF5D0C951F4211A031F15E782E505B85022DF89",
-                "exponent": 0
-            },
-            {
-                "denom": "kava",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "cryptoorgchain",
         "base": "basecro",
         "name": "Cronos",
@@ -9093,23 +8940,6 @@
         "denoms": [
             {
                 "denom": "baseXLM",
-                "exponent": 0
-            },
-            {
-                "denom": "lumen",
-                "exponent": 7
-            }
-        ]
-    },
-    {
-        "chain_name": "cryptoorgchain",
-        "base": "ibc/34A1D4BF5FFCDB912F64FE71D54426D56970F873F1279983B69C713B3A62D10D",
-        "name": "Lumen (Solo Machine)",
-        "display": "lumen",
-        "symbol": "XLM",
-        "denoms": [
-            {
-                "denom": "ibc/34A1D4BF5FFCDB912F64FE71D54426D56970F873F1279983B69C713B3A62D10D",
                 "exponent": 0
             },
             {
@@ -16532,23 +16362,6 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C",
-        "name": "Kima Network",
-        "display": "KIMA",
-        "symbol": "KIMA",
-        "denoms": [
-            {
-                "denom": "ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C",
-                "exponent": 0
-            },
-            {
-                "denom": "KIMA",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
         "base": "ibc/ABD49F44559CB3E557CC458459CB6A67CEBD66E23C7674A0B2B445230BDA1F6C",
         "name": "Stratos",
         "display": "stos",
@@ -17322,40 +17135,6 @@
     },
     {
         "chain_name": "osmosis",
-        "base": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
-        "name": "Kima Network",
-        "display": "KIMA",
-        "symbol": "KIMA",
-        "denoms": [
-            {
-                "denom": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
-                "exponent": 0
-            },
-            {
-                "denom": "KIMA",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
-        "name": "furya",
-        "display": "fury",
-        "symbol": "FURY",
-        "denoms": [
-            {
-                "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
-                "exponent": 0
-            },
-            {
-                "denom": "fury",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
         "base": "ibc/2EB516F83C9FF44AB6826F269CA98A5622608C6C955E12112E58F23A324FEE07",
         "name": "Pundi X Token",
         "display": "PUNDIX",
@@ -17368,23 +17147,6 @@
             {
                 "denom": "PUNDIX",
                 "exponent": 18
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosis",
-        "base": "ibc/320F8D6EC17E14436D19C6D844BB9A5AE9B9A209F6D18364A2191FF08E8732A9",
-        "name": "dHealth",
-        "display": "dhp",
-        "symbol": "DHP",
-        "denoms": [
-            {
-                "denom": "ibc/320F8D6EC17E14436D19C6D844BB9A5AE9B9A209F6D18364A2191FF08E8732A9",
-                "exponent": 0
-            },
-            {
-                "denom": "dhp",
-                "exponent": 6
             }
         ]
     },
@@ -18163,23 +17925,6 @@
         ]
     },
     {
-        "chain_name": "planq",
-        "base": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
-        "name": "MEME",
-        "display": "meme",
-        "symbol": "MEME",
-        "denoms": [
-            {
-                "denom": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
-                "exponent": 0
-            },
-            {
-                "denom": "meme",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "arkh",
         "base": "arkh",
         "name": "Arkh",
@@ -18346,23 +18091,6 @@
             {
                 "denom": "canto",
                 "exponent": 18
-            }
-        ]
-    },
-    {
-        "chain_name": "canto",
-        "base": "ibc/FAFF3F7B2FE30447544A27910DF77069763CF25472BFCF63A9E7C81F0AD545AC",
-        "name": "Tether USDt",
-        "display": "usdt",
-        "symbol": "USDt",
-        "denoms": [
-            {
-                "denom": "ibc/FAFF3F7B2FE30447544A27910DF77069763CF25472BFCF63A9E7C81F0AD545AC",
-                "exponent": 0
-            },
-            {
-                "denom": "usdt",
-                "exponent": 6
             }
         ]
     },
@@ -19637,40 +19365,6 @@
         ]
     },
     {
-        "chain_name": "elystestnet",
-        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
-        "name": "Noble USD Coin",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "elystestnet",
-        "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
-        "name": "ATOM on Elys",
-        "display": "atom",
-        "symbol": "ATOM",
-        "denoms": [
-            {
-                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
-                "exponent": 0
-            },
-            {
-                "denom": "atom",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "injectivetestnet",
         "base": "inj",
         "name": "Injective",
@@ -19876,23 +19570,6 @@
     },
     {
         "chain_name": "osmosistestnet",
-        "base": "ibc/E3D323CB6F427C49E56F913C853A416F6B71BAA9B0164625AD0203266F92B3ED",
-        "name": "Chain4Energy Testnet",
-        "display": "c4e",
-        "symbol": "C4E",
-        "denoms": [
-            {
-                "denom": "ibc/E3D323CB6F427C49E56F913C853A416F6B71BAA9B0164625AD0203266F92B3ED",
-                "exponent": 0
-            },
-            {
-                "denom": "c4e",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosistestnet",
         "base": "ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6",
         "name": "Persistence Testnet",
         "display": "xprt",
@@ -19904,23 +19581,6 @@
             },
             {
                 "denom": "xprt",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "base": "ibc/3642669AD14386D3E38F43F30CFCA859B3E8A05BF6BD6A23DEBD2115AD1325E9",
-        "name": "Xion Testnet",
-        "display": "XION",
-        "symbol": "XION",
-        "denoms": [
-            {
-                "denom": "ibc/3642669AD14386D3E38F43F30CFCA859B3E8A05BF6BD6A23DEBD2115AD1325E9",
-                "exponent": 0
-            },
-            {
-                "denom": "XION",
                 "exponent": 6
             }
         ]
@@ -19973,48 +19633,6 @@
             {
                 "denom": "willyz",
                 "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "base": "ibc/C86B92F7FCFC1993DAC4AB0D78D9BC080300354B823A57F12CD6E2FBB667214E",
-        "name": "amATOM (Testnet)",
-        "display": "amATOM",
-        "symbol": "amATOM",
-        "denoms": [
-            {
-                "denom": "ibc/C86B92F7FCFC1993DAC4AB0D78D9BC080300354B823A57F12CD6E2FBB667214E",
-                "exponent": 0
-            },
-            {
-                "denom": "amATOM",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "base": "ibc/28EEF762052DB8C3D27A7BF625E9F86A1B3B689CC8D80C818CEDF2EB6CBA02A6",
-        "name": "tkx",
-        "display": "tkx",
-        "symbol": "TKX",
-        "denoms": [
-            {
-                "denom": "ibc/28EEF762052DB8C3D27A7BF625E9F86A1B3B689CC8D80C818CEDF2EB6CBA02A6",
-                "exponent": 0
-            },
-            {
-                "denom": "utkx",
-                "exponent": 12
-            },
-            {
-                "denom": "mtkx",
-                "exponent": 15
-            },
-            {
-                "denom": "tkx",
-                "exponent": 18
             }
         ]
     },
@@ -22993,23 +22611,6 @@
         ]
     },
     {
-        "chain_name": "dymensiontestnet1",
-        "base": "ibc/E1E753928DE8EF6034F987F9E9C5F71ACF6AE7F5E221933D477BF745995B338B",
-        "name": "Noble USD Coin",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "ibc/E1E753928DE8EF6034F987F9E9C5F71ACF6AE7F5E221933D477BF745995B338B",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "humanstestnet",
         "base": "uheart",
         "name": "HEART",
@@ -24238,40 +23839,6 @@
         ]
     },
     {
-        "chain_name": "archwaytestnet",
-        "base": "ibc/34F8D3402273FFA5278AE5757D81CE151ACFD4B19C494C0EE372A7229714824F",
-        "name": "USDC (Noble)",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "ibc/34F8D3402273FFA5278AE5757D81CE151ACFD4B19C494C0EE372A7229714824F",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "archwaytestnet",
-        "base": "cw20:archway172vetupqnkgdc7dp3gwqpvk5ljmgzyj2gs4ag2fdmp0s2rucxxsqh0nqeu",
-        "name": "Wrapped USDC",
-        "display": "wUSDC",
-        "symbol": "wUSDC",
-        "denoms": [
-            {
-                "denom": "cw20:archway172vetupqnkgdc7dp3gwqpvk5ljmgzyj2gs4ag2fdmp0s2rucxxsqh0nqeu",
-                "exponent": 0
-            },
-            {
-                "denom": "wUSDC",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "fiammatestnet",
         "base": "ufia",
         "name": "Fiamma",
@@ -24560,6 +24127,40 @@
             },
             {
                 "denom": "nym",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifestdevnet",
+        "base": "umfx",
+        "name": "Manifest Devnet Token",
+        "display": "mfx",
+        "symbol": "MFX",
+        "denoms": [
+            {
+                "denom": "umfx",
+                "exponent": 0
+            },
+            {
+                "denom": "mfx",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "manifestdevnet",
+        "base": "upoa",
+        "name": "Manifest Devnet Authority Token",
+        "display": "poa",
+        "symbol": "POA",
+        "denoms": [
+            {
+                "denom": "upoa",
+                "exponent": 0
+            },
+            {
+                "denom": "poa",
                 "exponent": 6
             }
         ]
@@ -25095,74 +24696,6 @@
         ]
     },
     {
-        "chain_name": "mantrachaintestnet2",
-        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
-        "name": "USDC",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "mantrachaintestnet2",
-        "base": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
-        "name": "Ondo US Dollar Yield",
-        "display": "usdy",
-        "symbol": "USDY",
-        "denoms": [
-            {
-                "denom": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
-                "exponent": 0
-            },
-            {
-                "denom": "usdy",
-                "exponent": 18
-            }
-        ]
-    },
-    {
-        "chain_name": "mantrachaintestnet2",
-        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
-        "name": "Osmosis",
-        "display": "osmo",
-        "symbol": "OSMO",
-        "denoms": [
-            {
-                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
-                "exponent": 0
-            },
-            {
-                "denom": "osmo",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "mantrachaintestnet2",
-        "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
-        "name": "Cosmos Hub",
-        "display": "atom",
-        "symbol": "ATOM",
-        "denoms": [
-            {
-                "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
-                "exponent": 0
-            },
-            {
-                "denom": "atom",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "nibirudevnet2",
         "base": "unibi",
         "name": "Nibiru",
@@ -25545,40 +25078,6 @@
         ]
     },
     {
-        "chain_name": "stridetestnet",
-        "base": "ibc/1A7653323C1A9E267FF7BEBF40B3EEA8065E8F069F47F2493ABC3E0B621BF793",
-        "name": "Celestia",
-        "display": "TIA",
-        "symbol": "TIA",
-        "denoms": [
-            {
-                "denom": "ibc/1A7653323C1A9E267FF7BEBF40B3EEA8065E8F069F47F2493ABC3E0B621BF793",
-                "exponent": 0
-            },
-            {
-                "denom": "TIA",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "stridetestnet",
-        "base": "ibc/DFA22C0A6DD15E64B6BD164A1C748EDA8E976F3BDAC9BA7B40AD887BBEC5D2BB",
-        "name": "dYdX",
-        "display": "DV4TNT",
-        "symbol": "DV4TNT",
-        "denoms": [
-            {
-                "denom": "ibc/DFA22C0A6DD15E64B6BD164A1C748EDA8E976F3BDAC9BA7B40AD887BBEC5D2BB",
-                "exponent": 0
-            },
-            {
-                "denom": "DV4TNT",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "selfchaindevnet",
         "base": "uself",
         "name": "self",
@@ -25625,23 +25124,6 @@
             },
             {
                 "denom": "entry",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "entrypointtestnet",
-        "base": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
-        "name": "Cosmos",
-        "display": "atom",
-        "symbol": "ATOM",
-        "denoms": [
-            {
-                "denom": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
-                "exponent": 0
-            },
-            {
-                "denom": "atom",
                 "exponent": 6
             }
         ]
@@ -25915,23 +25397,6 @@
             {
                 "denom": "wstETH",
                 "exponent": 18
-            }
-        ]
-    },
-    {
-        "chain_name": "neutron",
-        "base": "ibc/DDC3C60EE82BF544F1A0C6A983FF500EF1C14DE20071A5E1E7C0FB470E36E920",
-        "name": "Nomic NBTC",
-        "display": "sat",
-        "symbol": "SAT",
-        "denoms": [
-            {
-                "denom": "ibc/DDC3C60EE82BF544F1A0C6A983FF500EF1C14DE20071A5E1E7C0FB470E36E920",
-                "exponent": 0
-            },
-            {
-                "denom": "sat",
-                "exponent": 6
             }
         ]
     },
@@ -26650,23 +26115,6 @@
             {
                 "denom": "meme",
                 "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "meme",
-        "base": "ibc/FACC1CE598366EA01D86CF1CBE05F1A6C7511F673E91DEFF04342ED8DEFE3A60",
-        "name": "Planq",
-        "display": "planq",
-        "symbol": "PLQ",
-        "denoms": [
-            {
-                "denom": "ibc/FACC1CE598366EA01D86CF1CBE05F1A6C7511F673E91DEFF04342ED8DEFE3A60",
-                "exponent": 0
-            },
-            {
-                "denom": "planq",
-                "exponent": 18
             }
         ]
     },
@@ -27704,23 +27152,6 @@
             {
                 "denom": "crowdp",
                 "exponent": 18
-            }
-        ]
-    },
-    {
-        "chain_name": "cosmoshub",
-        "base": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73",
-        "name": "Dungeon",
-        "display": "dgn",
-        "symbol": "DGN",
-        "denoms": [
-            {
-                "denom": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73",
-                "exponent": 0
-            },
-            {
-                "denom": "dgn",
-                "exponent": 6
             }
         ]
     },
@@ -30462,23 +29893,6 @@
         ]
     },
     {
-        "chain_name": "routerchain",
-        "base": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
-        "name": "USDC",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
-                "exponent": 6
-            }
-        ]
-    },
-    {
         "chain_name": "sei",
         "base": "usei",
         "name": "Sei",
@@ -30559,23 +29973,6 @@
             },
             {
                 "denom": "sensei",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "sei",
-        "base": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
-        "name": "Wosmo",
-        "display": "WOSMO",
-        "symbol": "WOSMO",
-        "denoms": [
-            {
-                "denom": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
-                "exponent": 0
-            },
-            {
-                "denom": "WOSMO",
                 "exponent": 6
             }
         ]
@@ -31849,23 +31246,6 @@
     },
     {
         "chain_name": "kujira",
-        "base": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
-        "name": "Axelar Bridged wBTC",
-        "display": "wbtc.axl",
-        "symbol": "wBTC.axl",
-        "denoms": [
-            {
-                "denom": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
-                "exponent": 0
-            },
-            {
-                "denom": "wbtc.axl",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "kujira",
         "base": "ibc/F97BDCE220CCB52139C73066E36C45EC7EDCEEF1DAFF891A34F4FBA195A2E6E8",
         "name": "Stride staked OSMO",
         "display": "stosmo",
@@ -33118,23 +32498,6 @@
             },
             {
                 "denom": "akt",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "akash",
-        "base": "ibc/05DB6975261B805B6F6A157A4386C627F8A70BF8118D411655EFEDCA82BFABA5",
-        "name": "Tether USDt",
-        "display": "usdt",
-        "symbol": "USDt",
-        "denoms": [
-            {
-                "denom": "ibc/05DB6975261B805B6F6A157A4386C627F8A70BF8118D411655EFEDCA82BFABA5",
-                "exponent": 0
-            },
-            {
-                "denom": "usdt",
                 "exponent": 6
             }
         ]
@@ -39056,23 +38419,6 @@
     },
     {
         "chain_name": "archway",
-        "base": "ibc/D2BCFE34F35AF2968C8E1F84557D8A2058BB56F739EB553206EFC2AD8C6EDAF0",
-        "name": "Wosmo",
-        "display": "WOSMO",
-        "symbol": "WOSMO",
-        "denoms": [
-            {
-                "denom": "ibc/D2BCFE34F35AF2968C8E1F84557D8A2058BB56F739EB553206EFC2AD8C6EDAF0",
-                "exponent": 0
-            },
-            {
-                "denom": "WOSMO",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "archway",
         "base": "ibc/1BCF1FCAFE3568E234787EDFDA12460BD8931B17FE6A729DCD60FAD845558DA1",
         "name": "Vidulum",
         "display": "vdl",
@@ -39675,23 +39021,6 @@
             },
             {
                 "denom": "oraix",
-                "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "oraichain",
-        "base": "cw20:orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd",
-        "name": "Usdc",
-        "display": "usdc",
-        "symbol": "USDC",
-        "denoms": [
-            {
-                "denom": "cw20:orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd",
-                "exponent": 0
-            },
-            {
-                "denom": "usdc",
                 "exponent": 6
             }
         ]
@@ -41576,23 +40905,6 @@
             {
                 "denom": "ashWIND",
                 "exponent": 6
-            }
-        ]
-    },
-    {
-        "chain_name": "juno",
-        "base": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
-        "name": "Crowdpunk DAO",
-        "display": "crowdp",
-        "symbol": "CROWDP",
-        "denoms": [
-            {
-                "denom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
-                "exponent": 0
-            },
-            {
-                "denom": "crowdp",
-                "exponent": 18
             }
         ]
     },
