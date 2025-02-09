@@ -18945,6 +18945,74 @@
         ]
     },
     {
+        "chain_name": "symphonytestnet3",
+        "base": "note",
+        "name": "Melody",
+        "display": "mld",
+        "symbol": "MLD",
+        "denoms": [
+            {
+                "denom": "note",
+                "exponent": 0
+            },
+            {
+                "denom": "mld",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "symphonytestnet3",
+        "base": "uusd",
+        "name": "Harmony USD",
+        "display": "husd",
+        "symbol": "HUSD",
+        "denoms": [
+            {
+                "denom": "uusd",
+                "exponent": 0
+            },
+            {
+                "denom": "husd",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "symphonytestnet3",
+        "base": "ukhd",
+        "name": "Harmony HKD",
+        "display": "hkhd",
+        "symbol": "HKHD",
+        "denoms": [
+            {
+                "denom": "ukhd",
+                "exponent": 0
+            },
+            {
+                "denom": "hkhd",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "symphonytestnet3",
+        "base": "uvnd",
+        "name": "Harmony VND",
+        "display": "hvnd",
+        "symbol": "HVND",
+        "denoms": [
+            {
+                "denom": "uvnd",
+                "exponent": 0
+            },
+            {
+                "denom": "hvnd",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "galacticatestnet",
         "base": "agnet",
         "name": "Gnet",
