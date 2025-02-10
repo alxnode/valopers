@@ -7787,9 +7787,9 @@
     {
         "chain_name": "sidechain",
         "base": "sat",
-        "name": "BTC-pegged token on Side Chain",
+        "name": "Side Bitcoin",
         "display": "sBTC",
-        "symbol": "SBTC",
+        "symbol": "sBTC",
         "denoms": [
             {
                 "denom": "sat",
