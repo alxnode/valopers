@@ -14302,6 +14302,23 @@
         ]
     },
     {
+        "chain_name": "mantrachain",
+        "base": "ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151",
+        "name": "Axelar",
+        "display": "axl",
+        "symbol": "AXL",
+        "denoms": [
+            {
+                "denom": "ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151",
+                "exponent": 0
+            },
+            {
+                "denom": "axl",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "chronicnetwork",
         "base": "ucht",
         "name": "Chronic Token",
