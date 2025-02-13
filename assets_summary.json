@@ -34289,6 +34289,57 @@
         ]
     },
     {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+        "name": "dYdX",
+        "display": "allDYDX",
+        "symbol": "DYDX",
+        "denoms": [
+            {
+                "denom": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+                "exponent": 0
+            },
+            {
+                "denom": "allDYDX",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+        "name": "fetch-ai",
+        "display": "allFET",
+        "symbol": "FET",
+        "denoms": [
+            {
+                "denom": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+                "exponent": 0
+            },
+            {
+                "denom": "allFET",
+                "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+        "name": "AIOZ",
+        "display": "allAIOZ",
+        "symbol": "AIOZ",
+        "denoms": [
+            {
+                "denom": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+                "exponent": 0
+            },
+            {
+                "denom": "allAIOZ",
+                "exponent": 12
+            }
+        ]
+    },
+    {
         "chain_name": "joltify",
         "base": "ujolt",
         "name": "Joltify",
