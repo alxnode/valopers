@@ -1682,6 +1682,27 @@
         ]
     },
     {
+        "chain_name": "zigchaintestnet",
+        "base": "uzig",
+        "name": "ZIG",
+        "display": "zig",
+        "symbol": "ZIG",
+        "denoms": [
+            {
+                "denom": "uzig",
+                "exponent": 0
+            },
+            {
+                "denom": "mzig",
+                "exponent": 3
+            },
+            {
+                "denom": "zig",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "alloratestnet",
         "base": "uallo",
         "name": "Allora Network",
