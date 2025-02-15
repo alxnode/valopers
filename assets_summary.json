@@ -21597,7 +21597,7 @@
     {
         "chain_name": "nibiru",
         "base": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
-        "name": "AXV",
+        "name": "Astrovault token",
         "display": "AXV",
         "symbol": "AXV",
         "denoms": [
@@ -21607,6 +21607,23 @@
             },
             {
                 "denom": "AXV",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "nibiru",
+        "base": "cw20:nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm",
+        "name": "Astrovault Nibiru LST (xNIBI)",
+        "display": "xNIBI",
+        "symbol": "xNIBI",
+        "denoms": [
+            {
+                "denom": "cw20:nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm",
+                "exponent": 0
+            },
+            {
+                "denom": "xNIBI",
                 "exponent": 6
             }
         ]
