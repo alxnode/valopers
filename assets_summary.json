@@ -9070,6 +9070,23 @@
         ]
     },
     {
+        "chain_name": "planq",
+        "base": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
+        "name": "nRide Token",
+        "display": "nride",
+        "symbol": "NRIDE",
+        "denoms": [
+            {
+                "denom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
+                "exponent": 0
+            },
+            {
+                "denom": "nride",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "vector",
         "base": "uvctr",
         "name": "Vector Token",
@@ -16762,6 +16779,23 @@
             },
             {
                 "denom": "whale",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "juno",
+        "base": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+        "name": "EMPR",
+        "display": "EMPR",
+        "symbol": "EMPR",
+        "denoms": [
+            {
+                "denom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+                "exponent": 0
+            },
+            {
+                "denom": "EMPR",
                 "exponent": 6
             }
         ]
