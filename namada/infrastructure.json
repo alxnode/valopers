@@ -362,13 +362,6 @@
             "network": "namada.5f5de2dd1b88cba30586420",
             "catchup": false,
             "active": true
-        },
-        {
-            "RPC Address": "https://rpc.namada.tududes.com/",
-            "Team or Contributor Name": "TuDudes",
-            "Discord UserName": "sirouk",
-            "GitHub Account": "",
-            "provider": ""
         }
     ],
     "indexers": [
