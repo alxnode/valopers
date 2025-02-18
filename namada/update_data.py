@@ -10,6 +10,7 @@ def normalize_url(url):
 
 def fetch_snapshot_data(snapshot):
     provider = snapshot.get("provider")
+    
     if provider == "itrocket":
         try:
             response = requests.get("https://server-5.itrocket.net/mainnet/namada/.current_state.json", timeout=10)
@@ -20,27 +21,24 @@ def fetch_snapshot_data(snapshot):
                 timestamp_str = data.get("snapshot_block_time")
                 snapshot_size = data.get("snapshot_size")
 
+                timestamp = None
                 if timestamp_str:
                     dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
                     timestamp = int(dt.timestamp())
-                else:
-                    timestamp = None
 
                 snapshot["url"] = f"https://server-5.itrocket.net/mainnet/namada/{snap_name}" if snap_name else snapshot.get("url")
                 snapshot["height"] = height
                 snapshot["timestamp"] = timestamp
                 snapshot["snapshot_size"] = snapshot_size  
-            else:
-                raise Exception("Invalid response from itrocket")
         except Exception as e:
             print(f"Error fetching snapshot data for provider {provider}: {e}")
-            snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
-    
+
     elif provider == "Mandragora":
         try:
             response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
             if response.status_code == 200:
                 data = response.json()
+                
                 snapshot["height"] = data.get("snapshot_height")
                 snapshot["snapshot_size"] = data.get("data_size")               
 
@@ -48,15 +46,11 @@ def fetch_snapshot_data(snapshot):
                 if snapshot_taken_at:
                     dt = datetime.strptime(snapshot_taken_at, "%Y-%m-%dT%H:%M:%S.%fZ")
                     snapshot["timestamp"] = int(dt.timestamp())
-                else:
-                    snapshot["timestamp"] = None
-            else:
-                raise Exception("Invalid response from Mandragora")
         except Exception as e:
             print(f"Error fetching snapshot data for provider {provider}: {e}")
-            snapshot.update({"height": None, "timestamp": None, "snapshot_size": None})
 
     return snapshot
+
 
 def update_data():
     """Update infrastructure.json by refreshing values without external data merging."""
