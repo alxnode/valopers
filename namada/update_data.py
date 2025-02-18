@@ -34,7 +34,7 @@ def fetch_snapshot_data(snapshot):
             print(f"Error fetching snapshot data for provider {provider}: {e}")
 
     elif provider == "Mandragora":
- try:
+        try:
             response = requests.get("https://snapshots2.mandragora.io/namada-full/info.json", timeout=10)
             if response.status_code == 200:
                 data = response.json()
