@@ -622,7 +622,7 @@
             "snapshot_size": null
         },
         {
-            "url": "null",
+            "url": null,
             "provider": "Mandragora",
             "height": "953762",
             "original_page": "https://hackmd.io/@mandragora/namada-mainnet",
