@@ -66,7 +66,7 @@ def update_data():
     current_time = int(time.time())
 
     # Update RPCs
-    for rpc in json_structure.get("rpcs", []):
+    for rpc in json_structure.get("rpc", []):
         try:
             url = normalize_url(rpc.get("url", ""))
             if not url.startswith("http"):
