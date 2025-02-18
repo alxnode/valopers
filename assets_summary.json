@@ -9959,6 +9959,27 @@
     },
     {
         "chain_name": "elys",
+        "base": "uedenb",
+        "name": "Eden BOOST",
+        "display": "edenb",
+        "symbol": "EDEN BOOST",
+        "denoms": [
+            {
+                "denom": "uedenb",
+                "exponent": 0
+            },
+            {
+                "denom": "medenb",
+                "exponent": 3
+            },
+            {
+                "denom": "edenb",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "elys",
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "Noble USD Coin",
         "display": "usdc",
