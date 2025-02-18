@@ -2,40 +2,45 @@ name: Update Infrastructure Data
 
 on:
   schedule:
-    - cron: "0 * * * *" #
-  workflow_dispatch:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:      # Allows manual triggering
 
 jobs:
   update-infrastructure:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Explicitly set permissions for repo operations
+    
     steps:
-    - name: Checkout your repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4    # Updated to latest version
+        
+      - name: Clone Luminara-Hub repository
+        run: git clone --depth 1 https://github.com/Luminara-Hub/namada-ecosystem.git external-repo
 
-    - name: Clone Luminara-Hub repository
-      run: git clone --depth 1 https://github.com/Luminara-Hub/namada-ecosystem.git external-repo
+      - name: Set up Python
+        uses: actions/setup-python@v5    # Updated to latest version
+        with:
+          python-version: '3.12'         # Using stable Python version
+          cache: 'pip'                   # Enable pip caching
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.13.0"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
+      - name: Run update_data script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python namada/update_data.py
 
-    - name: Run update_data script
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: python namada/update_data.py
-
-    - name: Commit and push changes
-      run: |
-        git config --local user.name "GitHub Actions"
-        git config --local user.email "actions@github.com"
-        git add namada/infrastructure.json
-        git commit -m "Automated update of infrastructure.json"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add namada/infrastructure.json
+          timestamp=$(date -u)
+          git commit -m "chore: update infrastructure data [skip ci] ${timestamp}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
