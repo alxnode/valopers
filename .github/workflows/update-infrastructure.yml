@@ -2,23 +2,20 @@ name: Update Infrastructure Data
 
 on:
   schedule:
-    - cron: "0 * * * *" #
+    - cron: "0 * * * *"  # Runs every hour
   workflow_dispatch:
 
 jobs:
   update-infrastructure:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout your repository
+    - name: Checkout repository
       uses: actions/checkout@v3
-
-    - name: Clone Luminara-Hub repository
-      run: git clone --depth 1 https://github.com/Luminara-Hub/namada-ecosystem.git external-repo
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.13.0"
+        python-version: "3.x"
 
     - name: Install dependencies
       run: |
@@ -26,16 +23,14 @@ jobs:
         pip install requests
 
     - name: Run update_data script
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python namada/update_data.py
 
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
         git add namada/infrastructure.json
-        git commit -m "Automated update of infrastructure.json"
+        git diff --staged --quiet || git commit -m "Automated update of infrastructure.json"
         git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
