@@ -622,7 +622,7 @@
             "snapshot_size": null
         },
         {
-            "url": "https://snapshots.stakepool.dev.br/namada.tar.lz4",
+            "url": "null",
             "provider": "Mandragora",
             "height": null,
             "original_page": "https://hackmd.io/@mandragora/namada-mainnet",
