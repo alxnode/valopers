@@ -17214,6 +17214,23 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "c:upryzm",
+        "name": "cPryzm",
+        "display": "cpryzm",
+        "symbol": "cPRYZM",
+        "denoms": [
+            {
+                "denom": "c:upryzm",
+                "exponent": 0
+            },
+            {
+                "denom": "cpryzm",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "p:uatom:30Sep2024",
         "name": "pAtom (30Sep2024)",
         "display": "pATOM30Sep2024",
@@ -18008,6 +18025,74 @@
             {
                 "denom": "pUSDY31Dec2025",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:upryzm:31Mar2025",
+        "name": "pPryzm (31Mar2025)",
+        "display": "pPRYZM31Mar2025",
+        "symbol": "pPRYZM-31Mar2025",
+        "denoms": [
+            {
+                "denom": "p:upryzm:31Mar2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pPRYZM31Mar2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:upryzm:30Jun2025",
+        "name": "pPryzm (30Jun2025)",
+        "display": "pPRYZM30Jun2025",
+        "symbol": "pPRYZM-30Jun2025",
+        "denoms": [
+            {
+                "denom": "p:upryzm:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pPRYZM30Jun2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:upryzm:30Sep2025",
+        "name": "pPryzm (30Sep2025)",
+        "display": "pPRYZM30Sep2025",
+        "symbol": "pPRYZM-30Sep2025",
+        "denoms": [
+            {
+                "denom": "p:upryzm:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pPRYZM30Sep2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "p:upryzm:31Dec2025",
+        "name": "pPryzm (31Dec2025)",
+        "display": "pPRYZM31Dec2025",
+        "symbol": "pPRYZM-31Dec2025",
+        "denoms": [
+            {
+                "denom": "p:upryzm:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "pPRYZM31Dec2025",
+                "exponent": 6
             }
         ]
     },
@@ -18812,6 +18897,74 @@
     },
     {
         "chain_name": "pryzm",
+        "base": "y:upryzm:31Mar2025",
+        "name": "yPryzm (31Mar2025)",
+        "display": "yPRYZM31Mar2025",
+        "symbol": "yPRYZM-31Mar2025",
+        "denoms": [
+            {
+                "denom": "y:upryzm:31Mar2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yPRYZM31Mar2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:upryzm:30Jun2025",
+        "name": "yPryzm (30Jun2025)",
+        "display": "yPRYZM30Jun2025",
+        "symbol": "yPRYZM-30Jun2025",
+        "denoms": [
+            {
+                "denom": "y:upryzm:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yPRYZM30Jun2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:upryzm:30Sep2025",
+        "name": "yPryzm (30Sep2025)",
+        "display": "yPRYZM30Sep2025",
+        "symbol": "yPRYZM-30Sep2025",
+        "denoms": [
+            {
+                "denom": "y:upryzm:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yPRYZM30Sep2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "y:upryzm:31Dec2025",
+        "name": "yPryzm (31Dec2025)",
+        "display": "yPRYZM31Dec2025",
+        "symbol": "yPRYZM-31Dec2025",
+        "denoms": [
+            {
+                "denom": "y:upryzm:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "yPRYZM31Dec2025",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
         "base": "lp:6:uusdc.axl-uusdc",
         "name": "USDC / USDC.axl LP",
         "display": "lp:6:usdc.axl-usdc",
@@ -19283,6 +19436,23 @@
             {
                 "denom": "lp:32:usdyypt-usdc",
                 "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "pryzm",
+        "base": "lp:33:upryzm",
+        "name": "PRYZM Yield LP",
+        "display": "lp:33:pryzm",
+        "symbol": "PRYZM-YIELD-LP",
+        "denoms": [
+            {
+                "denom": "lp:33:upryzm",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:33:pryzm",
+                "exponent": 6
             }
         ]
     },
