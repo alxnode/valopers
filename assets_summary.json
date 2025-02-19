@@ -7018,6 +7018,23 @@
         ]
     },
     {
+        "chain_name": "ethereumtestnet",
+        "base": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+        "name": "Tether USD",
+        "display": "usdt",
+        "symbol": "USDT",
+        "denoms": [
+            {
+                "denom": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+                "exponent": 0
+            },
+            {
+                "denom": "usdt",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "polkadottestnet",
         "base": "Planck",
         "name": "Polkadot",
