@@ -14446,6 +14446,23 @@
         ]
     },
     {
+        "chain_name": "mantrachain",
+        "base": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+        "name": "Ali-Rev-Gator",
+        "display": "bike",
+        "symbol": "BIKE",
+        "denoms": [
+            {
+                "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+                "exponent": 0
+            },
+            {
+                "denom": "bike",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "chronicnetwork",
         "base": "ucht",
         "name": "Chronic Token",
@@ -34684,6 +34701,23 @@
             {
                 "denom": "allAIOZ",
                 "exponent": 12
+            }
+        ]
+    },
+    {
+        "chain_name": "osmosis",
+        "base": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+        "name": "Ali-Rev-Gator",
+        "display": "bike",
+        "symbol": "BIKE",
+        "denoms": [
+            {
+                "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+                "exponent": 0
+            },
+            {
+                "denom": "bike",
+                "exponent": 6
             }
         ]
     },
