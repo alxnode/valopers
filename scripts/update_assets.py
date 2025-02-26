@@ -27,6 +27,7 @@ for root, _, files in os.walk(base_path):
                     display = asset.get("display", "")
                     symbol = asset.get("symbol", "")
                     denom_units = asset.get("denom_units", [])
+                    logo_URIs = asset.get("logo_URIs", {})  # Keep original logo URIs
 
                     denoms = [
                         {"denom": denom_unit["denom"], "exponent": denom_unit["exponent"]}
@@ -39,7 +40,8 @@ for root, _, files in os.walk(base_path):
                         "name": name,
                         "display": display,
                         "symbol": symbol,
-                        "denoms": denoms
+                        "denoms": denoms,
+                        "logo_URIs": logo_URIs  
                     })
 
         except Exception as e:
