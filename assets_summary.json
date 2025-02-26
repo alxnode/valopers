@@ -7136,6 +7136,74 @@
         ]
     },
     {
+        "chain_name": "mantrachaintestnet2",
+        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name": "USDC",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "mantrachaintestnet2",
+        "base": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
+        "name": "Ondo US Dollar Yield",
+        "display": "usdy",
+        "symbol": "USDY",
+        "denoms": [
+            {
+                "denom": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
+                "exponent": 0
+            },
+            {
+                "denom": "usdy",
+                "exponent": 18
+            }
+        ]
+    },
+    {
+        "chain_name": "mantrachaintestnet2",
+        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ]
+    },
+    {
+        "chain_name": "mantrachaintestnet2",
+        "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+        "name": "Cosmos Hub",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ]
+    },
+    {
         "chain_name": "temporaltestnet",
         "base": "utprl",
         "name": "TPRL",
@@ -21413,13 +21481,13 @@
     },
     {
         "chain_name": "kopi",
-        "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+        "base": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
         "name": "USDC",
         "display": "USDC",
         "symbol": "USDC",
         "denoms": [
             {
-                "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+                "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
                 "exponent": 0
             },
             {
