@@ -1,16 +1,282 @@
-{
-  "penumbra-1": [
-    {
-      "penumbravalid1yn7vh66v7kugz5tfm9x4vwv0xydeer70fv9nyhzhvcs853h7jv9qyrfmx9": "F87ADDB700C0CC94"
-    },
-    {
-      "penumbravalid1yn7vh66v7kugz5tfm9x4vwv0xydeer70fv9nyhzhvcs853h7jv9qyrfmx9": "F87ADDB700C0CC94"
-    },
-    {
-      "penumbravalid1yn7vh66v7kugz5tfm9x4vwv0xydeer70fv9nyhzhvcs853h7jv9qyrfmx9": "F87ADDB700C0CC94"
-    },
-    {
-      "penumbravalid1yn7vh66v7kugz5tfm9x4vwv0xydeer70fv9nyhzhvcs853h7jv9qyrfmx9": "F87ADDB700C0CC94"
-    }
-  ]
-}
+[
+  {
+    "moniker": "Informal Systems",
+    "operator_address": "penumbravalid172tnkp0ece6fzm8yq09n4s4sz5dvu739mxegkuhecplzt3quacgsz38wvw",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Starling Cybernetics 🌙",
+    "operator_address": "penumbravalid1gjdvn0u85rgldqk5adfexn6n4y8d2m3tfla54sc4gu95xwpzssxsjutk7u",
+    "keybase_id": null
+  },
+  {
+    "moniker": "iqlusion",
+    "operator_address": "penumbravalid17fu2emv7tkqeyfsnk0zghfp93fwmz2454nmlyf9ra4x4jexuwq8svnpwup",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Lavender.Five Nodes",
+    "operator_address": "penumbravalid1yn7vh66v7kugz5tfm9x4vwv0xydeer70fv9nyhzhvcs853h7jv9qyrfmx9",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Lemniscap",
+    "operator_address": "penumbravalid1pr0r72mvpja5zplq9m6zpdqu8jep0ene4gekepr47a9cjqgjzsxspnlull",
+    "keybase_id": null
+  },
+  {
+    "moniker": "polkachu.com",
+    "operator_address": "penumbravalid15fj2zfmhpmp43rq53ceru5xn2h5czzn3glzh4p27emg22pe8ayqsfqkzkp",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Strangelove",
+    "operator_address": "penumbravalid10ffm2y292vgfrl4xxmejeyyvtnmf7ltlnv00n93tcjfqpafuwgyqmhjkhp",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Volt",
+    "operator_address": "penumbravalid1st857wnrgyf8m98a0v39apeq8y72pw0hfre3gg74uywn8ph76sps728nx6",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Binary Builders",
+    "operator_address": "penumbravalid1zzhmj6gpmkln7gsfcq092zceymwk8e3grzvl3y2g03rh7v7l6y9s3ct38l",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Stakecito",
+    "operator_address": "penumbravalid1xsre9zlumhcmkrpz3nmu3j74dw97hw6rky93qs8untvw0qt54crsj3hxaa",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Knowable",
+    "operator_address": "penumbravalid1hejpna25r8ts7rxstqrajzqt2kwzkstdfhsv8h36n20ers70kqpswm5g8u",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Anatolian Team",
+    "operator_address": "penumbravalid1f6a048c6r4s2jzheasa0gjlddxepagkxsu957gu8nntdjyueyursf9h549",
+    "keybase_id": null
+  },
+  {
+    "moniker": "POSTHUMAN 🧬 StakeDrop",
+    "operator_address": "penumbravalid1lt6083d99s0phj44wd45stgu2juasu582sc02j2w7qqcqfkg5qxsz0vmu5",
+    "keybase_id": null
+  },
+  {
+    "moniker": "archebald",
+    "operator_address": "penumbravalid1lr6rqawqmwetsr8dvdefrpeh7zuamj2ka9jgmesn2xxfgf49hsys79rz9j",
+    "keybase_id": null
+  },
+  {
+    "moniker": "⊤⊥",
+    "operator_address": "penumbravalid1qttzflwwf76qsredmcmqdny3z2v35a3kklrzram6l7x9l69v7szslkuzy0",
+    "keybase_id": null
+  },
+  {
+    "moniker": " AutoStake 🛡️ Slash Protected",
+    "operator_address": "penumbravalid1ucy9swzr7nhngjzjw26ycujz0sqhvf2c09p2yh52gneel88rmupq5acs2j",
+    "keybase_id": null
+  },
+  {
+    "moniker": "PFC - Plan For Chaos",
+    "operator_address": "penumbravalid1cnvy0vkjarwwzlqpc5m42m994sxzhcca86tj8j5wrhzndxxe3gzsw8lcsf",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Decentrio",
+    "operator_address": "penumbravalid19gvk7d09tqurgmy0ef2j3dj8x5nzzt0uh4way5j9595s8mgsrgrqsydz34",
+    "keybase_id": null
+  },
+  {
+    "moniker": "✅ CryptoCrew Validators",
+    "operator_address": "penumbravalid1rp3ensht938kegyckygsnu7pjvzj3vvcxys842jywzct7t3nfupslhnpy4",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Bryanlabs",
+    "operator_address": "penumbravalid19qcxdmkpry2zda9htt2wprpk32yc9nwjgmc0xvqwm8qz5afk6upsmg55hh",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Tessellated",
+    "operator_address": "penumbravalid1mr4j6nh3za3wjptjr2uj2ssr3fg0gxxqgqg9vgjl7luqa3qur5zs3fj5w6",
+    "keybase_id": null
+  },
+  {
+    "moniker": "silent",
+    "operator_address": "penumbravalid19jqf35xytm4ht9f8awtad9wxmfky0tjygug8390cewyqjwmyucqqkkrc9r",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Stake&Relax 🦥",
+    "operator_address": "penumbravalid1dp4fl9v5l84t5uz2pcyqxqhcq5225rhglsmneam2fhvqd6e7jygqanhgrg",
+    "keybase_id": null
+  },
+  {
+    "moniker": "🐹 Quokka Stake",
+    "operator_address": "penumbravalid1ezmxdhvygazd25cw5wy9hnsfh6ujy9tnnaxgkjayucf9vkf2uuzqp773fv",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Nodes Hub 🛡️ 100% Slash Protected 🛡️",
+    "operator_address": "penumbravalid1gm2lky6xr2s5gnhcekp6fyhwvrcrvz9pm5ykwhtzqpvrza5l25pq9xzrc6",
+    "keybase_id": null
+  },
+  {
+    "moniker": "WhisperNode 🤐",
+    "operator_address": "penumbravalid1sza2rjfcup9s8pt0lqlun5wlu4r5gnrwal3jz5lz46a40yxfdg8qvdded9",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Nodes.Guru",
+    "operator_address": "penumbravalid132h4e5w3ymadzl2e7tzzrgstg44jewjl7z2wc3h760k62wtje5gsw2w4dv",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Architect Nodes",
+    "operator_address": "penumbravalid13mln7am4lrsrdmd63h9ap7y6pt6r6z3wgvtr50yk7yhvg5stgyfqema8hg",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Staker-Space",
+    "operator_address": "penumbravalid192q5vrd6rrr86h8w2yvh4m84gag0jnnu0y0pv4n7rf7tfyjmvugqug2fyp",
+    "keybase_id": null
+  },
+  {
+    "moniker": "CroutonDigital",
+    "operator_address": "penumbravalid1aglayhqq2ec5yfgx8ljqrd9ypnma5uu46hsd0d77dakgu4nywuyqk29d0m",
+    "keybase_id": null
+  },
+  {
+    "moniker": "ghostinnet",
+    "operator_address": "penumbravalid10n2srs5257a6nxq9x3fhcsqyc0wh8q2lp7f80qd7wlmzdm6znypse23mmh",
+    "keybase_id": null
+  },
+  {
+    "moniker": "ChainTools",
+    "operator_address": "penumbravalid18r8shc89u83gjggv6urwupuw75vsywxuggls6nx3u8u7svhs6g8s3g20ts",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Pro-Nodes75",
+    "operator_address": "penumbravalid13m9sytkm62p0qcc6s0utvx04f72wh0wzlt0xpnt24ltfpugwuvxsxwg0xy",
+    "keybase_id": null
+  },
+  {
+    "moniker": "NosNode🔮",
+    "operator_address": "penumbravalid1q3rjagdz9gguzkx5fdumgykv6wptrpzvr2mh46x977m2y0uvycyq4ayre3",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Validatus",
+    "operator_address": "penumbravalid1q2eu6p33ne58aq0xh2ramsftmxqtqzlzwpa6uy8tgygje39mzypsq6nuyw",
+    "keybase_id": null
+  },
+  {
+    "moniker": "ArtCryptoNodes",
+    "operator_address": "penumbravalid1qqqvkxl2eewjl0f3kakcvryv4g6kq6ua8w8xk4g5j7n9pn50ycqstgekuv",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Pro-Delegators",
+    "operator_address": "penumbravalid142hfnl60upz57zgzmdsetsh7ltfynzjh7vf20haak8jnrpdfagps8erges",
+    "keybase_id": null
+  },
+  {
+    "moniker": "AM Solutions 🪐",
+    "operator_address": "penumbravalid1z6nw9ute35ajjpvq5yqhspvvvp5ephyd8v5c9wk7hs2zz465esrq56r40w",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Oni ⛩️ ",
+    "operator_address": "penumbravalid10n4f39efk973v7l7042nharutc6ttz0hhk2kseeyjsmra4m3ku9s0k3m7j",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Synergy Nodes",
+    "operator_address": "penumbravalid1uny4hsledvqrvuw5nvlgygfskknznes2rv90xdrzqsceqpe58ypqf2e7j3",
+    "keybase_id": null
+  },
+  {
+    "moniker": "NodeSphere",
+    "operator_address": "penumbravalid1e2nt0hlnw3ppnrhp2jhdhhnglq77gflmtsk4l6un45yv9zs2acrsc6xt8y",
+    "keybase_id": null
+  },
+  {
+    "moniker": "OriginStake",
+    "operator_address": "penumbravalid1he9sez9r2yzc8dekh5w7vqqz6r5c557s8jjchmu3879e9lzn4g9q57k04c",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Candy",
+    "operator_address": "penumbravalid1tfjgtnkx7gtd8dvalvz9dgpx80l2ed5ujszv35xpelq2nu6ydufqa64rd3",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Simply Staking",
+    "operator_address": "penumbravalid1dsge6jnj3tnzmlaas5m0m763fvly9hve2cd0v942kslvt2qw8qgqhu7sts",
+    "keybase_id": null
+  },
+  {
+    "moniker": "✅IONode Vietnam 🚀",
+    "operator_address": "penumbravalid10e6zuet6usvyv967e97etrnwtr7fxw40an5epyvnu72fyn353vrq2z6q0l",
+    "keybase_id": null
+  },
+  {
+    "moniker": "PathrockNetwork",
+    "operator_address": "penumbravalid1gq4j0hh6grl6d7apwg8z5qj97q7uhkeq0tp9qr66xe03cyrjkyrskp7s6v",
+    "keybase_id": null
+  },
+  {
+    "moniker": "kioqq.sh",
+    "operator_address": "penumbravalid1pe0j5e7s9ldves338tcdddwe0rlupu7yz4e9ms0uje3lhrjz85qs0u4akj",
+    "keybase_id": null
+  },
+  {
+    "moniker": "Helios",
+    "operator_address": "penumbravalid1zt383sv5a88z2m40hayyntnhhtjl3ew5my4p2ugzxj9r9gcctgyqhzt5s3",
+    "keybase_id": null
+  },
+  {
+    "moniker": "1024dao",
+    "operator_address": "penumbravalid1w3vz7udmu0a570z3dq86uxjawfqh6jkyxpxj96m539q9pw4q3c9s2vlqx8",
+    "keybase_id": null
+  },
+  {
+    "moniker": "cosmosfan",
+    "operator_address": "penumbravalid1xcjwwkhduv3lxa3dg43czz7ny0ap9pft0xgdx3u22jfxyysmnvrs33y85t",
+    "keybase_id": null
+  },
+  {
+    "moniker": "maiyao",
+    "operator_address": "penumbravalid1wpkhqt7p3t84ux3vxdtscp8t8rz89xrarfc0ey0z79tux0na0y8qz72s8r",
+    "keybase_id": null
+  },
+  {
+    "moniker": "hellopp",
+    "operator_address": "penumbravalid182rp6hyk8073paprygudke57hgzlln2zmxednwz28xmf2rkx2yrq5fmnqf",
+    "keybase_id": null
+  },
+  {
+    "moniker": "rotko.net",
+    "operator_address": "penumbravalid1ar6hyxmvy0em86nclqgxc4qlauj9ct747g4dsx8tn6wthg9nuvrq099640",
+    "keybase_id": null
+  },
+  {
+    "moniker": "antumbra.net",
+    "operator_address": "penumbravalid1ktcv24rwkp69mc6hf5g7kwpwrevy6mrzdsg07nq3za6z4fp72cyqf4aw3d",
+    "keybase_id": null
+  },
+  {
+    "moniker": "XPool",
+    "operator_address": "penumbravalid14clrf3u5y63939pw5a0u9eqx8femp4m69naujg77avse3m9t2v8qe5sv4t",
+    "keybase_id": null
+  },
+  {
+    "moniker": "p10node",
+    "operator_address": "penumbravalid1nzjnx96ut7xs3k397mr4fjcaqednas8fc3wrt5qggygn7l0wyq8sty8sfu",
+    "keybase_id": null
+  }
+]
