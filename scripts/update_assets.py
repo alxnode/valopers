@@ -27,11 +27,38 @@ def get_valopers_logo(chain_id, valopers_data):
             return chain["logo"]
     return None
 
+def add_missing_valopers_logos():
+    try:
+        with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+            assets = json.load(f)
+    except Exception as e:
+        logging.error(f"Failed to read {OUTPUT_PATH}: {e}")
+        return
+
+    # Create a mapping of base -> valopers_logo
+    base_to_logo = {}
+    for asset in assets:
+        valopers_logo = asset["logo_URIs"].get("valopers_logo")
+        if valopers_logo:
+            base_to_logo[asset["base"]] = valopers_logo
+
+    for asset in assets:
+        if "valopers_logo" not in asset["logo_URIs"]:
+            base = asset["base"]
+            if base in base_to_logo:
+                asset["logo_URIs"]["valopers_logo"] = base_to_logo[base]
+
+    try:
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(assets, f, indent=4, ensure_ascii=False)
+        logging.info("Valopers logos updated successfully.")
+    except Exception as e:
+        logging.error(f"Failed to write updated {OUTPUT_PATH}: {e}")
+
 def main():
     logging.info(f"Starting directory traversal at {BASE_PATH}")
     asset_list = []
 
-    # Fetch valopers data once
     valopers_data = fetch_valopers_data()
 
     for root, _, files in os.walk(BASE_PATH):
@@ -52,7 +79,6 @@ def main():
             except Exception as e:
                 logging.error(f"Failed to process {chain_file_path}: {e}")
 
-        # Read assetlist.json
         if "assetlist.json" in files:
             asset_file_path = os.path.join(root, "assetlist.json")
             logging.info(f"Found assetlist.json: {asset_file_path}")
@@ -97,13 +123,14 @@ def main():
             except Exception as e:
                 logging.error(f"Failed to process {asset_file_path}: {e}")
 
-
     if asset_list:
         with open(OUTPUT_PATH, "w", encoding="utf-8") as out_file:
             json.dump(asset_list, out_file, indent=4, ensure_ascii=False)
         logging.info(f"Extracted data saved to {OUTPUT_PATH}")
     else:
         logging.warning("No assets were extracted. Check the input files or directory structure.")
+
+    add_missing_valopers_logos()
 
     logging.info("Script execution completed.")
 
