@@ -33779,6 +33779,28 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
+        "name": "The seven green shade ",
+        "display": "T7S",
+        "symbol": "T7S",
+        "denoms": [
+            {
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
+                "exponent": 0
+            },
+            {
+                "denom": "T7S",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "teritori",
         "chain_id": "teritori-1",
         "base": "utori",
