@@ -11055,39 +11055,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
-        "name": "Manifest",
-        "display": "mfx",
-        "symbol": "MFX",
+        "base": "ibc/005F5CE5A688F0673C896F32E670F83AB818E8D3A96F987A877CF3A7430C2253",
+        "name": "ADAM",
+        "display": "adam",
+        "symbol": "ADAM",
         "denoms": [
             {
-                "denom": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
+                "denom": "ibc/005F5CE5A688F0673C896F32E670F83AB818E8D3A96F987A877CF3A7430C2253",
                 "exponent": 0
             },
             {
-                "denom": "mfx",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/08D22E7A5470B28E5AB7215267B0A4FA27CC7917D4694C6807E3C401F99DDB31",
-        "name": "BLERG",
-        "display": "blerg",
-        "symbol": "BLERG",
-        "denoms": [
-            {
-                "denom": "ibc/08D22E7A5470B28E5AB7215267B0A4FA27CC7917D4694C6807E3C401F99DDB31",
-                "exponent": 0
-            },
-            {
-                "denom": "blerg",
+                "denom": "adam",
                 "exponent": 6
             }
         ],
@@ -11099,211 +11077,13 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/092E2EF01F40CBAC11798FFD1EF9261C878E58098FF2476DD54711972B70D83F",
-        "name": "PWRZT",
-        "display": "pwrzt",
-        "symbol": "PWRZT",
-        "denoms": [
-            {
-                "denom": "ibc/092E2EF01F40CBAC11798FFD1EF9261C878E58098FF2476DD54711972B70D83F",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/0DCAB4EA43429494FE337A45660AF6CD02AEF27147BE374A02952E5AF0A2A6D4",
-        "name": "DBLT",
-        "display": "dblt",
-        "symbol": "DBLT",
-        "denoms": [
-            {
-                "denom": "ibc/0DCAB4EA43429494FE337A45660AF6CD02AEF27147BE374A02952E5AF0A2A6D4",
-                "exponent": 0
-            },
-            {
-                "denom": "dblt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/0E32CFB5D3BA17EA69EC9082ACC1FBBE4E5503988B98B82AB358B9D7CB070581",
-        "name": "MEGA",
-        "display": "mega",
-        "symbol": "MEGA",
-        "denoms": [
-            {
-                "denom": "ibc/0E32CFB5D3BA17EA69EC9082ACC1FBBE4E5503988B98B82AB358B9D7CB070581",
-                "exponent": 0
-            },
-            {
-                "denom": "mega",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/2522E7054B26702E4C0DB983A1696BC9C357A8274D529E2D07D09D34D860DB53",
-        "name": "GWATT",
-        "display": "gwatt",
-        "symbol": "GWATT",
-        "denoms": [
-            {
-                "denom": "ibc/2522E7054B26702E4C0DB983A1696BC9C357A8274D529E2D07D09D34D860DB53",
-                "exponent": 0
-            },
-            {
-                "denom": "gwatt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/2BEBBC54C36EDD3B6BA8D9B25C03C572FD6D996962A7081F8FA7BDE38DF1D5A3",
-        "name": "INDIS",
-        "display": "indis",
-        "symbol": "INDIS",
-        "denoms": [
-            {
-                "denom": "ibc/2BEBBC54C36EDD3B6BA8D9B25C03C572FD6D996962A7081F8FA7BDE38DF1D5A3",
-                "exponent": 0
-            },
-            {
-                "denom": "indis",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/3280BDE7F440D3EF0DE6AEA6632F84E07D54F1908ADBCCDF03F0EFD63831D901",
-        "name": "SOLD",
-        "display": "sold",
-        "symbol": "SOLD",
-        "denoms": [
-            {
-                "denom": "ibc/3280BDE7F440D3EF0DE6AEA6632F84E07D54F1908ADBCCDF03F0EFD63831D901",
-                "exponent": 0
-            },
-            {
-                "denom": "sold",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/3E0F68951BF66F229E01AD3E35EC9E82F37F2C0EAC3EB109F234AD08F85B7979",
-        "name": "SOLB",
-        "display": "solb",
-        "symbol": "SOLB",
-        "denoms": [
-            {
-                "denom": "ibc/3E0F68951BF66F229E01AD3E35EC9E82F37F2C0EAC3EB109F234AD08F85B7979",
-                "exponent": 0
-            },
-            {
-                "denom": "solb",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/3F08DE9963E4E5EB44570FA63049B820A239A4081EB1C7884309E039D01EEEAB",
-        "name": "GREY",
-        "display": "grey",
-        "symbol": "GREY",
-        "denoms": [
-            {
-                "denom": "ibc/3F08DE9963E4E5EB44570FA63049B820A239A4081EB1C7884309E039D01EEEAB",
-                "exponent": 0
-            },
-            {
-                "denom": "grey",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/470F9D29B01DA444830AE6C3392A9CA55F05C40F5B64C076F5FC0E4DBBE9A4C3",
-        "name": "ABUS",
-        "display": "abus",
-        "symbol": "ABUS",
-        "denoms": [
-            {
-                "denom": "ibc/470F9D29B01DA444830AE6C3392A9CA55F05C40F5B64C076F5FC0E4DBBE9A4C3",
-                "exponent": 0
-            },
-            {
-                "denom": "abus",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/4FB0428DD0B1C18995DB966671A3438FA6758C8BB71B4BBA1D76A2146C325662",
+        "base": "ibc/074B3B7B88AFD65707CF016455C9E24D1E05226CB733870AA3FD198C173EBE30",
         "name": "SNOOP",
         "display": "snoop",
         "symbol": "SNOOP",
         "denoms": [
             {
-                "denom": "ibc/4FB0428DD0B1C18995DB966671A3438FA6758C8BB71B4BBA1D76A2146C325662",
+                "denom": "ibc/074B3B7B88AFD65707CF016455C9E24D1E05226CB733870AA3FD198C173EBE30",
                 "exponent": 0
             },
             {
@@ -11319,17 +11099,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/54A09933C80A962FD4263DFD362F033D29D064B710F825CCA2577AFEF6F69413",
-        "name": "HIVE",
-        "display": "hive",
-        "symbol": "HIVE",
+        "base": "ibc/13142566F3D6C9BD33F42962929378F8479710E863AB74C1BB4247053ADFD4A0",
+        "name": "TACO",
+        "display": "taco",
+        "symbol": "TACO",
         "denoms": [
             {
-                "denom": "ibc/54A09933C80A962FD4263DFD362F033D29D064B710F825CCA2577AFEF6F69413",
+                "denom": "ibc/13142566F3D6C9BD33F42962929378F8479710E863AB74C1BB4247053ADFD4A0",
                 "exponent": 0
             },
             {
-                "denom": "hive",
+                "denom": "taco",
                 "exponent": 6
             }
         ],
@@ -11341,17 +11121,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/5BFC58E86BBA9C769BC7A04D434F9B0EB47EC1163BB279F82984D350F18ECA76",
-        "name": "PWROZ",
-        "display": "pwroz",
-        "symbol": "PWROZ",
+        "base": "ibc/20AB09D9296F97112E44E3E9D5F92E1AFB1B7ED76008FF3E9974473985E12ACA",
+        "name": "DANCINGPENGUIN",
+        "display": "dancingpenguin",
+        "symbol": "DANCINGPENGUIN",
         "denoms": [
             {
-                "denom": "ibc/5BFC58E86BBA9C769BC7A04D434F9B0EB47EC1163BB279F82984D350F18ECA76",
+                "denom": "ibc/20AB09D9296F97112E44E3E9D5F92E1AFB1B7ED76008FF3E9974473985E12ACA",
                 "exponent": 0
             },
             {
-                "denom": "pwroz",
+                "denom": "dancingpenguin",
                 "exponent": 6
             }
         ],
@@ -11363,17 +11143,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/601F6AF6EA660D6CDFCAA206B2F8ABB0AE4C7436654F7BBFD82A50182F45CA2F",
-        "name": "BITCH",
-        "display": "bitch",
-        "symbol": "BITCH",
+        "base": "ibc/236B1550CAF803837218C0E44EA8055EDF1D634CC171D60791FC598E48D20977",
+        "name": "CUTE",
+        "display": "cute",
+        "symbol": "CUTE",
         "denoms": [
             {
-                "denom": "ibc/601F6AF6EA660D6CDFCAA206B2F8ABB0AE4C7436654F7BBFD82A50182F45CA2F",
+                "denom": "ibc/236B1550CAF803837218C0E44EA8055EDF1D634CC171D60791FC598E48D20977",
                 "exponent": 0
             },
             {
-                "denom": "bitch",
+                "denom": "cute",
                 "exponent": 6
             }
         ],
@@ -11385,17 +11165,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/66A40F06F75985D01F989F88F433E085C8AD3A085CFBA661F86244D3DC8718F8",
-        "name": "PWRZF",
-        "display": "pwrzf",
-        "symbol": "PWRZF",
+        "base": "ibc/2940C9733B3E81E4914A9EE22C9D444AE0039D0C4BCE75F3B9ABACC293E93AF6",
+        "name": "ASDASDASD",
+        "display": "asdasdasd",
+        "symbol": "ASDASDASD",
         "denoms": [
             {
-                "denom": "ibc/66A40F06F75985D01F989F88F433E085C8AD3A085CFBA661F86244D3DC8718F8",
+                "denom": "ibc/2940C9733B3E81E4914A9EE22C9D444AE0039D0C4BCE75F3B9ABACC293E93AF6",
                 "exponent": 0
             },
             {
-                "denom": "pwrzf",
+                "denom": "asdasdasd",
                 "exponent": 6
             }
         ],
@@ -11407,17 +11187,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/6774AA33A63A5A6C880282EB2A0F8AE279346FF394A7BAF1FD81D99F5B8C22A7",
-        "name": "GCATT",
-        "display": "gcatt",
-        "symbol": "GCATT",
+        "base": "ibc/3E55458BB86CB338A22C150D917D192BFFBF7BFE37F6AA80EA2EB7B11846C6D1",
+        "name": "UMEGA",
+        "display": "umega",
+        "symbol": "UMEGA",
         "denoms": [
             {
-                "denom": "ibc/6774AA33A63A5A6C880282EB2A0F8AE279346FF394A7BAF1FD81D99F5B8C22A7",
+                "denom": "ibc/3E55458BB86CB338A22C150D917D192BFFBF7BFE37F6AA80EA2EB7B11846C6D1",
                 "exponent": 0
             },
             {
-                "denom": "gcatt",
+                "denom": "umega",
                 "exponent": 6
             }
         ],
@@ -11429,17 +11209,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/68B9C8D0E1DDCB3EB6B33D66B19B3B4197025BE8CB3D953031EC6A1EE745328F",
-        "name": "FRAME",
-        "display": "frame",
-        "symbol": "FRAME",
+        "base": "ibc/48FEAC3670B7F5F4064990611BE0BC0BF8E1A270839599D6FFADB29381632B81",
+        "name": "WMVT",
+        "display": "wmvt",
+        "symbol": "WMVT",
         "denoms": [
             {
-                "denom": "ibc/68B9C8D0E1DDCB3EB6B33D66B19B3B4197025BE8CB3D953031EC6A1EE745328F",
+                "denom": "ibc/48FEAC3670B7F5F4064990611BE0BC0BF8E1A270839599D6FFADB29381632B81",
                 "exponent": 0
             },
             {
-                "denom": "frame",
+                "denom": "wmvt",
                 "exponent": 6
             }
         ],
@@ -11451,17 +11231,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/73307294FA4018ED2A8ED954BE39561A4D545772371F1C433DBBB72294CA6538",
-        "name": "PWRZE",
-        "display": "pwrze",
-        "symbol": "PWRZE",
+        "base": "ibc/5F2BDDD68BD357FC76514CD0E44228899C2ADAF2580886A4ACC38B2BAF8E9F6A",
+        "name": "DRIPPY",
+        "display": "drippy",
+        "symbol": "DRIPPY",
         "denoms": [
             {
-                "denom": "ibc/73307294FA4018ED2A8ED954BE39561A4D545772371F1C433DBBB72294CA6538",
+                "denom": "ibc/5F2BDDD68BD357FC76514CD0E44228899C2ADAF2580886A4ACC38B2BAF8E9F6A",
                 "exponent": 0
             },
             {
-                "denom": "pwrze",
+                "denom": "drippy",
                 "exponent": 6
             }
         ],
@@ -11473,17 +11253,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/773C68967FD08D6FAF2F364A2C7DA52DA8FCD5C9E73437F35DF5AB69B32AB352",
-        "name": "SOLA",
-        "display": "sola",
-        "symbol": "SOLA",
+        "base": "ibc/5FD9768DA0B68C4B2EE28A57496C2B03F149BF58E0A4DC8DEEFD3F8EDE7634F5",
+        "name": "GAS",
+        "display": "gas",
+        "symbol": "GAS",
         "denoms": [
             {
-                "denom": "ibc/773C68967FD08D6FAF2F364A2C7DA52DA8FCD5C9E73437F35DF5AB69B32AB352",
+                "denom": "ibc/5FD9768DA0B68C4B2EE28A57496C2B03F149BF58E0A4DC8DEEFD3F8EDE7634F5",
                 "exponent": 0
             },
             {
-                "denom": "sola",
+                "denom": "gas",
                 "exponent": 6
             }
         ],
@@ -11495,17 +11275,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/88B6ADC91FE64C67A610CC1AD0F4F9946CDDB057E73228461381C3A8FDE92493",
-        "name": "PWRZN",
-        "display": "pwrzn",
-        "symbol": "PWRZN",
+        "base": "ibc/6561010EA61B8C9B2984417926379FFC45FFBC5BF9560D84DE4B164B4502AA32",
+        "name": "GOZER",
+        "display": "gozer",
+        "symbol": "GOZER",
         "denoms": [
             {
-                "denom": "ibc/88B6ADC91FE64C67A610CC1AD0F4F9946CDDB057E73228461381C3A8FDE92493",
+                "denom": "ibc/6561010EA61B8C9B2984417926379FFC45FFBC5BF9560D84DE4B164B4502AA32",
                 "exponent": 0
             },
             {
-                "denom": "pwrzn",
+                "denom": "gozer",
                 "exponent": 6
             }
         ],
@@ -11517,17 +11297,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/8AAC95A1AD0047A9CD7F6D13DDDADB93776E32544036227F9A66C27BF76D8C52",
-        "name": "SOLE",
-        "display": "sole",
-        "symbol": "SOLE",
+        "base": "ibc/65E7A9F142C7C5BCD7551AF2311B3137FC5CBFF693DCADC15FCC9AEF12A778F7",
+        "name": "SIMPLE",
+        "display": "simple",
+        "symbol": "SIMPLE",
         "denoms": [
             {
-                "denom": "ibc/8AAC95A1AD0047A9CD7F6D13DDDADB93776E32544036227F9A66C27BF76D8C52",
+                "denom": "ibc/65E7A9F142C7C5BCD7551AF2311B3137FC5CBFF693DCADC15FCC9AEF12A778F7",
                 "exponent": 0
             },
             {
-                "denom": "sole",
+                "denom": "simple",
                 "exponent": 6
             }
         ],
@@ -11539,17 +11319,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/8B868E456E431A79F5681BA217B4BABA7A34CEE39389FE8D4DF5E3ACACDAE0B6",
-        "name": "PWRZO",
-        "display": "pwrzo",
-        "symbol": "PWRZO",
+        "base": "ibc/7902BAE3A32BF67C5713C35A1610127D331008F3C54AF37FA35AC46045E86744",
+        "name": "TIMMY",
+        "display": "timmy",
+        "symbol": "TIMMY",
         "denoms": [
             {
-                "denom": "ibc/8B868E456E431A79F5681BA217B4BABA7A34CEE39389FE8D4DF5E3ACACDAE0B6",
+                "denom": "ibc/7902BAE3A32BF67C5713C35A1610127D331008F3C54AF37FA35AC46045E86744",
                 "exponent": 0
             },
             {
-                "denom": "pwrzo",
+                "denom": "timmy",
                 "exponent": 6
             }
         ],
@@ -11561,17 +11341,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/8BE93E121E24D268DC77E2A61AA0AF18BBA8F5E6AB105DB8B6AEA664CD6E8AAA",
-        "name": "PWROO",
-        "display": "pwroo",
-        "symbol": "PWROO",
+        "base": "ibc/81F5BD52ADAB15EE8E9E0ECA7F7214A51AC4A06F4A2837261F2604F31A1649DA",
+        "name": "AGA",
+        "display": "aga",
+        "symbol": "AGA",
         "denoms": [
             {
-                "denom": "ibc/8BE93E121E24D268DC77E2A61AA0AF18BBA8F5E6AB105DB8B6AEA664CD6E8AAA",
+                "denom": "ibc/81F5BD52ADAB15EE8E9E0ECA7F7214A51AC4A06F4A2837261F2604F31A1649DA",
                 "exponent": 0
             },
             {
-                "denom": "pwroo",
+                "denom": "aga",
                 "exponent": 6
             }
         ],
@@ -11583,17 +11363,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/8D2F83EEBEE8A34BA1403BDAA3C04457E08D9B8694AD2C232321E19F923B3172",
-        "name": "PWRZS",
-        "display": "pwrzs",
-        "symbol": "PWRZS",
+        "base": "ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C",
+        "name": "MFX",
+        "display": "mfx",
+        "symbol": "MFX",
         "denoms": [
             {
-                "denom": "ibc/8D2F83EEBEE8A34BA1403BDAA3C04457E08D9B8694AD2C232321E19F923B3172",
+                "denom": "ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C",
                 "exponent": 0
             },
             {
-                "denom": "pwrzs",
+                "denom": "mfx",
                 "exponent": 6
             }
         ],
@@ -11605,17 +11385,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/919046A89B91F9995D086C3CFECBF12842831C99206DC2465C19C600BFB29C45",
-        "name": "PWRZR",
-        "display": "pwrzr",
-        "symbol": "PWRZR",
+        "base": "ibc/8F0FD15E8A195360783298BF16A64463AB2F1F793946213F475549C637E91C18",
+        "name": "FUNZIE",
+        "display": "funzie",
+        "symbol": "FUNZIE",
         "denoms": [
             {
-                "denom": "ibc/919046A89B91F9995D086C3CFECBF12842831C99206DC2465C19C600BFB29C45",
+                "denom": "ibc/8F0FD15E8A195360783298BF16A64463AB2F1F793946213F475549C637E91C18",
                 "exponent": 0
             },
             {
-                "denom": "pwrzr",
+                "denom": "funzie",
                 "exponent": 6
             }
         ],
@@ -11627,237 +11407,17 @@
     {
         "chain_name": "axelartestnet",
         "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/95A248CB8B6BA779D278BD2A6C044C1E32B37BA67C735940F9CDDF991F1664AA",
-        "name": "CURES",
-        "display": "cures",
-        "symbol": "CURES",
+        "base": "ibc/CFE74816F2A422812BAEFC344A61536B408C61E7B506CB9D2AD061A459EE48C6",
+        "name": "SPOOF",
+        "display": "spoof",
+        "symbol": "SPOOF",
         "denoms": [
             {
-                "denom": "ibc/95A248CB8B6BA779D278BD2A6C044C1E32B37BA67C735940F9CDDF991F1664AA",
+                "denom": "ibc/CFE74816F2A422812BAEFC344A61536B408C61E7B506CB9D2AD061A459EE48C6",
                 "exponent": 0
             },
             {
-                "denom": "cures",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/99439DB1A5D64002F7202A6AE4F56CAF7CE42A22C5EB77B14780C583E6ACE141",
-        "name": "LENDX",
-        "display": "lendx",
-        "symbol": "LENDX",
-        "denoms": [
-            {
-                "denom": "ibc/99439DB1A5D64002F7202A6AE4F56CAF7CE42A22C5EB77B14780C583E6ACE141",
-                "exponent": 0
-            },
-            {
-                "denom": "lendx",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/A98E89DCB8859D3D10FC624A03E25BD89905E810BA194C6430ACB6B1FA334F66",
-        "name": "SOLC",
-        "display": "solc",
-        "symbol": "SOLC",
-        "denoms": [
-            {
-                "denom": "ibc/A98E89DCB8859D3D10FC624A03E25BD89905E810BA194C6430ACB6B1FA334F66",
-                "exponent": 0
-            },
-            {
-                "denom": "solc",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/AFAE8779ADBB6009B78C233C846FFE1BB67D96F19DCD54451DD36CDEC276F5D9",
-        "name": "CORAL",
-        "display": "coral",
-        "symbol": "CORAL",
-        "denoms": [
-            {
-                "denom": "ibc/AFAE8779ADBB6009B78C233C846FFE1BB67D96F19DCD54451DD36CDEC276F5D9",
-                "exponent": 0
-            },
-            {
-                "denom": "coral",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/B1EF6EE90168D486824E76700ED280B5B127B32F5194C8D063844D573A0A22EB",
-        "name": "PWRZX",
-        "display": "pwrzx",
-        "symbol": "PWRZX",
-        "denoms": [
-            {
-                "denom": "ibc/B1EF6EE90168D486824E76700ED280B5B127B32F5194C8D063844D573A0A22EB",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzx",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/C40D0997D88A8193E3AD627EF58A2998989F1187A5277B1BDE07FEF909533982",
-        "name": "FOCAL",
-        "display": "focal",
-        "symbol": "FOCAL",
-        "denoms": [
-            {
-                "denom": "ibc/C40D0997D88A8193E3AD627EF58A2998989F1187A5277B1BDE07FEF909533982",
-                "exponent": 0
-            },
-            {
-                "denom": "focal",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/D1495D28D71F69CE0DD7B1FD104A2088066C346DBD96F7F162CDF98EBD38D962",
-        "name": "CATS",
-        "display": "cats",
-        "symbol": "CATS",
-        "denoms": [
-            {
-                "denom": "ibc/D1495D28D71F69CE0DD7B1FD104A2088066C346DBD96F7F162CDF98EBD38D962",
-                "exponent": 0
-            },
-            {
-                "denom": "cats",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/E238A7B212BE6E11028E1D8F50A4DCB3F8E1BBEFA73CB5A79699F16ADF84E861",
-        "name": "PWRZZ",
-        "display": "pwrzz",
-        "symbol": "PWRZZ",
-        "denoms": [
-            {
-                "denom": "ibc/E238A7B212BE6E11028E1D8F50A4DCB3F8E1BBEFA73CB5A79699F16ADF84E861",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzz",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/E40FC73EDA77AE168D681405B975C48B5B515BFBBCD200E03738F48D5AFF722B",
-        "name": "AAA",
-        "display": "aaa",
-        "symbol": "AAA",
-        "denoms": [
-            {
-                "denom": "ibc/E40FC73EDA77AE168D681405B975C48B5B515BFBBCD200E03738F48D5AFF722B",
-                "exponent": 0
-            },
-            {
-                "denom": "aaa",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/E6A50DB535B23AA672122EF5B321DD5B69A480A38F27707AE76AAB408C06A425",
-        "name": "PWRZV",
-        "display": "pwrzv",
-        "symbol": "PWRZV",
-        "denoms": [
-            {
-                "denom": "ibc/E6A50DB535B23AA672122EF5B321DD5B69A480A38F27707AE76AAB408C06A425",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzv",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
-        }
-    },
-    {
-        "chain_name": "axelartestnet",
-        "chain_id": "axelar-testnet-lisbon-3",
-        "base": "ibc/FBF7018905686DB873D482FF5ECF31A661F604EFBFEB0517F1FD1CBC1D301BF0",
-        "name": "PGSQL",
-        "display": "pgsql",
-        "symbol": "PGSQL",
-        "denoms": [
-            {
-                "denom": "ibc/FBF7018905686DB873D482FF5ECF31A661F604EFBFEB0517F1FD1CBC1D301BF0",
-                "exponent": 0
-            },
-            {
-                "denom": "pgsql",
+                "denom": "spoof",
                 "exponent": 6
             }
         ],
@@ -12763,657 +12323,13 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/8402769A51AEE1CDF35223998D284E937EBF03F4A2CE43EC10BB028BB5AD29C8",
-        "name": "Manifest Testnet",
-        "display": "mfx",
-        "symbol": "MFX",
-        "denoms": [
-            {
-                "denom": "ibc/8402769A51AEE1CDF35223998D284E937EBF03F4A2CE43EC10BB028BB5AD29C8",
-                "exponent": 0
-            },
-            {
-                "denom": "mfx",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/01E5DEA2A7FC03D3C8656AD9ADA344C97E7659D172659583834421CBD0AEBBA0",
-        "name": "WMVT",
-        "display": "wmvt",
-        "symbol": "WMVT",
-        "denoms": [
-            {
-                "denom": "ibc/01E5DEA2A7FC03D3C8656AD9ADA344C97E7659D172659583834421CBD0AEBBA0",
-                "exponent": 0
-            },
-            {
-                "denom": "wmvt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/079A3F9B846C96E6BA7E3105E29E3E30380581A2FBE778E05858751F98672006",
-        "name": "PGSQL",
-        "display": "pgsql",
-        "symbol": "PGSQL",
-        "denoms": [
-            {
-                "denom": "ibc/079A3F9B846C96E6BA7E3105E29E3E30380581A2FBE778E05858751F98672006",
-                "exponent": 0
-            },
-            {
-                "denom": "pgsql",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/07F2CA1E68827ABCC1B8C81B11DA204B9D20058A09A32A31A5830404B183F229",
-        "name": "UMEGA",
-        "display": "umega",
-        "symbol": "UMEGA",
-        "denoms": [
-            {
-                "denom": "ibc/07F2CA1E68827ABCC1B8C81B11DA204B9D20058A09A32A31A5830404B183F229",
-                "exponent": 0
-            },
-            {
-                "denom": "umega",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/0B7E2E4F4093CB3C514018EF29743F9A0EB29198524F1BB574D1AFA7B93B8B91",
-        "name": "PWRZF",
-        "display": "pwrzf",
-        "symbol": "PWRZF",
-        "denoms": [
-            {
-                "denom": "ibc/0B7E2E4F4093CB3C514018EF29743F9A0EB29198524F1BB574D1AFA7B93B8B91",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzf",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/0C482F788D15BABB3B3BC3BF571130E29A9AD68DC5EF6FD2C7D1A6B839B07C29",
-        "name": "FOCAL",
-        "display": "focal",
-        "symbol": "FOCAL",
-        "denoms": [
-            {
-                "denom": "ibc/0C482F788D15BABB3B3BC3BF571130E29A9AD68DC5EF6FD2C7D1A6B839B07C29",
-                "exponent": 0
-            },
-            {
-                "denom": "focal",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/191C596758FE8067952C7F5F0CCC28F068B77D08EDF6534861F09C5C076498BD",
-        "name": "AAA",
-        "display": "aaa",
-        "symbol": "AAA",
-        "denoms": [
-            {
-                "denom": "ibc/191C596758FE8067952C7F5F0CCC28F068B77D08EDF6534861F09C5C076498BD",
-                "exponent": 0
-            },
-            {
-                "denom": "aaa",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/1B9AFCA57417621371DE4FB4FBE74A79DE35103B5A12B152B14F955ADA034AB7",
-        "name": "PWROZ",
-        "display": "pwroz",
-        "symbol": "PWROZ",
-        "denoms": [
-            {
-                "denom": "ibc/1B9AFCA57417621371DE4FB4FBE74A79DE35103B5A12B152B14F955ADA034AB7",
-                "exponent": 0
-            },
-            {
-                "denom": "pwroz",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/2096FB4834F772F17953F5CEB6271BC4FE814E77F53B6518BC692B9EFC064ACB",
-        "name": "PWRZN",
-        "display": "pwrzn",
-        "symbol": "PWRZN",
-        "denoms": [
-            {
-                "denom": "ibc/2096FB4834F772F17953F5CEB6271BC4FE814E77F53B6518BC692B9EFC064ACB",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzn",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/218221543F65661330C3FE9C151487826ADCDE7995A900796DCB88FEBE47D218",
-        "name": "SOLE",
-        "display": "sole",
-        "symbol": "SOLE",
-        "denoms": [
-            {
-                "denom": "ibc/218221543F65661330C3FE9C151487826ADCDE7995A900796DCB88FEBE47D218",
-                "exponent": 0
-            },
-            {
-                "denom": "sole",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/26F060F3DF9234C7142383C11E1D098029CF2805E38E38EA856F46DA961F365D",
-        "name": "GWATT",
-        "display": "gwatt",
-        "symbol": "GWATT",
-        "denoms": [
-            {
-                "denom": "ibc/26F060F3DF9234C7142383C11E1D098029CF2805E38E38EA856F46DA961F365D",
-                "exponent": 0
-            },
-            {
-                "denom": "gwatt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/3228BE7857B93ABC5EEC48B073C9C99402FE175C85E7751C8D456C81AE778FDB",
-        "name": "GREY",
-        "display": "grey",
-        "symbol": "GREY",
-        "denoms": [
-            {
-                "denom": "ibc/3228BE7857B93ABC5EEC48B073C9C99402FE175C85E7751C8D456C81AE778FDB",
-                "exponent": 0
-            },
-            {
-                "denom": "grey",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/37AAE1955EC75077DB24120E15BF5144E8542B3AFE84B627924430BAAF19CB66",
-        "name": "SPOOF",
-        "display": "spoof",
-        "symbol": "SPOOF",
-        "denoms": [
-            {
-                "denom": "ibc/37AAE1955EC75077DB24120E15BF5144E8542B3AFE84B627924430BAAF19CB66",
-                "exponent": 0
-            },
-            {
-                "denom": "spoof",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/3D08FACEDE8EF2ABFA22D704613C217D0C338F290B3E26641FF7F1FB18851C47",
-        "name": "PWROO",
-        "display": "pwroo",
-        "symbol": "PWROO",
-        "denoms": [
-            {
-                "denom": "ibc/3D08FACEDE8EF2ABFA22D704613C217D0C338F290B3E26641FF7F1FB18851C47",
-                "exponent": 0
-            },
-            {
-                "denom": "pwroo",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/3FD42AFAA9D273BB52D8BC2D4D8BF22BD6CF0E831E9CC2EC280F0DFFD841B5D7",
-        "name": "SPDT",
-        "display": "spdt",
-        "symbol": "SPDT",
-        "denoms": [
-            {
-                "denom": "ibc/3FD42AFAA9D273BB52D8BC2D4D8BF22BD6CF0E831E9CC2EC280F0DFFD841B5D7",
-                "exponent": 0
-            },
-            {
-                "denom": "spdt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/42C2F9CEB07BB2C765131395EFE4CDFB88C928C51D47DA96DE32D4E56D537F7D",
-        "name": "CURES",
-        "display": "cures",
-        "symbol": "CURES",
-        "denoms": [
-            {
-                "denom": "ibc/42C2F9CEB07BB2C765131395EFE4CDFB88C928C51D47DA96DE32D4E56D537F7D",
-                "exponent": 0
-            },
-            {
-                "denom": "cures",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/47972D4551284864029DBA43A64C731BF11D0C1EFDDB5D477B2239EC08A4A89A",
-        "name": "WIND",
-        "display": "wind",
-        "symbol": "WIND",
-        "denoms": [
-            {
-                "denom": "ibc/47972D4551284864029DBA43A64C731BF11D0C1EFDDB5D477B2239EC08A4A89A",
-                "exponent": 0
-            },
-            {
-                "denom": "wind",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/51C2E65B471D72E6471C5907CE592992E8CCB2A8C3E9BF18AABE74245B22EE90",
-        "name": "CATS",
-        "display": "cats",
-        "symbol": "CATS",
-        "denoms": [
-            {
-                "denom": "ibc/51C2E65B471D72E6471C5907CE592992E8CCB2A8C3E9BF18AABE74245B22EE90",
-                "exponent": 0
-            },
-            {
-                "denom": "cats",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/59A8FFDAFB04D42D38BB56C0AD287D93048B2F5285BF9C5FF75490623B629EA0",
-        "name": "PWRZS",
-        "display": "pwrzs",
-        "symbol": "PWRZS",
-        "denoms": [
-            {
-                "denom": "ibc/59A8FFDAFB04D42D38BB56C0AD287D93048B2F5285BF9C5FF75490623B629EA0",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzs",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/64A334851602A1F06AD05A6FB1C501F3145629A47D0C103990ECCA9649A55FB5",
-        "name": "INDIS",
-        "display": "indis",
-        "symbol": "INDIS",
-        "denoms": [
-            {
-                "denom": "ibc/64A334851602A1F06AD05A6FB1C501F3145629A47D0C103990ECCA9649A55FB5",
-                "exponent": 0
-            },
-            {
-                "denom": "indis",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/6725C46B41C06FF712991E65F1CA1B2DEDCCB3F62F5F3A5756CB9F6C10BBBD5A",
-        "name": "LENDX",
-        "display": "lendx",
-        "symbol": "LENDX",
-        "denoms": [
-            {
-                "denom": "ibc/6725C46B41C06FF712991E65F1CA1B2DEDCCB3F62F5F3A5756CB9F6C10BBBD5A",
-                "exponent": 0
-            },
-            {
-                "denom": "lendx",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/690BAB0DFEB754ED3B8DDD3AAC79A3A6DDB26B2D15FACBF191050FBCB7909D0B",
-        "name": "HIVE",
-        "display": "hive",
-        "symbol": "HIVE",
-        "denoms": [
-            {
-                "denom": "ibc/690BAB0DFEB754ED3B8DDD3AAC79A3A6DDB26B2D15FACBF191050FBCB7909D0B",
-                "exponent": 0
-            },
-            {
-                "denom": "hive",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/6BDB8C4A4511BEC4675B7C1D7AA9366835B1849A7FE38C9A865837B20BF2B7E1",
-        "name": "SUNSW",
-        "display": "sunsw",
-        "symbol": "SUNSW",
-        "denoms": [
-            {
-                "denom": "ibc/6BDB8C4A4511BEC4675B7C1D7AA9366835B1849A7FE38C9A865837B20BF2B7E1",
-                "exponent": 0
-            },
-            {
-                "denom": "sunsw",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/6C35755BAA2EDA52987287E649EEDF6102EE0C896233DCDB9E1CB7026ABF0A29",
-        "name": "SOLB",
-        "display": "solb",
-        "symbol": "SOLB",
-        "denoms": [
-            {
-                "denom": "ibc/6C35755BAA2EDA52987287E649EEDF6102EE0C896233DCDB9E1CB7026ABF0A29",
-                "exponent": 0
-            },
-            {
-                "denom": "solb",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/6EBD69A041B2D67AD81A94D1B594ED7FF365F90C292F3F84AF5D8B59F0609C0E",
-        "name": "PWRZZ",
-        "display": "pwrzz",
-        "symbol": "PWRZZ",
-        "denoms": [
-            {
-                "denom": "ibc/6EBD69A041B2D67AD81A94D1B594ED7FF365F90C292F3F84AF5D8B59F0609C0E",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzz",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/75BED9BEA9963325CE54ECCFD6A26ADCE2BAA456797E698BC5CB2EDCD86CBA70",
-        "name": "BITCH",
-        "display": "bitch",
-        "symbol": "BITCH",
-        "denoms": [
-            {
-                "denom": "ibc/75BED9BEA9963325CE54ECCFD6A26ADCE2BAA456797E698BC5CB2EDCD86CBA70",
-                "exponent": 0
-            },
-            {
-                "denom": "bitch",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/78E3EEE3AE42097CF156B18F9692AF4A25EA9062959560E21C8641A85DF598BC",
-        "name": "PWRZE",
-        "display": "pwrze",
-        "symbol": "PWRZE",
-        "denoms": [
-            {
-                "denom": "ibc/78E3EEE3AE42097CF156B18F9692AF4A25EA9062959560E21C8641A85DF598BC",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrze",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/7E07C35823D352697DF13F9CE0E3E210448CBA16845534B3D4DAA143700D1B76",
-        "name": "CUTE",
-        "display": "cute",
-        "symbol": "CUTE",
-        "denoms": [
-            {
-                "denom": "ibc/7E07C35823D352697DF13F9CE0E3E210448CBA16845534B3D4DAA143700D1B76",
-                "exponent": 0
-            },
-            {
-                "denom": "cute",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/851078421E4BAD167A53E2CB9D9F30D85E7FF2BBB8DD67A7710251C7114A50D4",
+        "base": "ibc/1675C95A6F253E9FA7AFD2B4549A551F567FCB3FB7FF3978163E400FA0718D29",
         "name": "TIMMY",
         "display": "timmy",
         "symbol": "TIMMY",
         "denoms": [
             {
-                "denom": "ibc/851078421E4BAD167A53E2CB9D9F30D85E7FF2BBB8DD67A7710251C7114A50D4",
+                "denom": "ibc/1675C95A6F253E9FA7AFD2B4549A551F567FCB3FB7FF3978163E400FA0718D29",
                 "exponent": 0
             },
             {
@@ -13430,17 +12346,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/8701EB42672FD1773AE8563B2A5ABDDD55A554D2D06BCA4EEC0971D00E4FD2A1",
-        "name": "ABUS",
-        "display": "abus",
-        "symbol": "ABUS",
+        "base": "ibc/1BAC7171193B1FED44024C08E460D4CA59DCDCEF76C56340AF8057C0D8C49634",
+        "name": "SIMPLE",
+        "display": "simple",
+        "symbol": "SIMPLE",
         "denoms": [
             {
-                "denom": "ibc/8701EB42672FD1773AE8563B2A5ABDDD55A554D2D06BCA4EEC0971D00E4FD2A1",
+                "denom": "ibc/1BAC7171193B1FED44024C08E460D4CA59DCDCEF76C56340AF8057C0D8C49634",
                 "exponent": 0
             },
             {
-                "denom": "abus",
+                "denom": "simple",
                 "exponent": 6
             }
         ],
@@ -13453,17 +12369,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/8FD1696E831414B21C91B89BB380597113B9E90FE85D9CA49C27376C3B57F96E",
-        "name": "SNOOP",
-        "display": "snoop",
-        "symbol": "SNOOP",
+        "base": "ibc/1DE9DEEEB9EF636EF8F6B54A3F12655911908DA0039921D671E3282BBDF36D23",
+        "name": "AGA",
+        "display": "aga",
+        "symbol": "AGA",
         "denoms": [
             {
-                "denom": "ibc/8FD1696E831414B21C91B89BB380597113B9E90FE85D9CA49C27376C3B57F96E",
+                "denom": "ibc/1DE9DEEEB9EF636EF8F6B54A3F12655911908DA0039921D671E3282BBDF36D23",
                 "exponent": 0
             },
             {
-                "denom": "snoop",
+                "denom": "aga",
                 "exponent": 6
             }
         ],
@@ -13476,17 +12392,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/94FF077F34C3973483A168FE249785AA0895658B40A5BFCD3F08503DD18C05BB",
-        "name": "BLERG",
-        "display": "blerg",
-        "symbol": "BLERG",
+        "base": "ibc/3F779F3860A4794972D03865FE273EC81B24CF0CCAE223165776D8442B62A8B2",
+        "name": "CUTE",
+        "display": "cute",
+        "symbol": "CUTE",
         "denoms": [
             {
-                "denom": "ibc/94FF077F34C3973483A168FE249785AA0895658B40A5BFCD3F08503DD18C05BB",
+                "denom": "ibc/3F779F3860A4794972D03865FE273EC81B24CF0CCAE223165776D8442B62A8B2",
                 "exponent": 0
             },
             {
-                "denom": "blerg",
+                "denom": "cute",
                 "exponent": 6
             }
         ],
@@ -13499,243 +12415,13 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/982291A0DA7E62CF0D3122BB9FAA9A7F9183E603DBF78F1F3B5B113FBA09CB9F",
-        "name": "ANSONATOR",
-        "display": "ansonator",
-        "symbol": "ANSONATOR",
-        "denoms": [
-            {
-                "denom": "ibc/982291A0DA7E62CF0D3122BB9FAA9A7F9183E603DBF78F1F3B5B113FBA09CB9F",
-                "exponent": 0
-            },
-            {
-                "denom": "ansonator",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/9DCE8277AFFE55EB13B04AC588ED5ABC59655DD7DEB276626B9A8E0DC17CE78D",
-        "name": "PWRZV",
-        "display": "pwrzv",
-        "symbol": "PWRZV",
-        "denoms": [
-            {
-                "denom": "ibc/9DCE8277AFFE55EB13B04AC588ED5ABC59655DD7DEB276626B9A8E0DC17CE78D",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzv",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/9E54008CAF579562B457EEB826311CEE325CBCF7FB7503160C58687A1966C7D6",
-        "name": "PWRZT",
-        "display": "pwrzt",
-        "symbol": "PWRZT",
-        "denoms": [
-            {
-                "denom": "ibc/9E54008CAF579562B457EEB826311CEE325CBCF7FB7503160C58687A1966C7D6",
-                "exponent": 0
-            },
-            {
-                "denom": "pwrzt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/A53FDEA70B4995136D560F198C742359E8209BF88C6FB8B009C0F366174111E2",
-        "name": "CORAL",
-        "display": "coral",
-        "symbol": "CORAL",
-        "denoms": [
-            {
-                "denom": "ibc/A53FDEA70B4995136D560F198C742359E8209BF88C6FB8B009C0F366174111E2",
-                "exponent": 0
-            },
-            {
-                "denom": "coral",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/AD90DE5F1F95B33BF58A46975EB0588A50F8CC142FDEEA38FB3BBFF3F19B1279",
-        "name": "MEGA",
-        "display": "mega",
-        "symbol": "MEGA",
-        "denoms": [
-            {
-                "denom": "ibc/AD90DE5F1F95B33BF58A46975EB0588A50F8CC142FDEEA38FB3BBFF3F19B1279",
-                "exponent": 0
-            },
-            {
-                "denom": "mega",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/AEC5315C36693B6F8C1E06953B353353BC004007139FC0141CA136DE4DF63D28",
-        "name": "WMVT",
-        "display": "wmvt",
-        "symbol": "WMVT",
-        "denoms": [
-            {
-                "denom": "ibc/AEC5315C36693B6F8C1E06953B353353BC004007139FC0141CA136DE4DF63D28",
-                "exponent": 0
-            },
-            {
-                "denom": "wmvt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/B07B8843D853FF1E810E3D34AD4118F4175C18D954C17887279EC345B77EB585",
-        "name": "TST",
-        "display": "tst",
-        "symbol": "TST",
-        "denoms": [
-            {
-                "denom": "ibc/B07B8843D853FF1E810E3D34AD4118F4175C18D954C17887279EC345B77EB585",
-                "exponent": 0
-            },
-            {
-                "denom": "tst",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/B2F8C96EA82DC8166AC5AEBE62C280C0704FEAF1E0564B9F0A9A51BDC92DCF74",
-        "name": "DBLT",
-        "display": "dblt",
-        "symbol": "DBLT",
-        "denoms": [
-            {
-                "denom": "ibc/B2F8C96EA82DC8166AC5AEBE62C280C0704FEAF1E0564B9F0A9A51BDC92DCF74",
-                "exponent": 0
-            },
-            {
-                "denom": "dblt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/BA52432273454EA4F7736F2AA7DC8296F8F986C0944298C807A9FA161C4E73DE",
-        "name": "FRAME",
-        "display": "frame",
-        "symbol": "FRAME",
-        "denoms": [
-            {
-                "denom": "ibc/BA52432273454EA4F7736F2AA7DC8296F8F986C0944298C807A9FA161C4E73DE",
-                "exponent": 0
-            },
-            {
-                "denom": "frame",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/C2BB7B0E3B1D434E1593A82788E0F8189ABC8B0888D9767457D7EAF3BFF3BE32",
-        "name": "GOZER",
-        "display": "gozer",
-        "symbol": "GOZER",
-        "denoms": [
-            {
-                "denom": "ibc/C2BB7B0E3B1D434E1593A82788E0F8189ABC8B0888D9767457D7EAF3BFF3BE32",
-                "exponent": 0
-            },
-            {
-                "denom": "gozer",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/D1330E1E791A6D85DBD8F3674034C12CBBB5DC0A61036F8533C1B97A3D62E32B",
+        "base": "ibc/708B876DB3632A7490D6477F365EABF1414E6F60F60CAEC1FB6F06760451ACBE",
         "name": "FUNZIE",
         "display": "funzie",
         "symbol": "FUNZIE",
         "denoms": [
             {
-                "denom": "ibc/D1330E1E791A6D85DBD8F3674034C12CBBB5DC0A61036F8533C1B97A3D62E32B",
+                "denom": "ibc/708B876DB3632A7490D6477F365EABF1414E6F60F60CAEC1FB6F06760451ACBE",
                 "exponent": 0
             },
             {
@@ -13752,17 +12438,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/D844EB8D44A65435A37979E015D6DBB8C8F4680FB4FB7C9A8A8D996AF5BD1D68",
-        "name": "PWRZX",
-        "display": "pwrzx",
-        "symbol": "PWRZX",
+        "base": "ibc/77DA06A20632C7AB6396B40989FCFB942CD2D56E107F402C595F010455B76BE1",
+        "name": "GOZER",
+        "display": "gozer",
+        "symbol": "GOZER",
         "denoms": [
             {
-                "denom": "ibc/D844EB8D44A65435A37979E015D6DBB8C8F4680FB4FB7C9A8A8D996AF5BD1D68",
+                "denom": "ibc/77DA06A20632C7AB6396B40989FCFB942CD2D56E107F402C595F010455B76BE1",
                 "exponent": 0
             },
             {
-                "denom": "pwrzx",
+                "denom": "gozer",
                 "exponent": 6
             }
         ],
@@ -13775,36 +12461,13 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/DD0C98D5C0D7DC8056589CB56571CCA26545B61FFB05EFB621CDBC30DE6E3602",
-        "name": "SOLA",
-        "display": "sola",
-        "symbol": "SOLA",
-        "denoms": [
-            {
-                "denom": "ibc/DD0C98D5C0D7DC8056589CB56571CCA26545B61FFB05EFB621CDBC30DE6E3602",
-                "exponent": 0
-            },
-            {
-                "denom": "sola",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosistestnet",
-        "chain_id": "osmo-test-5",
-        "base": "ibc/E06959602897E9E7953D00ABEF9657CBF9D1335AD3EA69E848CFA73B7C7BAF67",
+        "base": "ibc/7A4DD8299304AA9D4D86B06584C56EE08C26F6F7338F2CADC5D3A8D6895A3859",
         "name": "DANCINGPENGUIN",
         "display": "dancingpenguin",
         "symbol": "DANCINGPENGUIN",
         "denoms": [
             {
-                "denom": "ibc/E06959602897E9E7953D00ABEF9657CBF9D1335AD3EA69E848CFA73B7C7BAF67",
+                "denom": "ibc/7A4DD8299304AA9D4D86B06584C56EE08C26F6F7338F2CADC5D3A8D6895A3859",
                 "exponent": 0
             },
             {
@@ -13821,13 +12484,105 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/E9578B0047E2B53959100A5F523DBA9CB3E2804C8A9A7B87AB48C2201C990BD1",
+        "base": "ibc/A9B2FC600298D994291B87D6452663514C88AE078F56228B584862641B0E2D6C",
+        "name": "ADAM",
+        "display": "adam",
+        "symbol": "ADAM",
+        "denoms": [
+            {
+                "denom": "ibc/A9B2FC600298D994291B87D6452663514C88AE078F56228B584862641B0E2D6C",
+                "exponent": 0
+            },
+            {
+                "denom": "adam",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/AB89909B308854835AD98DEF0DE18D1B324A12A443335398945E485A9B69AE34",
+        "name": "DRIPPY",
+        "display": "drippy",
+        "symbol": "DRIPPY",
+        "denoms": [
+            {
+                "denom": "ibc/AB89909B308854835AD98DEF0DE18D1B324A12A443335398945E485A9B69AE34",
+                "exponent": 0
+            },
+            {
+                "denom": "drippy",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/AF2EFBAABB4A14F6E50D83D550698FE33CC2565B7DB1CA480CAF07C7557D8277",
+        "name": "GAS",
+        "display": "gas",
+        "symbol": "GAS",
+        "denoms": [
+            {
+                "denom": "ibc/AF2EFBAABB4A14F6E50D83D550698FE33CC2565B7DB1CA480CAF07C7557D8277",
+                "exponent": 0
+            },
+            {
+                "denom": "gas",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14",
+        "name": "MFX",
+        "display": "mfx",
+        "symbol": "MFX",
+        "denoms": [
+            {
+                "denom": "ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14",
+                "exponent": 0
+            },
+            {
+                "denom": "mfx",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/D926A833F572447AC30E189FD1629560E679CF73170C180681B9FE29FB3BA2B6",
         "name": "TACO",
         "display": "taco",
         "symbol": "TACO",
         "denoms": [
             {
-                "denom": "ibc/E9578B0047E2B53959100A5F523DBA9CB3E2804C8A9A7B87AB48C2201C990BD1",
+                "denom": "ibc/D926A833F572447AC30E189FD1629560E679CF73170C180681B9FE29FB3BA2B6",
                 "exponent": 0
             },
             {
@@ -13844,17 +12599,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/E9FF6FA2D92362EB9BE243C561DB8CEB4073946DC21949377FD4B642728BFD6C",
-        "name": "TFAAA",
-        "display": "tfaaa",
-        "symbol": "TFAAA",
+        "base": "ibc/E09C607844E95C9338079729100E026CA5FA357DD41AFEA17FA5889535299009",
+        "name": "UMEGA",
+        "display": "umega",
+        "symbol": "UMEGA",
         "denoms": [
             {
-                "denom": "ibc/E9FF6FA2D92362EB9BE243C561DB8CEB4073946DC21949377FD4B642728BFD6C",
+                "denom": "ibc/E09C607844E95C9338079729100E026CA5FA357DD41AFEA17FA5889535299009",
                 "exponent": 0
             },
             {
-                "denom": "tfaaa",
+                "denom": "umega",
                 "exponent": 6
             }
         ],
@@ -13867,17 +12622,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/F0D7AB66C6E218A60A2379DD872B72EDDF3E7476B27AB1DF76C620CAED73AB93",
-        "name": "TRACE",
-        "display": "trace",
-        "symbol": "TRACE",
+        "base": "ibc/E58506AA351C65F86C8DCD019C57682BA7489D2277C978D5977DFA8FE4B808E6",
+        "name": "WMVT",
+        "display": "wmvt",
+        "symbol": "WMVT",
         "denoms": [
             {
-                "denom": "ibc/F0D7AB66C6E218A60A2379DD872B72EDDF3E7476B27AB1DF76C620CAED73AB93",
+                "denom": "ibc/E58506AA351C65F86C8DCD019C57682BA7489D2277C978D5977DFA8FE4B808E6",
                 "exponent": 0
             },
             {
-                "denom": "trace",
+                "denom": "wmvt",
                 "exponent": 6
             }
         ],
@@ -13890,17 +12645,17 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/F1AC4F2E814C6C88039780B62C6E92EE6F25B1522E1B0B5349C66965F2547426",
-        "name": "PWRZR",
-        "display": "pwrzr",
-        "symbol": "PWRZR",
+        "base": "ibc/E96950EBFD6690785604A4B835C8FCA238927E96C2ABCF6F51725DA872699E33",
+        "name": "SPOOF",
+        "display": "spoof",
+        "symbol": "SPOOF",
         "denoms": [
             {
-                "denom": "ibc/F1AC4F2E814C6C88039780B62C6E92EE6F25B1522E1B0B5349C66965F2547426",
+                "denom": "ibc/E96950EBFD6690785604A4B835C8FCA238927E96C2ABCF6F51725DA872699E33",
                 "exponent": 0
             },
             {
-                "denom": "pwrzr",
+                "denom": "spoof",
                 "exponent": 6
             }
         ],
@@ -13913,17 +12668,40 @@
     {
         "chain_name": "osmosistestnet",
         "chain_id": "osmo-test-5",
-        "base": "ibc/F4BA8538FCB083F8A9C32A9C88FF64F2CF5DDEA60CA05E1B671D851C2C479BD0",
-        "name": "SIMPLE",
-        "display": "simple",
-        "symbol": "SIMPLE",
+        "base": "ibc/EAF2ADEA5251B1FC527B407FD36BE64B572ACE19BCC325544604C5E8DE8C605E",
+        "name": "ASDASDASD",
+        "display": "asdasdasd",
+        "symbol": "ASDASDASD",
         "denoms": [
             {
-                "denom": "ibc/F4BA8538FCB083F8A9C32A9C88FF64F2CF5DDEA60CA05E1B671D851C2C479BD0",
+                "denom": "ibc/EAF2ADEA5251B1FC527B407FD36BE64B572ACE19BCC325544604C5E8DE8C605E",
                 "exponent": 0
             },
             {
-                "denom": "simple",
+                "denom": "asdasdasd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/F5C09D41BEA7D1E30AE6CB0D303E9DF5C4D0A16859329973FEAD94A1DA279643",
+        "name": "SNOOP",
+        "display": "snoop",
+        "symbol": "SNOOP",
+        "denoms": [
+            {
+                "denom": "ibc/F5C09D41BEA7D1E30AE6CB0D303E9DF5C4D0A16859329973FEAD94A1DA279643",
+                "exponent": 0
+            },
+            {
+                "denom": "snoop",
                 "exponent": 6
             }
         ],
@@ -17859,6 +16637,72 @@
             },
             {
                 "denom": "snoop",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
+        }
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "chain_id": "manifest-ledger-testnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam",
+        "name": "ADAM Token",
+        "display": "adam",
+        "symbol": "ADAM",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam",
+                "exponent": 0
+            },
+            {
+                "denom": "adam",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
+        }
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "chain_id": "manifest-ledger-testnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga",
+        "name": "AGA Token",
+        "display": "aga",
+        "symbol": "AGA",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga",
+                "exponent": 0
+            },
+            {
+                "denom": "aga",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg"
+        }
+    },
+    {
+        "chain_name": "manifesttestnet",
+        "chain_id": "manifest-ledger-testnet",
+        "base": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas",
+        "name": "GAS Token",
+        "display": "gas",
+        "symbol": "GAS",
+        "denoms": [
+            {
+                "denom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas",
+                "exponent": 0
+            },
+            {
+                "denom": "gas",
                 "exponent": 6
             }
         ],
