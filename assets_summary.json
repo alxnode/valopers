@@ -6353,7 +6353,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3btc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg"
         }
     },
     {
@@ -6374,7 +6375,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3bch.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg"
         }
     },
     {
@@ -6395,7 +6397,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3doge.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg"
         }
     },
     {
@@ -6416,7 +6419,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ltc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg"
         }
     },
     {
@@ -6437,7 +6441,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ton.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg"
         }
     },
     {
@@ -47092,6 +47097,94 @@
             }
         ],
         "logo_URIs": {}
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9",
+        "name": "Dogecoin (Int3)",
+        "display": "doge",
+        "symbol": "DOGE.int3",
+        "denoms": [
+            {
+                "denom": "ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9",
+                "exponent": 0
+            },
+            {
+                "denom": "doge",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04",
+        "name": "Bitcoin (Int3)",
+        "display": "btc",
+        "symbol": "BTC.int3",
+        "denoms": [
+            {
+                "denom": "ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04",
+                "exponent": 0
+            },
+            {
+                "denom": "btc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B",
+        "name": "Bitcoin Cash (Int3)",
+        "display": "bch",
+        "symbol": "BCH.int3",
+        "denoms": [
+            {
+                "denom": "ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B",
+                "exponent": 0
+            },
+            {
+                "denom": "bch",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0",
+        "name": "Litecoin (Int3)",
+        "display": "ltc",
+        "symbol": "LTC.int3",
+        "denoms": [
+            {
+                "denom": "ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0",
+                "exponent": 0
+            },
+            {
+                "denom": "ltc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png"
+        }
     },
     {
         "chain_name": "xpla",
