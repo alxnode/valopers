@@ -17767,17 +17767,39 @@
     {
         "chain_name": "polygon",
         "chain_id": "unknown",
-        "base": "wei",
-        "name": "Polygon",
+        "base": "0x0000000000000000000000000000000000001010",
+        "name": "Polygon (ex-MATIC)",
         "display": "pol",
         "symbol": "POL",
+        "denoms": [
+            {
+                "denom": "0x0000000000000000000000000000000000001010",
+                "exponent": 0
+            },
+            {
+                "denom": "pol",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg"
+        }
+    },
+    {
+        "chain_name": "polygon",
+        "chain_id": "unknown",
+        "base": "wei",
+        "name": "Polygon",
+        "display": "matic",
+        "symbol": "MATIC",
         "denoms": [
             {
                 "denom": "wei",
                 "exponent": 0
             },
             {
-                "denom": "pol",
+                "denom": "matic",
                 "exponent": 18
             }
         ],
@@ -21726,7 +21748,7 @@
         "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
         "name": "Polygon",
         "display": "wmatic",
-        "symbol": "POL",
+        "symbol": "MATIC",
         "denoms": [
             {
                 "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
@@ -32941,6 +32963,52 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
+        "name": "Dymension Hub (Alloy)",
+        "display": "allDYM",
+        "symbol": "allDYM",
+        "denoms": [
+            {
+                "denom": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
+                "exponent": 0
+            },
+            {
+                "denom": "allDYM",
+                "exponent": 12
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
+        "name": "Polygon (ex-MATIC) (Alloy)",
+        "display": "allPOL",
+        "symbol": "allPOL",
+        "denoms": [
+            {
+                "denom": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
+                "exponent": 0
+            },
+            {
+                "denom": "allPOL",
+                "exponent": 12
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
