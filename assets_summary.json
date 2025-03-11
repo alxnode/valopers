@@ -1547,6 +1547,27 @@
         }
     },
     {
+        "chain_name": "stargaze",
+        "chain_id": "stargaze-1",
+        "base": "ibc/FEF6B2D5C0F7D3C3EE2E27D1C01EAE9CA04A7201661E69215726E7F84AFCD0FB",
+        "name": "The seven green shade",
+        "display": "T7S",
+        "symbol": "T7S",
+        "denoms": [
+            {
+                "denom": "ibc/FEF6B2D5C0F7D3C3EE2E27D1C01EAE9CA04A7201661E69215726E7F84AFCD0FB",
+                "exponent": 0
+            },
+            {
+                "denom": "T7S",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png"
+        }
+    },
+    {
         "chain_name": "berachain",
         "chain_id": "unknown",
         "base": "wei",
@@ -32948,7 +32969,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-        "name": "The seven green shade ",
+        "name": "The seven green shade",
         "display": "T7S",
         "symbol": "T7S",
         "denoms": [
@@ -41273,6 +41294,28 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
             "valopers_logo": "https://api.valopers.com/logos/dydx.svg"
+        }
+    },
+    {
+        "chain_name": "titan",
+        "chain_id": "titan_18888-1",
+        "base": "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc",
+        "name": "Bitcoin",
+        "display": "btc",
+        "symbol": "BTC",
+        "denoms": [
+            {
+                "denom": "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc",
+                "exponent": 0
+            },
+            {
+                "denom": "btc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg"
         }
     },
     {
