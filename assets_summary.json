@@ -12802,6 +12802,25 @@
         }
     },
     {
+        "chain_name": "dogecointestnet",
+        "chain_id": "unknown",
+        "base": "shibe",
+        "name": "Dogecoin",
+        "display": "doge",
+        "symbol": "DOGE",
+        "denoms": [
+            {
+                "denom": "shibe",
+                "exponent": 0
+            },
+            {
+                "denom": "doge",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "binancesmartchaintestnet",
         "chain_id": "unknown",
         "base": "wei",
@@ -12864,6 +12883,66 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+    },
+    {
+        "chain_name": "tontestnet",
+        "chain_id": "unknown",
+        "base": "nanoton",
+        "name": "Toncoin",
+        "display": "ton",
+        "symbol": "TON",
+        "denoms": [
+            {
+                "denom": "nanoton",
+                "exponent": 0
+            },
+            {
+                "denom": "ton",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "litecointestnet",
+        "chain_id": "unknown",
+        "base": "litoshi",
+        "name": "Litecoin",
+        "display": "ltc",
+        "symbol": "LTC",
+        "denoms": [
+            {
+                "denom": "litoshi",
+                "exponent": 0
+            },
+            {
+                "denom": "ltc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "solanatestnet",
+        "chain_id": "unknown",
+        "base": "Lamport",
+        "name": "Solana",
+        "display": "SOL",
+        "symbol": "SOL",
+        "denoms": [
+            {
+                "denom": "Lamport",
+                "exponent": 0
+            },
+            {
+                "denom": "SOL",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg"
         }
     },
     {
@@ -13197,6 +13276,25 @@
             },
             {
                 "denom": "btc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "bitcoincashtestnet",
+        "chain_id": "unknown",
+        "base": "sat",
+        "name": "Bitcoin Cash",
+        "display": "bch",
+        "symbol": "BCH",
+        "denoms": [
+            {
+                "denom": "sat",
+                "exponent": 0
+            },
+            {
+                "denom": "bch",
                 "exponent": 8
             }
         ],
@@ -15093,6 +15191,158 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/fiammatestnet/images/fiamma.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "uint3",
+        "name": "Int3face Testnet Token",
+        "display": "int3",
+        "symbol": "INT3",
+        "denoms": [
+            {
+                "denom": "uint3",
+                "exponent": 0
+            },
+            {
+                "denom": "int3",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
+        "name": "Testnet Bitcoin",
+        "display": "btc",
+        "symbol": "BTC",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
+                "exponent": 0
+            },
+            {
+                "denom": "btc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
+        "name": "Testnet Bitcoin Cash",
+        "display": "bch",
+        "symbol": "BCH",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
+                "exponent": 0
+            },
+            {
+                "denom": "bch",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
+        "name": "Testnet Dogecoin",
+        "display": "doge",
+        "symbol": "DOGE",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
+                "exponent": 0
+            },
+            {
+                "denom": "doge",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
+        "name": "Testnet Litecoin",
+        "display": "ltc",
+        "symbol": "LTC",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
+                "exponent": 0
+            },
+            {
+                "denom": "ltc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+        "name": "Testnet TON",
+        "display": "ton",
+        "symbol": "TON",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+                "exponent": 0
+            },
+            {
+                "denom": "ton",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg"
+        }
+    },
+    {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
+        "name": "Testnet Solana",
+        "display": "sol",
+        "symbol": "SOL",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
+                "exponent": 0
+            },
+            {
+                "denom": "sol",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png"
         }
     },
     {
