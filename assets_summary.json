@@ -6023,6 +6023,25 @@
         }
     },
     {
+        "chain_name": "nillion",
+        "chain_id": "nillion-1",
+        "base": "unil",
+        "name": "Nillion",
+        "display": "nil",
+        "symbol": "NIL",
+        "denoms": [
+            {
+                "denom": "unil",
+                "exponent": 0
+            },
+            {
+                "denom": "nil",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "lumenx",
         "chain_id": "LumenX",
         "base": "ulumen",
