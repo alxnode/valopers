@@ -33301,7 +33301,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-        "name": "The seven green shade",
+        "name": "The Seven Green Shade",
         "display": "T7S",
         "symbol": "T7S",
         "denoms": [
@@ -33384,6 +33384,52 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allin.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51",
+        "name": "Manifest",
+        "display": "mfx",
+        "symbol": "MFX",
+        "denoms": [
+            {
+                "denom": "ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51",
+                "exponent": 0
+            },
+            {
+                "denom": "mfx",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+        "name": "Coreum Community DAO Token",
+        "display": "ccd",
+        "symbol": "CCD",
+        "denoms": [
+            {
+                "denom": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+                "exponent": 0
+            },
+            {
+                "denom": "ccd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -47843,6 +47889,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg"
+        }
+    },
+    {
+        "chain_name": "manifest",
+        "chain_id": "manifest-ledger-mainnet",
+        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
         }
     },
     {
