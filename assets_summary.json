@@ -11648,6 +11648,25 @@
         }
     },
     {
+        "chain_name": "airchainsvaranasitestnet",
+        "chain_id": "varanasi-1",
+        "base": "uamf",
+        "name": "Airchains",
+        "display": "AMF",
+        "symbol": "AMF",
+        "denoms": [
+            {
+                "denom": "uamf",
+                "exponent": 0
+            },
+            {
+                "denom": "AMF",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "unificationtestnet",
         "chain_id": "FUND-TestNet-2",
         "base": "nund",
