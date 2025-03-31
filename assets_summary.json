@@ -51473,6 +51473,111 @@
         }
     },
     {
+        "chain_name": "planq",
+        "chain_id": "planq_7070-2",
+        "base": "erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648",
+        "name": "Anubis",
+        "display": "anubi",
+        "symbol": "ANUBI",
+        "denoms": [
+            {
+                "denom": "erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648",
+                "exponent": 0
+            },
+            {
+                "denom": "anubi",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png"
+        }
+    },
+    {
+        "chain_name": "planq",
+        "chain_id": "planq_7070-2",
+        "base": "erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345",
+        "name": "Astonic",
+        "display": "astonic",
+        "symbol": "ATC",
+        "denoms": [
+            {
+                "denom": "erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345",
+                "exponent": 0
+            },
+            {
+                "denom": "astonic",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png"
+        }
+    },
+    {
+        "chain_name": "planq",
+        "chain_id": "planq_7070-2",
+        "base": "erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a",
+        "name": "Astonic USD",
+        "display": "ausd",
+        "symbol": "aUSD",
+        "denoms": [
+            {
+                "denom": "erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a",
+                "exponent": 0
+            },
+            {
+                "denom": "ausd",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png"
+        }
+    },
+    {
+        "chain_name": "planq",
+        "chain_id": "planq_7070-2",
+        "base": "erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501",
+        "name": "Astonic EUR",
+        "display": "aeur",
+        "symbol": "aEUR",
+        "denoms": [
+            {
+                "denom": "erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501",
+                "exponent": 0
+            },
+            {
+                "denom": "aeur",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png"
+        }
+    },
+    {
+        "chain_name": "planq",
+        "chain_id": "planq_7070-2",
+        "base": "erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce",
+        "name": "Astonic BRL",
+        "display": "abrl",
+        "symbol": "aBRL",
+        "denoms": [
+            {
+                "denom": "erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce",
+                "exponent": 0
+            },
+            {
+                "denom": "abrl",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png"
+        }
+    },
+    {
         "chain_name": "lefeef",
         "chain_id": "lefeef-mainnet",
         "base": "ulefeef",
