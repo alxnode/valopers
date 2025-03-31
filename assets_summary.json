@@ -33475,6 +33475,29 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+        "name": "Nillion",
+        "display": "nil",
+        "symbol": "NIL",
+        "denoms": [
+            {
+                "denom": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+                "exponent": 0
+            },
+            {
+                "denom": "nil",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "teritori",
         "chain_id": "teritori-1",
         "base": "utori",
