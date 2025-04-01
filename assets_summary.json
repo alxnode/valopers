@@ -8109,6 +8109,27 @@
         }
     },
     {
+        "chain_name": "axelar",
+        "chain_id": "axelar-dojo-1",
+        "base": "unit-move",
+        "name": "Movement",
+        "display": "move",
+        "symbol": "axlMOVE",
+        "denoms": [
+            {
+                "denom": "unit-move",
+                "exponent": 0
+            },
+            {
+                "denom": "move",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
+        }
+    },
+    {
         "chain_name": "routerchain",
         "chain_id": "router_9600-1",
         "base": "route",
@@ -19423,6 +19444,25 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+        "name": "Movement",
+        "display": "move",
+        "symbol": "MOVE",
+        "denoms": [
+            {
+                "denom": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+                "exponent": 0
+            },
+            {
+                "denom": "move",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "0l",
         "chain_id": "unknown",
         "base": "microlibra",
@@ -20933,6 +20973,25 @@
             {
                 "denom": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
                 "exponent": 0
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "movement",
+        "chain_id": "unknown",
+        "base": "0xa",
+        "name": "Movement",
+        "display": "move",
+        "symbol": "MOVE",
+        "denoms": [
+            {
+                "denom": "0xa",
+                "exponent": 0
+            },
+            {
+                "denom": "move",
+                "exponent": 8
             }
         ],
         "logo_URIs": {}
@@ -33498,6 +33557,27 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
+        "name": "Movement (Ethereum)",
+        "display": "move",
+        "symbol": "MOVE",
+        "denoms": [
+            {
+                "denom": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
+                "exponent": 0
+            },
+            {
+                "denom": "move",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "teritori",
         "chain_id": "teritori-1",
         "base": "utori",
@@ -44136,25 +44216,6 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
         }
-    },
-    {
-        "chain_name": "movement",
-        "chain_id": "unknown",
-        "base": "umove",
-        "name": "Movement",
-        "display": "move",
-        "symbol": "MOVE",
-        "denoms": [
-            {
-                "denom": "umove",
-                "exponent": 0
-            },
-            {
-                "denom": "move",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {}
     },
     {
         "chain_name": "qfs",
