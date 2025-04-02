@@ -14818,13 +14818,13 @@
     {
         "chain_name": "babylontestnet",
         "chain_id": "bbn-test-5",
-        "base": "ebbn",
+        "base": "cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
         "name": "Babylon Testnet Escher LST",
         "display": "eBABY",
         "symbol": "eBABY",
         "denoms": [
             {
-                "denom": "ebbn",
+                "denom": "cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
                 "exponent": 0
             },
             {
