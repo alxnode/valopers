@@ -33625,9 +33625,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
-        "name": "Movement (Ethereum)",
+        "name": "Movement (Ethereum via Axelar)",
         "display": "move",
-        "symbol": "MOVE",
+        "symbol": "MOVE.eth.axl",
         "denoms": [
             {
                 "denom": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
@@ -33639,6 +33639,29 @@
             }
         ],
         "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
+        "name": "Movement (Alloy)",
+        "display": "allMOVE",
+        "symbol": "allMOVE",
+        "denoms": [
+            {
+                "denom": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
+                "exponent": 0
+            },
+            {
+                "denom": "allMOVE",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allMOVE.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allMOVE.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
