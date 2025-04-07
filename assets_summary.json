@@ -33710,28 +33710,6 @@
         }
     },
     {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN",
-        "name": "Dragon (Alloy)",
-        "display": "allDGN",
-        "symbol": "allDGN",
-        "denoms": [
-            {
-                "denom": "factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN",
-                "exponent": 0
-            },
-            {
-                "denom": "allDGN",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDGN.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
         "chain_name": "teritori",
         "chain_id": "teritori-1",
         "base": "utori",
@@ -46864,6 +46842,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+        }
+    },
+    {
+        "chain_name": "arkeo",
+        "chain_id": "arkeo-main-v1",
+        "base": "uarkeo",
+        "name": "Arkeo",
+        "display": "arkeo",
+        "symbol": "ARKEO",
+        "denoms": [
+            {
+                "denom": "uarkeo",
+                "exponent": 0
+            },
+            {
+                "denom": "arkeo",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg"
         }
     },
     {
