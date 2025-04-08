@@ -18168,6 +18168,59 @@
         }
     },
     {
+        "chain_name": "lombardledgertestnet",
+        "chain_id": "ledger-testnet-1",
+        "base": "ulom",
+        "name": "Lom",
+        "display": "lom",
+        "symbol": "LOM",
+        "denoms": [
+            {
+                "denom": "ulom",
+                "exponent": 0
+            },
+            {
+                "denom": "lom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "lombardledgertestnet",
+        "chain_id": "ledger-testnet-1",
+        "base": "uclbtc",
+        "name": "Liquid Bitcoin",
+        "display": "lbtc",
+        "symbol": "LBTC",
+        "denoms": [
+            {
+                "denom": "uclbtc",
+                "exponent": 0
+            },
+            {
+                "denom": "lbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "lombardledgertestnet",
+        "chain_id": "ledger-testnet-1",
+        "base": "ustake",
+        "name": "ustake",
+        "display": "ustake",
+        "symbol": "USTAKE",
+        "denoms": [
+            {
+                "denom": "ustake",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "secretnetworktestnet2",
         "chain_id": "pulsar-2",
         "base": "uscrt",
