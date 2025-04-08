@@ -11931,7 +11931,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png",
+            "valopers_logo": "https://api.valopers.com/logos/arkeo.svg"
         }
     },
     {
@@ -46913,7 +46914,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg",
+            "valopers_logo": "https://api.valopers.com/logos/arkeo.svg"
         }
     },
     {
