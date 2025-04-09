@@ -13593,6 +13593,27 @@
         }
     },
     {
+        "chain_name": "titantestnet",
+        "chain_id": "titan_18889-1",
+        "base": "factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth",
+        "name": "Ethereum",
+        "display": "eth",
+        "symbol": "ETH",
+        "denoms": [
+            {
+                "denom": "factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth",
+                "exponent": 0
+            },
+            {
+                "denom": "eth",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg"
+        }
+    },
+    {
         "chain_name": "persistencetestnet2",
         "chain_id": "test-core-2",
         "base": "uxprt",
@@ -34530,6 +34551,59 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg"
         }
+    },
+    {
+        "chain_name": "lombardledger",
+        "chain_id": "ledger-mainnet-1",
+        "base": "ulom",
+        "name": "Lom",
+        "display": "lom",
+        "symbol": "LOM",
+        "denoms": [
+            {
+                "denom": "ulom",
+                "exponent": 0
+            },
+            {
+                "denom": "lom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "lombardledger",
+        "chain_id": "ledger-mainnet-1",
+        "base": "uclbtc",
+        "name": "Liquid Bitcoin",
+        "display": "lbtc",
+        "symbol": "LBTC",
+        "denoms": [
+            {
+                "denom": "uclbtc",
+                "exponent": 0
+            },
+            {
+                "denom": "lbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "lombardledger",
+        "chain_id": "ledger-mainnet-1",
+        "base": "ustake",
+        "name": "ustake",
+        "display": "ustake",
+        "symbol": "USTAKE",
+        "denoms": [
+            {
+                "denom": "ustake",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {}
     },
     {
         "chain_name": "cheqd",
