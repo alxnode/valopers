@@ -40836,7 +40836,7 @@
             },
             {
                 "denom": "solvbtc",
-                "exponent": 8
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -40857,7 +40857,7 @@
             },
             {
                 "denom": "xsolvbtc",
-                "exponent": 8
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -40868,9 +40868,9 @@
         "chain_name": "cosmoshub",
         "chain_id": "cosmoshub-4",
         "base": "ibc/9DA8B22BC0E6D76C2D621EF008168BC163B09A517697B14B68DE75382043152E",
-        "name": "PumpBTC",
+        "name": "pumpBTC",
         "display": "pumpbtc",
-        "symbol": "PumpBTC",
+        "symbol": "pumpBTC",
         "denoms": [
             {
                 "denom": "ibc/9DA8B22BC0E6D76C2D621EF008168BC163B09A517697B14B68DE75382043152E",
