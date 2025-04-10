@@ -48572,6 +48572,27 @@
     {
         "chain_name": "neutron",
         "chain_id": "neutron-1",
+        "base": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+        "name": "dNTRN",
+        "display": "dNTRN",
+        "symbol": "dNTRN",
+        "denoms": [
+            {
+                "denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+                "exponent": 0
+            },
+            {
+                "denom": "dNTRN",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
         "base": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
         "name": "dATOM",
         "display": "dATOM",
