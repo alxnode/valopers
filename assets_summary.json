@@ -19727,7 +19727,7 @@
         "chain_name": "ethereum",
         "chain_id": "1",
         "base": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
-        "name": "uniBTC",
+        "name": "Universal BTC",
         "display": "unibtc",
         "symbol": "uniBTC",
         "denoms": [
@@ -43104,6 +43104,27 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+        "name": "Universal BTC",
+        "display": "uniBTC",
+        "symbol": "uniBTC",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+                "exponent": 0
+            },
+            {
+                "denom": "uniBTC",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg"
         }
     },
     {
