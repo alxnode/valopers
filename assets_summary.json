@@ -43065,6 +43065,27 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz",
+        "name": "Cube Baby",
+        "display": "cBABY",
+        "symbol": "cBABY",
+        "denoms": [
+            {
+                "denom": "cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz",
+                "exponent": 0
+            },
+            {
+                "denom": "cBABY",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg"
+        }
+    },
+    {
         "chain_name": "chimba",
         "chain_id": "chimba",
         "base": "ucmba",
