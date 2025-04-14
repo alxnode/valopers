@@ -43086,6 +43086,27 @@
         }
     },
     {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s",
+        "name": "Babylon Escher LST",
+        "display": "eBABY",
+        "symbol": "eBABY",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s",
+                "exponent": 0
+            },
+            {
+                "denom": "eBABY",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg"
+        }
+    },
+    {
         "chain_name": "chimba",
         "chain_id": "chimba",
         "base": "ucmba",
