@@ -43194,6 +43194,90 @@
         }
     },
     {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
+        "name": "Lombard Staked Bitcoin",
+        "display": "LBTC",
+        "symbol": "LBTC",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
+                "exponent": 0
+            },
+            {
+                "denom": "LBTC",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst",
+        "name": "Solv BTC",
+        "display": "SolvBTC",
+        "symbol": "SolvBTC",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst",
+                "exponent": 0
+            },
+            {
+                "denom": "SolvBTC",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+        "name": "Lorenzo stBTC",
+        "display": "stBTC",
+        "symbol": "stBTC",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+                "exponent": 0
+            },
+            {
+                "denom": "stBTC",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+        "name": "pumpBTC",
+        "display": "pumpBTC",
+        "symbol": "pumpBTC",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+                "exponent": 0
+            },
+            {
+                "denom": "pumpBTC",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+        }
+    },
+    {
         "chain_name": "chimba",
         "chain_id": "chimba",
         "base": "ucmba",
