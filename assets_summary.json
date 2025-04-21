@@ -10237,8 +10237,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg"
         }
     },
     {
@@ -10370,6 +10370,28 @@
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
+        }
+    },
+    {
+        "chain_name": "milkyway",
+        "chain_id": "milkyway",
+        "base": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+        "name": "milkBABY",
+        "display": "milkBABY",
+        "symbol": "milkBABY",
+        "denoms": [
+            {
+                "denom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+                "exponent": 0
+            },
+            {
+                "denom": "milkBABY",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg"
         }
     },
     {
