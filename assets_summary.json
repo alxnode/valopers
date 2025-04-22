@@ -35556,7 +35556,7 @@
     },
     {
         "chain_name": "initia",
-        "chain_id": "unknown",
+        "chain_id": "interwoven-1",
         "base": "uinit",
         "name": "Initia",
         "display": "INIT",
