@@ -34,18 +34,19 @@ def add_missing_valopers_logos():
         logging.error(f"Failed to read {OUTPUT_PATH}: {e}")
         return
 
-    # Create a mapping of base -> valopers_logo
-    base_to_logo = {}
+    # Create a mapping of (chain_id, base) -> valopers_logo
+    key_to_logo = {}
     for asset in assets:
         valopers_logo = asset["logo_URIs"].get("valopers_logo")
         if valopers_logo:
-            base_to_logo[asset["base"]] = valopers_logo
+            key = (asset.get("chain_id", ""), asset.get("base", ""))
+            key_to_logo[key] = valopers_logo
 
     for asset in assets:
         if "valopers_logo" not in asset["logo_URIs"]:
-            base = asset["base"]
-            if base in base_to_logo:
-                asset["logo_URIs"]["valopers_logo"] = base_to_logo[base]
+            key = (asset.get("chain_id", ""), asset.get("base", ""))
+            if key in key_to_logo:
+                asset["logo_URIs"]["valopers_logo"] = key_to_logo[key]
 
     try:
         with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
