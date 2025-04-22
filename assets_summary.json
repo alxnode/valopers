@@ -1,5 +1,23 @@
 [
     {
+        "chain_name": "penumbra",
+        "chain_id": "penumbra-1",
+        "base": "um",
+        "name": "Penumbra",
+        "display": "UM",
+        "symbol": "UM",
+        "denoms": [
+
+            {
+                "denom": "um",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "http://api.valopers.com/logos/penumbra.svg"
+        }
+    },
+    {
         "chain_name": "okexchain",
         "chain_id": "exchain-66",
         "base": "wei",
