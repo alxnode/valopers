@@ -3,7 +3,6 @@ import json
 import logging
 import requests
 
-
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 BASE_PATH = "./chain-registry"
@@ -122,6 +121,32 @@ def main():
 
             except Exception as e:
                 logging.error(f"Failed to process {asset_file_path}: {e}")
+
+    # Merge in missing manual assets
+    manual_path = "assets_manual.json"
+    if os.path.exists(manual_path):
+        try:
+            with open(manual_path, "r", encoding="utf-8") as f:
+                manual_assets = json.load(f)
+
+            existing_keys = {(a["chain_id"], a["base"]) for a in asset_list}
+            added_count = 0
+
+            for asset in manual_assets:
+                key = (asset.get("chain_id"), asset.get("base"))
+                if key not in existing_keys:
+                    asset_list.append(asset)
+                    added_count += 1
+
+            if added_count:
+                logging.info(f"Added {added_count} missing manual asset(s) from assets_manual.json")
+            else:
+                logging.info("No new manual assets needed to be added.")
+
+        except Exception as e:
+            logging.error(f"Failed to merge assets_manual.json: {e}")
+    else:
+        logging.info("No assets_manual.json file found. Skipping manual merge.")
 
     if asset_list:
         with open(OUTPUT_PATH, "w", encoding="utf-8") as out_file:
