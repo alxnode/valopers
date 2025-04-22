@@ -29016,25 +29016,6 @@
         }
     },
     {
-        "chain_name": "penumbra",
-        "chain_id": "unknown",
-        "base": "upenumbra",
-        "name": "Penumbra",
-        "display": "penumbra",
-        "symbol": "UM",
-        "denoms": [
-            {
-                "denom": "upenumbra",
-                "exponent": 0
-            },
-            {
-                "denom": "penumbra",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {}
-    },
-    {
         "chain_name": "comex",
         "chain_id": "unknown",
         "base": "XAU",
