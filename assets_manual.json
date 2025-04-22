@@ -1,26 +1,5 @@
 [
-    {
-        "chain_name": "govgen",
-        "chain_id": "govgen-1",
-        "base": "ugovgen",
-        "name": "GovGen",
-        "display": "govgen",
-        "symbol": "GOVGEN",
-        "denoms": [
-            {
-                "denom": "ugovgen",
-                "exponent": 0
-            },
-            {
-                "denom": "govgen",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
-        }
-    },
+
       {
         "chain_name": "penumbra",
         "chain_id": "penumbra-1",
@@ -39,7 +18,7 @@
             }
         ],
         "logo_URIs": {
-           "svg": "https://api.valopers.com/logos/penumbra.svg"
+           "valopers_logo": "https://api.valopers.com/logos/penumbra.svg"
         }
     }
 ]
