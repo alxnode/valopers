@@ -55153,7 +55153,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://api.valopers.com/logos/penumbra.svg"
+            "valopers_logo": "https://api.valopers.com/logos/penumbra.svg"
         }
     }
 ]
