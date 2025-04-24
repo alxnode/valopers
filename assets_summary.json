@@ -25354,16 +25354,16 @@
         "chain_name": "babylon",
         "chain_id": "bbn-1",
         "base": "cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x",
-        "name": "Satlayer uniBTC",
-        "display": "satUniBTC",
-        "symbol": "satUniBTC",
+        "name": "SatLayer uniBTC Bridged",
+        "display": "satUniBTC.e",
+        "symbol": "satUniBTC.e",
         "denoms": [
             {
                 "denom": "cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x",
                 "exponent": 0
             },
             {
-                "denom": "satUniBTC",
+                "denom": "satUniBTC.e",
                 "exponent": 8
             }
         ],
