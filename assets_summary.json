@@ -9544,6 +9544,71 @@
         }
     },
     {
+        "chain_name": "junotestnet6",
+        "chain_id": "uni-6",
+        "base": "ujunox",
+        "name": "Juno Testnet",
+        "display": "junox",
+        "symbol": "JUNOX",
+        "denoms": [
+            {
+                "denom": "ujunox",
+                "exponent": 0
+            },
+            {
+                "denom": "junox",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg"
+        }
+    },
+    {
+        "chain_name": "junotestnet6",
+        "chain_id": "uni-6",
+        "base": "factory/juno12klaltyqvg2j6v034jwdxrk5n4242ttse4sdpt/NEXX",
+        "name": "NEXX GEN AI",
+        "display": "nexx",
+        "symbol": "NEXX",
+        "denoms": [
+            {
+                "denom": "factory/juno12klaltyqvg2j6v034jwdxrk5n4242ttse4sdpt/NEXX",
+                "exponent": 0
+            },
+            {
+                "denom": "nexx",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/nexx.png"
+        }
+    },
+    {
+        "chain_name": "junotestnet6",
+        "chain_id": "uni-6",
+        "base": "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/ARENA",
+        "name": "Arena Token",
+        "display": "arena",
+        "symbol": "ARENA",
+        "denoms": [
+            {
+                "denom": "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/ARENA",
+                "exponent": 0
+            },
+            {
+                "denom": "arena",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg"
+        }
+    },
+    {
         "chain_name": "neuradevnet",
         "chain_id": "neura_268-1",
         "base": "atankr",
@@ -9583,7 +9648,7 @@
     },
     {
         "chain_name": "junotestnet",
-        "chain_id": "uni-6",
+        "chain_id": "uni-7",
         "base": "ujunox",
         "name": "Juno Testnet",
         "display": "junox",
@@ -9600,12 +9665,13 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg",
+            "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
     {
         "chain_name": "junotestnet",
-        "chain_id": "uni-6",
+        "chain_id": "uni-7",
         "base": "factory/juno12klaltyqvg2j6v034jwdxrk5n4242ttse4sdpt/NEXX",
         "name": "NEXX GEN AI",
         "display": "nexx",
@@ -9621,12 +9687,13 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/nexx.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/nexx.png",
+            "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
     {
         "chain_name": "junotestnet",
-        "chain_id": "uni-6",
+        "chain_id": "uni-7",
         "base": "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/ARENA",
         "name": "Arena Token",
         "display": "arena",
@@ -9643,7 +9710,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg",
+            "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
     {
@@ -12904,6 +12972,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
+        }
+    },
+    {
+        "chain_name": "lumeratestnet",
+        "chain_id": "lumera-testnet-1",
+        "base": "ulume",
+        "name": "lume",
+        "display": "LUME",
+        "symbol": "LUME",
+        "denoms": [
+            {
+                "denom": "ulume",
+                "exponent": 0
+            },
+            {
+                "denom": "LUME",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png"
         }
     },
     {
@@ -27417,6 +27506,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.svg"
+        }
+    },
+    {
+        "chain_name": "lumera",
+        "chain_id": "lumera-mainnet-1",
+        "base": "ulume",
+        "name": "lume",
+        "display": "LUME",
+        "symbol": "LUME",
+        "denoms": [
+            {
+                "denom": "ulume",
+                "exponent": 0
+            },
+            {
+                "denom": "LUME",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png"
         }
     },
     {
