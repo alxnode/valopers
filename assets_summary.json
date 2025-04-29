@@ -1580,7 +1580,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1602,7 +1603,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1624,7 +1626,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1646,7 +1649,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1668,7 +1672,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1689,7 +1694,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1711,7 +1717,8 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
@@ -1733,7 +1740,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg",
+            "valopers_logo": "https://api.valopers.com/logos/milkyway.svg"
         }
     },
     {
