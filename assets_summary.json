@@ -25028,6 +25028,29 @@
         }
     },
     {
+        "chain_name": "omniflixhub",
+        "chain_id": "omniflixhub-1",
+        "base": "ibc/1F8E19CD32FC6B2DBA825E7C3B370004BF5041BAB1099FC1BEBD6054FD5E8D08",
+        "name": "Coreum Community DAO Token",
+        "display": "ccd",
+        "symbol": "CCD",
+        "denoms": [
+            {
+                "denom": "ibc/1F8E19CD32FC6B2DBA825E7C3B370004BF5041BAB1099FC1BEBD6054FD5E8D08",
+                "exponent": 0
+            },
+            {
+                "denom": "ccd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg",
+            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+        }
+    },
+    {
         "chain_name": "babylon",
         "chain_id": "bbn-1",
         "base": "ubbn",
@@ -28877,6 +28900,21 @@
         "denoms": [
             {
                 "denom": "EUR",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "forex",
+        "chain_id": "unknown",
+        "base": "BRL",
+        "name": "Brazilian Real",
+        "display": "BRL",
+        "symbol": "BRL",
+        "denoms": [
+            {
+                "denom": "BRL",
                 "exponent": 0
             }
         ],
