@@ -2441,7 +2441,7 @@
             },
             {
                 "denom": "eth",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -44837,7 +44837,7 @@
             },
             {
                 "denom": "eth",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -44860,7 +44860,7 @@
             },
             {
                 "denom": "wbtc",
-                "exponent": 6
+                "exponent": 8
             }
         ],
         "logo_URIs": {
