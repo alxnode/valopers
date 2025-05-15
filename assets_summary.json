@@ -41389,7 +41389,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41414,7 +41415,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden.png",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41439,7 +41441,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41461,7 +41464,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41483,7 +41487,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41505,7 +41510,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41527,7 +41533,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41549,7 +41556,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41570,7 +41578,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
@@ -41592,7 +41601,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
         }
     },
     {
