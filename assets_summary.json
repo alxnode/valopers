@@ -45451,7 +45451,7 @@
     },
     {
         "chain_name": "zigchaintestnet",
-        "chain_id": "zig-test-1",
+        "chain_id": "zig-test-2",
         "base": "uzig",
         "name": "ZIG",
         "display": "zig",
