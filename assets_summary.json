@@ -2165,20 +2165,20 @@
         "chain_id": "bbn-1",
         "base": "cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
         "name": "SatLayer xSatSolvBTC Bridged",
-        "display": "satSolvBTC.e",
-        "symbol": "satSolvBTC.e",
+        "display": "satXSolvBTC.e",
+        "symbol": "satXSolvBTC.e",
         "denoms": [
             {
                 "denom": "cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
                 "exponent": 0
             },
             {
-                "denom": "satSolvBTC.e",
+                "denom": "satXSolvBTC.e",
                 "exponent": 18
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png"
         }
     },
     {
@@ -2221,6 +2221,69 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3",
+        "name": "SatLayer WBTC Bridged",
+        "display": "satWBTC.e",
+        "symbol": "satWBTC.e",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3",
+                "exponent": 0
+            },
+            {
+                "denom": "satWBTC.e",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2",
+        "name": "SatLayer pumpBTC Bridged",
+        "display": "satPumpBTC.e",
+        "symbol": "satPumpBTC.e",
+        "denoms": [
+            {
+                "denom": "cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2",
+                "exponent": 0
+            },
+            {
+                "denom": "satPumpBTC.e",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+        }
+    },
+    {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93",
+        "name": "SatLayer stBTC Bridged",
+        "display": "satStBTC.e",
+        "symbol": "satStBTC.e",
+        "denoms": [
+            {
+                "denom": "cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93",
+                "exponent": 0
+            },
+            {
+                "denom": "satStBTC.e",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
         }
     },
     {
@@ -14345,6 +14408,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+        "name": "Matcha Club",
+        "display": "MTC",
+        "symbol": "MTC",
+        "denoms": [
+            {
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+                "exponent": 0
+            },
+            {
+                "denom": "MTC",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MTC.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -39695,6 +39780,69 @@
         }
     },
     {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0x69223B5B36a785Ec08e5f685fd7961399982C566",
+        "name": "Satlayer WBTC",
+        "display": "satwbtc",
+        "symbol": "satWBTC",
+        "denoms": [
+            {
+                "denom": "0x69223B5B36a785Ec08e5f685fd7961399982C566",
+                "exponent": 0
+            },
+            {
+                "denom": "satwbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+        }
+    },
+    {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0x0c4dd69705D16d91bC9C0534Cc926966f23430c7",
+        "name": "Satlayer pumpBTC",
+        "display": "satpumpbtc",
+        "symbol": "satPumpBTC",
+        "denoms": [
+            {
+                "denom": "0x0c4dd69705D16d91bC9C0534Cc926966f23430c7",
+                "exponent": 0
+            },
+            {
+                "denom": "satpumpbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+        }
+    },
+    {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b",
+        "name": "Satlayer stBTC",
+        "display": "satstbtc",
+        "symbol": "satStBTC",
+        "denoms": [
+            {
+                "denom": "0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b",
+                "exponent": 0
+            },
+            {
+                "denom": "satstbtc",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+        }
+    },
+    {
         "chain_name": "bitcoin",
         "chain_id": "unknown",
         "base": "sat",
@@ -43863,7 +44011,7 @@
     },
     {
         "chain_name": "zenrocktestnet",
-        "chain_id": "gardia-4",
+        "chain_id": "gardia-5",
         "base": "urock",
         "name": "Zenrock",
         "display": "rock",
@@ -44050,6 +44198,50 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png"
+        }
+    },
+    {
+        "chain_name": "agoricdevnet",
+        "chain_id": "agoricdev-25",
+        "base": "ubld",
+        "name": "Agoric",
+        "display": "bld",
+        "symbol": "BLD",
+        "denoms": [
+            {
+                "denom": "ubld",
+                "exponent": 0
+            },
+            {
+                "denom": "bld",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg"
+        }
+    },
+    {
+        "chain_name": "agoricdevnet",
+        "chain_id": "agoricdev-25",
+        "base": "uist",
+        "name": "Inter Stable Token",
+        "display": "ist",
+        "symbol": "IST",
+        "denoms": [
+            {
+                "denom": "uist",
+                "exponent": 0
+            },
+            {
+                "denom": "ist",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
         }
     },
     {
