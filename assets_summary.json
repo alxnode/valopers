@@ -29708,6 +29708,28 @@
     {
         "chain_name": "pryzm",
         "chain_id": "pryzm-1",
+        "base": "ibc/C9D6B804F68F218448D7D2AF5D26C0E6E93CD16F99D1695E77B5BE5CBD7D5ADB",
+        "name": "sUSDS",
+        "display": "susds",
+        "symbol": "sUSDS",
+        "denoms": [
+            {
+                "denom": "ibc/C9D6B804F68F218448D7D2AF5D26C0E6E93CD16F99D1695E77B5BE5CBD7D5ADB",
+                "exponent": 0
+            },
+            {
+                "denom": "susds",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
         "base": "c:uatom",
         "name": "cAtom",
         "display": "catom",
@@ -30984,6 +31006,94 @@
     {
         "chain_name": "pryzm",
         "chain_id": "pryzm-1",
+        "base": "p:asusds:30Jun2025",
+        "name": "psUsds (30Jun2025)",
+        "display": "psUSDS30Jun2025",
+        "symbol": "psUSDS-30Jun2025",
+        "denoms": [
+            {
+                "denom": "p:asusds:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "psUSDS30Jun2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "p:asusds:30Sep2025",
+        "name": "psUsds (30Sep2025)",
+        "display": "psUSDS30Sep2025",
+        "symbol": "psUSDS-30Sep2025",
+        "denoms": [
+            {
+                "denom": "p:asusds:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "psUSDS30Sep2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "p:asusds:31Dec2025",
+        "name": "psUsds (31Dec2025)",
+        "display": "psUSDS31Dec2025",
+        "symbol": "psUSDS-31Dec2025",
+        "denoms": [
+            {
+                "denom": "p:asusds:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "psUSDS31Dec2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "p:asusds:31Mar2026",
+        "name": "psUsds (31Mar2026)",
+        "display": "psUSDS31Mar2026",
+        "symbol": "psUSDS-31Mar2026",
+        "denoms": [
+            {
+                "denom": "p:asusds:31Mar2026",
+                "exponent": 0
+            },
+            {
+                "denom": "psUSDS31Mar2026",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
         "base": "y:uatom:30Sep2024",
         "name": "yAtom (30Sep2024)",
         "display": "yATOM30Sep2024",
@@ -32106,6 +32216,94 @@
     {
         "chain_name": "pryzm",
         "chain_id": "pryzm-1",
+        "base": "y:asusds:30Jun2025",
+        "name": "ysUsds (30Jun2025)",
+        "display": "ysUSDS30Jun2025",
+        "symbol": "ysUSDS-30Jun2025",
+        "denoms": [
+            {
+                "denom": "y:asusds:30Jun2025",
+                "exponent": 0
+            },
+            {
+                "denom": "ysUSDS30Jun2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "y:asusds:30Sep2025",
+        "name": "ysUsds (30Sep2025)",
+        "display": "ysUSDS30Sep2025",
+        "symbol": "ysUSDS-30Sep2025",
+        "denoms": [
+            {
+                "denom": "y:asusds:30Sep2025",
+                "exponent": 0
+            },
+            {
+                "denom": "ysUSDS30Sep2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "y:asusds:31Dec2025",
+        "name": "ysUsds (31Dec2025)",
+        "display": "ysUSDS31Dec2025",
+        "symbol": "ysUSDS-31Dec2025",
+        "denoms": [
+            {
+                "denom": "y:asusds:31Dec2025",
+                "exponent": 0
+            },
+            {
+                "denom": "ysUSDS31Dec2025",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "y:asusds:31Mar2026",
+        "name": "ysUsds (31Mar2026)",
+        "display": "ysUSDS31Mar2026",
+        "symbol": "ysUSDS-31Mar2026",
+        "denoms": [
+            {
+                "denom": "y:asusds:31Mar2026",
+                "exponent": 0
+            },
+            {
+                "denom": "ysUSDS31Mar2026",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
         "base": "lp:6:uusdc.axl-uusdc",
         "name": "USDC / USDC.axl LP",
         "display": "lp:6:usdc.axl-usdc",
@@ -32734,6 +32932,50 @@
             {
                 "denom": "lp:33:pryzm",
                 "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "lp:36:asusds",
+        "name": "sUSDS Yield LP",
+        "display": "lp:36:susds",
+        "symbol": "sUSDS-YIELD-LP",
+        "denoms": [
+            {
+                "denom": "lp:36:asusds",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:36:susds",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "lp:37:asusdsypt-uusdc",
+        "name": "sUSDS Boost LP",
+        "display": "lp:37:susdsypt-usdc",
+        "symbol": "sUSDS-BOOST-LP",
+        "denoms": [
+            {
+                "denom": "lp:37:asusdsypt-uusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:37:susdsypt-usdc",
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -39862,6 +40104,28 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+        }
+    },
+    {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+        "name": "Savings USDS",
+        "display": "susds",
+        "symbol": "sUSDS",
+        "denoms": [
+            {
+                "denom": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+                "exponent": 0
+            },
+            {
+                "denom": "susds",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg"
         }
     },
     {
@@ -55990,6 +56254,29 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/B9B561EB378C9EB8C13CAA11FCBC78E6B865A3C65707972F17B1052CFC39F473",
+        "name": "Savings USDS",
+        "display": "susds",
+        "symbol": "sUSDS",
+        "denoms": [
+            {
+                "denom": "ibc/B9B561EB378C9EB8C13CAA11FCBC78E6B865A3C65707972F17B1052CFC39F473",
+                "exponent": 0
+            },
+            {
+                "denom": "susds",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg",
             "valopers_logo": "https://api.valopers.com/logos/atom.svg"
         }
     },
