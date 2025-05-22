@@ -2309,6 +2309,28 @@
         }
     },
     {
+        "chain_name": "babylon",
+        "chain_id": "bbn-1",
+        "base": "ibc/CD7ECDBBA538632B45915ED67C4932DDB318818C00C21489D3774E560E87E420",
+        "name": "milkBABY",
+        "display": "milkBABY",
+        "symbol": "milkBABY",
+        "denoms": [
+            {
+                "denom": "ibc/CD7ECDBBA538632B45915ED67C4932DDB318818C00C21489D3774E560E87E420",
+                "exponent": 0
+            },
+            {
+                "denom": "milkBABY",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg"
+        }
+    },
+    {
         "chain_name": "scorum",
         "chain_id": "scorum-1",
         "base": "nscr",
@@ -24477,6 +24499,50 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inc.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
+        "name": "cw20 hINJ",
+        "display": "hINJ",
+        "symbol": "hINJ",
+        "denoms": [
+            {
+                "denom": "cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
+                "exponent": 0
+            },
+            {
+                "denom": "hINJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
+        "name": "Hydro Wrapped hINJ",
+        "display": "Hydro Wrapped hINJ",
+        "symbol": "hINJ",
+        "denoms": [
+            {
+                "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
+                "exponent": 0
+            },
+            {
+                "denom": "Hydro Wrapped hINJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png",
             "valopers_logo": "https://api.valopers.com/logos/injective.svg"
         }
     },
