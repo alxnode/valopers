@@ -47870,6 +47870,27 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "qubeticstestnet",
+        "chain_id": "qubetics_9029-1",
+        "base": "tics",
+        "name": "Qubetics Testnet",
+        "display": "TICS",
+        "symbol": "TICS",
+        "denoms": [
+            {
+                "denom": "tics",
+                "exponent": 0
+            },
+            {
+                "denom": "TICS",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qubeticstestnet/images/qubetics.png"
+        }
+    },
+    {
         "chain_name": "finschiatestnet",
         "chain_id": "ebony-2",
         "base": "tcony",
