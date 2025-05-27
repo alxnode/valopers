@@ -16337,6 +16337,27 @@
         }
     },
     {
+        "chain_name": "beezee",
+        "chain_id": "beezee-1",
+        "base": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
+        "name": "CryptoTrtl",
+        "display": "CTL",
+        "symbol": "CTL",
+        "denoms": [
+            {
+                "denom": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
+                "exponent": 0
+            },
+            {
+                "denom": "CTL",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/ctl.png"
+        }
+    },
+    {
         "chain_name": "tenet",
         "chain_id": "tenet_1559-1",
         "base": "atenet",
