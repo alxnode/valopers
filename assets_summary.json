@@ -25801,7 +25801,7 @@
         "base": "udvpn",
         "name": "Sentinel",
         "display": "dvpn",
-        "symbol": "DVPN",
+        "symbol": "P2P",
         "denoms": [
             {
                 "denom": "udvpn",
@@ -33298,16 +33298,16 @@
         "chain_name": "titan",
         "chain_id": "titan_18888-1",
         "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
-        "name": "USDC",
-        "display": "usdc",
-        "symbol": "USDC",
+        "name": "USDC.noble",
+        "display": "usdc.noble",
+        "symbol": "USDC.noble",
         "denoms": [
             {
                 "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
                 "exponent": 0
             },
             {
-                "denom": "usdc",
+                "denom": "usdc.noble",
                 "exponent": 6
             }
         ],
@@ -33379,6 +33379,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        }
+    },
+    {
+        "chain_name": "titan",
+        "chain_id": "titan_18888-1",
+        "base": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc",
+        "name": "USDC",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
     },
     {
@@ -54398,6 +54420,23 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png"
+        }
+    },
+    {
+        "chain_name": "hippoprotocol",
+        "chain_id": "hippo-protocol-1",
+        "base": "ahp",
+        "name": "Hippo",
+        "display": "ahp",
+        "symbol": "HP",
+        "denoms": [
+            {
+                "denom": "ahp",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
         }
     },
     {
