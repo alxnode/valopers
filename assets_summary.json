@@ -56358,6 +56358,28 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/B26F762ED6D20D0D5305FE1870A476EBCB95127C10199F3CB16E69D893E9F775",
+        "name": "Ophir DAO",
+        "display": "OPHIR",
+        "symbol": "OPHIR",
+        "denoms": [
+            {
+                "denom": "ibc/B26F762ED6D20D0D5305FE1870A476EBCB95127C10199F3CB16E69D893E9F775",
+                "exponent": 0
+            },
+            {
+                "denom": "OPHIR",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "loop",
         "chain_id": "loop-1",
         "base": "token",
