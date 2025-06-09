@@ -24854,6 +24854,24 @@
         }
     },
     {
+        "chain_name": "xarchaintestnet",
+        "chain_id": "xardev",
+        "base": "stake",
+        "name": "XarchainSTAKE",
+        "display": "stake",
+        "symbol": "STAKE",
+        "denoms": [
+            {
+                "denom": "stake",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/xarchaintestnet/images/arcana_logo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/xarchaintestnet/images/arcana_logo.svg"
+        }
+    },
+    {
         "chain_name": "qwoyntestnet",
         "chain_id": "earendel-1",
         "base": "uqwoyn",
