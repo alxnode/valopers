@@ -48331,63 +48331,6 @@
     {
         "chain_name": "terra2",
         "chain_id": "phoenix-1",
-        "base": "factory/terra1djk2zl83dspt696ex5crhfacu8vm6934576t4zdd2592fzyahr2qma6guq/ULUN-IBC/-LP",
-        "name": "ATOM-LUNA LP Token URA",
-        "display": "atom-luna-lp",
-        "symbol": "ATOM-LUNA-LP",
-        "denoms": [
-            {
-                "denom": "factory/terra1djk2zl83dspt696ex5crhfacu8vm6934576t4zdd2592fzyahr2qma6guq/ULUN-IBC/-LP",
-                "exponent": 0
-            },
-            {
-                "denom": "atom-luna-lp",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {}
-    },
-    {
-        "chain_name": "terra2",
-        "chain_id": "phoenix-1",
-        "base": "factory/terra12jxfw2vg4cu6mxlgf39dp5ccxtuwm468w8eh9cnh2qsxc9t0sffs7ekhft/ULUN-IBC/-LP",
-        "name": "LUNA-USDC LP Token URA",
-        "display": "luna-usdc-lp",
-        "symbol": "LUNA-USDC-LP",
-        "denoms": [
-            {
-                "denom": "factory/terra12jxfw2vg4cu6mxlgf39dp5ccxtuwm468w8eh9cnh2qsxc9t0sffs7ekhft/ULUN-IBC/-LP",
-                "exponent": 0
-            },
-            {
-                "denom": "luna-usdc-lp",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {}
-    },
-    {
-        "chain_name": "terra2",
-        "chain_id": "phoenix-1",
-        "base": "factory/terra1w9spejtuac5dt0gympq576uhwde39exhh7hdxwl99rjvaphfukkq6y4cv7/ULUN-IBC/-LP",
-        "name": "LUNA-USDT LP Token URA",
-        "display": "luna-usdt-lp",
-        "symbol": "LUNA-USDT-LP",
-        "denoms": [
-            {
-                "denom": "factory/terra1w9spejtuac5dt0gympq576uhwde39exhh7hdxwl99rjvaphfukkq6y4cv7/ULUN-IBC/-LP",
-                "exponent": 0
-            },
-            {
-                "denom": "luna-usdt-lp",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {}
-    },
-    {
-        "chain_name": "terra2",
-        "chain_id": "phoenix-1",
         "base": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
         "name": "ashLUNA",
         "display": "ashLUNA",
@@ -48569,6 +48512,50 @@
             }
         ],
         "logo_URIs": {}
+    },
+    {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+        "name": "Monerium EUR emoney",
+        "display": "eure",
+        "symbol": "EURe",
+        "denoms": [
+            {
+                "denom": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+                "exponent": 0
+            },
+            {
+                "denom": "eure",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eure.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eure.svg"
+        }
+    },
+    {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+        "name": "Solid USD",
+        "display": "solid",
+        "symbol": "SOLID",
+        "denoms": [
+            {
+                "denom": "cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+                "exponent": 0
+            },
+            {
+                "denom": "solid",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg"
+        }
     },
     {
         "chain_name": "nillion",
