@@ -40666,7 +40666,7 @@
     },
     {
         "chain_name": "zenrocktestnet",
-        "chain_id": "gardia-5",
+        "chain_id": "gardia-9",
         "base": "urock",
         "name": "Zenrock",
         "display": "rock",
@@ -41728,6 +41728,23 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg"
+        }
+    },
+    {
+        "chain_name": "hippoprotocoltestnet",
+        "chain_id": "hippo-protocol-testnet-1",
+        "base": "ahp",
+        "name": "Hippo",
+        "display": "ahp",
+        "symbol": "HP",
+        "denoms": [
+            {
+                "denom": "ahp",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
         }
     },
     {
