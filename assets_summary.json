@@ -20953,6 +20953,28 @@
         }
     },
     {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar",
+        "name": "SCAR",
+        "display": "scar",
+        "symbol": "SCAR",
+        "denoms": [
+            {
+                "denom": "factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar",
+                "exponent": 0
+            },
+            {
+                "denom": "scar",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg"
+        }
+    },
+    {
         "chain_name": "nibiru",
         "chain_id": "cataclysm-1",
         "base": "unibi",
@@ -28560,6 +28582,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png"
+        }
+    },
+    {
+        "chain_name": "solana",
+        "chain_id": "unknown",
+        "base": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
+        "name": "monKEYS",
+        "display": "monKEYS",
+        "symbol": "MONKEYS",
+        "denoms": [
+            {
+                "denom": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
+                "exponent": 0
+            },
+            {
+                "denom": "monKEYS",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png"
         }
     },
     {
@@ -52178,6 +52221,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png"
+        }
+    },
+    {
+        "chain_name": "titan",
+        "chain_id": "titan_18888-1",
+        "base": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys",
+        "name": "monKEYS",
+        "display": "monKEYS",
+        "symbol": "MONKEYS",
+        "denoms": [
+            {
+                "denom": "factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys",
+                "exponent": 0
+            },
+            {
+                "denom": "monKEYS",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png"
         }
     },
     {
