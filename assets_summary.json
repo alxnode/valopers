@@ -33939,6 +33939,25 @@
         }
     },
     {
+        "chain_name": "xrplevm",
+        "chain_id": "xrplevm_1440000-1",
+        "base": "axrp",
+        "name": "XRP",
+        "display": "XRP",
+        "symbol": "XRP",
+        "denoms": [
+            {
+                "denom": "axrp",
+                "exponent": 0
+            },
+            {
+                "denom": "XRP",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "tenet",
         "chain_id": "tenet_1559-1",
         "base": "atenet",
