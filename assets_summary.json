@@ -14557,13 +14557,13 @@
     {
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
-        "base": "ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053",
+        "base": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
         "name": "Namada",
         "display": "nam",
         "symbol": "NAM",
         "denoms": [
             {
-                "denom": "ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053",
+                "denom": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
                 "exponent": 0
             },
             {
