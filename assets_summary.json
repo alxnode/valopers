@@ -26150,6 +26150,90 @@
         }
     },
     {
+        "chain_name": "symphony",
+        "chain_id": "symphony-1",
+        "base": "note",
+        "name": "Melody",
+        "display": "mld",
+        "symbol": "MLD",
+        "denoms": [
+            {
+                "denom": "note",
+                "exponent": 0
+            },
+            {
+                "denom": "mld",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png"
+        }
+    },
+    {
+        "chain_name": "symphony",
+        "chain_id": "symphony-1",
+        "base": "uusd",
+        "name": "Harmony USD",
+        "display": "husd",
+        "symbol": "HUSD",
+        "denoms": [
+            {
+                "denom": "uusd",
+                "exponent": 0
+            },
+            {
+                "denom": "husd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png"
+        }
+    },
+    {
+        "chain_name": "symphony",
+        "chain_id": "symphony-1",
+        "base": "ukhd",
+        "name": "Harmony HKD",
+        "display": "hkhd",
+        "symbol": "HKHD",
+        "denoms": [
+            {
+                "denom": "ukhd",
+                "exponent": 0
+            },
+            {
+                "denom": "hkhd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png"
+        }
+    },
+    {
+        "chain_name": "symphony",
+        "chain_id": "symphony-1",
+        "base": "uvnd",
+        "name": "Harmony VND",
+        "display": "hvnd",
+        "symbol": "HVND",
+        "denoms": [
+            {
+                "denom": "uvnd",
+                "exponent": 0
+            },
+            {
+                "denom": "hvnd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png"
+        }
+    },
+    {
         "chain_name": "opct",
         "chain_id": "opct_1",
         "base": "opct",
@@ -36536,7 +36620,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png"
         }
     },
     {
@@ -36557,7 +36641,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png"
         }
     },
     {
@@ -36578,7 +36662,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png"
         }
     },
     {
@@ -36599,7 +36683,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png"
         }
     },
     {
@@ -39066,90 +39150,6 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zetachaintestnet/images/zetachaintestnet.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zetachaintestnet/images/zetachaintestnet.svg"
-        }
-    },
-    {
-        "chain_name": "symphonytestnet3",
-        "chain_id": "symphony-testnet-3",
-        "base": "note",
-        "name": "Melody",
-        "display": "mld",
-        "symbol": "MLD",
-        "denoms": [
-            {
-                "denom": "note",
-                "exponent": 0
-            },
-            {
-                "denom": "mld",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png"
-        }
-    },
-    {
-        "chain_name": "symphonytestnet3",
-        "chain_id": "symphony-testnet-3",
-        "base": "uusd",
-        "name": "Harmony USD",
-        "display": "husd",
-        "symbol": "HUSD",
-        "denoms": [
-            {
-                "denom": "uusd",
-                "exponent": 0
-            },
-            {
-                "denom": "husd",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png"
-        }
-    },
-    {
-        "chain_name": "symphonytestnet3",
-        "chain_id": "symphony-testnet-3",
-        "base": "ukhd",
-        "name": "Harmony HKD",
-        "display": "hkhd",
-        "symbol": "HKHD",
-        "denoms": [
-            {
-                "denom": "ukhd",
-                "exponent": 0
-            },
-            {
-                "denom": "hkhd",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png"
-        }
-    },
-    {
-        "chain_name": "symphonytestnet3",
-        "chain_id": "symphony-testnet-3",
-        "base": "uvnd",
-        "name": "Harmony VND",
-        "display": "hvnd",
-        "symbol": "HVND",
-        "denoms": [
-            {
-                "denom": "uvnd",
-                "exponent": 0
-            },
-            {
-                "denom": "hvnd",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png"
         }
     },
     {
@@ -44038,6 +44038,33 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/vincechaintestnet/images/vince.png"
+        }
+    },
+    {
+        "chain_name": "safrochaintestnet",
+        "chain_id": "safrochain-testnet",
+        "base": "saf",
+        "name": "Safrochain",
+        "display": "hela",
+        "symbol": "SAF",
+        "denoms": [
+            {
+                "denom": "saf",
+                "exponent": 0
+            },
+            {
+                "denom": "kuta",
+                "exponent": 3
+            },
+            {
+                "denom": "hela",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.svg",
+            "valopers_logo": "https://api.valopers.com/logos/safrochain.svg"
         }
     },
     {
