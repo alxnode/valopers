@@ -14581,7 +14581,7 @@
         "chain_id": "osmosis-1",
         "base": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
         "name": "Ripple (XRPL EVM)",
-        "display": "axrp",
+        "display": "XRP",
         "symbol": "XRP.xrplevm",
         "denoms": [
             {
@@ -14589,7 +14589,7 @@
                 "exponent": 0
             },
             {
-                "denom": "xrp",
+                "denom": "XRP",
                 "exponent": 18
             }
         ],
@@ -22536,7 +22536,7 @@
         "chain_name": "bitbadges",
         "chain_id": "bitbadges-1",
         "base": "ubadge",
-        "name": "BitBadges Credits",
+        "name": "BitBadges",
         "display": "badge",
         "symbol": "BADGE",
         "denoms": [
@@ -22550,7 +22550,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png"
         }
     },
     {
