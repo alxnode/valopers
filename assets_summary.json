@@ -32818,6 +32818,24 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "xarchain",
+        "chain_id": "xarchain",
+        "base": "stxar",
+        "name": "XarchainSTAKE",
+        "display": "stxar",
+        "symbol": "STXAR",
+        "denoms": [
+            {
+                "denom": "stxar",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg"
+        }
+    },
+    {
         "chain_name": "zenrock",
         "chain_id": "diamond-1",
         "base": "urock",
