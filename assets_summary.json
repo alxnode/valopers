@@ -22559,7 +22559,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg"
         }
     },
     {
@@ -44069,29 +44070,24 @@
     },
     {
         "chain_name": "safrochaintestnet",
-        "chain_id": "safrochain-testnet",
-        "base": "saf",
+        "chain_id": "safro-testnet-1",
+        "base": "usaf",
         "name": "Safrochain",
-        "display": "hela",
+        "display": "saf",
         "symbol": "SAF",
         "denoms": [
             {
-                "denom": "saf",
+                "denom": "usaf",
                 "exponent": 0
             },
             {
-                "denom": "kuta",
-                "exponent": 3
-            },
-            {
-                "denom": "hela",
+                "denom": "saf",
                 "exponent": 6
             }
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.svg",
-            "valopers_logo": "https://api.valopers.com/logos/safrochain.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.svg"
         }
     },
     {
@@ -49006,6 +49002,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
+        }
+    },
+    {
+        "chain_name": "chihuahua",
+        "chain_id": "chihuahua-1",
+        "base": "factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer",
+        "name": "BEER",
+        "display": "BEER",
+        "symbol": "BEER",
+        "denoms": [
+            {
+                "denom": "factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer",
+                "exponent": 0
+            },
+            {
+                "denom": "BEER",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/beer.png"
         }
     },
     {
