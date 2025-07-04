@@ -31921,6 +31921,29 @@
         }
     },
     {
+        "chain_name": "elys",
+        "chain_id": "elys-1",
+        "base": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+        "name": "Ripple",
+        "display": "xrp",
+        "symbol": "XRP",
+        "denoms": [
+            {
+                "denom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+                "exponent": 0
+            },
+            {
+                "denom": "xrp",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/elys.svg"
+        }
+    },
+    {
         "chain_name": "nomic",
         "chain_id": "nomic-stakenet-3",
         "base": "unom",
@@ -41084,7 +41107,7 @@
     },
     {
         "chain_name": "sunrisetestnet",
-        "chain_id": "sunrise-test-0.1",
+        "chain_id": "sunrise-test-da-5",
         "base": "uvrise",
         "name": "Sunrise vRISE",
         "display": "vrise",
@@ -41106,7 +41129,7 @@
     },
     {
         "chain_name": "sunrisetestnet",
-        "chain_id": "sunrise-test-0.1",
+        "chain_id": "sunrise-test-da-5",
         "base": "urise",
         "name": "Sunrise RISE",
         "display": "rise",
@@ -41124,6 +41147,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg"
+        }
+    },
+    {
+        "chain_name": "sunrisetestnet",
+        "chain_id": "sunrise-test-da-5",
+        "base": "uusdrise",
+        "name": "Sunrise USDrise",
+        "display": "usdrise",
+        "symbol": "USDRISE",
+        "denoms": [
+            {
+                "denom": "uusdrise",
+                "exponent": 0
+            },
+            {
+                "denom": "usdrise",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg"
         }
     },
     {
@@ -55315,6 +55360,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg"
+        }
+    },
+    {
+        "chain_name": "sunrise",
+        "chain_id": "sunrise-1",
+        "base": "uusdrise",
+        "name": "Sunrise USDrise",
+        "display": "usdrise",
+        "symbol": "USDRISE",
+        "denoms": [
+            {
+                "denom": "uusdrise",
+                "exponent": 0
+            },
+            {
+                "denom": "usdrise",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg"
         }
     },
     {
