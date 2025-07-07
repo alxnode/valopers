@@ -876,15 +876,19 @@
     },
     {
         "chain_name": "taketitan",
-        "chain_id": "taketitan-12",
-        "base": "ttnc",
-        "name": "taketitan",
-        "display": "ttnc",
-        "symbol": "TTNC",
+        "chain_id": "taketitan-1",
+        "base": "utitan",
+        "name": "Titan",
+        "display": "titan",
+        "symbol": "TITAN",
         "denoms": [
             {
-                "denom": "ttnc",
+                "denom": "utitan",
                 "exponent": 0
+            },
+            {
+                "denom": "titan",
+                "exponent": 6
             }
         ],
         "logo_URIs": {
@@ -56171,6 +56175,24 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
+        }
+    },
+    {
+        "chain_name": "taketitan1",
+        "chain_id": "taketitan-12",
+        "base": "ttnc",
+        "name": "taketitan",
+        "display": "ttnc",
+        "symbol": "TTNC",
+        "denoms": [
+            {
+                "denom": "ttnc",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg"
         }
     },
     {
