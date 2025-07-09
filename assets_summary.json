@@ -14612,6 +14612,29 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+        "name": "TakeTitan Titans",
+        "display": "titan",
+        "symbol": "TITAN",
+        "denoms": [
+            {
+                "denom": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+                "exponent": 0
+            },
+            {
+                "denom": "titan",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "thorchain",
         "chain_id": "thorchain-1",
         "base": "rune",
