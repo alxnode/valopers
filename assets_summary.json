@@ -18766,7 +18766,7 @@
         "chain_name": "moonbeam",
         "chain_id": "unknown",
         "base": "Wei",
-        "name": "Glimmer",
+        "name": "Moonbeam",
         "display": "GLMR",
         "symbol": "GLMR",
         "denoms": [
