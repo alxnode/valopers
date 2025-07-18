@@ -2192,8 +2192,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png"
         }
     },
     {
@@ -4061,7 +4060,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
             "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
         }
     },
@@ -4083,7 +4083,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
             "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
         }
     },
@@ -53721,7 +53721,7 @@
         "chain_name": "neutron",
         "chain_id": "neutron-1",
         "base": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
-        "name": "Mars Protocol token",
+        "name": "Mars Protocol",
         "display": "MARS",
         "symbol": "MARS",
         "denoms": [
