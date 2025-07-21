@@ -38077,13 +38077,13 @@
     {
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
-        "base": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+        "base": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
         "name": "TakeTitan Titans",
         "display": "titan",
         "symbol": "TITAN",
         "denoms": [
             {
-                "denom": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+                "denom": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
                 "exponent": 0
             },
             {
@@ -45825,29 +45825,7 @@
         }
     },
     {
-        "chain_name": "bitcannadevnet",
-        "chain_id": "bitcanna-dev-1",
-        "base": "ubcna",
-        "name": "BitCanna",
-        "display": "bcna",
-        "symbol": "BCNA",
-        "denoms": [
-            {
-                "denom": "ubcna",
-                "exponent": 0
-            },
-            {
-                "denom": "bcna",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.svg"
-        }
-    },
-    {
-        "chain_name": "xiontestnet",
+        "chain_name": "xiontestnet1",
         "chain_id": "xion-testnet-1",
         "base": "uxion",
         "name": "xion",
@@ -45868,7 +45846,7 @@
         }
     },
     {
-        "chain_name": "xiontestnet",
+        "chain_name": "xiontestnet1",
         "chain_id": "xion-testnet-1",
         "base": "ibc/33517D439F5E545A1AAB148FAE43AAE17CF68FFB9BC97AE0048A3E3B64518C58",
         "name": "Axelar AXL Token",
@@ -45890,7 +45868,7 @@
         }
     },
     {
-        "chain_name": "xiontestnet",
+        "chain_name": "xiontestnet1",
         "chain_id": "xion-testnet-1",
         "base": "ibc/484532EB74866F3FB8A71F909F7B1B470FE2E66313DA0A1F9EE5B7C5C046D195",
         "name": "Osmosis OSMO Token",
@@ -45912,7 +45890,7 @@
         }
     },
     {
-        "chain_name": "xiontestnet",
+        "chain_name": "xiontestnet1",
         "chain_id": "xion-testnet-1",
         "base": "ibc/57097251ED81A232CE3C9D899E7C8096D6D87EF84BA203E12E424AA4C9B57A64",
         "name": "Noble USDC Token",
@@ -45934,7 +45912,7 @@
         }
     },
     {
-        "chain_name": "xiontestnet",
+        "chain_name": "xiontestnet1",
         "chain_id": "xion-testnet-1",
         "base": "ibc/05314A48723E06A1B1B666066B6BEC89F3708E8854DF2E5E9193387AA9653036",
         "name": "Injective INJ token",
@@ -45953,6 +45931,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
+        }
+    },
+    {
+        "chain_name": "bitcannadevnet",
+        "chain_id": "bitcanna-dev-1",
+        "base": "ubcna",
+        "name": "BitCanna",
+        "display": "bcna",
+        "symbol": "BCNA",
+        "denoms": [
+            {
+                "denom": "ubcna",
+                "exponent": 0
+            },
+            {
+                "denom": "bcna",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.svg"
         }
     },
     {
@@ -52371,14 +52371,18 @@
     {
         "chain_name": "qfs",
         "chain_id": "qfs-1",
-        "base": "qfs",
+        "base": "uqfs",
         "name": "qfs",
         "display": "qfs",
         "symbol": "QFS",
         "denoms": [
             {
-                "denom": "qfs",
+                "denom": "uqfs",
                 "exponent": 0
+            },
+            {
+                "denom": "qfs",
+                "exponent": 6
             }
         ],
         "logo_URIs": {
@@ -52473,14 +52477,18 @@
     {
         "chain_name": "mtgbp",
         "chain_id": "mtgbp-1",
-        "base": "mtgbp",
+        "base": "umtgbp",
         "name": "mtgbp",
         "display": "mtgbp",
         "symbol": "MTGBP",
         "denoms": [
             {
-                "denom": "mtgbp",
+                "denom": "umtgbp",
                 "exponent": 0
+            },
+            {
+                "denom": "mtgbp",
+                "exponent": 6
             }
         ],
         "logo_URIs": {
