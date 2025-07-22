@@ -14357,6 +14357,50 @@
     {
         "chain_name": "pryzm",
         "chain_id": "pryzm-1",
+        "base": "lp:34:upryzmypt-upryzm",
+        "name": "PRYZM Base LP",
+        "display": "lp:34:pryzmypt-pryzm",
+        "symbol": "PRYZM-BASE-LP",
+        "denoms": [
+            {
+                "denom": "lp:34:upryzmypt-upryzm",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:34:pryzmypt-pryzm",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
+        "base": "lp:35:upryzm-uusdc",
+        "name": "PRYZM / USDC LP",
+        "display": "lp:35:pryzm-usdc",
+        "symbol": "PRYZM-USDC-LP",
+        "denoms": [
+            {
+                "denom": "lp:35:upryzm-uusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "lp:35:pryzm-usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+    },
+    {
+        "chain_name": "pryzm",
+        "chain_id": "pryzm-1",
         "base": "lp:36:asusds",
         "name": "sUSDS Yield LP",
         "display": "lp:36:susds",
