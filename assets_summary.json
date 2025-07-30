@@ -9607,6 +9607,29 @@
         }
     },
     {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
+        "name": "Wrapped Bitcoin (Eureka)",
+        "display": "wbtc",
+        "symbol": "WBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
+                "exponent": 0
+            },
+            {
+                "denom": "wbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
         "chain_name": "nomic",
         "chain_id": "nomic-stakenet-3",
         "base": "unom",
