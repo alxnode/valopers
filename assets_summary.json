@@ -9672,6 +9672,28 @@
         }
     },
     {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
+        "name": "Agora USD",
+        "display": "AUSD",
+        "symbol": "AUSD",
+        "denoms": [
+            {
+                "denom": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
+                "exponent": 0
+            },
+            {
+                "denom": "AUSD",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ausd.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
         "chain_name": "nomic",
         "chain_id": "nomic-stakenet-3",
         "base": "unom",
