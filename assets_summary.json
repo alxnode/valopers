@@ -38359,6 +38359,52 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
+        "name": "QFS",
+        "display": "qfs",
+        "symbol": "QFS",
+        "denoms": [
+            {
+                "denom": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
+                "exponent": 0
+            },
+            {
+                "denom": "qfs",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
+        "name": "MTGBP",
+        "display": "mtgbp",
+        "symbol": "MTGBP",
+        "denoms": [
+            {
+                "denom": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
+                "exponent": 0
+            },
+            {
+                "denom": "mtgbp",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "konstellation",
         "chain_id": "darchub",
         "base": "udarc",
