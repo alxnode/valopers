@@ -47185,7 +47185,7 @@
     },
     {
         "chain_name": "sunrisetestnet",
-        "chain_id": "sunrise-test-da-5",
+        "chain_id": "dawn-1",
         "base": "uvrise",
         "name": "Sunrise vRISE",
         "display": "vrise",
@@ -47207,7 +47207,7 @@
     },
     {
         "chain_name": "sunrisetestnet",
-        "chain_id": "sunrise-test-da-5",
+        "chain_id": "dawn-1",
         "base": "urise",
         "name": "Sunrise RISE",
         "display": "rise",
@@ -47229,7 +47229,7 @@
     },
     {
         "chain_name": "sunrisetestnet",
-        "chain_id": "sunrise-test-da-5",
+        "chain_id": "dawn-1",
         "base": "uusdrise",
         "name": "Sunrise USDrise",
         "display": "usdrise",
