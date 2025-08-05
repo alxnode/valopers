@@ -1115,7 +1115,7 @@
         "chain_name": "terra2",
         "chain_id": "phoenix-1",
         "base": "cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
-        "name": "Capapult",
+        "name": "Capa",
         "display": "capa",
         "symbol": "CAPA",
         "denoms": [
@@ -38423,6 +38423,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
+        "name": "Osmosis Alloyed USD",
+        "display": "allUSD",
+        "symbol": "allUSD",
+        "denoms": [
+            {
+                "denom": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
+                "exponent": 0
+            },
+            {
+                "denom": "allUSD",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
