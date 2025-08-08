@@ -50136,7 +50136,7 @@
     },
     {
         "chain_name": "dymensiontestnet1",
-        "chain_id": "dymension_1405-1",
+        "chain_id": "dymension_3405-1",
         "base": "adym",
         "name": "Dymension",
         "display": "dym",
