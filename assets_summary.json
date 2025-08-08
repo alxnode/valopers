@@ -26150,7 +26150,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -26172,7 +26173,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -26285,7 +26286,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -26316,7 +26318,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-        "name": "Polygon (Axelar)",
+        "name": "Polygon (ex-MATIC) (Axelar)",
         "display": "wmatic",
         "symbol": "POL.axl",
         "denoms": [
@@ -26362,7 +26364,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
-        "name": "Luna Classic",
+        "name": "Terra Classic",
         "display": "luna",
         "symbol": "LUNC",
         "denoms": [
@@ -26671,7 +26673,7 @@
         "base": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
         "name": "Sentinel",
         "display": "dvpn",
-        "symbol": "DVPN",
+        "symbol": "P2P",
         "denoms": [
             {
                 "denom": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
@@ -27291,7 +27293,7 @@
         "base": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
         "name": "Fetch.ai (Fetch.ai)",
         "display": "fet",
-        "symbol": "FET.fet",
+        "symbol": "FET.fetch",
         "denoms": [
             {
                 "denom": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
@@ -27545,7 +27547,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
-        "name": "Wrapped Bitcoin (Gravity Bridge)",
+        "name": "Wrapped Bitcoin (Ethereum via Gravity Bridge)",
         "display": "gwbtc",
         "symbol": "WBTC.eth.grv",
         "denoms": [
@@ -27568,7 +27570,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
-        "name": "Ether (Gravity Bridge)",
+        "name": "Ethereum (Gravity Bridge)",
         "display": "gweth",
         "symbol": "ETH.grv",
         "denoms": [
@@ -27590,7 +27592,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
-        "name": "USDC (Gravity Bridge)",
+        "name": "USDC (Ethereum via Gravity Bridge)",
         "display": "gusdc",
         "symbol": "USDC.eth.grv",
         "denoms": [
@@ -27613,7 +27615,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
-        "name": "DAI Stablecoin (Gravity Bridge)",
+        "name": "Dai Stablecoin (Gravity Bridge)",
         "display": "gdai",
         "symbol": "DAI.grv",
         "denoms": [
@@ -27635,7 +27637,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
-        "name": "Tether USD (Gravity Bridge)",
+        "name": "Tether USD (Ethereum via Gravity Bridge)",
         "display": "gusdt",
         "symbol": "USDT.eth.grv",
         "denoms": [
@@ -27836,7 +27838,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9",
-        "name": "Luna",
+        "name": "Terra",
         "display": "luna",
         "symbol": "LUNA",
         "denoms": [
@@ -28372,8 +28374,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -29000,7 +29002,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
-        "name": "FURY.legacy",
+        "name": "furya (Juno)",
         "display": "fury",
         "symbol": "FURY.juno",
         "denoms": [
@@ -29409,7 +29411,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
-        "name": "USD Coin (Avalanche)",
+        "name": "USDC (Avalanche via Axelar)",
         "display": "avalanche-usdc",
         "symbol": "USDC.avax.axl",
         "denoms": [
@@ -29432,7 +29434,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
-        "name": "Mars Protocol token (Mars Hub)",
+        "name": "Mars Protocol (Mars Hub)",
         "display": "MARS.old",
         "symbol": "MARS.mars",
         "denoms": [
@@ -30447,7 +30449,7 @@
         "base": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
         "name": "Wrapped Lido Staked Ether (Axelar)",
         "display": "wsteth",
-        "symbol": "wstETH.eth.axl",
+        "symbol": "wstETH.axl",
         "denoms": [
             {
                 "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
@@ -32257,8 +32259,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_dark.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_dark.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -32602,7 +32604,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7",
-        "name": "Gelotto (Injective)",
+        "name": "Gelotto",
         "display": "glto",
         "symbol": "GLTO",
         "denoms": [
@@ -32625,7 +32627,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
-        "name": "Dymension (Dymension Hub)",
+        "name": "Dymension Hub (Dymension Hub)",
         "display": "dym",
         "symbol": "DYM.dym",
         "denoms": [
@@ -33032,9 +33034,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
-        "name": "Ripple (Coreum)",
+        "name": "Ripple (xrpl via Coreum)",
         "display": "xrp",
-        "symbol": "XRP.core",
+        "symbol": "XRP.xrpl.core",
         "denoms": [
             {
                 "denom": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
@@ -33316,8 +33318,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34436,7 +34438,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34480,7 +34482,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wsol.pica.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34622,7 +34625,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/64E62451C9A5682FF3047429C6E4714A02CDC0C35DE35CAB01E18D1188004CEB",
-        "name": "Wrapped Ether (Arbitrum via Axelar)",
+        "name": "Ethereum (Arbitrum via Axelar)",
         "display": "arbitrum-weth",
         "symbol": "ETH.arb.axl",
         "denoms": [
@@ -34636,7 +34639,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34644,7 +34648,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D7D6DEF2A4F7ED0A6F5F0E266C1B2C9726E82F67EBBE49BBB47B3DEC289F8D7B",
-        "name": "Wrapped Ether (Base via Axelar)",
+        "name": "Ethereum (Base via Axelar)",
         "display": "base-weth",
         "symbol": "ETH.base.axl",
         "denoms": [
@@ -34658,7 +34662,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34666,7 +34671,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F9EB60AC212DBF05F4C5ED0FDE03BB9F08309B0EE9899A406AD4B904CF84968E",
-        "name": "Wrapped Ether (Polygon via Axelar)",
+        "name": "Ethereum (Polygon via Axelar)",
         "display": "polygon-weth",
         "symbol": "ETH.matic.axl",
         "denoms": [
@@ -34680,7 +34685,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -34748,8 +34754,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -35257,9 +35262,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
-        "name": "Unicorn (Picasso)",
+        "name": "Unicorn (Solana via Picasso)",
         "display": "unicorn",
-        "symbol": "UWU.pica",
+        "symbol": "UWU.sol.pica",
         "denoms": [
             {
                 "denom": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
@@ -35346,9 +35351,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
-        "name": "Tether USD (Injective)",
+        "name": "Tether USD (Ethereum) (Injective)",
         "display": "usdt",
-        "symbol": "USDT.inj",
+        "symbol": "USDT.eth.inj",
         "denoms": [
             {
                 "denom": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
@@ -35457,7 +35462,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
-        "name": "Mars Protocol token",
+        "name": "Mars Protocol",
         "display": "MARS",
         "symbol": "MARS",
         "denoms": [
@@ -36138,9 +36143,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
-        "name": "Coinbase Wrapped BTC (Base via Axelar)",
+        "name": "Coinbase Wrapped BTC (Axelar)",
         "display": "cbbtc",
-        "symbol": "$cbBTC.base.axl",
+        "symbol": "cbBTC.axl",
         "denoms": [
             {
                 "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
@@ -36313,8 +36318,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -36591,7 +36596,7 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
-        "name": "xion",
+        "name": "Xion",
         "display": "XION",
         "symbol": "XION",
         "denoms": [
@@ -37127,7 +37132,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -37217,8 +37222,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -37564,9 +37569,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
-        "name": "Lombard Staked Bitcoin (Lombard Ledger) (Cosmos Hub)",
+        "name": "Lombard Staked Bitcoin",
         "display": "lbtc",
-        "symbol": "LBTC.lom.atom",
+        "symbol": "LBTC",
         "denoms": [
             {
                 "denom": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
@@ -37587,9 +37592,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
-        "name": "SolvBTC (Eureka)",
+        "name": "SolvBTC",
         "display": "solvbtc",
-        "symbol": "solvBTC.atom",
+        "symbol": "solvBTC",
         "denoms": [
             {
                 "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
@@ -37603,6 +37608,1058 @@
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg",
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/5D8012FB4C44BA0A7D355E37B8AC2CFA4DDBD6EE20F2056D8D4DF07C9D6015F3",
+        "name": "dNTRN",
+        "display": "dNTRN",
+        "symbol": "dNTRN",
+        "denoms": [
+            {
+                "denom": "ibc/5D8012FB4C44BA0A7D355E37B8AC2CFA4DDBD6EE20F2056D8D4DF07C9D6015F3",
+                "exponent": 0
+            },
+            {
+                "denom": "dNTRN",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
+        "name": "fHAM",
+        "display": "fHAM",
+        "symbol": "fHAM",
+        "denoms": [
+            {
+                "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
+                "exponent": 0
+            },
+            {
+                "denom": "fHAM",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fHAM.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
+        "name": "fCEWT",
+        "display": "fCEWT",
+        "symbol": "fCEWT",
+        "denoms": [
+            {
+                "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
+                "exponent": 0
+            },
+            {
+                "denom": "fCEWT",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fCEWT.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B",
+        "name": "Initia",
+        "display": "INIT",
+        "symbol": "INIT",
+        "denoms": [
+            {
+                "denom": "ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B",
+                "exponent": 0
+            },
+            {
+                "denom": "INIT",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779",
+        "name": "MilkyWay",
+        "display": "milk",
+        "symbol": "MILK",
+        "denoms": [
+            {
+                "denom": "ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779",
+                "exponent": 0
+            },
+            {
+                "denom": "milk",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/F223D443CFBDFEDA198A63BE5633DC24ADE5B9F93822CF7BD641F99FEA2B56A7",
+        "name": "Anubis",
+        "display": "anubi",
+        "symbol": "ANUBI",
+        "denoms": [
+            {
+                "denom": "ibc/F223D443CFBDFEDA198A63BE5633DC24ADE5B9F93822CF7BD641F99FEA2B56A7",
+                "exponent": 0
+            },
+            {
+                "denom": "anubi",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/856C6F01E48EC9A89EFF35B2B75C3BC0CDF51C23AB094CCC6AE31B6D30C2A6ED",
+        "name": "Astonic",
+        "display": "astonic",
+        "symbol": "ATC",
+        "denoms": [
+            {
+                "denom": "ibc/856C6F01E48EC9A89EFF35B2B75C3BC0CDF51C23AB094CCC6AE31B6D30C2A6ED",
+                "exponent": 0
+            },
+            {
+                "denom": "astonic",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/1C657376F808E4E06B75EB18169B68B31042EAC8AE3D8FBAD0224F1170AFDF45",
+        "name": "Astonic USD",
+        "display": "ausd",
+        "symbol": "aUSD",
+        "denoms": [
+            {
+                "denom": "ibc/1C657376F808E4E06B75EB18169B68B31042EAC8AE3D8FBAD0224F1170AFDF45",
+                "exponent": 0
+            },
+            {
+                "denom": "ausd",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/484650D35669EBFD1A7D9E57D0B557B92664C4AF2C92DBC20C317F1F06DCBC4B",
+        "name": "Astonic EUR",
+        "display": "aeur",
+        "symbol": "aEUR",
+        "denoms": [
+            {
+                "denom": "ibc/484650D35669EBFD1A7D9E57D0B557B92664C4AF2C92DBC20C317F1F06DCBC4B",
+                "exponent": 0
+            },
+            {
+                "denom": "aeur",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/75D92821E64E9449B113A6CC156AE933DBD4B9BE9EE753B2550DE8DC71947E69",
+        "name": "Astonic BRL",
+        "display": "abrl",
+        "symbol": "aBRL",
+        "denoms": [
+            {
+                "denom": "ibc/75D92821E64E9449B113A6CC156AE933DBD4B9BE9EE753B2550DE8DC71947E69",
+                "exponent": 0
+            },
+            {
+                "denom": "abrl",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+        "name": "Wrapped Bitcoin (Ethereum via Eureka)",
+        "display": "wbtc",
+        "symbol": "WBTC.eth.atom",
+        "denoms": [
+            {
+                "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+                "exponent": 0
+            },
+            {
+                "denom": "wbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
+        "name": "Ethereum (Eureka)",
+        "display": "eth",
+        "symbol": "ETH.atom",
+        "denoms": [
+            {
+                "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
+                "exponent": 0
+            },
+            {
+                "denom": "eth",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
+        "name": "Tether USD (Ethereum via Eureka)",
+        "display": "usdt",
+        "symbol": "USDT.eth.atom",
+        "denoms": [
+            {
+                "denom": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
+                "exponent": 0
+            },
+            {
+                "denom": "usdt",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/AAC5DA36E48226B906DE694EA8B0464DE5EE45D7449984E4D799F33B8089CD6B",
+        "name": "GEEGEE",
+        "display": "GGE",
+        "symbol": "GGE",
+        "denoms": [
+            {
+                "denom": "ibc/AAC5DA36E48226B906DE694EA8B0464DE5EE45D7449984E4D799F33B8089CD6B",
+                "exponent": 0
+            },
+            {
+                "denom": "GGE",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/gge.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/40B814E343DAADAF39FF4491727C7FE6286EE0A9A787CF839B318461C6FEDF95",
+        "name": "Vidulum",
+        "display": "vdl",
+        "symbol": "VDL",
+        "denoms": [
+            {
+                "denom": "ibc/40B814E343DAADAF39FF4491727C7FE6286EE0A9A787CF839B318461C6FEDF95",
+                "exponent": 0
+            },
+            {
+                "denom": "vdl",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
+        "name": "Stealth",
+        "display": "STLTH",
+        "symbol": "STLTH",
+        "denoms": [
+            {
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
+                "exponent": 0
+            },
+            {
+                "denom": "STLTH",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stlth-circle.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/040D0BE35BED6A09D9418C29961FDA0EE0C3B0C71053B2E3FE38FBA7E50FFEF6",
+        "name": "milkBABY",
+        "display": "milkBABY",
+        "symbol": "milkBABY",
+        "denoms": [
+            {
+                "denom": "ibc/040D0BE35BED6A09D9418C29961FDA0EE0C3B0C71053B2E3FE38FBA7E50FFEF6",
+                "exponent": 0
+            },
+            {
+                "denom": "milkBABY",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+        "name": "Matcha Club",
+        "display": "MTC",
+        "symbol": "MTC",
+        "denoms": [
+            {
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+                "exponent": 0
+            },
+            {
+                "denom": "MTC",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65",
+        "name": "Arkeo",
+        "display": "arkeo",
+        "symbol": "ARKEO",
+        "denoms": [
+            {
+                "denom": "ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65",
+                "exponent": 0
+            },
+            {
+                "denom": "arkeo",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
+        "name": "Solana (Int3)",
+        "display": "sol",
+        "symbol": "SOL.int3",
+        "denoms": [
+            {
+                "denom": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
+                "exponent": 0
+            },
+            {
+                "denom": "sol",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/D6E02C5AE8A37FC2E3AB1FC8AC168878ADB870549383DFFEA9FD020C234520A7",
+        "name": "Photon",
+        "display": "photon",
+        "symbol": "PHOTON",
+        "denoms": [
+            {
+                "denom": "ibc/D6E02C5AE8A37FC2E3AB1FC8AC168878ADB870549383DFFEA9FD020C234520A7",
+                "exponent": 0
+            },
+            {
+                "denom": "photon",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
+        "name": "Ripple (xrpl via Int3)",
+        "display": "xrp",
+        "symbol": "XRP.xrpl.int3",
+        "denoms": [
+            {
+                "denom": "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
+                "exponent": 0
+            },
+            {
+                "denom": "xrp",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14",
+        "name": "OPHIR",
+        "display": "OPHIR",
+        "symbol": "OPHIR",
+        "denoms": [
+            {
+                "denom": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14",
+                "exponent": 0
+            },
+            {
+                "denom": "OPHIR",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/954F25C3AA0DCF2917393FB89D778F95815B0568EB093C43BA0B24CBD99CBFFB",
+        "name": "pumpBTC (Eureka)",
+        "display": "pumpbtc",
+        "symbol": "pumpBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/954F25C3AA0DCF2917393FB89D778F95815B0568EB093C43BA0B24CBD99CBFFB",
+                "exponent": 0
+            },
+            {
+                "denom": "pumpbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/6E7CA61C5656D3F3007535F035386AEB8281833743CFCE0F069213331CEBBE1A",
+        "name": "Universal BTC (Eureka)",
+        "display": "unibtc",
+        "symbol": "uniBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/6E7CA61C5656D3F3007535F035386AEB8281833743CFCE0F069213331CEBBE1A",
+                "exponent": 0
+            },
+            {
+                "denom": "unibtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/F15348F47575AAFE2BEFF8369CBE3647AE9DC06909CDBF8C97E48ACF7055E459",
+        "name": "mBTC (Eureka)",
+        "display": "mbtc",
+        "symbol": "mBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/F15348F47575AAFE2BEFF8369CBE3647AE9DC06909CDBF8C97E48ACF7055E459",
+                "exponent": 0
+            },
+            {
+                "denom": "mbtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/67144554C6EE6D0FCF43CBA0DF18D821E2818FD1F320B93AB0349E741A0DC850",
+        "name": "Kinza Babylon Staked BTC (Eureka)",
+        "display": "kbtc",
+        "symbol": "kBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/67144554C6EE6D0FCF43CBA0DF18D821E2818FD1F320B93AB0349E741A0DC850",
+                "exponent": 0
+            },
+            {
+                "denom": "kbtc",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/4805A17C742D2325715167EA1167974821888307CC62066D6CFA2BD0F724821D",
+        "name": "ether.fi BTC (Eureka)",
+        "display": "ebtc",
+        "symbol": "eBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/4805A17C742D2325715167EA1167974821888307CC62066D6CFA2BD0F724821D",
+                "exponent": 0
+            },
+            {
+                "denom": "ebtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/FAE7862FCB5DC95168C415A6EE63DA8C38389EA1EAFF51C82F446C80C879156E",
+        "name": "lorenzo Wrapped Bitcoin (Eureka)",
+        "display": "enzobtc",
+        "symbol": "enzoBTC.atom",
+        "denoms": [
+            {
+                "denom": "ibc/FAE7862FCB5DC95168C415A6EE63DA8C38389EA1EAFF51C82F446C80C879156E",
+                "exponent": 0
+            },
+            {
+                "denom": "enzobtc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00",
+        "name": "Midas BTC Yield Token (Eureka)",
+        "display": "mBTC",
+        "symbol": "mBTC.midas.atom",
+        "denoms": [
+            {
+                "denom": "ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00",
+                "exponent": 0
+            },
+            {
+                "denom": "mBTC",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+        "name": "Paxos Gold (Eureka)",
+        "display": "paxg",
+        "symbol": "PAXG.atom",
+        "denoms": [
+            {
+                "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+                "exponent": 0
+            },
+            {
+                "denom": "paxg",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+        "name": "Coreum Community DAO Token",
+        "display": "ccd",
+        "symbol": "CCD",
+        "denoms": [
+            {
+                "denom": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+                "exponent": 0
+            },
+            {
+                "denom": "ccd",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
+        "name": "Namada",
+        "display": "nam",
+        "symbol": "NAM",
+        "denoms": [
+            {
+                "denom": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
+                "exponent": 0
+            },
+            {
+                "denom": "nam",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462",
+        "name": "BitBadges",
+        "display": "badge",
+        "symbol": "BADGE",
+        "denoms": [
+            {
+                "denom": "ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462",
+                "exponent": 0
+            },
+            {
+                "denom": "badge",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
+        "name": "Ripple (XRPL EVM)",
+        "display": "XRP",
+        "symbol": "XRP.xrplevm",
+        "denoms": [
+            {
+                "denom": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
+                "exponent": 0
+            },
+            {
+                "denom": "XRP",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
+        "name": "TakeTitan",
+        "display": "titan",
+        "symbol": "TITAN",
+        "denoms": [
+            {
+                "denom": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
+                "exponent": 0
+            },
+            {
+                "denom": "titan",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93",
+        "name": "eBABY",
+        "display": "ebaby",
+        "symbol": "EBABY",
+        "denoms": [
+            {
+                "denom": "factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93",
+                "exponent": 0
+            },
+            {
+                "denom": "ebaby",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
+        "name": "Noble Dollar",
+        "display": "usdn",
+        "symbol": "USDN",
+        "denoms": [
+            {
+                "denom": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
+                "exponent": 0
+            },
+            {
+                "denom": "usdn",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
+        "name": "Fost",
+        "display": "FOST",
+        "symbol": "FOST",
+        "denoms": [
+            {
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
+                "exponent": 0
+            },
+            {
+                "denom": "FOST",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/FOST.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4",
+        "name": "Hippo Protocol",
+        "display": "ahp",
+        "symbol": "HP",
+        "denoms": [
+            {
+                "denom": "ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
+        "name": "Pudgy Penguins (Int3)",
+        "display": "pengu",
+        "symbol": "PENGU.int3",
+        "denoms": [
+            {
+                "denom": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
+                "exponent": 0
+            },
+            {
+                "denom": "pengu",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
+        "name": "Official Trump (Int3)",
+        "display": "trump",
+        "symbol": "TRUMP.int3",
+        "denoms": [
+            {
+                "denom": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
+                "exponent": 0
+            },
+            {
+                "denom": "trump",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
+        "name": "Quantum Financial Systems",
+        "display": "qfs",
+        "symbol": "QFS",
+        "denoms": [
+            {
+                "denom": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
+                "exponent": 0
+            },
+            {
+                "denom": "qfs",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
+        "name": "mtgbp",
+        "display": "mtgbp",
+        "symbol": "MTGBP",
+        "denoms": [
+            {
+                "denom": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
+                "exponent": 0
+            },
+            {
+                "denom": "mtgbp",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24",
+        "name": "Symphony",
+        "display": "mld",
+        "symbol": "MLD",
+        "denoms": [
+            {
+                "denom": "ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24",
+                "exponent": 0
+            },
+            {
+                "denom": "mld",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
+        "name": "Official Trump",
+        "display": "allTRUMP",
+        "symbol": "TRUMP",
+        "denoms": [
+            {
+                "denom": "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
+                "exponent": 0
+            },
+            {
+                "denom": "allTRUMP",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
+        "name": "Pudgy Penguins",
+        "display": "allPENGU",
+        "symbol": "PENGU",
+        "denoms": [
+            {
+                "denom": "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
+                "exponent": 0
+            },
+            {
+                "denom": "allPENGU",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -37980,455 +39037,6 @@
     {
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
-        "base": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
-        "name": "Coreum Community DAO Token",
-        "display": "ccd",
-        "symbol": "CCD",
-        "denoms": [
-            {
-                "denom": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
-                "exponent": 0
-            },
-            {
-                "denom": "ccd",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
-        "name": "fHAM",
-        "display": "fHAM",
-        "symbol": "fHAM",
-        "denoms": [
-            {
-                "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
-                "exponent": 0
-            },
-            {
-                "denom": "fHAM",
-                "exponent": 9
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fHAM.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
-        "name": "fCEWT",
-        "display": "fCEWT",
-        "symbol": "fCEWT",
-        "denoms": [
-            {
-                "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
-                "exponent": 0
-            },
-            {
-                "denom": "fCEWT",
-                "exponent": 9
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fCEWT.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
-        "name": "Tether USD (Eureka)",
-        "display": "usdt",
-        "symbol": "USDT.atom",
-        "denoms": [
-            {
-                "denom": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
-                "exponent": 0
-            },
-            {
-                "denom": "usdt",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
-        "name": "Ethereum (Eureka)",
-        "display": "eth",
-        "symbol": "ETH.atom",
-        "denoms": [
-            {
-                "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
-                "exponent": 0
-            },
-            {
-                "denom": "eth",
-                "exponent": 18
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
-        "name": "Wrapped Bitcoin (Eureka)",
-        "display": "wbtc",
-        "symbol": "WBTC.atom",
-        "denoms": [
-            {
-                "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
-                "exponent": 0
-            },
-            {
-                "denom": "wbtc",
-                "exponent": 8
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
-        "name": "Stealth",
-        "display": "STLTH",
-        "symbol": "STLTH",
-        "denoms": [
-            {
-                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
-                "exponent": 0
-            },
-            {
-                "denom": "STLTH",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
-        "name": "Matcha Club",
-        "display": "MTC",
-        "symbol": "MTC",
-        "denoms": [
-            {
-                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
-                "exponent": 0
-            },
-            {
-                "denom": "MTC",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MTC.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
-        "name": "SOL (Int3)",
-        "display": "sol",
-        "symbol": "SOL.int3",
-        "denoms": [
-            {
-                "denom": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
-                "exponent": 0
-            },
-            {
-                "denom": "sol",
-                "exponent": 9
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14",
-        "name": "Ophir DAO",
-        "display": "OPHIR",
-        "symbol": "OPHIR",
-        "denoms": [
-            {
-                "denom": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14",
-                "exponent": 0
-            },
-            {
-                "denom": "OPHIR",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
-        "name": "Pax Gold (Eureka)",
-        "display": "paxg",
-        "symbol": "PAXG.atom",
-        "denoms": [
-            {
-                "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
-                "exponent": 0
-            },
-            {
-                "denom": "paxg",
-                "exponent": 18
-            }
-        ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg",
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
-        "name": "Namada",
-        "display": "nam",
-        "symbol": "NAM",
-        "denoms": [
-            {
-                "denom": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
-                "exponent": 0
-            },
-            {
-                "denom": "nam",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
-        "name": "Ripple (XRPL EVM)",
-        "display": "XRP",
-        "symbol": "XRP.xrplevm",
-        "denoms": [
-            {
-                "denom": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
-                "exponent": 0
-            },
-            {
-                "denom": "XRP",
-                "exponent": 18
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
-        "name": "TakeTitan Titans",
-        "display": "titan",
-        "symbol": "TITAN",
-        "denoms": [
-            {
-                "denom": "ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF",
-                "exponent": 0
-            },
-            {
-                "denom": "titan",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93",
-        "name": "eBABY",
-        "display": "ebaby",
-        "symbol": "EBABY",
-        "denoms": [
-            {
-                "denom": "factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93",
-                "exponent": 0
-            },
-            {
-                "denom": "ebaby",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
-        "name": "Fost",
-        "display": "FOST",
-        "symbol": "FOST",
-        "denoms": [
-            {
-                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
-                "exponent": 0
-            },
-            {
-                "denom": "FOST",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/FOST.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
-        "name": "Official Trump (Int3)",
-        "display": "trump",
-        "symbol": "TRUMP.int3",
-        "denoms": [
-            {
-                "denom": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
-                "exponent": 0
-            },
-            {
-                "denom": "trump",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
-        "name": "Pudgy Penguins (Int3)",
-        "display": "pengu",
-        "symbol": "PENGU.int3",
-        "denoms": [
-            {
-                "denom": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
-                "exponent": 0
-            },
-            {
-                "denom": "pengu",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
-        "name": "QFS",
-        "display": "qfs",
-        "symbol": "QFS",
-        "denoms": [
-            {
-                "denom": "ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9",
-                "exponent": 0
-            },
-            {
-                "denom": "qfs",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
-        "name": "MTGBP",
-        "display": "mtgbp",
-        "symbol": "MTGBP",
-        "denoms": [
-            {
-                "denom": "ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF",
-                "exponent": 0
-            },
-            {
-                "denom": "mtgbp",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
         "base": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
         "name": "Osmosis Alloyed USD",
         "display": "allUSD",
@@ -38445,50 +39053,6 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
-        "name": "Osmosis Alloyed TRUMP",
-        "display": "allTRUMP",
-        "symbol": "allTRUMP",
-        "denoms": [
-            {
-                "denom": "factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP",
-                "exponent": 0
-            },
-            {
-                "denom": "allTRUMP",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png",
-            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
-        }
-    },
-    {
-        "chain_name": "osmosis",
-        "chain_id": "osmosis-1",
-        "base": "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
-        "name": "Osmosis Alloyed PENGU",
-        "display": "allPENGU",
-        "symbol": "allPENGU",
-        "denoms": [
-            {
-                "denom": "factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU",
-                "exponent": 0
-            },
-            {
-                "denom": "allPENGU",
-                "exponent": 6
-            }
-        ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
