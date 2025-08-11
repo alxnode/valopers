@@ -24948,9 +24948,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-        "name": "USDC (Ethereum via Axelar)",
+        "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC.eth.axl",
+        "symbol": "USDC",
         "denoms": [
             {
                 "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
@@ -24971,9 +24971,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-        "name": "Ethereum (Axelar)",
+        "name": "Wrapped Ether",
         "display": "weth",
-        "symbol": "ETH.axl",
+        "symbol": "WETH",
         "denoms": [
             {
                 "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
@@ -24994,9 +24994,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-        "name": "Wrapped Bitcoin (Ethereum via Axelar)",
+        "name": "Wrapped Bitcoin",
         "display": "wbtc",
-        "symbol": "WBTC.eth.axl",
+        "symbol": "WBTC",
         "denoms": [
             {
                 "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
@@ -25016,9 +25016,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
-        "name": "Tether USD (Ethereum via Axelar)",
+        "name": "Tether USD",
         "display": "usdt",
-        "symbol": "USDT.eth.axl",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
@@ -25130,9 +25130,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-        "name": "Binance Coin (Axelar)",
+        "name": "Wrapped BNB",
         "display": "wbnb",
-        "symbol": "BNB.axl",
+        "symbol": "WBNB",
         "denoms": [
             {
                 "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
@@ -25153,9 +25153,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-        "name": "Polygon (ex-MATIC) (Axelar)",
+        "name": "Wrapped Matic",
         "display": "wmatic",
-        "symbol": "POL.axl",
+        "symbol": "WMATIC",
         "denoms": [
             {
                 "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
@@ -25178,7 +25178,7 @@
         "base": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
         "name": "Avalanche",
         "display": "avax",
-        "symbol": "AVAX",
+        "symbol": "WAVAX",
         "denoms": [
             {
                 "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
@@ -25249,9 +25249,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-        "name": "Polkadot (Moonbeam via Axelar)",
+        "name": "Wrapped Polkadot",
         "display": "dot",
-        "symbol": "DOT.glmr.axl",
+        "symbol": "DOT",
         "denoms": [
             {
                 "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
@@ -25847,9 +25847,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
-        "name": "Vidulum (Vidulum)",
+        "name": "Vidulum",
         "display": "vdl",
-        "symbol": "VDL.vdl",
+        "symbol": "VDL",
         "denoms": [
             {
                 "denom": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
@@ -26126,9 +26126,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
-        "name": "Fetch.ai (Fetch.ai)",
+        "name": "fetch-ai",
         "display": "fet",
-        "symbol": "FET.fetch",
+        "symbol": "FET",
         "denoms": [
             {
                 "denom": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
@@ -26337,9 +26337,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
-        "name": "Racoon (Juno)",
+        "name": "Racoon",
         "display": "rac",
-        "symbol": "RAC.juno",
+        "symbol": "RAC",
         "denoms": [
             {
                 "denom": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
@@ -26382,9 +26382,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
-        "name": "Wrapped Bitcoin (Ethereum via Gravity Bridge)",
+        "name": "Wrapped Bitcoin",
         "display": "gwbtc",
-        "symbol": "WBTC.eth.grv",
+        "symbol": "WBTC",
         "denoms": [
             {
                 "denom": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
@@ -26405,9 +26405,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
-        "name": "Ethereum (Gravity Bridge)",
+        "name": "Wrapped Ethereum",
         "display": "gweth",
-        "symbol": "ETH.grv",
+        "symbol": "WETH",
         "denoms": [
             {
                 "denom": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
@@ -26427,9 +26427,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
-        "name": "USDC (Ethereum via Gravity Bridge)",
+        "name": "USD Coin",
         "display": "gusdc",
-        "symbol": "USDC.eth.grv",
+        "symbol": "USDC",
         "denoms": [
             {
                 "denom": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
@@ -26450,9 +26450,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
-        "name": "Dai Stablecoin (Gravity Bridge)",
+        "name": "Dai Stablecoin",
         "display": "gdai",
-        "symbol": "DAI.grv",
+        "symbol": "DAI",
         "denoms": [
             {
                 "denom": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
@@ -26472,9 +26472,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
-        "name": "Tether USD (Ethereum via Gravity Bridge)",
+        "name": "Tether USD",
         "display": "gusdt",
-        "symbol": "USDT.eth.grv",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
@@ -26765,9 +26765,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
-        "name": "Chainlink (Axelar)",
+        "name": "Chainlink",
         "display": "link",
-        "symbol": "LINK.axl",
+        "symbol": "LINK",
         "denoms": [
             {
                 "denom": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
@@ -26899,9 +26899,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
-        "name": "Shiba Inu (Axelar)",
+        "name": "Shiba Inu",
         "display": "shib",
-        "symbol": "SHIB.axl",
+        "symbol": "SHIB",
         "denoms": [
             {
                 "denom": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
@@ -27060,7 +27060,7 @@
         "base": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
         "name": "LVN",
         "display": "lvn",
-        "symbol": "LVN.ki",
+        "symbol": "LVN",
         "denoms": [
             {
                 "denom": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
@@ -27082,7 +27082,7 @@
         "base": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
         "name": "Moonbeam",
         "display": "wglmr",
-        "symbol": "GLMR",
+        "symbol": "WGLMR",
         "denoms": [
             {
                 "denom": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
@@ -27103,9 +27103,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
-        "name": "Gelotto (Juno)",
+        "name": "Gelotto",
         "display": "glto",
-        "symbol": "GLTO.juno",
+        "symbol": "GLTO",
         "denoms": [
             {
                 "denom": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
@@ -27837,9 +27837,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
-        "name": "furya (Juno)",
+        "name": "FURY.legacy",
         "display": "fury",
-        "symbol": "FURY.juno",
+        "symbol": "FURY.legacy",
         "denoms": [
             {
                 "denom": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
@@ -28133,7 +28133,7 @@
         "base": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
         "name": "Fantom",
         "display": "ftm",
-        "symbol": "FTM",
+        "symbol": "WFTM",
         "denoms": [
             {
                 "denom": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
@@ -28223,9 +28223,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
-        "name": "USDC (Ethereum) (Polygon via Axelar)",
+        "name": "USD Coin from Polygon",
         "display": "polygon-usdc",
-        "symbol": "USDC.e.matic.axl",
+        "symbol": "USDC",
         "denoms": [
             {
                 "denom": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
@@ -28246,9 +28246,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
-        "name": "USDC (Avalanche via Axelar)",
+        "name": "USD Coin from Avalanche",
         "display": "avalanche-usdc",
-        "symbol": "USDC.avax.axl",
+        "symbol": "USDC",
         "denoms": [
             {
                 "denom": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
@@ -28269,9 +28269,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
-        "name": "Mars Protocol (Mars Hub)",
+        "name": "Mars",
         "display": "MARS.old",
-        "symbol": "MARS.mars",
+        "symbol": "MARS.old",
         "denoms": [
             {
                 "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
@@ -29013,9 +29013,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/18FB5C09D9D2371F659D4846A956FA56225E377EE3C3652A2BF3542BF809159D",
-        "name": "Filecoin (Axelar)",
+        "name": "Wrapped FIL from Filecoin",
         "display": "fil",
-        "symbol": "FIL.axl",
+        "symbol": "axlFIL",
         "denoms": [
             {
                 "denom": "ibc/18FB5C09D9D2371F659D4846A956FA56225E377EE3C3652A2BF3542BF809159D",
@@ -29104,9 +29104,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/10E5E5B06D78FFBB61FD9F89209DEE5FD4446ED0550CBB8E3747DA79E10D9DC6",
-        "name": "Arbitrum (Axelar)",
+        "name": "Arbitrum",
         "display": "arb",
-        "symbol": "ARB.axl",
+        "symbol": "ARB",
         "denoms": [
             {
                 "denom": "ibc/10E5E5B06D78FFBB61FD9F89209DEE5FD4446ED0550CBB8E3747DA79E10D9DC6",
@@ -29171,9 +29171,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/E47F4E97C534C95B942729E1B25DBDE111EA791411CFF100515050BEA0AC0C6B",
-        "name": "Pepe (Axelar)",
+        "name": "Pepe",
         "display": "pepe",
-        "symbol": "PEPE.axl",
+        "symbol": "PEPE",
         "denoms": [
             {
                 "denom": "ibc/E47F4E97C534C95B942729E1B25DBDE111EA791411CFF100515050BEA0AC0C6B",
@@ -29282,9 +29282,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
-        "name": "Wrapped Lido Staked Ether (Axelar)",
+        "name": "Wrapped Lido Staked Ether",
         "display": "wsteth",
-        "symbol": "wstETH.axl",
+        "symbol": "wstETH",
         "denoms": [
             {
                 "denom": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
@@ -29551,9 +29551,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244",
-        "name": "Polkadot (Picasso)",
+        "name": "DOT",
         "display": "dot",
-        "symbol": "DOT.pica",
+        "symbol": "DOT",
         "denoms": [
             {
                 "denom": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244",
@@ -29690,9 +29690,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-        "name": "Tether USD (Kava)",
+        "name": "Tether USD",
         "display": "usdt",
-        "symbol": "USDT.kava",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
@@ -29826,9 +29826,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/1E43D59E565D41FB4E54CA639B838FFD5BCFC20003D330A56CB1396231AA1CBA",
-        "name": "Solana (Wormhole)",
+        "name": "Wrapped SOL (Wormhole)",
         "display": "wormhole/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA/8",
-        "symbol": "SOL.wh",
+        "symbol": "SOL",
         "denoms": [
             {
                 "denom": "ibc/1E43D59E565D41FB4E54CA639B838FFD5BCFC20003D330A56CB1396231AA1CBA",
@@ -29851,7 +29851,7 @@
         "base": "ibc/CA3733CB0071F480FAE8EF0D9C3D47A49C6589144620A642BBE0D59A293D110E",
         "name": "Bonk",
         "display": "wormhole/95mnwzvJZJ3fKz77xfGN2nR5to9pZmH8YNvaxgLgw5AR/5",
-        "symbol": "BONK",
+        "symbol": "Bonk",
         "denoms": [
             {
                 "denom": "ibc/CA3733CB0071F480FAE8EF0D9C3D47A49C6589144620A642BBE0D59A293D110E",
@@ -29871,9 +29871,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2108F2D81CBE328F371AD0CEF56691B18A86E08C3651504E42487D9EE92DDE9C",
-        "name": "Tether USD (Ethereum via Wormhole)",
+        "name": "Tether USD (Wormhole)",
         "display": "wormhole/8iuAc6DSeLvi2JDUtwJxLytsZT8R19itXebZsNReLLNi/6",
-        "symbol": "USDT.eth.wh",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/2108F2D81CBE328F371AD0CEF56691B18A86E08C3651504E42487D9EE92DDE9C",
@@ -29896,7 +29896,7 @@
         "base": "ibc/B1C287C2701774522570010EEBCD864BCB7AB714711B3AA218699FDD75E832F5",
         "name": "Sui (Wormhole)",
         "display": "wormhole/46YEtoSN1AcwgGSRoWruoS6bnVh8XpMp5aQTpKohCJYh/8",
-        "symbol": "SUI.wh",
+        "symbol": "SUI",
         "denoms": [
             {
                 "denom": "ibc/B1C287C2701774522570010EEBCD864BCB7AB714711B3AA218699FDD75E832F5",
@@ -29918,7 +29918,7 @@
         "base": "ibc/A4D176906C1646949574B48C1928D475F2DF56DE0AC04E1C99B08F90BC21ABDE",
         "name": "Aptos Coin (Wormhole)",
         "display": "wormhole/5wS2fGojbL9RhGEAeQBdkHPUAciYDxjDTMYvdf9aDn2r/8",
-        "symbol": "APT.wh",
+        "symbol": "APT",
         "denoms": [
             {
                 "denom": "ibc/A4D176906C1646949574B48C1928D475F2DF56DE0AC04E1C99B08F90BC21ABDE",
@@ -29983,9 +29983,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/6B99DB46AA9FF47162148C1726866919E44A6A5E0274B90912FD17E19A337695",
-        "name": "USDC (Ethereum via Wormhole)",
+        "name": "USD Coin (Wormhole)",
         "display": "wormhole/GGh9Ufn1SeDGrhzEkMyRKt5568VbbxZK2yvWNsd6PbXt/6",
-        "symbol": "USDC.eth.wh",
+        "symbol": "USDC",
         "denoms": [
             {
                 "denom": "ibc/6B99DB46AA9FF47162148C1726866919E44A6A5E0274B90912FD17E19A337695",
@@ -30006,9 +30006,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/62F82550D0B96522361C89B0DA1119DE262FBDFB25E5502BC5101B5C0D0DBAAC",
-        "name": "Ethereum (Wormhole)",
+        "name": "Wrapped Ether (Wormhole)",
         "display": "wormhole/5BWqpR48Lubd55szM5i62zK7TFkddckhbT48yy6mNbDp/8",
-        "symbol": "ETH.wh",
+        "symbol": "WETH",
         "denoms": [
             {
                 "denom": "ibc/62F82550D0B96522361C89B0DA1119DE262FBDFB25E5502BC5101B5C0D0DBAAC",
@@ -30368,9 +30368,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
-        "name": "dYdX Protocol (dYdX Protocol)",
+        "name": "dYdX",
         "display": "dydx",
-        "symbol": "DYDX.dydx",
+        "symbol": "DYDX",
         "denoms": [
             {
                 "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
@@ -31462,9 +31462,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
-        "name": "Dymension Hub (Dymension Hub)",
+        "name": "Dymension",
         "display": "dym",
-        "symbol": "DYM.dym",
+        "symbol": "DYM",
         "denoms": [
             {
                 "denom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
@@ -31507,9 +31507,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/C25A2303FE24B922DAFFDCE377AC5A42E5EF746806D32E2ED4B610DE85C203F7",
-        "name": "Astroport token (Terra)",
+        "name": "Astroport CW20 Token",
         "display": "astro.cw20",
-        "symbol": "ASTRO.terra",
+        "symbol": "ASTRO.cw20",
         "denoms": [
             {
                 "denom": "ibc/C25A2303FE24B922DAFFDCE377AC5A42E5EF746806D32E2ED4B610DE85C203F7",
@@ -31551,9 +31551,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F08DE332018E8070CC4C68FE06E04E254F527556A614F5F8F9A68AF38D367E45",
-        "name": "USDC (Solana via Wormhole)",
+        "name": "Solana USD Coin (Wormhole)",
         "display": "wormhole/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3/6",
-        "symbol": "USDC.sol.wh",
+        "symbol": "solana.USDC.wh",
         "denoms": [
             {
                 "denom": "ibc/F08DE332018E8070CC4C68FE06E04E254F527556A614F5F8F9A68AF38D367E45",
@@ -31753,9 +31753,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
-        "name": "AIOZ Network (AIOZ Network)",
+        "name": "AIOZ",
         "display": "aioz",
-        "symbol": "AIOZ.aioz",
+        "symbol": "AIOZ",
         "denoms": [
             {
                 "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
@@ -31869,9 +31869,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
-        "name": "Ripple (xrpl via Coreum)",
+        "name": "Ripple",
         "display": "xrp",
-        "symbol": "XRP.xrpl.core",
+        "symbol": "XRP",
         "denoms": [
             {
                 "denom": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
@@ -32388,9 +32388,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/A5CCD24BA902843B1003A7EEE5F937C632808B9CF4925601241B15C5A0A51A53",
-        "name": "Paxos Gold (Gravity Bridge)",
+        "name": "Paxos Gold",
         "display": "gpaxg",
-        "symbol": "PAXG.grv",
+        "symbol": "PAXG",
         "denoms": [
             {
                 "denom": "ibc/A5CCD24BA902843B1003A7EEE5F937C632808B9CF4925601241B15C5A0A51A53",
@@ -32456,9 +32456,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/A23E590BA7E0D808706FB5085A449B3B9D6864AE4DDE7DAF936243CEBB2A3D43",
-        "name": "Ethereum (Picasso)",
+        "name": "Ethereum",
         "display": "eth",
-        "symbol": "ETH.pica",
+        "symbol": "ETH",
         "denoms": [
             {
                 "denom": "ibc/A23E590BA7E0D808706FB5085A449B3B9D6864AE4DDE7DAF936243CEBB2A3D43",
@@ -32479,9 +32479,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/37DFAFDA529FF7D513B0DB23E9728DF9BF73122D38D46824C78BB7F91E6A736B",
-        "name": "Dai Stablecoin (Picasso)",
+        "name": "Dai",
         "display": "dai",
-        "symbol": "DAI.pica",
+        "symbol": "DAI",
         "denoms": [
             {
                 "denom": "ibc/37DFAFDA529FF7D513B0DB23E9728DF9BF73122D38D46824C78BB7F91E6A736B",
@@ -32501,9 +32501,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/5435437A8C9416B650DDA49C338B63CCFC6465123B715F6BAA9B1B2071E27913",
-        "name": "Frax Share (Picasso)",
+        "name": "Frax Shares",
         "display": "fxs",
-        "symbol": "FXS.pica",
+        "symbol": "FXS",
         "denoms": [
             {
                 "denom": "ibc/5435437A8C9416B650DDA49C338B63CCFC6465123B715F6BAA9B1B2071E27913",
@@ -32524,9 +32524,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9A8CBC029002DC5170E715F93FBF35011FFC9796371F59B1F3C3094AE1B453A9",
-        "name": "Frax (Picasso)",
+        "name": "Frax",
         "display": "frax",
-        "symbol": "FRAX.pica",
+        "symbol": "FRAX",
         "denoms": [
             {
                 "denom": "ibc/9A8CBC029002DC5170E715F93FBF35011FFC9796371F59B1F3C3094AE1B453A9",
@@ -32546,9 +32546,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/078AD6F581E8115CDFBD8FFA29D8C71AFE250CE952AFF80040CBC64868D44AD3",
-        "name": "Tether USD (Ethereum via Picasso)",
+        "name": "Tether (Ethereum)",
         "display": "usdt",
-        "symbol": "USDT.eth.pica",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/078AD6F581E8115CDFBD8FFA29D8C71AFE250CE952AFF80040CBC64868D44AD3",
@@ -32569,9 +32569,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/0EFA07F312E05258A56AE1DD600E39B9151CF7A91C8A94EEBCF4F03ECFE5DD98",
-        "name": "Staked FRAX (Picasso)",
+        "name": "Staked FRAX",
         "display": "sfrax",
-        "symbol": "sFRAX.pica",
+        "symbol": "sFRAX",
         "denoms": [
             {
                 "denom": "ibc/0EFA07F312E05258A56AE1DD600E39B9151CF7A91C8A94EEBCF4F03ECFE5DD98",
@@ -32592,9 +32592,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/688E70EF567E5D4BA1CF4C54BAD758C288BC1A6C8B0B12979F911A2AE95E27EC",
-        "name": "Frax Ether (Picasso)",
+        "name": "Frax Ether",
         "display": "frxeth",
-        "symbol": "frxETH.pica",
+        "symbol": "frxETH",
         "denoms": [
             {
                 "denom": "ibc/688E70EF567E5D4BA1CF4C54BAD758C288BC1A6C8B0B12979F911A2AE95E27EC",
@@ -32615,9 +32615,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F17CCB4F07948CC2D8B72952C2D0A84F2B763962F698774BB121B872AE4611B5",
-        "name": "Staked Frax Ether (Picasso)",
+        "name": "Frax Staked Ether",
         "display": "sfrxeth",
-        "symbol": "sfrxETH.pica",
+        "symbol": "sfrxETH",
         "denoms": [
             {
                 "denom": "ibc/F17CCB4F07948CC2D8B72952C2D0A84F2B763962F698774BB121B872AE4611B5",
@@ -32971,9 +32971,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/5B5BFCC8A9F0D554A4245117F7798E85BE25B6C73DBFA2D6F369BD9DD6CACC6D",
-        "name": "Pepe (Picasso)",
+        "name": "Pepe",
         "display": "pepe",
-        "symbol": "PEPE.pica",
+        "symbol": "PEPE",
         "denoms": [
             {
                 "denom": "ibc/5B5BFCC8A9F0D554A4245117F7798E85BE25B6C73DBFA2D6F369BD9DD6CACC6D",
@@ -32994,9 +32994,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/080CE38C1E49595F2199E88BE7281F93FAEEF3FE354EECED0640625E8311C9CF",
-        "name": "Curve DAO (Picasso)",
+        "name": "Curve DAO",
         "display": "crv",
-        "symbol": "CRV.pica",
+        "symbol": "CRV",
         "denoms": [
             {
                 "denom": "ibc/080CE38C1E49595F2199E88BE7281F93FAEEF3FE354EECED0640625E8311C9CF",
@@ -33016,9 +33016,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/39AAE0F5F918B731BEF1E02E9BAED33C242805F668B0A941AC509FB569FE51CB",
-        "name": "Renzo Restaked ETH (Picasso)",
+        "name": "Renzo Restaked ETH",
         "display": "ezeth",
-        "symbol": "ezETH.pica",
+        "symbol": "ezETH",
         "denoms": [
             {
                 "denom": "ibc/39AAE0F5F918B731BEF1E02E9BAED33C242805F668B0A941AC509FB569FE51CB",
@@ -33038,9 +33038,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/BFFE212A23384C4EB055CF6F95A1F5EC1BE0F9BD286FAA66C3748F0444E67D63",
-        "name": "Ethena USDe (Picasso)",
+        "name": "Ethena USDe",
         "display": "usde",
-        "symbol": "USDe.pica",
+        "symbol": "USDe",
         "denoms": [
             {
                 "denom": "ibc/BFFE212A23384C4EB055CF6F95A1F5EC1BE0F9BD286FAA66C3748F0444E67D63",
@@ -33060,9 +33060,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/257FF64F160106F6EE43CEE7C761DA64C1346221895373CC810FFA1BFAC5A7CD",
-        "name": "Ethena (Picasso)",
+        "name": "Ethena",
         "display": "ena",
-        "symbol": "ENA.pica",
+        "symbol": "ENA",
         "denoms": [
             {
                 "denom": "ibc/257FF64F160106F6EE43CEE7C761DA64C1346221895373CC810FFA1BFAC5A7CD",
@@ -33082,9 +33082,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/8D0FFEA4EDB04E3C1738C9599B66AE49683E0540FC4C1214AC84534C200D818B",
-        "name": "ether.fi Staked ETH (Picasso)",
+        "name": "ether.fi Staked ETH",
         "display": "eeth",
-        "symbol": "eETH.pica",
+        "symbol": "eETH",
         "denoms": [
             {
                 "denom": "ibc/8D0FFEA4EDB04E3C1738C9599B66AE49683E0540FC4C1214AC84534C200D818B",
@@ -33104,9 +33104,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D09BB89B2187EF13EF006B44510749B0F02FD0B34F8BB55C70D812A1FF6148C7",
-        "name": "Dinero Staked ETH (Picasso)",
+        "name": "Dinero Staked ETH",
         "display": "pxeth",
-        "symbol": "pxETH.pica",
+        "symbol": "pxETH",
         "denoms": [
             {
                 "denom": "ibc/D09BB89B2187EF13EF006B44510749B0F02FD0B34F8BB55C70D812A1FF6148C7",
@@ -33126,9 +33126,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/63551E7BB24008F0AFC1CB051A423A5104F781F035F8B1A191264B7086A0A0F6",
-        "name": "crvUSD (Picasso)",
+        "name": "crvUSD",
         "display": "crvusd",
-        "symbol": "crvUSD.pica",
+        "symbol": "crvUSD",
         "denoms": [
             {
                 "denom": "ibc/63551E7BB24008F0AFC1CB051A423A5104F781F035F8B1A191264B7086A0A0F6",
@@ -33214,9 +33214,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/0233A3F2541FD43DBCA569B27AF886E97F5C03FC0305E4A8A3FAC6AC26249C7A",
-        "name": "Tether USD (Solana via Picasso)",
+        "name": "Tether",
         "display": "usdt",
-        "symbol": "USDT.sol.pica",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/0233A3F2541FD43DBCA569B27AF886E97F5C03FC0305E4A8A3FAC6AC26249C7A",
@@ -33237,9 +33237,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/B83F9E20B4A07FA8846880000BD9D8985D89567A090F5E9390C64E81C39B4607",
-        "name": "Edgevana Staked SOL (Picasso)",
+        "name": "Edgevana Staked SOL",
         "display": "edgesol",
-        "symbol": "edgeSOL.pica",
+        "symbol": "edgeSOL",
         "denoms": [
             {
                 "denom": "ibc/B83F9E20B4A07FA8846880000BD9D8985D89567A090F5E9390C64E81C39B4607",
@@ -33259,9 +33259,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F618D130A2B8203D169811658BD0361F18DC2453085965FA0E5AEB8018DD54EE",
-        "name": "Liquid Staking Token (Picasso)",
+        "name": "Liquid Staking Token",
         "display": "lst",
-        "symbol": "LST.pica",
+        "symbol": "LST",
         "denoms": [
             {
                 "denom": "ibc/F618D130A2B8203D169811658BD0361F18DC2453085965FA0E5AEB8018DD54EE",
@@ -33281,9 +33281,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/9A83BDF4C8C5FFDDE735533BC8CD4363714A6474AED1C2C492FB003BB77C7982",
-        "name": "Jito Staked SOL (Picasso)",
+        "name": "Jito Staked SOL",
         "display": "jitosol",
-        "symbol": "jitoSOL.pica",
+        "symbol": "jitoSOL",
         "denoms": [
             {
                 "denom": "ibc/9A83BDF4C8C5FFDDE735533BC8CD4363714A6474AED1C2C492FB003BB77C7982",
@@ -33303,9 +33303,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/0F9E9277B61A78CB31014D541ACA5BF6AB06DFC4524C4C836490B131DAAECD78",
-        "name": "Solana (Picasso)",
+        "name": "Wrapped Solana",
         "display": "wsol",
-        "symbol": "SOL.pica",
+        "symbol": "wSOL",
         "denoms": [
             {
                 "denom": "ibc/0F9E9277B61A78CB31014D541ACA5BF6AB06DFC4524C4C836490B131DAAECD78",
@@ -33460,9 +33460,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/64E62451C9A5682FF3047429C6E4714A02CDC0C35DE35CAB01E18D1188004CEB",
-        "name": "Ethereum (Arbitrum via Axelar)",
+        "name": "Arbitrum axlETH",
         "display": "arbitrum-weth",
-        "symbol": "ETH.arb.axl",
+        "symbol": "axlETH",
         "denoms": [
             {
                 "denom": "ibc/64E62451C9A5682FF3047429C6E4714A02CDC0C35DE35CAB01E18D1188004CEB",
@@ -33483,9 +33483,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D7D6DEF2A4F7ED0A6F5F0E266C1B2C9726E82F67EBBE49BBB47B3DEC289F8D7B",
-        "name": "Ethereum (Base via Axelar)",
+        "name": "Base axlETH",
         "display": "base-weth",
-        "symbol": "ETH.base.axl",
+        "symbol": "axlETH",
         "denoms": [
             {
                 "denom": "ibc/D7D6DEF2A4F7ED0A6F5F0E266C1B2C9726E82F67EBBE49BBB47B3DEC289F8D7B",
@@ -33506,9 +33506,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F9EB60AC212DBF05F4C5ED0FDE03BB9F08309B0EE9899A406AD4B904CF84968E",
-        "name": "Ethereum (Polygon via Axelar)",
+        "name": "Polygon axlETH",
         "display": "polygon-weth",
-        "symbol": "ETH.matic.axl",
+        "symbol": "axlETH",
         "denoms": [
             {
                 "denom": "ibc/F9EB60AC212DBF05F4C5ED0FDE03BB9F08309B0EE9899A406AD4B904CF84968E",
@@ -33960,9 +33960,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/14A291DD362798D6805B7ABCB8D09AEEE02176108F89FA09AA43EA2EE096A2A9",
-        "name": "Optimism (Axelar)",
+        "name": "Optimism",
         "display": "op",
-        "symbol": "OP.axl",
+        "symbol": "OP",
         "denoms": [
             {
                 "denom": "ibc/14A291DD362798D6805B7ABCB8D09AEEE02176108F89FA09AA43EA2EE096A2A9",
@@ -34097,9 +34097,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
-        "name": "Unicorn (Solana via Picasso)",
+        "name": "Unicorn",
         "display": "unicorn",
-        "symbol": "UWU.sol.pica",
+        "symbol": "UWU",
         "denoms": [
             {
                 "denom": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
@@ -34186,9 +34186,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
-        "name": "Tether USD (Ethereum) (Injective)",
+        "name": "Tether USDT",
         "display": "usdt",
-        "symbol": "USDT.eth.inj",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
@@ -34320,9 +34320,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
-        "name": "Toncoin (Oraichain Labs TON Bridge)",
+        "name": "Toncoin",
         "display": "ton",
-        "symbol": "TON.orai",
+        "symbol": "TON",
         "denoms": [
             {
                 "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
@@ -34728,9 +34728,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
-        "name": "Uniswap (Axelar)",
+        "name": "Uniswap",
         "display": "uni",
-        "symbol": "UNI.axl",
+        "symbol": "UNI",
         "denoms": [
             {
                 "denom": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
@@ -34817,9 +34817,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/B3DFDC2958A2BE482532DA3B6B5729B469BE7475598F7487D98B1B3E085245DE",
-        "name": "Dogecoin (Int3)",
+        "name": "Dogecoin",
         "display": "doge",
-        "symbol": "DOGE.int3",
+        "symbol": "DOGE",
         "denoms": [
             {
                 "denom": "ibc/B3DFDC2958A2BE482532DA3B6B5729B469BE7475598F7487D98B1B3E085245DE",
@@ -34840,9 +34840,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2F4258D6E1E01B203D6CA83F2C7E4959615053A21EC2C2FC196F7911CAC832EF",
-        "name": "Bitcoin (Int3)",
+        "name": "Bitcoin",
         "display": "btc",
-        "symbol": "BTC.int3",
+        "symbol": "BTC",
         "denoms": [
             {
                 "denom": "ibc/2F4258D6E1E01B203D6CA83F2C7E4959615053A21EC2C2FC196F7911CAC832EF",
@@ -34863,9 +34863,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/869E01805EBBDDCAEA588666CD5149728B7DC7D69F30D92F77AD67F77CEB3FDA",
-        "name": "Bitcoin Cash (Int3)",
+        "name": "Bitcoin Cash",
         "display": "bch",
-        "symbol": "BCH.int3",
+        "symbol": "BCH",
         "denoms": [
             {
                 "denom": "ibc/869E01805EBBDDCAEA588666CD5149728B7DC7D69F30D92F77AD67F77CEB3FDA",
@@ -34886,9 +34886,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/905326586AE1C86AC8B1CDB20BE957DE5FB23963EDD2C9ADD3E835CC22115A46",
-        "name": "Litecoin (Int3)",
+        "name": "Litecoin",
         "display": "ltc",
-        "symbol": "LTC.int3",
+        "symbol": "LTC",
         "denoms": [
             {
                 "denom": "ibc/905326586AE1C86AC8B1CDB20BE957DE5FB23963EDD2C9ADD3E835CC22115A46",
@@ -34909,9 +34909,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/57B63A0795B6BC0AC4EFD0D4DEE9FE71FCC1D0FFA87F6280C9CDEF4F6727A173",
-        "name": "Tether USD (Ethereum) (Arbitrum via Axelar)",
+        "name": "Tether USD (Arbitrum)",
         "display": "usdt",
-        "symbol": "USDT.e.arb.axl",
+        "symbol": "axlUSDT",
         "denoms": [
             {
                 "denom": "ibc/57B63A0795B6BC0AC4EFD0D4DEE9FE71FCC1D0FFA87F6280C9CDEF4F6727A173",
@@ -34932,9 +34932,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/EEA21E12A250B7FBBCBBBD1F7AA78984F5C12D684B32EBEEFC585FF596A7BCDA",
-        "name": "Tether USD (Ethereum) (optimism via Axelar)",
+        "name": "Tether USD (Optimism)",
         "display": "usdt",
-        "symbol": "USDT.e.op.axl",
+        "symbol": "axlUSDT",
         "denoms": [
             {
                 "denom": "ibc/EEA21E12A250B7FBBCBBBD1F7AA78984F5C12D684B32EBEEFC585FF596A7BCDA",
@@ -34955,9 +34955,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2F6003A92088B989A159C593C551DF7B04FA0A0419CA3ED087E45E0006ECFF6E",
-        "name": "Tether USD (Ethereum) (Polygon via Axelar)",
+        "name": "Tether USD (Polygon)",
         "display": "usdt",
-        "symbol": "USDT.e.matic.axl",
+        "symbol": "axlUSDT",
         "denoms": [
             {
                 "denom": "ibc/2F6003A92088B989A159C593C551DF7B04FA0A0419CA3ED087E45E0006ECFF6E",
@@ -34978,9 +34978,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
-        "name": "Coinbase Wrapped BTC (Axelar)",
+        "name": "Coinbase Warpped Bitcoin",
         "display": "cbbtc",
-        "symbol": "cbBTC.axl",
+        "symbol": "axl-cbBTC",
         "denoms": [
             {
                 "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
@@ -35001,9 +35001,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/22C342A34DD0189AC2B2697EE76C360A9FBA53748ABA76E12C3A9E9F5F1E130F",
-        "name": "Fire Bitcoin (Axelar)",
+        "name": "Fire Bitcoin",
         "display": "fbtc",
-        "symbol": "FBTC.axl",
+        "symbol": "axlFBTC",
         "denoms": [
             {
                 "denom": "ibc/22C342A34DD0189AC2B2697EE76C360A9FBA53748ABA76E12C3A9E9F5F1E130F",
@@ -35024,9 +35024,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/4AC81C97BBB5482536F6401328E0E10BCCD98F0F471DCF64319A811E25E53CAB",
-        "name": "Lombard Staked Bitcoin (Ethereum via Axelar)",
+        "name": "Lombard Staked Bitcoin",
         "display": "lbtc",
-        "symbol": "LBTC.eth.axl",
+        "symbol": "axlLBTC",
         "denoms": [
             {
                 "denom": "ibc/4AC81C97BBB5482536F6401328E0E10BCCD98F0F471DCF64319A811E25E53CAB",
@@ -35209,7 +35209,7 @@
         "base": "ibc/21D8071EF5B02A86D945430D859A594CBF28287D38104A264BB9FD3B22BBF5DE",
         "name": "Yum",
         "display": "yum",
-        "symbol": "YUM",
+        "symbol": "YUM.axl",
         "denoms": [
             {
                 "denom": "ibc/21D8071EF5B02A86D945430D859A594CBF28287D38104A264BB9FD3B22BBF5DE",
@@ -35254,7 +35254,7 @@
         "base": "ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995",
         "name": "Dragon Coin (old)",
         "display": "OLDDGN",
-        "symbol": "DGN.old",
+        "symbol": "DGN",
         "denoms": [
             {
                 "denom": "ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995",
@@ -35476,9 +35476,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
-        "name": "Toncoin (Int3)",
+        "name": "TON",
         "display": "ton",
-        "symbol": "TON.int3",
+        "symbol": "TON",
         "denoms": [
             {
                 "denom": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
@@ -36314,9 +36314,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
-        "name": "Movement (Ethereum via Axelar)",
+        "name": "Movement",
         "display": "move",
-        "symbol": "MOVE.eth.axl",
+        "symbol": "axlMOVE",
         "denoms": [
             {
                 "denom": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
@@ -36429,7 +36429,7 @@
         "base": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
         "name": "SolvBTC",
         "display": "solvbtc",
-        "symbol": "solvBTC",
+        "symbol": "SolvBTC",
         "denoms": [
             {
                 "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
@@ -36672,9 +36672,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
-        "name": "Wrapped Bitcoin (Ethereum via Eureka)",
+        "name": "Wrapped Bitcoin",
         "display": "wbtc",
-        "symbol": "WBTC.eth.atom",
+        "symbol": "WBTC",
         "denoms": [
             {
                 "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
@@ -36695,9 +36695,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
-        "name": "Ethereum (Eureka)",
+        "name": "Ethereum",
         "display": "eth",
-        "symbol": "ETH.atom",
+        "symbol": "ETH",
         "denoms": [
             {
                 "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
@@ -36718,9 +36718,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
-        "name": "Tether USD (Ethereum via Eureka)",
+        "name": "Tether USD",
         "display": "usdt",
-        "symbol": "USDT.eth.atom",
+        "symbol": "USDT",
         "denoms": [
             {
                 "denom": "ibc/7BC2F718C47C0749791F2612A914C8C39D1A4F533A27AF7285D924D4B617DDA6",
@@ -36875,9 +36875,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
-        "name": "Solana (Int3)",
+        "name": "Solana",
         "display": "sol",
-        "symbol": "SOL.int3",
+        "symbol": "SOL",
         "denoms": [
             {
                 "denom": "ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546",
@@ -36921,9 +36921,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
-        "name": "Ripple (xrpl via Int3)",
+        "name": "Ripple",
         "display": "xrp",
-        "symbol": "XRP.xrpl.int3",
+        "symbol": "XRP",
         "denoms": [
             {
                 "denom": "ibc/013DE940BE791C79142EAD4DF071E1ED280DFEAB8A9DCB5932A4603A74C25CBB",
@@ -36966,9 +36966,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/954F25C3AA0DCF2917393FB89D778F95815B0568EB093C43BA0B24CBD99CBFFB",
-        "name": "pumpBTC (Eureka)",
+        "name": "pumpBTC",
         "display": "pumpbtc",
-        "symbol": "pumpBTC.atom",
+        "symbol": "pumpBTC",
         "denoms": [
             {
                 "denom": "ibc/954F25C3AA0DCF2917393FB89D778F95815B0568EB093C43BA0B24CBD99CBFFB",
@@ -36989,9 +36989,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/6E7CA61C5656D3F3007535F035386AEB8281833743CFCE0F069213331CEBBE1A",
-        "name": "Universal BTC (Eureka)",
+        "name": "UniBTC",
         "display": "unibtc",
-        "symbol": "uniBTC.atom",
+        "symbol": "uniBTC",
         "denoms": [
             {
                 "denom": "ibc/6E7CA61C5656D3F3007535F035386AEB8281833743CFCE0F069213331CEBBE1A",
@@ -37012,9 +37012,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/F15348F47575AAFE2BEFF8369CBE3647AE9DC06909CDBF8C97E48ACF7055E459",
-        "name": "mBTC (Eureka)",
+        "name": "mBTC",
         "display": "mbtc",
-        "symbol": "mBTC.atom",
+        "symbol": "mBTC",
         "denoms": [
             {
                 "denom": "ibc/F15348F47575AAFE2BEFF8369CBE3647AE9DC06909CDBF8C97E48ACF7055E459",
@@ -37034,9 +37034,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/67144554C6EE6D0FCF43CBA0DF18D821E2818FD1F320B93AB0349E741A0DC850",
-        "name": "Kinza Babylon Staked BTC (Eureka)",
+        "name": "kBTC",
         "display": "kbtc",
-        "symbol": "kBTC.atom",
+        "symbol": "kBTC",
         "denoms": [
             {
                 "denom": "ibc/67144554C6EE6D0FCF43CBA0DF18D821E2818FD1F320B93AB0349E741A0DC850",
@@ -37056,9 +37056,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/4805A17C742D2325715167EA1167974821888307CC62066D6CFA2BD0F724821D",
-        "name": "ether.fi BTC (Eureka)",
+        "name": "eBTC",
         "display": "ebtc",
-        "symbol": "eBTC.atom",
+        "symbol": "eBTC",
         "denoms": [
             {
                 "denom": "ibc/4805A17C742D2325715167EA1167974821888307CC62066D6CFA2BD0F724821D",
@@ -37078,9 +37078,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/FAE7862FCB5DC95168C415A6EE63DA8C38389EA1EAFF51C82F446C80C879156E",
-        "name": "lorenzo Wrapped Bitcoin (Eureka)",
+        "name": "enzoBTC",
         "display": "enzobtc",
-        "symbol": "enzoBTC.atom",
+        "symbol": "enzoBTC",
         "denoms": [
             {
                 "denom": "ibc/FAE7862FCB5DC95168C415A6EE63DA8C38389EA1EAFF51C82F446C80C879156E",
@@ -37101,9 +37101,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00",
-        "name": "Midas BTC Yield Token (Eureka)",
+        "name": "Midas BTC Yield Token",
         "display": "mBTC",
-        "symbol": "mBTC.midas.atom",
+        "symbol": "mBTC.midas",
         "denoms": [
             {
                 "denom": "ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00",
@@ -37124,9 +37124,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
-        "name": "Paxos Gold (Eureka)",
+        "name": "Pax Gold",
         "display": "paxg",
-        "symbol": "PAXG.atom",
+        "symbol": "PAXG",
         "denoms": [
             {
                 "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
@@ -37215,9 +37215,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
-        "name": "Ripple (XRPL EVM)",
+        "name": "Ripple",
         "display": "XRP",
-        "symbol": "XRP.xrplevm",
+        "symbol": "XRP",
         "denoms": [
             {
                 "denom": "ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609",
@@ -37346,9 +37346,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
-        "name": "Pudgy Penguins (Int3)",
+        "name": "Pudgy Penguins",
         "display": "pengu",
-        "symbol": "PENGU.int3",
+        "symbol": "PENGU",
         "denoms": [
             {
                 "denom": "ibc/2C5CB5DB3D86F64FDE6155A3A94D7543A126DA55490309EEDF59A0765873DA1C",
@@ -37368,9 +37368,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
-        "name": "Official Trump (Int3)",
+        "name": "Official Trump",
         "display": "trump",
-        "symbol": "TRUMP.int3",
+        "symbol": "TRUMP",
         "denoms": [
             {
                 "denom": "ibc/51BFF64A432CBBA08A1ED95609BF0255EC4BBF699BFCDFF267F66CCD664CA350",
@@ -37495,6 +37495,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/29EA1818A218B35E18FADC287C85A01802C900A5FFC0D7C8FC592D05186AAFD0",
+        "name": "TabCoin",
+        "display": "TAB",
+        "symbol": "TAB",
+        "denoms": [
+            {
+                "denom": "ibc/29EA1818A218B35E18FADC287C85A01802C900A5FFC0D7C8FC592D05186AAFD0",
+                "exponent": 0
+            },
+            {
+                "denom": "TAB",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
