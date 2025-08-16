@@ -1,0 +1,497 @@
+[
+    {
+      "address": "0x00d9dfa238a26d943fb9621a47890bfca81ce5105cd48ee6623060935ae44fff",
+      "name": "Kadium Net",
+      "logo": "https://assets.endur.fi/validators/kadium.png"
+    },
+    {
+      "address": "0x021a5797cd9e8f74117bfa2771fb7fe0d3eff6bee06de4b52657fcd97234dad2",
+      "name": "M E D I U M ⬩ R A R E",
+      "logo": "https://i.postimg.cc/05tjhCSq/medium-rare-node-700x700.png"
+    },
+    {
+      "address": "0x043b0063dc54167904d67344fff77e0a628182008f85dd0d650e4f84f7f70066",
+      "name": "Figment",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/validator_dashboard/Figment-Black-Digital-Icon+-+Mirella+Guglielmi.png"
+    },
+    {
+      "address": "0x0327a835fda4673a83f63d90bc3a16dd5b1645972acd539b3fc2446e73b11170",
+      "name": "Cumulo",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/cumulo-1741177163037.png"
+    },
+    {
+      "address": "0x0327478b645a0c6889e995fe22b1298fae420dba24cc42422f0c066763d08dc9",
+      "name": "POSTHUMAN 🧬 StakeDrop",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/posthuman-🧬-stakedrop-1739539306499.png"
+    },
+    {
+      "address": "0x0043b2d0a0c549298567fa7b4b992f4fddf9e38f9819b7749cdf885e2b0023dd",
+      "name": "InfraSingularity",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/IS-logo.png"
+    },
+    {
+      "address": "0x064e90fa9059fb06dca4570a7977faca48bbe63bf8ef0263bce76f89af9d5a06",
+      "name": "Provalidator ",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/provalidator-1735038394358.png"
+    },
+    {
+      "address": "0x03fd204025bf226e71a45f94564c1199b95b80a05c45db3d827e4004c6b30ece",
+      "name": "Stakely",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/stakely-1735038439110.png"
+    },
+    {
+      "address": "0x032329f284ebe262e368afba0049ba025ed5999fe1d8da1aa710c9ad5f8c53aa",
+      "name": "Fibrous",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/fibrous-1733228012514.png"
+    },
+    {
+      "address": "0x049670271e96c4fb434162dd75b71c5512f143aae65ca6a3a719b0e974137c75",
+      "name": "Serendipity Network",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/serendipity-network-1732816745863.png"
+    },
+    {
+      "address": "0x074f53494d13a3789e693e6cfca510d80fcc8eff6c09e6e1f406492595b518bc",
+      "name": "Chainbase Staking",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/chainbase_staking+-+Bruce+Lee.png"
+    },
+    {
+      "address": "0x026117b3c5a137220ba581b95bb0bd72fcd43ca789ba23ffcd13978fd0b8cf32",
+      "name": "StakeLab.zone",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/103966487.png"
+    },
+    {
+      "address": "0x070f2b9edea7d9b2dff481ab6650d8a980486aea01eb1f6eb3c7ab00f9e9dbc1",
+      "name": "TimeStake",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/timestake-1732816760848.png"
+    },
+    {
+      "address": "0x0586a61016dfb1967e3eb227b048a1331e640851a9998b251d2da2385fbb066e",
+      "name": "Staking4All",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/staking4all-1732816785617.png"
+    },
+    {
+      "address": "0x03f7f4e5a23a712787f0c100f02934c4a88606b7f0c880c2fd43e817e6275d83",
+      "name": "Cartridge",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/cartridge-logo+-+Tarrence+van+As.svg"
+    },
+    {
+      "address": "0x07650bb257877d0ce903593a5df07974e15adc1c7a16385d2ebef8eb073ccd73",
+      "name": "Kiln",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/kiln-1732636136074.png"
+    },
+    {
+      "address": "0x070ff78577847c55027d6defb5f7613714e052e47235fe8e7bac7c0915a8e08f",
+      "name": "Keplr",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/keplr-1732636143529.png"
+    },
+    {
+      "address": "0x009b596d69ae8cf28b8c2497aefc91e9f581f13274b5994032909a9503d8e4f9",
+      "name": "Graphyte Labs",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/Graphyte-labs.png"
+    },
+    {
+      "address": "0x015cc95c70120ec985bdd6115232dd5f875bd58820aa4c62b6565d0fe33c3ac4",
+      "name": "Carbonable",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/Logo+SQ+-+Ramzi+Laieb+Cropped.png"
+    },
+    {
+      "address": "0x000c7181c833be28c212d70e858037efde144235931877f5758d306f01d5edd7",
+      "name": "Pulsar Money",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/x+-+Stefana+Banciu.jpg"
+    },
+    {
+      "address": "0x0684f94890702f08d6765836273bf36c2a0cb0aeb949f146803b7e42060f2192",
+      "name": "Lavender.Five Nodes",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/LavenderFive_IconLarge+-+gijs+Ertemann.png"
+    },
+    {
+      "address": "0x077d4b4e7ae321aabd0a5a7322108635fcbd0cd746f9ae217b8ea00363494b65",
+      "name": "Pragma",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/bg_logo+-+Matteo+Georges.png"
+    },
+    {
+      "address": "0x01aca15766cb615c3b7ca0fc3680cbde8b21934bb2e7b41594b9d046d7412c00",
+      "name": "Twinstake",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/twinstake-1732624187176.png"
+    },
+    {
+      "address": "0x02952d1e0de1de08fbe6a75d9d0e388e3e89d5d9d42d5f85906ec42ea02e35de",
+      "name": "Nethermind",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/nethermind-1732624199261.png"
+    },
+    {
+      "address": "0x064204710398bbd2a3af22b9335f4d75234f16e5badb5210b686232f2333d9f1",
+      "name": "Nansen",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/Nansen_Logo_Icon_GreenLight_RGB+-+Michael+Ng.png"
+    },
+    {
+      "address": "0x0134c52e3cdc4e581b14e79c3ef93becf778fa400309613a85e8d4c64c0265af",
+      "name": "Jonathan LEI",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/66ya5fL2_400x400+-+Jonathan+LEI.jpg"
+    },
+    {
+      "address": "0x0749c29eddd24613c320b57cf9299a2694934e5e3fabce987df1784231edba71",
+      "name": "WolfEdge Labs",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/Wolfedge+Logo+-+Huzefa+Shakir.jpg"
+    },
+    {
+      "address": "0x0226bdb0501a92f5980e865124d99bf2bba33de9556c2961cc6818ed13c0dff9",
+      "name": "Luganodes",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/logo+-+Syam+SV.jpg"
+    },
+    {
+      "address": "0x0252b01aa019d810f8b2eb44be55ba32f4ce5ed4787f9872164ac04c78b2597a",
+      "name": "InfStones | 0% Fee",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/infstones-|-reward-share-https://bit.ly/49nagpp-1732598436584.png"
+    },
+    {
+      "address": "0x00befa710f5d17ef3a45bc0dffc76682c5d8869958bd7590a6c8d241cebfb422",
+      "name": "Validation Cloud",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/validation-cloud-1732598416600.png"
+    },
+    {
+      "address": "0x01d83071fef0e55608b3971c80a894285cce7ae11f59d0cc2beb83c68214bb0a",
+      "name": "SenseiNode",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/senseinode-1732598454051.png"
+    },
+    {
+      "address": "0x06c1dd153e16d57f252cdd31a67a19b9a4e35d10a781ef72c21687b8d1128871",
+      "name": "Everstake - DO NOT STAKE",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/9lqi8Wvl_400x400.jpg"
+    },
+    {
+      "address": "0x0010ac79f1b488fc3651342e12bd10ab262079b163b56b63ce893fb70085efdf",
+      "name": "InfStones | Reward Share",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/infstones-|-reward-share-https://bit.ly/49nagpp-1732598436584.png"
+    },
+    {
+      "address": "0x00d3b910d8c528bf0216866053c3821ac6c97983dc096bff642e9a3549210ee7",
+      "name": "Ready (Prev. Argent)",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/hito-orange+-+Thomas+von+Bomhard.png"
+    },
+    {
+      "address": "0x03ba5c922cc9bbde55a41d51c2eba6027c653da318f1956c2405d42451d8e3a8",
+      "name": "DSRV",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/favicon_black_circle+-+Validator+DSRV.svg"
+    },
+    {
+      "address": "0x04b00f97e2d2168b91fe64ceeace4a41fc274a85bbdd0adc402c3d0cf9f91bbb",
+      "name": "Braavos",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/braavos+-+Yaron+Segalov.png"
+    },
+    {
+      "address": "0x002843700bd4bc546d05baa55d055572bf2beea8ebefbdb9be763f83638fc294",
+      "name": "Allnodes",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/allnodes-logo.png"
+    },
+    {
+      "address": "0x0655ab8f44bdaeab14c4826383a65af75c21cef9b0cabb018519eed7120c93e3",
+      "name": "Stakecito",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/stakecito-1732598531177.png"
+    },
+    {
+      "address": "0x054fe9375a6b69d5126f54fc447a99ad55bc24b4282f6d9ade977817d780f8dc",
+      "name": "Europa Node",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/europa-node-1732598525774.png"
+    },
+    {
+      "address": "0x033d152598873a307b9abdd7bd5d479cadf1814db4bf87e0f0d61a8f84d0bf63",
+      "name": "zkLend",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/zk_lend.jpg"
+    },
+    {
+      "address": "0x05012a0911c6557f3f9f250b7b477681b79eb1e8af78cd02ed6d6092bb92f505",
+      "name": "Moonlet",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/moonlet-1732598518185.png"
+    },
+    {
+      "address": "0x051ba9be967d17aaafac92f9bc7ca4b035dfd3c4a97b32be1773f63e27b0526a",
+      "name": "Nimbora",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/nimbora-1732598500349.png"
+    },
+    {
+      "address": "0x068b5f8e8eb23a42ad290800f229f09b1bcc8d43537dd27a127769ffa13b59f1",
+      "name": "Teku",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/teku-1732598550633.png"
+    },
+    {
+      "address": "0x075ca5979aa8656b200b5e342555e50f68043e60534f83b7cb4c5c56f7820a4a",
+      "name": "Chorus One",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/chorus-one-1732598542185.png"
+    },
+    {
+      "address": "0x00042edf1af0eb8bf5d61a7f409fe766a8d1d5d99ebeb7cadc9c16e8c638ad1a",
+      "name": "Visoft",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/visoft_logo.jpg"
+    },
+    {
+      "address": "0x043a242b45c03683e2acc96bb7d207c0cfec6d554b224c76c3b690960b485adb",
+      "name": "Bitwise Onchain Solutions",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/bitwise-onchain-solutions-1732598536885.png"
+    },
+    {
+      "address": "0x071768d9d5468cac52c7f4b0f1265fecd7cb1a9733dfa453a27aaf900a6946a8",
+      "name": "P2P.org",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/p2p_logo_white+-+Anton+Gaev.svg"
+    },
+    {
+      "address": "0x07366b7faf47122ca71f3cfab7044d67f536f6269666886a5f618dad3de745eb",
+      "name": "Satoshi University",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/satoshi-university-1732598558149.png"
+    },
+    {
+      "address": "0x036963c7b56f08105ffdd7f12560924bdc0cb29ce210417ecbc8bf3c7e4b9090",
+      "name": "AVNU",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/avnu-1732598577727.png"
+    },
+    {
+      "address": "0x072c6aa4f9f84fad52de9e70b1fc97347e20716935801c4df0cce5b171718e4e",
+      "name": "onchainaustria.at",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/onchainaustria.at-1732598596118.png"
+    },
+    {
+      "address": "0x074fe5e196891a6af30faf3ca841bcf0c37c4533f7858e16b7614ffaeee2c6d5",
+      "name": "StakingCabin",
+      "logo": "https://karnot-assets-bucket.s3.amazonaws.com/logos/stakingcabin-1732598583415.png"
+    },
+    {
+      "address": "0x035f074ab2ce04af70c1d1cce3658d5b264cb3fde49f1c1809695929b021d1d5",
+      "name": "moonli.me",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/logos/moonli.me_logo_1_cropped.png"
+    },
+    {
+      "address": "0x072543946080646d1aac08bb4ba6f6531b2b29ce41ebfe72b8a6506500d5220e",
+      "name": "Karnot",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/validator_dashboard/karnot_validator_logo.png"
+    },
+    {
+      "address": "0x0785ba32c2d07462534d523b48f908ff4a6360cb702749e83566239341ed6aae",
+      "name": "Binance",
+      "logo": "https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png"
+    },
+    {
+      "address": "0x02a872d356ac4bf4fb074dc2606ddfbabda5dde9069043b5eb4d1d8d3a35d3ea",
+      "name": "StarkWare",
+      "logo": "https://assets.endur.fi/validators/starkware.png"
+    },
+    {
+      "address": "0x04092a9c00457c6596009ca3feca4c028ad95e431d8683b5b1fdd591ede140fc",
+      "name": "Zellic",
+      "logo": "https://assets.endur.fi/validators/zellic.png"
+    },
+    {
+      "address": "0x00edd59ca1932462718c81ef4d7f463fed50e29f8a11b24d7cb5d8373923b786",
+      "name": "Ventory",
+      "logo": "https://assets.endur.fi/validators/ventory.png"
+    },
+    {
+      "address": "0x0475a1ba31db59f0eda3b3b260ad3abb30a2a67983cd51d753fdb4adad92a524",
+      "name": "Saniksin",
+      "logo": "https://assets.endur.fi/validators/saniksin.png"
+    },
+    {
+      "address": "0x018231b7efb19f71c0a938ed876ed98afb864f716d52f2b9ee43719a953d3453",
+      "name": "HoodRun",
+      "logo": "https://assets.endur.fi/validators/hoodrun.png"
+    },
+    {
+      "address": "0x05ff6a0b57ad4a65981ea21e064d0308e8e01d5d23f293a688062d2aa31f940e",
+      "name": "0xRaspnode",
+      "logo": "https://assets.endur.fi/validators/raspnode.png"
+    },
+    {
+      "address": "0x02d86897daadee2dffdb5c5b734ab568fe849808105977e0384f8e5d1a0d33d7",
+      "name": "sluh.ai",
+      "logo": "https://sluh.ai/ncsitebuilder/gallery/favicons/favicon.png"
+    },
+    {
+      "address": "0x05b625f0a99bbdb24fbe88cf481e8559e26c0d1d2ac6d957fb77f556857c7543",
+      "name": "Bitszn",
+      "logo": "https://assets.endur.fi/validators/bitszn.png"
+    },
+    {
+      "address": "0x0551a33db7f01ab71d8b272a33260629893b7e3d602267cd0a06b91017a1079a",
+      "name": "Runelabs",
+      "logo": "https://assets.endur.fi/validators/runelabs.png"
+    },
+    {
+      "address": "0x0018b139707cf26a62b7b38b5bd7859dab1b4965f29db4d330534ff38a10a22d",
+      "name": "ByAnastasiia",
+      "logo": "https://assets.endur.fi/validators/byanastasiia.png"
+    },
+    {
+      "address": "0x034cadb95a1e54a258d5a711a7be052ca5a8582cadebf7dfc50d11db8d6b19b5",
+      "name": "Herodotus",
+      "logo": "https://assets.endur.fi/validators/herodotus.png"
+    },
+    {
+      "address": "0x076ffc55e02865335b712858e26eb08557528c72c02a623c03b27f7a6a06d9fd",
+      "name": "BareMetal.live",
+      "logo": "https://assets.endur.fi/validators/baremetal_live.png"
+    },
+    {
+      "address": "0x07037044bca2a03ac5f317c8193f71dc49fe0aafa9acbcbb8c994d49f18e7cb3",
+      "name": "Sethee IT LTD.",
+      "logo": "https://assets.endur.fi/validators/sethee_it_ltd.png"
+    },
+    {
+      "address": "0x043f05485eafa41da1cd8442069a72a6264dfced0ad1af298fd235d6df91f735",
+      "name": "Frutero Club",
+      "logo": "https://assets.endur.fi/validators/frutero_club.png"
+    },
+    {
+      "address": "0x02e01dccd5cf2e9bca2f4b23f08e6783064622f1ebc631967dee26f06933425b",
+      "name": "Nectar Africa",
+      "logo": "https://assets.endur.fi/validators/nectar_africa.png"
+    },
+    {
+      "address": "0x03c192719026b8f2208e1b8891a9db5cde8b90229a33c02f69f3c0eb07771170",
+      "name": "Ol Dirty Benji",
+      "logo": "https://assets.endur.fi/validators/oi_dirty_benji.png"
+    },
+    {
+      "address": "0x008dc7841f346706b718efc94062796ca6cba553728056b1ad8f99926f16f483",
+      "name": "deNodes",
+      "logo": "https://assets.endur.fi/validators/denodes.png"
+    },
+    {
+      "address": "0x052e77b9ad9e736efa1e7444227b9a06ea0aae7fb0de5e85c63145dc3b86e081",
+      "name": "Asgard",
+      "logo": "https://assets.endur.fi/validators/asgard.png"
+    },
+    {
+      "address": "0x03e578ec6757bd366a43c8157dab6fbf6491639173c42ae85f383a479fc90102",
+      "name": "ITRocket",
+      "logo": "https://assets.endur.fi/validators/itrocket.png"
+    },
+    {
+      "address": "0x00bb6c4af7ea20ce5f02cb706c7cdc897ee6a5c44c4dceb9fb87e58f0c8102cf",
+      "name": "Cypher Networks",
+      "logo": "https://assets.endur.fi/validators/cypher_networks.png"
+    },
+    {
+      "address": "0x047271c55bd7791ca127ea7aa1efed522df5b3ea754fd7e7e4d7265329164bc8",
+      "name": "SEEDNodes",
+      "logo": "https://assets.endur.fi/validators/seednodes.png"
+    },
+    {
+      "address": "0x0131383f4ad42c6ca411003c7f4113f61eba7b5848c6a1f5a7866661ed8d59c6",
+      "name": "Crypto_room",
+      "logo": "https://assets.endur.fi/validators/crypto_room.png"
+    },
+    {
+      "address": "0x032daa3370a015a0737bc4e358bc1a2f6e999a5781b21057e9b43a0dc8334f92",
+      "name": "CoinHunters",
+      "logo": "https://assets.endur.fi/validators/coinhunters.png"
+    },
+    {
+      "address": "0x07a97a7662e7f634c8f1d136cbd1f4d46b4c9551ba5f7df0c32b3d6a07f0f1cd",
+      "name": "StingRay",
+      "logo": "https://assets.endur.fi/validators/stingray.png"
+    },
+    {
+      "address": "0x07d915cdeae00b4460979985a18bcc71597153aaa4d02ca293bfd943c1286316",
+      "name": "StakeUp",
+      "logo": "https://assets.endur.fi/validators/stakeup.png"
+    },
+    {
+      "address": "0x0359e252e663765989b04c266a4daec77662b506ce5f026994cb8ad53628df2a",
+      "name": "Encapsulate Limited",
+      "logo": "https://assets.endur.fi/validators/encapsulate_limited.png"
+    },
+    {
+      "address": "0x001dbd42a6e91ceca28d1364acc31f9e73c1419b2624ce30874ade81e8324e04",
+      "name": "DTEAM",
+      "logo": "https://assets.endur.fi/validators/dteam.png"
+    },
+    {
+      "address": "0x03127b2a195d8dfa8a78d22c6883d97ae4fa3219f9e6463d7bb821dbfd0d3cce",
+      "name": "StakeAngle",
+      "logo": "https://assets.endur.fi/validators/stakeangle.png"
+    },
+    {
+      "address": "0x0610e4e6326a757317a09c451fd242e7c6c4118372dec8660be3bf2e99261268",
+      "name": "medium",
+      "logo": "https://assets.endur.fi/validators/medium.png"
+    },
+    {
+      "address": "0x04e5a86ed9e29127e0157a6c26a82cda109febde872d30b7a27549082951057d",
+      "name": "wombat",
+      "logo": "https://assets.endur.fi/validators/wombat.png"
+    },
+    {
+      "address": "0x00af5b577ec756cef1c21dc3e7bd13e02b2f3677926b8d6ee2ff2a4256b7f1ca",
+      "name": "OwlStake",
+      "logo": "https://assets.endur.fi/validators/owlstake.png"
+    },
+    {
+      "address": "0x0443b3a19a8ef82abab80b1741bef9a99cc533a4e822a4e139fa96017b2007b5",
+      "name": "Nodiums",
+      "logo": "https://assets.endur.fi/validators/nodiums.png"
+    },
+    {
+      "address": "0x06a1b1ebb671b5e257ec3b039ed72f37578dd63cb9cb06f779f2eb7e1b4ddc21",
+      "name": "Node3Tech",
+      "logo": "https://assets.endur.fi/validators/node3tech.png"
+    },
+    {
+      "address": "0x0156cf8352b3c55b8a00bc1cb7fa8d157fd6a454a078874abe7e35c0d8f77e69",
+      "name": "Piconbello",
+      "logo": "https://assets.endur.fi/validators/Piconbello.png"
+    },
+    {
+      "address": "0x0597f111b14092befec67c07e65fba77bcc2dd898c6e18517288d7882dd0b5d2",
+      "name": "Starknet Espresso",
+      "logo": "https://assets.endur.fi/validators/starknet_espresso.png"
+    },
+    {
+      "address": "0x03baeda4f84b8a7ff49b534e51cef2d033c19baf9aac552033f25de5f74d216a",
+      "name": "BlockPro",
+      "logo": "https://assets.endur.fi/validators/BlockPro.png"
+    },
+    {
+      "address": "0x0356009069dd42f6f14855cb3ee34510713175e4c8e85c7e5059e0caeacc8b18",
+      "name": "Andee",
+      "logo": "https://assets.endur.fi/validators/andee.png"
+    },
+    {
+      "address": "0x019fb52036ba45a0d688ce154b61b6c9c8ada57e3943b518b9048514083de71a",
+      "name": "CosmoWiz",
+      "logo": "https://assets.endur.fi/validators/cosmowiz.png"
+    },
+    {
+      "address": "0x03b85f34efde020c700065306d1a9c81f98d242bd88c2721a7e82d2759ffd799",
+      "name": "Meria",
+      "logo": "https://assets.endur.fi/validators/meria.png"
+    },
+    {
+      "address": "0x04ee3fab423424352d4fc7dd1a3bb6d26a34c26f0793e94f89d02a210d961448",
+      "name": "NodeStake",
+      "logo": "https://assets.endur.fi/validators/nodestake.png"
+    },
+    {
+      "address": "0x068e55c8c9b8c0d64ad20e8b08a421c1037b084c6c7339b25e602c86a09c6ce6",
+      "name": "Byte Anchor",
+      "logo": "https://assets.endur.fi/validators/byte_anchor.png"
+    },
+    {
+      "address": "0x00ac906005b8ec20c51b3d0a9f971a589bfbe6226205f61561091c900522d773",
+      "name": "J•Node",
+      "logo": "https://assets.endur.fi/validators/j_node.png"
+    },
+    {
+      "address": "0x05f2ad06bf940fac034fff7bda84a4c854720067933008823ec386673fe9dd4e",
+      "name": "Duckian",
+      "logo": "https://assets.endur.fi/validators/duckian.png"
+    },
+    {
+      "address": "0x03be8cbe72d82e762a35b1463449084b9691f6b7081def1b5a9ee7e8c4c8afec",
+      "name": "Belle Bit",
+      "logo": "https://assets.endur.fi/validators/belle_bit.png"
+    },
+      {
+      "address": "0x072543946080646d1aac08bb4ba6f6531b2b29ce41ebfe72b8a6506500d5220e",
+      "name": "Karnot",
+      "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/validator_dashboard/karnot_validator_logo.png"
+    }
+  ]
