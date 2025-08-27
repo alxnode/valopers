@@ -50341,6 +50341,28 @@
     {
         "chain_name": "injective",
         "chain_id": "injective-1",
+        "base": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
+        "name": "Oyster Cage Initiative",
+        "display": "OYCI",
+        "symbol": "OYCI",
+        "denoms": [
+            {
+                "denom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
+                "exponent": 0
+            },
+            {
+                "denom": "OYCI",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/oyci.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
         "base": "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI",
         "name": "WGMI",
         "display": "WGMI",
