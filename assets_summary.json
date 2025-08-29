@@ -25259,7 +25259,7 @@
         "chain_id": "osmosis-1",
         "base": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
         "name": "Labrador",
-        "display": "labs",
+        "display": "LABS",
         "symbol": "LABS",
         "denoms": [
             {
@@ -25267,7 +25267,7 @@
                 "exponent": 0
             },
             {
-                "denom": "labs",
+                "denom": "LABS",
                 "exponent": 6
             }
         ],
