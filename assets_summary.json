@@ -34645,6 +34645,25 @@
         }
     },
     {
+        "chain_name": "kudora",
+        "chain_id": "kudora_12000-1",
+        "base": "kud",
+        "name": "Kudo",
+        "display": "Kudo",
+        "symbol": "KUD",
+        "denoms": [
+            {
+                "denom": "kud",
+                "exponent": 0
+            },
+            {
+                "denom": "Kudo",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "impacthub",
         "chain_id": "ixo-5",
         "base": "uixo",
