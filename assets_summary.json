@@ -25279,6 +25279,29 @@
     {
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
+        "base": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
+        "name": "Quark",
+        "display": "QUARK",
+        "symbol": "QUARK",
+        "denoms": [
+            {
+                "denom": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
+                "exponent": 0
+            },
+            {
+                "denom": "QUARK",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
         "base": "ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836",
         "name": "Intento",
         "display": "into",
@@ -39104,6 +39127,29 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/7B6EBFC446E50DFF981C994E207BFB398889706C2B0DF8A14D8B87F6C0E33A1A",
+        "name": "Quark",
+        "display": "quark",
+        "symbol": "QUARK",
+        "denoms": [
+            {
+                "denom": "ibc/7B6EBFC446E50DFF981C994E207BFB398889706C2B0DF8A14D8B87F6C0E33A1A",
+                "exponent": 0
+            },
+            {
+                "denom": "quark",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg",
             "valopers_logo": "https://api.valopers.com/logos/atom.svg"
         }
     },
