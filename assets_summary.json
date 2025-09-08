@@ -2340,7 +2340,7 @@
         "base": "uusdrise",
         "name": "Sunrise USDrise",
         "display": "usdrise",
-        "symbol": "USDRISE",
+        "symbol": "USDrise",
         "denoms": [
             {
                 "denom": "uusdrise",
@@ -29279,7 +29279,7 @@
         "base": "uusdrise",
         "name": "Sunrise USDrise",
         "display": "usdrise",
-        "symbol": "USDRISE",
+        "symbol": "USDrise",
         "denoms": [
             {
                 "denom": "uusdrise",
