@@ -51592,6 +51592,33 @@
         }
     },
     {
+        "chain_name": "gonka",
+        "chain_id": "gonka-mainnet",
+        "base": "ngonka",
+        "name": "Gonka",
+        "display": "gonka",
+        "symbol": "GNK",
+        "denoms": [
+            {
+                "denom": "ngonka",
+                "exponent": 0
+            },
+            {
+                "denom": "ugonka",
+                "exponent": 3
+            },
+            {
+                "denom": "mgonka",
+                "exponent": 6
+            },
+            {
+                "denom": "gonka",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "arkeo",
         "chain_id": "arkeo-main-v1",
         "base": "uarkeo",
