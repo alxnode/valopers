@@ -392,6 +392,28 @@
         }
     },
     {
+        "chain_name": "lumera",
+        "chain_id": "lumera-mainnet-1",
+        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name": "Osmosis OSMO Token",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        }
+    },
+    {
         "chain_name": "hall",
         "chain_id": "unknown",
         "base": "uhall",
