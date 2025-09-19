@@ -28849,6 +28849,105 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "terratestnet",
+        "chain_id": "rebel-2",
+        "base": "uluna",
+        "name": "Luna Classic",
+        "display": "luna",
+        "symbol": "LUNC",
+        "denoms": [
+            {
+                "denom": "uluna",
+                "exponent": 0
+            },
+            {
+                "denom": "mluna",
+                "exponent": 3
+            },
+            {
+                "denom": "luna",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
+        }
+    },
+    {
+        "chain_name": "terratestnet",
+        "chain_id": "rebel-2",
+        "base": "uusd",
+        "name": "TerraClassicUSD",
+        "display": "ust",
+        "symbol": "USTC",
+        "denoms": [
+            {
+                "denom": "uusd",
+                "exponent": 0
+            },
+            {
+                "denom": "musd",
+                "exponent": 3
+            },
+            {
+                "denom": "ust",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg"
+        }
+    },
+    {
+        "chain_name": "terratestnet",
+        "chain_id": "rebel-2",
+        "base": "ukrw",
+        "name": "TerraClassicKRW",
+        "display": "krt",
+        "symbol": "KRTC",
+        "denoms": [
+            {
+                "denom": "ukrw",
+                "exponent": 0
+            },
+            {
+                "denom": "mkrw",
+                "exponent": 3
+            },
+            {
+                "denom": "krt",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg"
+        }
+    },
+    {
+        "chain_name": "terratestnet",
+        "chain_id": "rebel-2",
+        "base": "cw20:terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+        "name": "Juris Protocol",
+        "display": "juris",
+        "symbol": "JURIS",
+        "denoms": [
+            {
+                "denom": "cw20:terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+                "exponent": 0
+            },
+            {
+                "denom": "juris",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png"
+        }
+    },
+    {
         "chain_name": "gitopiatestnet",
         "chain_id": "gitopia-janus-testnet-2",
         "base": "utlore",
