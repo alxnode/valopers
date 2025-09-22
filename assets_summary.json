@@ -85,10 +85,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "stratos",
@@ -4810,9 +4807,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "terra",
@@ -10783,9 +10778,7 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.png"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "babylon",
@@ -10804,9 +10797,7 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "babylon",
@@ -10826,7 +10817,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/LBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg"
         }
     },
     {
@@ -10868,7 +10859,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/SolvBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png"
         }
     },
     {
@@ -11100,7 +11091,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png"
         }
     },
     {
@@ -25556,6 +25547,25 @@
         }
     },
     {
+        "chain_name": "tsc",
+        "chain_id": "unknown",
+        "base": "aTSC",
+        "name": "TSC",
+        "display": "TSC",
+        "symbol": "TSC",
+        "denoms": [
+            {
+                "denom": "aTSC",
+                "exponent": 0
+            },
+            {
+                "denom": "TSC",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "neura",
         "chain_id": "neura_266-1",
         "base": "atankr",
@@ -26415,10 +26425,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "celestiatestnet3",
@@ -26549,9 +26556,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "dymensiontestnet1",
@@ -26592,10 +26597,7 @@
                 "exponent": 12
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "stargazetestnet",
@@ -29190,8 +29192,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg",
             "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
@@ -30654,13 +30654,13 @@
     {
         "chain_name": "zigchaintestnet",
         "chain_id": "zig-test-2",
-        "base": "factory/zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak/stzig",
+        "base": "coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig",
         "name": "Staked Zig",
         "display": "stzig",
         "symbol": "STZIG",
         "denoms": [
             {
-                "denom": "factory/zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak/stzig",
+                "denom": "coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig",
                 "exponent": 0
             },
             {
@@ -31296,7 +31296,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nyx.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nyx.png"
         }
     },
     {
@@ -31317,8 +31317,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.svg"
         }
     },
     {
@@ -31501,9 +31501,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "intentotestnet",
@@ -31566,10 +31564,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/desmos/images/dsm.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/desmos/images/dsm.svg"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "qwoyntestnet",
@@ -32459,8 +32454,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/SOL.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/SOL.int3.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -32482,8 +32477,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -32786,7 +32781,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_Dark.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_white_bg_99x99.png"
         }
     },
     {
@@ -34458,9 +34453,7 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet/images/sei.png"
-        }
+        "logo_URIs": {}
     },
     {
         "chain_name": "nilliontestnet",
@@ -40662,7 +40655,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whalex.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whaleX.png"
         }
     },
     {
@@ -42516,8 +42509,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg",
             "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
@@ -58949,8 +58940,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png"
         }
     },
     {
