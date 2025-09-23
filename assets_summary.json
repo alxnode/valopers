@@ -53402,6 +53402,28 @@
         }
     },
     {
+        "chain_name": "union",
+        "chain_id": "union-1",
+        "base": "au",
+        "name": "U",
+        "display": "U",
+        "symbol": "U",
+        "denoms": [
+            {
+                "denom": "au",
+                "exponent": 0
+            },
+            {
+                "denom": "U",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg"
+        }
+    },
+    {
         "chain_name": "irisnet",
         "chain_id": "irishub-1",
         "base": "uiris",
