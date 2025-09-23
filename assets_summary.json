@@ -40716,6 +40716,25 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "optio",
+        "chain_id": "unknown",
+        "base": "uOPT",
+        "name": "OPT",
+        "display": "OPT",
+        "symbol": "OPT",
+        "denoms": [
+            {
+                "denom": "uOPT",
+                "exponent": 0
+            },
+            {
+                "denom": "OPT",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "bluechip",
         "chain_id": "bluechip-2",
         "base": "ubluechip",
