@@ -60778,6 +60778,28 @@
         }
     },
     {
+        "chain_name": "zigchain",
+        "chain_id": "zigchain-1",
+        "base": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+        "name": "Staked Zig",
+        "display": "stzig",
+        "symbol": "STZIG",
+        "denoms": [
+            {
+                "denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+                "exponent": 0
+            },
+            {
+                "denom": "stzig",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg"
+        }
+    },
+    {
         "chain_name": "dymension",
         "chain_id": "dymension_1100-1",
         "base": "adym",
