@@ -12085,6 +12085,28 @@
         }
     },
     {
+        "chain_name": "wardenprotocol",
+        "chain_id": "warden_8765-1",
+        "base": "award",
+        "name": "Warden",
+        "display": "ward",
+        "symbol": "WARD",
+        "denoms": [
+            {
+                "denom": "award",
+                "exponent": 0
+            },
+            {
+                "denom": "ward",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg"
+        }
+    },
+    {
         "chain_name": "unicorn",
         "chain_id": "unicorn-420",
         "base": "uwunicorn",
