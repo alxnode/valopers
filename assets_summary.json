@@ -45638,6 +45638,29 @@
         }
     },
     {
+        "chain_name": "axelar",
+        "chain_id": "axelar-dojo-1",
+        "base": "unit-zig",
+        "name": "ZigCoin",
+        "display": "zig",
+        "symbol": "ZigCoin",
+        "denoms": [
+            {
+                "denom": "unit-zig",
+                "exponent": 0
+            },
+            {
+                "denom": "zig",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg",
+            "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
+        }
+    },
+    {
         "chain_name": "furya",
         "chain_id": "furya-1",
         "base": "ufury",
@@ -49789,6 +49812,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg"
+        }
+    },
+    {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+        "name": "ZigCoin",
+        "display": "ZIG",
+        "symbol": "ZIG",
+        "denoms": [
+            {
+                "denom": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+                "exponent": 0
+            },
+            {
+                "denom": "ZIG",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
         }
     },
     {
@@ -60819,6 +60864,72 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg"
+        }
+    },
+    {
+        "chain_name": "zigchain",
+        "chain_id": "zigchain-1",
+        "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+        "name": "Noble USDC",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+    },
+    {
+        "chain_name": "zigchain",
+        "chain_id": "zigchain-1",
+        "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+        "name": "Cosmos Hub Atom",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+    },
+    {
+        "chain_name": "zigchain",
+        "chain_id": "zigchain-1",
+        "base": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+        "name": "ZIG (Axelar)",
+        "display": "zig.axl",
+        "symbol": "ZIG.axl",
+        "denoms": [
+            {
+                "denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+                "exponent": 0
+            },
+            {
+                "denom": "zig.axl",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
         }
     },
     {
