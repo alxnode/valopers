@@ -23160,6 +23160,28 @@
     {
         "chain_name": "neutron",
         "chain_id": "neutron-1",
+        "base": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
+        "name": "Wrapped Ether (Axelar)",
+        "display": "axlweth",
+        "symbol": "axlWETH",
+        "denoms": [
+            {
+                "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
+                "exponent": 0
+            },
+            {
+                "denom": "axlweth",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
         "base": "cw20:neutron1vjl4ze7gr32lar5s4fj776v70j4ml7mlt4aqln2hwgfhqjck8xwqfhx8vj",
         "name": "Astrovault xATOM (Neutron)",
         "display": "xATOM",
