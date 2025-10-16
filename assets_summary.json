@@ -23501,6 +23501,27 @@
         }
     },
     {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+        "name": "maxBTC",
+        "display": "maxBTC",
+        "symbol": "maxBTC",
+        "denoms": [
+            {
+                "denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+                "exponent": 0
+            },
+            {
+                "denom": "maxBTC",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg"
+        }
+    },
+    {
         "chain_name": "terra",
         "chain_id": "columbus-5",
         "base": "uluna",
