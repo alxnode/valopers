@@ -19285,6 +19285,32 @@
         }
     },
     {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+        "name": "Eureka Bridged PAX Gold (Terra)",
+        "display": "paxg.atom",
+        "symbol": "PAXG.ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+                "exponent": 0
+            },
+            {
+                "denom": "paxg",
+                "exponent": 18
+            },
+            {
+                "denom": "paxg.atom",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg"
+        }
+    },
+    {
         "chain_name": "aura1",
         "chain_id": "xstaxy-1",
         "base": "uaura",
