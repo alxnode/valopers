@@ -50041,7 +50041,7 @@
     },
     {
         "chain_name": "penumbra",
-        "chain_id": "unknown",
+        "chain_id": "penumbra-1",
         "base": "upenumbra",
         "name": "Penumbra",
         "display": "penumbra",
@@ -50349,7 +50349,7 @@
     },
     {
         "chain_name": "picasso",
-        "chain_id": "unknown",
+        "chain_id": "2087",
         "base": "ppica",
         "name": "Picasso",
         "display": "pica",
@@ -50370,7 +50370,7 @@
     },
     {
         "chain_name": "picasso",
-        "chain_id": "unknown",
+        "chain_id": "2087",
         "base": "4",
         "name": "Kusama",
         "display": "ksm",
@@ -50391,7 +50391,7 @@
     },
     {
         "chain_name": "picasso",
-        "chain_id": "unknown",
+        "chain_id": "2087",
         "base": "79228162514264337593543950342",
         "name": "Polkadot",
         "display": "dot",
@@ -50413,7 +50413,7 @@
     },
     {
         "chain_name": "picasso",
-        "chain_id": "unknown",
+        "chain_id": "2087",
         "base": "130",
         "name": "Statemine",
         "display": "usdt",
@@ -50432,7 +50432,7 @@
     },
     {
         "chain_name": "picasso",
-        "chain_id": "unknown",
+        "chain_id": "2087",
         "base": "2125",
         "name": "Tinkernet",
         "display": "TNKR",
@@ -51164,7 +51164,7 @@
     },
     {
         "chain_name": "composablepolkadot",
-        "chain_id": "unknown",
+        "chain_id": "2019",
         "base": "79228162514264337593543950342",
         "name": "Polkadot",
         "display": "dot",
@@ -51289,7 +51289,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "Lamport",
         "name": "Solana",
         "display": "SOL",
@@ -51311,7 +51311,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "So11111111111111111111111111111111111111112",
         "name": "Wrapped SOL",
         "display": "wsol",
@@ -51333,7 +51333,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
         "name": "Bonk",
         "display": "bonk",
@@ -51354,7 +51354,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
         "name": "Pyth Network",
         "display": "pyth",
@@ -51375,7 +51375,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
         "name": "USD Coin",
         "display": "usdc",
@@ -51397,7 +51397,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
         "name": "Basket",
         "display": "bskt",
@@ -51418,7 +51418,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
         "name": "Wormhole Token",
         "display": "w",
@@ -51439,7 +51439,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
         "name": "Marinade Staked SOL",
         "display": "msol",
@@ -51458,7 +51458,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
         "name": "Jito Staked SOL",
         "display": "jitosol",
@@ -51477,7 +51477,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
         "name": "BlazeStake Staked SOL",
         "display": "bsol",
@@ -51496,7 +51496,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
         "name": "Liquid Staking Token",
         "display": "lst",
@@ -51515,7 +51515,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
         "name": "Edgevana Staked SOL",
         "display": "edgesol",
@@ -51534,7 +51534,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
         "name": "Helius Staked SOL",
         "display": "hsol",
@@ -51553,7 +51553,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
         "name": "Jupiter Staked SOL",
         "display": "jupsol",
@@ -51572,7 +51572,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
         "name": "dogwifhat",
         "display": "wif",
@@ -51591,7 +51591,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
         "name": "Tether",
         "display": "usdt",
@@ -51610,7 +51610,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
         "name": "WHINEcoin",
         "display": "whine",
@@ -51629,7 +51629,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU",
         "name": "Pepe Bruce Jenner",
         "display": "pbj",
@@ -51650,7 +51650,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
         "name": "Unicorn",
         "display": "unicorn",
@@ -51669,7 +51669,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf",
         "name": "MEOW",
         "display": "meow",
@@ -51690,7 +51690,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38",
         "name": "ORACLER",
         "display": "oracler",
@@ -51711,7 +51711,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
         "name": "monKEYS",
         "display": "monKEYS",
@@ -51732,7 +51732,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
         "name": "Official Trump",
         "display": "trump",
@@ -51753,7 +51753,7 @@
     },
     {
         "chain_name": "solana",
-        "chain_id": "unknown",
+        "chain_id": "101",
         "base": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
         "name": "Pudgy Penguins",
         "display": "pengu",
