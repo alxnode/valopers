@@ -4477,6 +4477,27 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "daodiseotestnet",
+        "chain_id": "ithaca-1",
+        "base": "uodis",
+        "name": "Odis",
+        "display": "ODIS",
+        "symbol": "ODIS",
+        "denoms": [
+            {
+                "denom": "uodis",
+                "exponent": 0
+            },
+            {
+                "denom": "ODIS",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/daodiseotestnet/images/odiseo.svg"
+        }
+    },
+    {
         "chain_name": "wavehashtestnet",
         "chain_id": "INVALID-ID-wavehashtestnet-testnet-1",
         "base": "uwahax",
