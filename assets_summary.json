@@ -5125,7 +5125,7 @@
             },
             {
                 "denom": "IBC6",
-                "exponent": 18
+                "exponent": 6
             }
         ],
         "logo_URIs": {
@@ -5146,7 +5146,7 @@
             },
             {
                 "denom": "IBC1",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -5167,7 +5167,7 @@
             },
             {
                 "denom": "IBC5",
-                "exponent": 18
+                "exponent": 6
             }
         ],
         "logo_URIs": {
@@ -5209,7 +5209,7 @@
             },
             {
                 "denom": "IBC3",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -15499,12 +15499,16 @@
         "chain_id": "cosmoshub-4",
         "base": "ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729",
         "name": "Function X",
-        "display": "FX",
+        "display": "WFX",
         "symbol": "FX",
         "denoms": [
             {
                 "denom": "ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729",
                 "exponent": 0
+            },
+            {
+                "denom": "WFX",
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -15950,6 +15954,32 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/A96C4DBCB7E36F8D265E92240510DB0F29F39CE4AAF52DBDE686E448BA447886",
+        "name": "Eureka Bridged Tether Gold (ATOM)",
+        "display": "xaut",
+        "symbol": "XAUt",
+        "denoms": [
+            {
+                "denom": "ibc/A96C4DBCB7E36F8D265E92240510DB0F29F39CE4AAF52DBDE686E448BA447886",
+                "exponent": 0
+            },
+            {
+                "denom": "xaut",
+                "exponent": 6
+            },
+            {
+                "denom": "xaut.atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png",
             "valopers_logo": "https://api.valopers.com/logos/atom.svg"
         }
     },
@@ -18728,7 +18758,7 @@
                 "exponent": 0
             },
             {
-                "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+                "denom": "wstETH",
                 "exponent": 18
             }
         ],
@@ -19308,6 +19338,31 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg"
+        }
+    },
+    {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45",
+        "name": "Eureka Bridged Tether Gold (Terra)",
+        "display": "xaut.atom",
+        "symbol": "XAUt.ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45",
+                "exponent": 0
+            },
+            {
+                "denom": "xaut",
+                "exponent": 6
+            },
+            {
+                "denom": "xaut.atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png"
         }
     },
     {
@@ -21206,7 +21261,7 @@
             },
             {
                 "denom": "wbtc",
-                "exponent": 18
+                "exponent": 8
             }
         ],
         "logo_URIs": {
@@ -39306,7 +39361,7 @@
         "chain_id": "osmosis-1",
         "base": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
         "name": "Quicksilver Liquid Staked INJ",
-        "display": "qinj",
+        "display": "qINJ",
         "symbol": "qINJ",
         "denoms": [
             {
@@ -49978,6 +50033,27 @@
         }
     },
     {
+        "chain_name": "ethereum",
+        "chain_id": "1",
+        "base": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        "name": "Tether Gold",
+        "display": "xaut",
+        "symbol": "XAUt",
+        "denoms": [
+            {
+                "denom": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+                "exponent": 0
+            },
+            {
+                "denom": "xaut",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png"
+        }
+    },
+    {
         "chain_name": "statemine",
         "chain_id": "unknown",
         "base": "130",
@@ -59390,7 +59466,7 @@
             },
             {
                 "denom": "inj",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
