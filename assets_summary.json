@@ -1091,6 +1091,27 @@
         }
     },
     {
+        "chain_name": "int3facetestnet",
+        "chain_id": "int3-test-2",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec",
+        "name": "Testnet Zcash",
+        "display": "zec",
+        "symbol": "ZEC",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png"
+        }
+    },
+    {
         "chain_name": "blockxtestnet",
         "chain_id": "blockx_19077-1",
         "base": "abcx",
@@ -3028,6 +3049,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosistestnet",
+        "chain_id": "osmo-test-5",
+        "base": "ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2",
+        "name": "Testnet Zcash (Int3)",
+        "display": "zec",
+        "symbol": "ZEC.int3",
+        "denoms": [
+            {
+                "denom": "ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -6789,6 +6832,25 @@
             },
             {
                 "denom": "ltc",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "zcashtestnet",
+        "chain_id": "unknown",
+        "base": "zatoshi",
+        "name": "Zcash",
+        "display": "zec",
+        "symbol": "ZEC",
+        "denoms": [
+            {
+                "denom": "zatoshi",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
                 "exponent": 8
             }
         ],
@@ -12174,6 +12236,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png"
+        }
+    },
+    {
+        "chain_name": "int3face",
+        "chain_id": "int3face-1",
+        "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec",
+        "name": "Zcash",
+        "display": "zec",
+        "symbol": "ZEC",
+        "denoms": [
+            {
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png"
         }
     },
     {
@@ -38382,6 +38465,28 @@
     {
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
+        "base": "ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E",
+        "name": "Zcash",
+        "display": "zec",
+        "symbol": "ZEC",
+        "denoms": [
+            {
+                "denom": "ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
         "base": "ibc/57B63A0795B6BC0AC4EFD0D4DEE9FE71FCC1D0FFA87F6280C9CDEF4F6727A173",
         "name": "Tether USD (Arbitrum)",
         "display": "usdt",
@@ -50115,6 +50220,25 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg"
         }
+    },
+    {
+        "chain_name": "zcash",
+        "chain_id": "unknown",
+        "base": "zatoshi",
+        "name": "Zcash",
+        "display": "zec",
+        "symbol": "ZEC",
+        "denoms": [
+            {
+                "denom": "zatoshi",
+                "exponent": 0
+            },
+            {
+                "denom": "zec",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
     },
     {
         "chain_name": "aptos",
