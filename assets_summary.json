@@ -998,8 +998,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png"
         }
     },
     {
@@ -1086,8 +1085,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png"
         }
     },
     {
@@ -2223,8 +2221,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png"
         }
     },
     {
@@ -2979,7 +2976,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -3139,7 +3135,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -3549,8 +3544,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png"
         }
     },
     {
@@ -8780,7 +8774,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg"
         }
     },
@@ -9466,8 +9459,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png"
         }
     },
     {
@@ -9874,7 +9866,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
             "valopers_logo": "https://api.valopers.com/logos/secret.svg"
         }
     },
@@ -12104,8 +12095,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png"
         }
     },
     {
@@ -13177,8 +13167,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png"
         }
     },
     {
@@ -15291,8 +15280,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png"
         }
     },
     {
@@ -15313,8 +15301,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png"
         }
     },
     {
@@ -15335,8 +15322,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png"
         }
     },
     {
@@ -15357,8 +15343,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png"
         }
     },
     {
@@ -15379,8 +15364,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png"
         }
     },
     {
@@ -22972,7 +22956,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png"
         }
     },
     {
@@ -23014,7 +22998,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.png"
         }
     },
     {
@@ -23035,7 +23019,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.png"
         }
     },
     {
@@ -23461,7 +23445,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg"
         }
     },
@@ -23587,8 +23570,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png"
         }
     },
     {
@@ -27642,7 +27624,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png"
         }
     },
     {
@@ -28918,7 +28900,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -29198,7 +29179,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -30157,7 +30137,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -31021,7 +31000,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
@@ -34913,7 +34891,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -35162,7 +35140,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
@@ -38402,7 +38379,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -38991,7 +38967,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
@@ -41237,7 +41212,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.png",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -42313,8 +42288,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png"
         }
     },
     {
@@ -42533,7 +42507,6 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg",
             "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
     },
@@ -42780,7 +42753,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg",
             "valopers_logo": "https://api.valopers.com/logos/juno.svg"
         }
@@ -45737,7 +45709,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.png",
             "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
         }
     },
@@ -46580,8 +46552,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png"
         }
     },
     {
@@ -47013,7 +46984,6 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg"
         }
     },
@@ -49422,7 +49392,7 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.png"
         }
     },
     {
@@ -54835,8 +54805,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png"
         }
     },
     {
@@ -55274,8 +55243,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png"
         }
     },
     {
@@ -55956,8 +55924,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png"
         }
     },
     {
@@ -55978,8 +55945,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png"
         }
     },
     {
@@ -56000,8 +55966,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png"
         }
     },
     {
@@ -56022,8 +55987,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png"
         }
     },
     {
@@ -56044,8 +56008,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png"
         }
     },
     {
@@ -57650,8 +57613,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png"
         }
     },
     {
@@ -57672,8 +57634,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png"
         }
     },
     {
@@ -57694,8 +57655,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png"
         }
     },
     {
@@ -57716,8 +57676,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png"
         }
     },
     {
@@ -57738,8 +57697,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png"
         }
     },
     {
@@ -59780,8 +59738,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png"
         }
     },
     {
@@ -59802,8 +59759,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png"
         }
     },
     {
@@ -59890,8 +59846,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png"
         }
     },
     {
@@ -59956,8 +59911,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png"
         }
     },
     {
@@ -61302,8 +61256,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png"
         }
     },
     {
