@@ -23299,6 +23299,27 @@
     {
         "chain_name": "neutron",
         "chain_id": "neutron-1",
+        "base": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed",
+        "name": "SEED",
+        "display": "SEED",
+        "symbol": "SEED",
+        "denoms": [
+            {
+                "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed",
+                "exponent": 0
+            },
+            {
+                "denom": "SEED",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/seed.png"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
         "base": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP",
         "name": "GOP",
         "display": "GOP",
