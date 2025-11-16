@@ -493,5 +493,10 @@
       "address": "0x072543946080646d1aac08bb4ba6f6531b2b29ce41ebfe72b8a6506500d5220e",
       "name": "Karnot",
       "logo": "https://karnot-assets-bucket.s3.us-west-1.amazonaws.com/validator_dashboard/karnot_validator_logo.png"
-    }
+    },
+    {
+        "address": "0x07CD517C4373C8F6E879B24CEFae63Cedb3ef7E06f5Fef033cde6AB734da441E",
+        "name": "Bubble Studio",
+        "logo": "https://cdn.jsdelivr.net/gh/cauu/bubble-studio-assets@main/images/logos/bubble-logo.png"
+    },
   ]
