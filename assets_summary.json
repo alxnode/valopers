@@ -12509,8 +12509,8 @@
         "chain_name": "paxi",
         "chain_id": "paxi-mainnet",
         "base": "upaxi",
-        "name": "Paxi",
-        "display": "PAXI",
+        "name": "Paxi Network",
+        "display": "paxi",
         "symbol": "PAXI",
         "denoms": [
             {
@@ -12518,7 +12518,64 @@
                 "exponent": 0
             },
             {
-                "denom": "PAXI",
+                "denom": "paxi",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "paxi",
+        "chain_id": "paxi-mainnet",
+        "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name": "USD Coin",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "paxi",
+        "chain_id": "paxi-mainnet",
+        "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name": "Cosmos Hub",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
+        "chain_name": "paxi",
+        "chain_id": "paxi-mainnet",
+        "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
                 "exponent": 6
             }
         ],
