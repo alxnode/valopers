@@ -1515,18 +1515,18 @@
     {
         "chain_name": "mantrachaintestnet2",
         "chain_id": "mantra-dukong-1",
-        "base": "uom",
+        "base": "amantra",
         "name": "MANTRA Chain Dukong",
-        "display": "om",
-        "symbol": "OM",
+        "display": "mantra",
+        "symbol": "MANTRA",
         "denoms": [
             {
-                "denom": "uom",
+                "denom": "amantra",
                 "exponent": 0
             },
             {
-                "denom": "om",
-                "exponent": 6
+                "denom": "mantra",
+                "exponent": 18
             }
         ],
         "logo_URIs": {
