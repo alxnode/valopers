@@ -41929,6 +41929,29 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+        "name": "Epix",
+        "display": "epix",
+        "symbol": "EPIX",
+        "denoms": [
+            {
+                "denom": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+                "exponent": 0
+            },
+            {
+                "denom": "epix",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "cifer1",
         "chain_id": "cifer-1",
         "base": "ucif",
