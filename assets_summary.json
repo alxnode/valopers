@@ -19701,6 +19701,25 @@
         }
     },
     {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp",
+        "name": "Eris Protocol LUNA/ampLUNA ampLP",
+        "display": "amplp",
+        "symbol": "LUNA-ampLUNA-ampLP",
+        "denoms": [
+            {
+                "denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp",
+                "exponent": 0
+            },
+            {
+                "denom": "amplp",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "aura1",
         "chain_id": "xstaxy-1",
         "base": "uaura",
