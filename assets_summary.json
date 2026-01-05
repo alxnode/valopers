@@ -7328,6 +7328,27 @@
         }
     },
     {
+        "chain_name": "monolythiumsprintnet",
+        "chain_id": "mono-sprint-1",
+        "base": "alyth",
+        "name": "Monolythium Sprintnet",
+        "display": "lyth",
+        "symbol": "LYTH",
+        "denoms": [
+            {
+                "denom": "alyth",
+                "exponent": 0
+            },
+            {
+                "denom": "lyth",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/monolythiumsprintnet/images/lyth.png"
+        }
+    },
+    {
         "chain_name": "doravotatestnet",
         "chain_id": "vota-testnet",
         "base": "peaka",
