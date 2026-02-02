@@ -20344,6 +20344,27 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "initia",
+        "chain_id": "interwoven-1",
+        "base": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+        "name": "milkINIT",
+        "display": "milkINIT",
+        "symbol": "milkINIT",
+        "denoms": [
+            {
+                "denom": "ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA",
+                "exponent": 0
+            },
+            {
+                "denom": "milkINIT",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/moo/images/milkINIT.png"
+        }
+    },
+    {
         "chain_name": "fxcore",
         "chain_id": "fxcore",
         "base": "apundiai",
@@ -42494,6 +42515,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
+        }
+    },
+    {
+        "chain_name": "moo",
+        "chain_id": "moo-1",
+        "base": "factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT",
+        "name": "milkINIT",
+        "display": "milkINIT",
+        "symbol": "milkINIT",
+        "denoms": [
+            {
+                "denom": "factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT",
+                "exponent": 0
+            },
+            {
+                "denom": "milkINIT",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/moo/images/milkINIT.png"
         }
     },
     {
