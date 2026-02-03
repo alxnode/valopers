@@ -16366,6 +16366,28 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/0F8D3C0F081E126A4E275703DA67165DA5353C81F45E945140D0F961B9F7692A",
+        "name": "Dragon Coin",
+        "display": "DGN",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/0F8D3C0F081E126A4E275703DA67165DA5353C81F45E945140D0F961B9F7692A",
+                "exponent": 0
+            },
+            {
+                "denom": "DGN",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "dydx",
         "chain_id": "dydx-mainnet-1",
         "base": "adydx",
@@ -17552,6 +17574,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atomone.svg"
+        }
+    },
+    {
+        "chain_name": "atomone",
+        "chain_id": "atomone-1",
+        "base": "ibc/4C62CEBBAF56E4ABF334B05FF487F39065060666AFF5695230AD99E2B6AF3C91",
+        "name": "Dragon Coin",
+        "display": "DGN",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/4C62CEBBAF56E4ABF334B05FF487F39065060666AFF5695230AD99E2B6AF3C91",
+                "exponent": 0
+            },
+            {
+                "denom": "DGN",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
             "valopers_logo": "https://api.valopers.com/logos/atomone.svg"
         }
     },
@@ -61199,6 +61243,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg"
+        }
+    },
+    {
+        "chain_name": "noble",
+        "chain_id": "noble-1",
+        "base": "ibc/BB84F86E86047879CF9D8D8929D771D1D1CF1C98C8171BEE7B9DB32ABF35C0AD",
+        "name": "Dragon Coin",
+        "display": "DGN",
+        "symbol": "DGN",
+        "denoms": [
+            {
+                "denom": "ibc/BB84F86E86047879CF9D8D8929D771D1D1CF1C98C8171BEE7B9DB32ABF35C0AD",
+                "exponent": 0
+            },
+            {
+                "denom": "DGN",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png"
         }
     },
     {
