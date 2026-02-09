@@ -352,6 +352,25 @@
         }
     },
     {
+        "chain_name": "lumen",
+        "chain_id": "lumen",
+        "base": "ulmn",
+        "name": "Lumen",
+        "display": "lmn",
+        "symbol": "LMN",
+        "denoms": [
+            {
+                "denom": "ulmn",
+                "exponent": 0
+            },
+            {
+                "denom": "lmn",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "zenrock",
         "chain_id": "diamond-1",
         "base": "urock",
@@ -42186,6 +42205,28 @@
         ],
         "logo_URIs": {
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/59A4A5CC7201CDDD3E9A6033E0345959B025577C10C224563B720F720895DB72",
+        "name": "maxBTC",
+        "display": "maxBTC",
+        "symbol": "maxBTC",
+        "denoms": [
+            {
+                "denom": "ibc/59A4A5CC7201CDDD3E9A6033E0345959B025577C10C224563B720F720895DB72",
+                "exponent": 0
+            },
+            {
+                "denom": "maxBTC",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
