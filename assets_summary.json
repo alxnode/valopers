@@ -62238,6 +62238,25 @@
         }
     },
     {
+        "chain_name": "gnodi",
+        "chain_id": "gnodi",
+        "base": "uGNOD",
+        "name": "GNOD",
+        "display": "GNOD",
+        "symbol": "GNOD",
+        "denoms": [
+            {
+                "denom": "uGNOD",
+                "exponent": 0
+            },
+            {
+                "denom": "GNOD",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "penumbra",
         "chain_id": "penumbra-1",
         "base": "um",
