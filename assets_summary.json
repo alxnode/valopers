@@ -10823,6 +10823,116 @@
         }
     },
     {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE",
+        "name": "Cosmos Hub",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+    },
+    {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/AC72F1D0BF72A358CD9D7E3AC8F868F96EDA9042DE00A72DB4AEA859065B7EB5",
+        "name": "Osmosis",
+        "display": "osmo",
+        "symbol": "OSMO",
+        "denoms": [
+            {
+                "denom": "ibc/AC72F1D0BF72A358CD9D7E3AC8F868F96EDA9042DE00A72DB4AEA859065B7EB5",
+                "exponent": 0
+            },
+            {
+                "denom": "osmo",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        }
+    },
+    {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+        "name": "Atone",
+        "display": "atone",
+        "symbol": "ATONE",
+        "denoms": [
+            {
+                "denom": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+                "exponent": 0
+            },
+            {
+                "denom": "atone",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg"
+        }
+    },
+    {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+        "name": "Photon",
+        "display": "photon",
+        "symbol": "PHOTON",
+        "denoms": [
+            {
+                "denom": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+                "exponent": 0
+            },
+            {
+                "denom": "photon",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg"
+        }
+    },
+    {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
+        "name": "USDC",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+    },
+    {
         "chain_name": "berachain",
         "chain_id": "unknown",
         "base": "wei",
