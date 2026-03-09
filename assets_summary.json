@@ -18786,8 +18786,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg",
-            "valopers_logo": "https://api.valopers.com/logos/persistence.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg"
         }
     },
     {
@@ -18809,8 +18808,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg",
-            "valopers_logo": "https://api.valopers.com/logos/persistence.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
         }
     },
     {
@@ -18832,8 +18830,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg",
-            "valopers_logo": "https://api.valopers.com/logos/persistence.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
         }
     },
     {
@@ -18855,8 +18852,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg",
-            "valopers_logo": "https://api.valopers.com/logos/persistence.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg"
         }
     },
     {
@@ -28287,8 +28283,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg"
         }
     },
     {
@@ -28310,8 +28305,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
         }
     },
     {
@@ -28333,8 +28327,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
         }
     },
     {
@@ -28356,8 +28349,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
         }
     },
     {
@@ -28379,8 +28371,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
         }
     },
     {
@@ -28402,8 +28393,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
         }
     },
     {
@@ -28424,8 +28414,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
         }
     },
     {
@@ -28447,8 +28436,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg"
         }
     },
     {
@@ -28470,8 +28458,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg",
-            "valopers_logo": "https://api.valopers.com/logos/omniflix.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg"
         }
     },
     {
@@ -34265,8 +34252,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg",
-            "valopers_logo": "https://api.valopers.com/logos/zeta.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg"
         }
     },
     {
