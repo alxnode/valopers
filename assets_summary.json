@@ -22414,6 +22414,28 @@
         }
     },
     {
+        "chain_name": "provenancetestnet",
+        "chain_id": "pio-testnet-1",
+        "base": "nhash",
+        "name": "Hash",
+        "display": "hash",
+        "symbol": "HASH",
+        "denoms": [
+            {
+                "denom": "nhash",
+                "exponent": 0
+            },
+            {
+                "denom": "hash",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg"
+        }
+    },
+    {
         "chain_name": "bitcannadevnet",
         "chain_id": "bitcanna-dev-1",
         "base": "ubcna",
@@ -62172,6 +62194,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg"
+        }
+    },
+    {
+        "chain_name": "thejaynetwork",
+        "chain_id": "thejaynetwork",
+        "base": "ujay",
+        "name": "Jay Token",
+        "display": "jay",
+        "symbol": "JAY",
+        "denoms": [
+            {
+                "denom": "ujay",
+                "exponent": 0
+            },
+            {
+                "denom": "jay",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png"
         }
     },
     {
