@@ -62566,6 +62566,33 @@
         }
     },
     {
+        "chain_name": "akash",
+        "chain_id": "akashnet-2",
+        "base": "uact",
+        "name": "Akash Compute Token",
+        "display": "act",
+        "symbol": "ACT",
+        "denoms": [
+            {
+                "denom": "uact",
+                "exponent": 0
+            },
+            {
+                "denom": "mact",
+                "exponent": 3
+            },
+            {
+                "denom": "act",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/akash.svg"
+        }
+    },
+    {
         "chain_name": "penumbra",
         "chain_id": "penumbra-1",
         "base": "um",
