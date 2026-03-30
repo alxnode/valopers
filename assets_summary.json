@@ -62175,6 +62175,27 @@
     {
         "chain_name": "beezee",
         "chain_id": "beezee-1",
+        "base": "ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33",
+        "name": "Lumen",
+        "display": "lmn",
+        "symbol": "LMN",
+        "denoms": [
+            {
+                "denom": "ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33",
+                "exponent": 0
+            },
+            {
+                "denom": "lmn",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png"
+        }
+    },
+    {
+        "chain_name": "beezee",
+        "chain_id": "beezee-1",
         "base": "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS",
         "name": "Crypto2Mars",
         "display": "C2M",
