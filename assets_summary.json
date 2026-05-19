@@ -11819,6 +11819,27 @@
         }
     },
     {
+        "chain_name": "sunimatestnet",
+        "chain_id": "sunima-testnet-1",
+        "base": "tsuna",
+        "name": "Sunima Testnet",
+        "display": "tSUNA",
+        "symbol": "tSUNA",
+        "denoms": [
+            {
+                "denom": "tsuna",
+                "exponent": 0
+            },
+            {
+                "denom": "tSUNA",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sunimatestnet/images/sunima.svg"
+        }
+    },
+    {
         "chain_name": "auratestnet",
         "chain_id": "aura_6321-3",
         "base": "ueaura",
@@ -48029,7 +48050,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48051,7 +48073,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48073,7 +48096,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48094,7 +48118,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48115,7 +48140,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48136,7 +48162,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48156,7 +48183,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
+        }
     },
     {
         "chain_name": "babylon",
@@ -48175,7 +48204,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
+        }
     },
     {
         "chain_name": "babylon",
@@ -48196,7 +48227,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48217,7 +48249,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48239,7 +48272,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48260,7 +48294,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48282,7 +48317,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48302,7 +48338,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
+        }
     },
     {
         "chain_name": "babylon",
@@ -48322,7 +48360,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48343,7 +48382,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48364,7 +48404,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48386,7 +48427,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48408,7 +48450,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48429,7 +48472,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48450,7 +48494,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48471,7 +48516,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48492,7 +48538,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48513,7 +48560,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48534,7 +48582,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48555,7 +48604,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48577,7 +48627,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48598,7 +48649,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48620,7 +48672,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48641,7 +48694,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48662,7 +48716,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48683,7 +48738,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
@@ -48705,7 +48761,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg",
+            "valopers_logo": "https://api.valopers.com/logos/babylon.svg"
         }
     },
     {
