@@ -6096,6 +6096,72 @@
         }
     },
     {
+        "chain_name": "thejaynetwork",
+        "chain_id": "thejaynetwork",
+        "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name": "Cosmos Hub Atom",
+        "display": "atom",
+        "symbol": "ATOM",
+        "denoms": [
+            {
+                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                "exponent": 0
+            },
+            {
+                "denom": "atom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+    },
+    {
+        "chain_name": "thejaynetwork",
+        "chain_id": "thejaynetwork",
+        "base": "ibc/101B0938079BD4E8E89BD547635F86CCE4406C634E1427FE5226358F4BAD41F4",
+        "name": "Celestia",
+        "display": "tia",
+        "symbol": "TIA",
+        "denoms": [
+            {
+                "denom": "ibc/101B0938079BD4E8E89BD547635F86CCE4406C634E1427FE5226358F4BAD41F4",
+                "exponent": 0
+            },
+            {
+                "denom": "tia",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        }
+    },
+    {
+        "chain_name": "thejaynetwork",
+        "chain_id": "thejaynetwork",
+        "base": "ibc/1C2D8505A29823310B4484E4C63CFDCB08C0D3B57537A615A45F4E5D42CDC789",
+        "name": "Injective",
+        "display": "INJ",
+        "symbol": "INJ",
+        "denoms": [
+            {
+                "denom": "ibc/1C2D8505A29823310B4484E4C63CFDCB08C0D3B57537A615A45F4E5D42CDC789",
+                "exponent": 0
+            },
+            {
+                "denom": "INJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
+        }
+    },
+    {
         "chain_name": "hazinachain",
         "chain_id": "hazinachain-1",
         "base": "uhzn",
