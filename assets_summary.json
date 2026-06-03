@@ -20737,7 +20737,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20758,7 +20759,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20780,7 +20782,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20802,7 +20805,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20824,7 +20828,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20844,7 +20849,9 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
+        }
     },
     {
         "chain_name": "noble",
@@ -20865,7 +20872,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -20886,7 +20894,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+            "valopers_logo": "https://api.valopers.com/logos/noble.svg"
         }
     },
     {
@@ -21925,7 +21934,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -21947,7 +21957,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -21969,7 +21980,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -21991,7 +22003,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22012,7 +22025,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22033,7 +22047,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22054,7 +22069,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22076,7 +22092,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22097,7 +22114,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22118,7 +22136,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22139,7 +22158,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xAstro.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xAstro.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22160,7 +22180,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22181,7 +22202,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22202,7 +22224,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22223,7 +22246,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22244,7 +22268,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22265,7 +22290,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22286,7 +22312,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22308,7 +22335,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22329,7 +22357,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22350,7 +22379,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22371,7 +22401,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22392,7 +22423,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22413,7 +22445,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22434,7 +22467,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22455,7 +22489,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22476,7 +22511,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22497,7 +22533,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/cartel.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/cartel.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22518,7 +22555,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ATOM1KLFGc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ATOM1KLFGc.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22540,7 +22578,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22561,7 +22600,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22581,7 +22621,9 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
+        }
     },
     {
         "chain_name": "neutron",
@@ -22602,7 +22644,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/NBZ.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/NBZ.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/NBZ.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22624,7 +22667,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22645,7 +22689,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22666,7 +22711,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22687,7 +22733,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/sin.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/sin.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22708,7 +22755,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/seed.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/seed.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22729,7 +22777,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/gop.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/gop.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22751,7 +22800,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22773,7 +22823,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22795,7 +22846,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22817,7 +22869,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22839,7 +22892,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22860,7 +22914,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22882,7 +22937,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jsd.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jsd.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jsd.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22903,7 +22959,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/fuel.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/fuel.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22924,7 +22981,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bglUSDC.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bglUSDC.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22945,7 +23003,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -22965,7 +23024,9 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
+        }
     },
     {
         "chain_name": "neutron",
@@ -22985,7 +23046,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23007,7 +23069,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23029,7 +23092,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23051,7 +23115,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23072,7 +23137,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAB.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAB.png",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23093,7 +23159,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
@@ -23114,7 +23181,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
     {
