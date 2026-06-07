@@ -40330,7 +40330,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40356,7 +40357,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40382,7 +40384,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40403,7 +40406,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40424,7 +40428,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40445,7 +40450,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40466,7 +40472,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40487,7 +40494,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40508,7 +40516,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40529,7 +40538,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40550,7 +40560,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40571,7 +40582,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40592,7 +40604,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40613,7 +40626,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40634,7 +40648,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40655,7 +40670,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40676,7 +40692,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40697,7 +40714,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40718,7 +40736,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40739,7 +40758,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40760,7 +40780,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40781,7 +40802,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40802,7 +40824,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40823,7 +40846,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40844,7 +40868,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40865,7 +40890,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40886,7 +40912,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40907,7 +40934,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40928,7 +40956,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40949,7 +40978,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40970,7 +41000,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -40991,7 +41022,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41012,7 +41044,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41033,7 +41066,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41054,7 +41088,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41075,7 +41110,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41096,7 +41132,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41117,7 +41154,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41138,7 +41176,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41159,7 +41198,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41180,7 +41220,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41201,7 +41242,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41222,7 +41264,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41243,7 +41286,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41264,7 +41308,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41285,7 +41330,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41306,7 +41352,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41327,7 +41374,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41348,7 +41396,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41369,7 +41418,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41390,7 +41440,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41411,7 +41462,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41432,7 +41484,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41453,7 +41506,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41474,7 +41528,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41495,7 +41550,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41516,7 +41572,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41537,7 +41594,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41558,7 +41616,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41579,7 +41638,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nluna.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nluna.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41600,7 +41660,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neth.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41621,7 +41682,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnluna.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnluna.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41642,7 +41704,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cneth.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cneth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41663,7 +41726,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/navax.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/navax.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41684,7 +41748,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/natom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/natom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41705,7 +41770,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41726,7 +41792,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41747,7 +41814,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41768,7 +41836,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41789,7 +41858,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41810,7 +41880,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41831,7 +41902,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41852,7 +41924,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41873,7 +41946,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41894,7 +41968,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41916,7 +41991,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41937,7 +42013,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41958,7 +42035,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -41979,7 +42057,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42000,7 +42079,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42021,7 +42101,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42042,7 +42123,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42063,7 +42145,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42084,7 +42167,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42105,7 +42189,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsbsol.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsbsol.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42126,7 +42211,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42147,7 +42233,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/webeth.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/webeth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42168,7 +42255,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42188,7 +42276,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -42208,7 +42298,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42229,7 +42320,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42250,7 +42342,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42271,7 +42364,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42292,7 +42386,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42313,7 +42408,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42334,7 +42430,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42355,7 +42452,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42376,7 +42474,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42397,7 +42496,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42417,7 +42517,9 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -42437,7 +42539,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42458,7 +42561,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42479,7 +42583,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42500,7 +42605,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42521,7 +42627,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42542,7 +42649,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42563,7 +42671,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sity.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sity.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42584,7 +42693,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42605,7 +42715,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42626,7 +42737,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/abr.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/abr.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42646,7 +42758,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -42666,7 +42780,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42686,7 +42801,9 @@
                 "exponent": 2
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -42706,7 +42823,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42727,7 +42845,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42748,7 +42867,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42768,7 +42888,9 @@
                 "exponent": 9
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -42788,7 +42910,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42809,7 +42932,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42830,7 +42954,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42851,7 +42976,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42872,7 +42998,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42893,7 +43020,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42914,7 +43042,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42935,7 +43064,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42956,7 +43086,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42977,7 +43108,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mars.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mars.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -42998,7 +43130,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xmars.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xmars.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43018,7 +43151,9 @@
                 "exponent": 8
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -43038,7 +43173,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ceres.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ceres.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43059,7 +43195,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wasavax.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wasavax.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43080,7 +43217,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mint.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mint.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43101,7 +43239,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43122,7 +43261,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43144,7 +43284,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43165,7 +43306,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43187,7 +43329,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43208,7 +43351,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43228,7 +43372,9 @@
                 "exponent": 6
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -43248,7 +43394,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bro.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bro.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43269,7 +43416,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bbro.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bbro.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43289,7 +43437,9 @@
                 "exponent": 18
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -43308,7 +43458,9 @@
                 "exponent": 18
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -43327,7 +43479,9 @@
                 "exponent": 18
             }
         ],
-        "logo_URIs": {}
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
     },
     {
         "chain_name": "terra",
@@ -43347,7 +43501,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43368,7 +43523,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43389,7 +43545,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43410,7 +43567,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43431,7 +43589,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43452,7 +43611,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43473,7 +43633,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43494,7 +43655,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43515,7 +43677,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43536,7 +43699,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43557,7 +43721,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43578,7 +43743,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43599,7 +43765,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43620,7 +43787,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43641,7 +43809,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43662,7 +43831,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43683,7 +43853,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43704,7 +43875,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43725,7 +43897,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43746,7 +43919,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43767,7 +43941,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43788,7 +43963,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43809,7 +43985,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43830,7 +44007,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43851,7 +44029,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/batom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/batom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43872,7 +44051,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/webatom.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/webatom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43893,7 +44073,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wcoin.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wcoin.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43914,7 +44095,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43935,7 +44117,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kntc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kntc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43956,7 +44139,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kust.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kust.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43977,7 +44161,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steak.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steak.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -43998,7 +44183,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44019,7 +44205,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44040,7 +44227,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44061,7 +44249,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44082,7 +44271,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rct.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rct.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44103,7 +44293,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44124,7 +44315,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44145,7 +44337,8 @@
             }
         ],
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/toad.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/toad.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44166,7 +44359,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44187,7 +44381,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44208,7 +44403,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44229,7 +44425,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44250,7 +44447,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44276,7 +44474,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44302,7 +44501,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44328,7 +44528,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44354,7 +44555,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44380,7 +44582,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44406,7 +44609,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44432,7 +44636,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44458,7 +44663,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44484,7 +44690,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44510,7 +44717,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44536,7 +44744,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44562,7 +44771,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44588,7 +44798,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44614,7 +44825,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44640,7 +44852,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44666,7 +44879,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44692,7 +44906,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44718,7 +44933,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44744,7 +44960,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44770,7 +44987,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44791,7 +45009,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44812,7 +45031,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44833,7 +45053,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44854,7 +45075,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44875,7 +45097,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44896,7 +45119,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/weso.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/weso.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44917,7 +45141,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/base.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/base.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44938,7 +45163,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cwlunc.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cwlunc.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44960,7 +45186,8 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -44981,7 +45208,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -45002,7 +45230,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -45023,7 +45252,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
@@ -45044,7 +45274,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
         }
     },
     {
