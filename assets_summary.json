@@ -15279,6 +15279,25 @@
         }
     },
     {
+        "chain_name": "skyzennet",
+        "chain_id": "skyzen-1",
+        "base": "uskyz",
+        "name": "Skyzen",
+        "display": "skyz",
+        "symbol": "SKYZ",
+        "denoms": [
+            {
+                "denom": "uskyz",
+                "exponent": 0
+            },
+            {
+                "denom": "skyz",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "bfhevmtestnet",
         "chain_id": "bfhevm_777-1",
         "base": "abfh",
@@ -41856,9 +41875,9 @@
         "chain_name": "osmosis",
         "chain_id": "osmosis-1",
         "base": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
-        "name": "Xion",
-        "display": "XION",
-        "symbol": "XION",
+        "name": "Verona",
+        "display": "VERONA",
+        "symbol": "VERONA",
         "denoms": [
             {
                 "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
@@ -41870,7 +41889,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg",
             "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
         }
     },
@@ -55321,9 +55341,9 @@
         "chain_name": "xion",
         "chain_id": "xion-mainnet-1",
         "base": "uxion",
-        "name": "xion",
-        "display": "XION",
-        "symbol": "XION",
+        "name": "Verona",
+        "display": "VERONA",
+        "symbol": "VERONA",
         "denoms": [
             {
                 "denom": "uxion",
@@ -55335,7 +55355,8 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
         }
     },
     {
@@ -61605,21 +61626,22 @@
         "chain_name": "elys",
         "chain_id": "elys-1",
         "base": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
-        "name": "Xion",
-        "display": "xion",
-        "symbol": "XION",
+        "name": "Verona",
+        "display": "VERONA",
+        "symbol": "VERONA",
         "denoms": [
             {
                 "denom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
                 "exponent": 0
             },
             {
-                "denom": "xion",
+                "denom": "XION",
                 "exponent": 6
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
         }
     },
     {
@@ -62489,21 +62511,22 @@
         "chain_name": "nolus",
         "chain_id": "pirin-1",
         "base": "ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4",
-        "name": "XION",
-        "display": "xion",
-        "symbol": "XION",
+        "name": "Verona",
+        "display": "VERONA",
+        "symbol": "VERONA",
         "denoms": [
             {
                 "denom": "ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4",
                 "exponent": 0
             },
             {
-                "denom": "xion",
+                "denom": "XION",
                 "exponent": 6
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
         }
     },
     {
