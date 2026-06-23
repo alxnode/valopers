@@ -22558,7 +22558,7 @@
         "base": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
         "name": "POSTHUMAN",
         "display": "phmn",
-        "symbol": "PHMN",
+        "symbol": "PHMN.legacy",
         "denoms": [
             {
                 "denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
@@ -34371,7 +34371,7 @@
         "base": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
         "name": "POSTHUMAN",
         "display": "phmn",
-        "symbol": "PHMN",
+        "symbol": "PHMN.legacy",
         "denoms": [
             {
                 "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
@@ -45885,6 +45885,28 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN",
+        "name": "POSTHUMAN",
+        "display": "phmn",
+        "symbol": "PHMN",
+        "denoms": [
+            {
+                "denom": "factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN",
+                "exponent": 0
+            },
+            {
+                "denom": "phmn",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/phmn.png",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "sei",
         "chain_id": "pacific-1",
         "base": "usei",
@@ -54399,7 +54421,7 @@
         "base": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
         "name": "POSTHUMAN",
         "display": "phmn",
-        "symbol": "PHMN",
+        "symbol": "PHMN.legacy",
         "denoms": [
             {
                 "denom": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
