@@ -45907,6 +45907,28 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+        "name": "POSTHUMAN Reputation",
+        "display": "resp",
+        "symbol": "RESP",
+        "denoms": [
+            {
+                "denom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+                "exponent": 0
+            },
+            {
+                "denom": "resp",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/resp.png",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "sei",
         "chain_id": "pacific-1",
         "base": "usei",
