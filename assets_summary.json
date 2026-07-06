@@ -725,6 +725,27 @@
         }
     },
     {
+        "chain_name": "qorechain",
+        "chain_id": "qorechain-vladi",
+        "base": "uqor",
+        "name": "QoreChain",
+        "display": "qor",
+        "symbol": "QOR",
+        "denoms": [
+            {
+                "denom": "uqor",
+                "exponent": 0
+            },
+            {
+                "denom": "qor",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qorechain/images/qorechain.png"
+        }
+    },
+    {
         "chain_name": "nim",
         "chain_id": "nim_1122-1",
         "base": "anim",
@@ -7379,6 +7400,27 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/okp4testnet/images/okp4.png"
+        }
+    },
+    {
+        "chain_name": "qorechaintestnet",
+        "chain_id": "qorechain-diana",
+        "base": "uqor",
+        "name": "QoreChain",
+        "display": "qor",
+        "symbol": "QOR",
+        "denoms": [
+            {
+                "denom": "uqor",
+                "exponent": 0
+            },
+            {
+                "denom": "qor",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qorechain/images/qorechain.png"
         }
     },
     {
@@ -16627,6 +16669,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ausd.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+        "name": "HELIXPOINT",
+        "display": "HELIXPOINT",
+        "symbol": "HELIXPOINT",
+        "denoms": [
+            {
+                "denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+                "exponent": 0
+            },
+            {
+                "denom": "HELIXPOINT",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/helixpoint.png",
             "valopers_logo": "https://api.valopers.com/logos/injective.svg"
         }
     },
