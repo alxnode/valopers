@@ -46267,6 +46267,49 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "ritbit",
+        "chain_id": "ritbit-mainnet",
+        "base": "urit",
+        "name": "Rubin",
+        "display": "rit",
+        "symbol": "RIT",
+        "denoms": [
+            {
+                "denom": "urit",
+                "exponent": 0
+            },
+            {
+                "denom": "rit",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png"
+        }
+    },
+    {
+        "chain_name": "ritbit",
+        "chain_id": "ritbit-mainnet",
+        "base": "uusdc",
+        "name": "USD Coin",
+        "display": "usdc",
+        "symbol": "USDC",
+        "denoms": [
+            {
+                "denom": "uusdc",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+    },
+    {
         "chain_name": "cifer1",
         "chain_id": "cifer-1",
         "base": "ucif",
