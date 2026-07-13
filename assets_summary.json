@@ -4284,6 +4284,27 @@
         }
     },
     {
+        "chain_name": "axelar",
+        "chain_id": "axelar-dojo-1",
+        "base": "cbdoge-satoshi",
+        "name": "Coinbase Wrapped DOGE",
+        "display": "cbdoge",
+        "symbol": "axl-cbDOGE",
+        "denoms": [
+            {
+                "denom": "cbdoge-satoshi",
+                "exponent": 0
+            },
+            {
+                "denom": "cbdoge",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/axelar.svg"
+        }
+    },
+    {
         "chain_name": "mars",
         "chain_id": "mars-1",
         "base": "umars",
@@ -27245,6 +27266,25 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "base",
+        "chain_id": "unknown",
+        "base": "0xcbD06E5A2B0C65597161de254AA074E489dEb510",
+        "name": "Coinbase Wrapped DOGE",
+        "display": "cbdoge",
+        "symbol": "cbDOGE",
+        "denoms": [
+            {
+                "denom": "0xcbD06E5A2B0C65597161de254AA074E489dEb510",
+                "exponent": 0
+            },
+            {
+                "denom": "cbdoge",
+                "exponent": 8
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "ethereum",
         "chain_id": "1",
         "base": "wei",
@@ -47386,6 +47426,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+    },
+    {
+        "chain_name": "dungeon",
+        "chain_id": "dungeon-1",
+        "base": "ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F",
+        "name": "Passage",
+        "display": "pasg",
+        "symbol": "PASG",
+        "denoms": [
+            {
+                "denom": "ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F",
+                "exponent": 0
+            },
+            {
+                "denom": "pasg",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
         }
     },
     {
