@@ -54722,6 +54722,27 @@
         }
     },
     {
+        "chain_name": "tail",
+        "chain_id": "tail",
+        "base": "utail",
+        "name": "TAIL Network",
+        "display": "TAIL",
+        "symbol": "TAIL",
+        "denoms": [
+            {
+                "denom": "utail",
+                "exponent": 0
+            },
+            {
+                "denom": "TAIL",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png"
+        }
+    },
+    {
         "chain_name": "milkyway",
         "chain_id": "milkyway",
         "base": "umilk",
