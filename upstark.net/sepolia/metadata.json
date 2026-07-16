@@ -1,13 +1,137 @@
-
 [
-    {
-      "address": "0x00eC262a3C5b89d57751d70f220bC984Fc01830119EE50Cf05116E57f0dbD9d8",
-      "name": "Stakely",
-      "logo": "https://img.stakely.io/logos/stakely-io-small-logo.png"
-    },
-    {
-      "address": "0x06c748fce7c78c8504ecea6ebee204d984c697a38fdf5d5335c19756e1c81f22",
-      "name": "sluh.ai",
-      "logo": "https://sluh.ai/ncsitebuilder/gallery/favicons/favicon.png"
-    }    
+  {
+    "address": "0x00eec9c60f18316a9eba3862e923f1cbebc621acaffefc1699c508671974cf7f",
+    "name": "Saniksin",
+    "logo": "https://i.ibb.co/XpP3jtm/YIE4m-Fj-Imgur.png"
+  },
+  {
+    "address": "0x02993cc471faf72a95e25ec2b1698c8bb1f5108de50818995abc8c32bd5ebbc8",
+    "name": "BareMetal.live",
+    "logo": "https://baremetal.live/BareMetal-logo-sm.png"
+  },
+  {
+    "address": "0x06c748fce7c78c8504ecea6ebee204d984c697a38fdf5d5335c19756e1c81f22",
+    "name": "sluh.ai",
+    "logo": "https://sluh.ai/ncsitebuilder/gallery/favicons/favicon.png"
+  },
+  {
+    "address": "0x003bc84d802c8a57cbe4eb4a6afa9b1255e907cba9377b446d6f4edf069403c5",
+    "name": "moonli.me",
+    "logo": "https://raw.githubusercontent.com/y3v63n/eigenlayer/refs/heads/main/logo_new.png"
+  },
+  {
+    "address": "0x068b5f8e8eb23a42ad290800f229f09b1bcc8d43537dd27a127769ffa13b59f1",
+    "name": "Teku",
+    "logo": "https://www.teku.network/storage/329/9f17e1dd-c4ac-4b58-a46c-8cf36a3a47a4/teku.jpg"
+  },
+  {
+    "address": "0x0263d842ffc1f2f24b1d32acc921f79ec49c97c79ffad694f728f08be0bbc4b8",
+    "name": "Twinstake",
+    "logo": "https://avatars.githubusercontent.com/u/102983825?s=80&v=4"
+  },
+  {
+    "address": "0x0771f68ba376b6507a7d21e15d04d48aa6563ea131f89668b92be06707218741",
+    "name": "onchainaustria",
+    "logo": "https://onchainaustria.at/wp-content/uploads/2023/02/OCA_ICON_500x500.png"
+  },
+  {
+    "address": "0x075fcd995bc8067beccebb96040c08b27d09ec4f1247f4aaff34846ffa987cee",
+    "name": "𝙼 𝙴 𝙳 𝙸 𝚄 𝙼 ⬩ 𝚁 𝙰 𝚁 𝙴",
+    "logo": "https://i.postimg.cc/05tjhCSq/medium-rare-node-700x700.png"
+  },
+  {
+    "address": "0x00db31e5e8674a0e46996394f3691a6dcd8ce895747c48c0dd5211ec0a42dd9f",
+    "name": "WEB34EVER",
+    "logo": null
+  },
+  {
+    "address": "0x05862ff0bf252dcd0a872104ffcf04a33d8ee9a48d4ef2d5c548147046502502",
+    "name": "CroutonDigital",
+    "logo": "https://raw.githubusercontent.com/Crouton-Digital/Eigenlayer/main/logo.png"
+  },
+  {
+    "address": "0x0789447b5b58aaa87e8ac285288b39bc806aefbc056e49947eb531f7088334ea",
+    "name": "DSRV",
+    "logo": "https://s3.amazonaws.com/keybase_processed_uploads/8349f3ab6852a8419c1987ad9096c605_360_360.jpg"
+  },
+  {
+    "address": "0x05469d2d0be78cb53c0e806b7a68e5f492c221b4faeccebe6532372f2a32d63c",
+    "name": "TheBuidl",
+    "logo": "https://thebuidl.org/logo.svg"
+  },
+  {
+    "address": "0x0400dd26dd8802d94d36c780dd67e03d9a6f9922ab25557ca52d36b64484029d",
+    "name": "Keplr",
+    "logo": "https://raw.githubusercontent.com/daniel-ck89/keplr-starknet-validator-logo/refs/heads/main/keplr.svg"
+  },
+  {
+    "address": "0x07366b7faf47122ca71f3cfab7044d67f536f6269666886a5f618dad3de745eb",
+    "name": "Satoshi University",
+    "logo": null
+  },
+  {
+    "address": "0x02ed848a45985f6715f5955368597f1bbc7f140b1d16e04d40ca28a921e59657",
+    "name": "Cumulo",
+    "logo": "https://cumulo.pro/images/logocumulo.jpg"
+  },
+  {
+    "address": "0x0066e43fdd1aacb56c2376506320946304f506d7ee336732bf4b5e2dee803b65",
+    "name": "Stakecito",
+    "logo": "https://raw.githubusercontent.com/stakecito/resources/8fbc9b192acfde6cd09c23385f18fb27a17675d5/logo_stakecito.jpeg"
+  },
+  {
+    "address": "0x05c85dd30df86ed1f2cfe1806417efb2cae421bffdee8110a74a3d3eb95b28d3",
+    "name": "Nethermind",
+    "logo": "https://cdn.prod.website-files.com/63bcd69729ab7f3ec1ad210a/663108aa73a8b9bfcd3dc6ae_Nethermind_Icon_Bottom_Banner.svg"
+  },
+  {
+    "address": "0x00e5135b2ebec36b4e15dafe0085f0567b65619498a1bebe56eb605108410d6b",
+    "name": "ByAnastasiia",
+    "logo": "https://i.ibb.co/VYFy1KM7/ava-80x80.png"
+  },
+  {
+    "address": "0x00499fafce1bea62ba9173b14230b070a38e2c0646af72ce5c8ef89244746611",
+    "name": "Staketab",
+    "logo": "https://raw.githubusercontent.com/Staketab/Eigenlayer-metadata/main/operator/logo.png"
+  },
+  {
+    "address": "0x00ec262a3c5b89d57751d70f220bc984fc01830119ee50cf05116e57f0dbd9d8",
+    "name": "Stakely",
+    "logo": "https://img.stakely.io/logos/stakely-io-small-logo.png"
+  },
+  {
+    "address": "0x0014daa18b0a151e5a65c5c14b26e3cf7d93c67b574dc71ae0eebe0b0c7eba31",
+    "name": "StakingCabin",
+    "logo": "https://stakingcabin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.bafb5657.webp&w=1920&q=75"
+  },
+  {
+    "address": "0x07b33ad30c05e53eaa4ceb49109a3bb792f92abbf88419eb37e88e8cd8f994e0",
+    "name": "Provalidator",
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHeyCDZipMAPg/company-logo_200_200/company-logo_200_200/0/1687103810506/provalidator_logo?e=2147483647&v=beta&t=IybW6Fa_Cg14WHM5PCkSZ3ap7-14KtWz-FaEqK0jheE"
+  },
+  {
+    "address": "0x0558826cf2a810cc3ce6060e0275450ccf8c0b951b4c33f13aaeae84281edad9",
+    "name": "ITRocket",
+    "logo": null
+  },
+  {
+    "address": "0x021cc70cba5befc5f8089915a3c97c24a7fa9207327c1383e0544c4346ff61fb",
+    "name": "Moonlet",
+    "logo": "https://images.moonlet.cloud/moonlet.png"
+  },
+  {
+    "address": "0x06f13b9ced21e0fd06c0cc3d14f09550e979696d0f7cc05ff7db12244129e06f",
+    "name": "Keystone Nodes",
+    "logo": "https://i.ibb.co/MB4KbZ1/keystone-nodes-logo.jpg"
+  },
+  {
+    "address": "0x07636ead6307de79a40d609ba8e581d65a959f74882e6ed08345653819eb8e05",
+    "name": "Chorus One",
+    "logo": "https://chorus.one/logo-360x360.jpg"
+  },
+  {
+    "address": "0x02be4cad0d88c68bbbcdc38cb3c554f922d39b2193f7eb0ff890f4e47ea2ab91",
+    "name": "Validation Cloud",
+    "logo": "https://vc-marketing-website-assets.s3.us-west-2.amazonaws.com/vc-logo.png"
+  }
 ]
