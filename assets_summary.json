@@ -19270,6 +19270,25 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "mucoin",
+        "chain_id": "mucoin-1",
+        "base": "umuc",
+        "name": "MuCoin",
+        "display": "MUC",
+        "symbol": "MUC",
+        "denoms": [
+            {
+                "denom": "umuc",
+                "exponent": 0
+            },
+            {
+                "denom": "MUC",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "qie",
         "chain_id": "qie_1990-1",
         "base": "aqie",
