@@ -32256,6 +32256,28 @@
         }
     },
     {
+        "chain_name": "osmosis",
+        "chain_id": "osmosis-1",
+        "base": "ibc/7D72341AF4AB0B2975BF933A425B81DAC2C940E50E7549207E2B3C6B14A9DAB2",
+        "name": "pARTy",
+        "display": "art",
+        "symbol": "ART",
+        "denoms": [
+            {
+                "denom": "ibc/7D72341AF4AB0B2975BF933A425B81DAC2C940E50E7549207E2B3C6B14A9DAB2",
+                "exponent": 0
+            },
+            {
+                "denom": "art",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/art.png",
+            "valopers_logo": "https://api.valopers.com/logos/osmosis.svg"
+        }
+    },
+    {
         "chain_name": "gonka",
         "chain_id": "gonka-mainnet",
         "base": "ngonka",
@@ -54396,6 +54418,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/resp.png",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+        "name": "pARTy",
+        "display": "art",
+        "symbol": "ART",
+        "denoms": [
+            {
+                "denom": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+                "exponent": 0
+            },
+            {
+                "denom": "art",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/art.png",
             "valopers_logo": "https://api.valopers.com/logos/atom.svg"
         }
     },
