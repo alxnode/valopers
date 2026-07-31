@@ -17264,6 +17264,29 @@
         "logo_URIs": {}
     },
     {
+        "chain_name": "zerone",
+        "chain_id": "zerone-1",
+        "base": "uzrn",
+        "name": "Zerone",
+        "display": "zrn",
+        "symbol": "ZRN",
+        "denoms": [
+            {
+                "denom": "uzrn",
+                "exponent": 0
+            },
+            {
+                "denom": "mzrn",
+                "exponent": 3
+            },
+            {
+                "denom": "zrn",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "bostrom",
         "chain_id": "bostrom",
         "base": "boot",
