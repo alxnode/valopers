@@ -34156,6 +34156,28 @@
         }
     },
     {
+        "chain_name": "sovr",
+        "chain_id": "sovr-1",
+        "base": "usovr",
+        "name": "Sovren",
+        "display": "sovr",
+        "symbol": "SOVR",
+        "denoms": [
+            {
+                "denom": "usovr",
+                "exponent": 0
+            },
+            {
+                "denom": "sovr",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg"
+        }
+    },
+    {
         "chain_name": "doravota",
         "chain_id": "vota-ash",
         "base": "peaka",
