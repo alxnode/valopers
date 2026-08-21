@@ -28347,8 +28347,7 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg",
-            "valopers_logo": "https://api.valopers.com/logos/celestia.svg"
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg"
         }
     },
     {
