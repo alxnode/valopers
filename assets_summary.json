@@ -20728,6 +20728,27 @@
         }
     },
     {
+        "chain_name": "hickorytestnet",
+        "chain_id": "Hickory",
+        "base": "uhic",
+        "name": "Hickory",
+        "display": "HIC",
+        "symbol": "HIC",
+        "denoms": [
+            {
+                "denom": "uhic",
+                "exponent": 0
+            },
+            {
+                "denom": "HIC",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "valopers_logo": "https://api.valopers.com/logos/hickory.svg"
+        }
+    },
+    {
         "chain_name": "sagatestnet",
         "chain_id": "ssc-testnet-2",
         "base": "utsaga",
@@ -39689,6 +39710,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/iup.png"
+        }
+    },
+    {
+        "chain_name": "xpla",
+        "chain_id": "dimension_37-1",
+        "base": "ibc/AF463B6FC78E0E6068C37DF909C6B5859067BFEDA858A14218A5397794EACF48",
+        "name": "Injective USDC",
+        "display": "usdc",
+        "symbol": "USDC.inj",
+        "denoms": [
+            {
+                "denom": "ibc/AF463B6FC78E0E6068C37DF909C6B5859067BFEDA858A14218A5397794EACF48",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
     },
     {
