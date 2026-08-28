@@ -486,7 +486,7 @@
         "base": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
@@ -640,7 +640,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -857,7 +857,7 @@
         "base": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
@@ -1076,7 +1076,7 @@
         "base": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
@@ -5831,7 +5831,7 @@
         "base": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
         "name": "USDC",
         "display": "USDC",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
@@ -7410,7 +7410,7 @@
         "base": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
@@ -7513,7 +7513,7 @@
         "base": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
@@ -7573,7 +7573,7 @@
         "base": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
@@ -9978,7 +9978,7 @@
         "base": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
@@ -11196,7 +11196,7 @@
         "base": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
@@ -14069,7 +14069,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -15934,7 +15934,7 @@
         "base": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
@@ -18997,7 +18997,7 @@
         "base": "ibc/616E26A85AD20A3DDEAEBDDE7262E3BA9356C557BC15CACEA86768D7D51FA703",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/616E26A85AD20A3DDEAEBDDE7262E3BA9356C557BC15CACEA86768D7D51FA703",
@@ -19357,7 +19357,7 @@
         "base": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
         "name": "Noble USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
@@ -19794,7 +19794,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "Noble USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -20206,7 +20206,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "Noble Testnet USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -20689,7 +20689,7 @@
         "base": "ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8",
@@ -24437,7 +24437,7 @@
         "base": "uusdc",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "uusdc",
@@ -26562,7 +26562,7 @@
         "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
         "name": "Noble USDC Token",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
@@ -26878,7 +26878,7 @@
         "base": "ibc/DE6792CF9E521F6AD6E9A4BDF6225C9571A3B74ACC0A529F92BC5122A39D2E58",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/DE6792CF9E521F6AD6E9A4BDF6225C9571A3B74ACC0A529F92BC5122A39D2E58",
@@ -27818,7 +27818,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -29287,7 +29287,7 @@
         "base": "ibc/57097251ED81A232CE3C9D899E7C8096D6D87EF84BA203E12E424AA4C9B57A64",
         "name": "Noble USDC Token",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/57097251ED81A232CE3C9D899E7C8096D6D87EF84BA203E12E424AA4C9B57A64",
@@ -30666,7 +30666,7 @@
         "base": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
@@ -31141,6 +31141,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/helixpoint.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+        "name": "Motion",
+        "display": "MOTION",
+        "symbol": "MOTION",
+        "denoms": [
+            {
+                "denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+                "exponent": 0
+            },
+            {
+                "denom": "MOTION",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png",
             "valopers_logo": "https://api.valopers.com/logos/injective.svg"
         }
     },
@@ -33606,7 +33628,7 @@
         "base": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
         "name": "USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
@@ -39564,7 +39586,7 @@
         "base": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
         "name": "USDC (Noble)",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
@@ -40094,7 +40116,7 @@
         "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
         "name": "USD Coin (Noble)",
         "display": "USDC",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
@@ -40417,7 +40439,7 @@
         "base": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
         "name": "USDC",
         "display": "USDC",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
@@ -41334,7 +41356,7 @@
         "base": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
@@ -41785,15 +41807,15 @@
         "chain_id": "bbn-1",
         "base": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
         "name": "USDC",
-        "display": "USDC",
-        "symbol": "USDC",
+        "display": "usdc",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
                 "exponent": 0
             },
             {
-                "denom": "USDC",
+                "denom": "usdc",
                 "exponent": 6
             }
         ],
@@ -43697,7 +43719,7 @@
         "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
@@ -44133,7 +44155,7 @@
         "base": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
         "name": "USDC (Noble)",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
@@ -45445,7 +45467,7 @@
         "base": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
         "name": "Noble USD Coin",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
@@ -53040,7 +53062,7 @@
         "base": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
@@ -61473,7 +61495,7 @@
         "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
@@ -61867,7 +61889,7 @@
         "base": "uusdc",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "uusdc",
@@ -62568,7 +62590,7 @@
         "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
         "name": "Noble USDC Token",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -63075,7 +63097,7 @@
         "base": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
         "name": "USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
@@ -64426,7 +64448,7 @@
         "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
         "name": "Noble USDC",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
