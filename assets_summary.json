@@ -43170,6 +43170,32 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F",
+        "name": "Eureka Bridged Wrapped stETH (ATOM)",
+        "display": "wsteth",
+        "symbol": "wstETH",
+        "denoms": [
+            {
+                "denom": "ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F",
+                "exponent": 0
+            },
+            {
+                "denom": "wsteth",
+                "exponent": 18
+            },
+            {
+                "denom": "wsteth.atom",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "provenance",
         "chain_id": "pio-mainnet-1",
         "base": "nhash",
