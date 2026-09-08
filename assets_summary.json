@@ -26082,10 +26082,32 @@
     {
         "chain_name": "zigchaintestnet",
         "chain_id": "zig-test-2",
-        "base": "uzig",
+        "base": "azig",
         "name": "ZIG",
         "display": "zig",
         "symbol": "ZIG",
+        "denoms": [
+            {
+                "denom": "azig",
+                "exponent": 0
+            },
+            {
+                "denom": "zig",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+        }
+    },
+    {
+        "chain_name": "zigchaintestnet",
+        "chain_id": "zig-test-2",
+        "base": "uzig",
+        "name": "ZIG",
+        "display": "zig",
+        "symbol": "ZIG.legacy",
         "denoms": [
             {
                 "denom": "uzig",
