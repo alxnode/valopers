@@ -5146,6 +5146,29 @@
     {
         "chain_name": "terra",
         "chain_id": "columbus-5",
+        "base": "ibc/F52112392095A6D6D1B17EF1FE19BE0B39B2A79B8A2B2F55CD721FC7DBF5081F",
+        "name": "Injective USDC",
+        "display": "usdc",
+        "symbol": "USDC.inj",
+        "denoms": [
+            {
+                "denom": "ibc/F52112392095A6D6D1B17EF1FE19BE0B39B2A79B8A2B2F55CD721FC7DBF5081F",
+                "exponent": 0
+            },
+            {
+                "denom": "usdc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra-luna.svg"
+        }
+    },
+    {
+        "chain_name": "terra",
+        "chain_id": "columbus-5",
         "base": "cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5",
         "name": "Greenfriendly Token",
         "display": "gft",
@@ -39621,6 +39644,28 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42",
+        "name": "TeaForTwo",
+        "display": "T42",
+        "symbol": "T42",
+        "denoms": [
+            {
+                "denom": "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42",
+                "exponent": 0
+            },
+            {
+                "denom": "T42",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/t42.png",
             "valopers_logo": "https://api.valopers.com/logos/injective.svg"
         }
     },
