@@ -31310,6 +31310,50 @@
         }
     },
     {
+        "chain_name": "provenance",
+        "chain_id": "pio-mainnet-1",
+        "base": "uylds.fcc",
+        "name": "YLDS",
+        "display": "ylds.fcc",
+        "symbol": "YLDS",
+        "denoms": [
+            {
+                "denom": "uylds.fcc",
+                "exponent": 0
+            },
+            {
+                "denom": "ylds.fcc",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg"
+        }
+    },
+    {
+        "chain_name": "provenance",
+        "chain_id": "pio-mainnet-1",
+        "base": "nfgrd",
+        "name": "Figure Technology Solutions Series A Blockchain Common Stock",
+        "display": "fgrd",
+        "symbol": "FGRS",
+        "denoms": [
+            {
+                "denom": "nfgrd",
+                "exponent": 0
+            },
+            {
+                "denom": "fgrd",
+                "exponent": 9
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg"
+        }
+    },
+    {
         "chain_name": "ggezchain",
         "chain_id": "ggezchain",
         "base": "uggez1",
