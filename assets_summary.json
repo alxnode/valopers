@@ -17598,6 +17598,27 @@
         }
     },
     {
+        "chain_name": "blg24",
+        "chain_id": "BLG24",
+        "base": "ibc/EB7702F7862428669576938CD8DD19FBF39F6516F1F94A1B02AC8CBAFF06858B",
+        "name": "Celestia",
+        "display": "tia",
+        "symbol": "TIA",
+        "denoms": [
+            {
+                "denom": "ibc/EB7702F7862428669576938CD8DD19FBF39F6516F1F94A1B02AC8CBAFF06858B",
+                "exponent": 0
+            },
+            {
+                "denom": "tia",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png"
+        }
+    },
+    {
         "chain_name": "neutronx",
         "chain_id": "neutronx-1",
         "base": "untx",
@@ -63701,6 +63722,28 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg"
+        }
+    },
+    {
+        "chain_name": "haqq",
+        "chain_id": "haqq_11235-1",
+        "base": "ibc/B1A035A8CC1CCE2D612CCC2F3CB72B6C9DD951670E81A94AEA0A452995EA9C8C",
+        "name": "Stride Staked ISLM",
+        "display": "stISLM",
+        "symbol": "stISLM",
+        "denoms": [
+            {
+                "denom": "ibc/B1A035A8CC1CCE2D612CCC2F3CB72B6C9DD951670E81A94AEA0A452995EA9C8C",
+                "exponent": 0
+            },
+            {
+                "denom": "stISLM",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg"
         }
     },
     {
