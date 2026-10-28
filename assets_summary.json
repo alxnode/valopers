@@ -25007,7 +25007,7 @@
         "base": "ibc/BFF0D3805B50D93E2FA5C0B2DDF7E0B30A631076CD80BC12A48C0E95404B4A41",
         "name": "USDC (Noble)",
         "display": "usdc",
-        "symbol": "USDC",
+        "symbol": "USDC.n",
         "denoms": [
             {
                 "denom": "ibc/BFF0D3805B50D93E2FA5C0B2DDF7E0B30A631076CD80BC12A48C0E95404B4A41",
@@ -49727,6 +49727,27 @@
         }
     },
     {
+        "chain_name": "ozonetestnet",
+        "chain_id": "os_10120-1",
+        "base": "aphoton",
+        "name": "Ozone Testnet",
+        "display": "tozone",
+        "symbol": "tOZONE",
+        "denoms": [
+            {
+                "denom": "aphoton",
+                "exponent": 0
+            },
+            {
+                "denom": "tozone",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ozone/images/ozone.png"
+        }
+    },
+    {
         "chain_name": "nibirutestnet",
         "chain_id": "nibiru-testnet-1",
         "base": "unibi",
@@ -57924,6 +57945,27 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xyra/images/xrc.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xyra/images/xrc.svg"
+        }
+    },
+    {
+        "chain_name": "ozone",
+        "chain_id": "os_10121-1",
+        "base": "aphoton",
+        "name": "Ozone",
+        "display": "ozone",
+        "symbol": "OZONE",
+        "denoms": [
+            {
+                "denom": "aphoton",
+                "exponent": 0
+            },
+            {
+                "denom": "ozone",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ozone/images/ozone.png"
         }
     },
     {
