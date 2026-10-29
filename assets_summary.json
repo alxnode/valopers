@@ -43632,6 +43632,25 @@
         }
     },
     {
+        "chain_name": "blockmaze",
+        "chain_id": "blockmaze_6165-1",
+        "base": "Rho18",
+        "name": "Blockmaze",
+        "display": "bmz",
+        "symbol": "BMZ",
+        "denoms": [
+            {
+                "denom": "Rho18",
+                "exponent": 0
+            },
+            {
+                "denom": "bmz",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {}
+    },
+    {
         "chain_name": "sunrise",
         "chain_id": "sunrise-1",
         "base": "uvrise",
