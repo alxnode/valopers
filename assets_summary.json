@@ -1164,6 +1164,52 @@
         }
     },
     {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "ibc/A8F39212ED30B6A8C2AC736665835720D3D7BE4A1D18D68566525EC25ECF1C9B",
+        "name": "Stride Staked ATOM",
+        "display": "statom",
+        "symbol": "stATOM",
+        "denoms": [
+            {
+                "denom": "ibc/A8F39212ED30B6A8C2AC736665835720D3D7BE4A1D18D68566525EC25ECF1C9B",
+                "exponent": 0
+            },
+            {
+                "denom": "statom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
+        "chain_name": "injective",
+        "chain_id": "injective-1",
+        "base": "ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93",
+        "name": "Stride Staked INJ",
+        "display": "stINJ",
+        "symbol": "stINJ",
+        "denoms": [
+            {
+                "denom": "ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93",
+                "exponent": 0
+            },
+            {
+                "denom": "stINJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg",
+            "valopers_logo": "https://api.valopers.com/logos/injective.svg"
+        }
+    },
+    {
         "chain_name": "allora",
         "chain_id": "allora-mainnet-1",
         "base": "uallo",
@@ -2528,6 +2574,52 @@
         ],
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/deepstate.png",
+            "valopers_logo": "https://api.valopers.com/logos/terra.svg"
+        }
+    },
+    {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228",
+        "name": "Stride Staked ATOM",
+        "display": "statom",
+        "symbol": "stATOM",
+        "denoms": [
+            {
+                "denom": "ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228",
+                "exponent": 0
+            },
+            {
+                "denom": "statom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+            "valopers_logo": "https://api.valopers.com/logos/terra.svg"
+        }
+    },
+    {
+        "chain_name": "terra2",
+        "chain_id": "phoenix-1",
+        "base": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431",
+        "name": "Stride Staked LUNA",
+        "display": "stluna",
+        "symbol": "stLUNA",
+        "denoms": [
+            {
+                "denom": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431",
+                "exponent": 0
+            },
+            {
+                "denom": "stluna",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
             "valopers_logo": "https://api.valopers.com/logos/terra.svg"
         }
     },
@@ -47920,6 +48012,50 @@
         }
     },
     {
+        "chain_name": "secretnetwork",
+        "chain_id": "secret-4",
+        "base": "ibc/A0E80E59956C754F1D9CB37234D13E0CF2949E7254896359F284512FA8428E18",
+        "name": "Stride Staked ATOM",
+        "display": "statom",
+        "symbol": "stATOM",
+        "denoms": [
+            {
+                "denom": "ibc/A0E80E59956C754F1D9CB37234D13E0CF2949E7254896359F284512FA8428E18",
+                "exponent": 0
+            },
+            {
+                "denom": "statom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        }
+    },
+    {
+        "chain_name": "secretnetwork",
+        "chain_id": "secret-4",
+        "base": "ibc/7E8DC1B7D29E1FD88496D49CA8045F98EDF5C4D332D64D058BFB7DFCAACE8F46",
+        "name": "Stride Staked INJ",
+        "display": "stINJ",
+        "symbol": "stINJ",
+        "denoms": [
+            {
+                "denom": "ibc/7E8DC1B7D29E1FD88496D49CA8045F98EDF5C4D332D64D058BFB7DFCAACE8F46",
+                "exponent": 0
+            },
+            {
+                "denom": "stINJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
+        }
+    },
+    {
         "chain_name": "firmachain",
         "chain_id": "colosseum-1",
         "base": "ufct",
@@ -49238,6 +49374,75 @@
         }
     },
     {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E",
+        "name": "Stride Staked DYDX",
+        "display": "stDYDX",
+        "symbol": "stDYDX",
+        "denoms": [
+            {
+                "denom": "ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E",
+                "exponent": 0
+            },
+            {
+                "denom": "stDYDX",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620",
+        "name": "Stride Staked INJ",
+        "display": "stINJ",
+        "symbol": "stINJ",
+        "denoms": [
+            {
+                "denom": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620",
+                "exponent": 0
+            },
+            {
+                "denom": "stINJ",
+                "exponent": 18
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
+        "chain_name": "cosmoshub",
+        "chain_id": "cosmoshub-4",
+        "base": "ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A",
+        "name": "Stride Staked BAND",
+        "display": "stBAND",
+        "symbol": "stBAND",
+        "denoms": [
+            {
+                "denom": "ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A",
+                "exponent": 0
+            },
+            {
+                "denom": "stBAND",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.svg",
+            "valopers_logo": "https://api.valopers.com/logos/atom.svg"
+        }
+    },
+    {
         "chain_name": "agoric",
         "chain_id": "agoric-3",
         "base": "ubld",
@@ -49326,6 +49531,29 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/agoric.svg"
+        }
+    },
+    {
+        "chain_name": "agoric",
+        "chain_id": "agoric-3",
+        "base": "ibc/B1E6288B5A0224565D915D1F66716486F16D8A44BF33A9EC323DD6BA30764C35",
+        "name": "Stride Staked ATOM",
+        "display": "statom",
+        "symbol": "stATOM",
+        "denoms": [
+            {
+                "denom": "ibc/B1E6288B5A0224565D915D1F66716486F16D8A44BF33A9EC323DD6BA30764C35",
+                "exponent": 0
+            },
+            {
+                "denom": "statom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
             "valopers_logo": "https://api.valopers.com/logos/agoric.svg"
         }
     },
@@ -51512,6 +51740,29 @@
         "logo_URIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
+            "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
+        }
+    },
+    {
+        "chain_name": "neutron",
+        "chain_id": "neutron-1",
+        "base": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+        "name": "Stride Staked ATOM",
+        "display": "statom",
+        "symbol": "stATOM",
+        "denoms": [
+            {
+                "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+                "exponent": 0
+            },
+            {
+                "denom": "statom",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
             "valopers_logo": "https://api.valopers.com/logos/neutron.svg"
         }
     },
