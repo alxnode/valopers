@@ -65899,6 +65899,28 @@
         }
     },
     {
+        "chain_name": "dchat",
+        "chain_id": "messaging",
+        "base": "udchat",
+        "name": "Shh",
+        "display": "shh",
+        "symbol": "SHH",
+        "denoms": [
+            {
+                "denom": "udchat",
+                "exponent": 0
+            },
+            {
+                "denom": "shh",
+                "exponent": 6
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dchat/images/shh.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dchat/images/shh.svg"
+        }
+    },
+    {
         "chain_name": "penumbra",
         "chain_id": "penumbra-1",
         "base": "um",
