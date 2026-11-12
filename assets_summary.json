@@ -30968,18 +30968,18 @@
     {
         "chain_name": "tstoctestnet",
         "chain_id": "tstoc_1999-1",
-        "base": "utstoc",
+        "base": "atstoc",
         "name": "STO Chain Testnet",
         "display": "tstoc",
         "symbol": "TSTOC",
         "denoms": [
             {
-                "denom": "utstoc",
+                "denom": "atstoc",
                 "exponent": 0
             },
             {
                 "denom": "tstoc",
-                "exponent": 6
+                "exponent": 18
             }
         ],
         "logo_URIs": {
@@ -49578,6 +49578,24 @@
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
             "valopers_logo": "https://api.valopers.com/logos/agoric.svg"
+        }
+    },
+    {
+        "chain_name": "blakiston",
+        "chain_id": "blakiston",
+        "base": "tln",
+        "name": "Talon",
+        "display": "tln",
+        "symbol": "TLN",
+        "denoms": [
+            {
+                "denom": "tln",
+                "exponent": 0
+            }
+        ],
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg"
         }
     },
     {
