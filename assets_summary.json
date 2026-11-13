@@ -48121,8 +48121,7 @@
             }
         ],
         "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png",
-            "valopers_logo": "https://api.valopers.com/logos/limonata.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png"
         }
     },
     {
